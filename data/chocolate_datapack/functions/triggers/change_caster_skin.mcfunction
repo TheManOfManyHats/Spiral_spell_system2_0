@@ -19,3 +19,4 @@ tellraw @s {"text":"Sculk Cane","bold":true,"color":"dark_green","clickEvent":{"
 tellraw @s {"text":"Valteths Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10017"}}
 tellraw @s[name="wastefuldragonz"] {"text":"Partial Transformation","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10018"}}
 tellraw @s {"text":"Microphone","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10019"}}
+tellraw @s[name="DrNote"] {"text":"Staff of Chaos","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10020"}}
