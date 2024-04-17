@@ -1,0 +1,1 @@
+function animated_java:musical_number/zzzzzzzz/animations/spawn/pause_as_root

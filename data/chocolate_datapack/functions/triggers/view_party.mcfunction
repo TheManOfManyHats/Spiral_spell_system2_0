@@ -1,0 +1,2 @@
+execute at @s[scores={team_id=1..}] as @a if score @s team_id = @a[limit=1,sort=nearest] team_id run tellraw @a[limit=1,sort=nearest] ["",{"text":"Team Members: "},{"selector":"@s","color":"aqua"}]
+tellraw @s[scores={team_id=0}] "You are not on any team"

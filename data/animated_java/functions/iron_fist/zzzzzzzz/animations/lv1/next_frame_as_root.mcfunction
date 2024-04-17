@@ -1,0 +1,1 @@
+function animated_java:iron_fist/zzzzzzzz/animations/lv1/tick_animation

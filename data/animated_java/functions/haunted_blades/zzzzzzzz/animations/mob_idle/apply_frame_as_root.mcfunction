@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..60 run function animated_java:haunted_blades/zzzzzzzz/animations/mob_idle/tree/branch_0_60

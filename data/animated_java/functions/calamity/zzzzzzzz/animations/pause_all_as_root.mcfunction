@@ -1,0 +1,3 @@
+function animated_java:calamity/zzzzzzzz/animations/spawn/pause_as_root
+function animated_java:calamity/zzzzzzzz/animations/fall/pause_as_root
+function animated_java:calamity/zzzzzzzz/animations/land/pause_as_root

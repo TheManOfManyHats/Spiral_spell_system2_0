@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:haunted_blades/zzzzzzzz/animations/spawn/tree/leaf_73_as_bone

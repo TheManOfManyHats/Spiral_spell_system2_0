@@ -1,0 +1,3 @@
+execute if entity @s[tag=aj.fx_wild_slashes.animation.attack_lv1] run function animated_java:fx_wild_slashes/zzzzzzzz/animations/attack_lv1/tick
+execute if entity @s[tag=aj.fx_wild_slashes.animation.attack_lv2] run function animated_java:fx_wild_slashes/zzzzzzzz/animations/attack_lv2/tick
+execute if entity @s[tag=aj.fx_wild_slashes.animation.attack_lv3] run function animated_java:fx_wild_slashes/zzzzzzzz/animations/attack_lv3/tick

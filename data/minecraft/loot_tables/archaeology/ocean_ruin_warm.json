@@ -1,0 +1,113 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shelter_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snort_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sniffer_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:517,display:{Name:'[{\"text\":\"Ancient Ring\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like an old ring.\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"This could probably be restored.\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:522,display:{Name:'[{\"text\":\"Blue Pearl\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Wow, what a find!\",\"italic\":false}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:523,display:{Name:'[{\"text\":\"Red Pearl\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Wow, what a find!\",\"italic\":false}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:525,display:{Name:'[{\"text\":\"Green Pearl\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Wow, what a find!\",\"italic\":false}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:521,display:{Name:'[{\"text\":\"Yellow Pearl\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Wow, what a find!\",\"italic\":false}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:526,display:{Name:'[{\"text\":\"Black Pearl\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Wow, what a find!\",\"italic\":false}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:527,display:{Name:'[{\"text\":\"White Pearl\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Wow, what a find!\",\"italic\":false}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:524,display:{Name:'[{\"text\":\"Violet Pearl\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"Wow, what a find!\",\"italic\":false}]']}}"
+						}
+					]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/ocean_ruin_warm"
+}

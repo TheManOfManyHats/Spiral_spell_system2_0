@@ -1,0 +1,508 @@
+1/1/24 - 2/19/24 - Hatt
+=======================================================================================================================
+- Completed all of the spells with the exception of the grand spells.
+- Many things have been updated.
+- The datapack is now on version 0.1.0 Beta
+=======================================================================================================================
+
+11/24/2023 - Hatt
+=======================================================================================================================
+- started work on overheat spell. Turned it into a beam spell so we have an example of it. This is basically going to be a flame thrower.
+=======================================================================================================================
+
+11/21/2023 - Hatt
+=======================================================================================================================
+- Worked out the mana cost for all of the spells
+=======================================================================================================================
+
+11/12/2023 - Hatt
+=======================================================================================================================
+- Updated the book unlockes to be more readable as the spell unlocks are.
+- Started working on unlock scripts for all of the spells
+- Completed all of the unlock scripts for books and spells
+- Added additional perameters to ensure people can't unlock grand spells without unlocking the section first
+=======================================================================================================================
+
+11/11/2023 - Hatt
+=======================================================================================================================
+- Filled out the spell execution scripts
+- Created spell executing scripts for all of the spells
+- Filled out the spells in the function script
+- Filled out unlock files
+- Completed all of the spellbooks
+
+Created Files:
+    You are gonna have to read the change log in Github if you want to know what files are added. There are 230 of them and I already did it once, I'm not doing it again...
+    You are gonna have to read the change log in Github if you want to know what files are added. There are 230 of them and I already did it once, I'm not doing it again...
+=======================================================================================================================
+
+11/10/2023 - Hatt
+=======================================================================================================================
+- Filled out names and descriptions to the remaining spells.
+- Copied those spell names and descriptions across all 5 key controllers
+=======================================================================================================================
+
+11/07/2023 - Hatt
+=======================================================================================================================
+- Added a new caster. It's a sword to go along with the blade spell line
+- Addded more notes to function.mcfunction
+- Added 2 additional spells to the spirit line. These have been added to the lead tags and the set spells function.
+- Attempting to fix the double book give problem
+- Added spell line books for the blade spell line
+- Completed the blade book entries and made it possible for it to level up like the other spell lines.
+
+Created Files:
+    functions/books/blade/get_antimagic_book.mcfunction
+    functions/books/blade/get_blade_book.mcfunction
+    functions/books/blade/get_blade_grand_book.mcfunction
+    functions/books/blade/get_spellsword_book.mcfunction
+=======================================================================================================================
+
+11/06/2023 - Hatt
+=======================================================================================================================
+- Changed projectiles to display entities
+- Modified the behavior of several motion feeders to be TP to work with the display entities instead of feeding motion vertexes like the old way. Old motion feeder is stil in use for lob spells as they still have to be armor stands.
+- Started work on Blade Spells
+
+Created Files:
+    functions/spells/blade/antimagic/... UNLOCKS
+    functions/spells/blade/blade_grand/... UNLOCKS
+    functions/spells/blade/spell_sword/... UNLOCKS
+    functions/spells/blade/unlocks/... UNLOCKS
+=======================================================================================================================
+
+10/01/2023 - Hatt
+=======================================================================================================================
+- Trying to add itemsadder support
+- Itemsadder support added. Can be enabled in the help menu. Spells can trigger immediately without using interaction entities.
+- changed all references of "Magma Elemental" to "Overheat" Summoning entities is just too complicated and I'm not gonna deal with it.
+- Added the magma elemental to the datapack using java animator. Not sure how it will work yet, but I'll work on it I guess.
+=======================================================================================================================
+
+9/17/2023 - Hatt
+=======================================================================================================================
+- Created a method to do things to itemsadder items with the datapack.
+
+Created Files:
+    functions/itemsadder/chrono_crystal_shard.mcfunction
+    functions/itemsadder/itemsadder_items_functions.mcfunction
+=======================================================================================================================
+
+9/10/2023 - Hatt
+=======================================================================================================================
+- Started working on transposing the tellraw functions into triggers
+- Completed all transposing of functions
+- Did some math and realized that it would take players over a year to max out the spell system by getting to level 501
+- Began implimenting "Rare Candies" to instantly level up the player
+- Decided to make it so that the datapack has consumables
+
+Created Files:
+    functions/detectors/consumable.mcfunction
+=======================================================================================================================
+
+9/9/2023 - Hatt
+=======================================================================================================================
+- Through testing, we have discovered that for non-opped players, books can only run trigger commands. So to this end. 
+- I am working on transposing the entire spell book to use trigger functions. 
+- I will be proceeding with an optomization mindset and use only 1 trigger to achieve this.
+- Started refining the books.
+
+Created Files:
+    functions/triggers/function.mcfunction
+=======================================================================================================================
+
+8/28/2023 - Hatt
+=======================================================================================================================
+- Fixing the item switch for the book and caster and such
+- Fixed team thing on magma wave spell
+- Fixing team mark to include entities
+- Added particle effects to teaming entities
+=======================================================================================================================
+
+8/24/2023 - Hatt
+=======================================================================================================================
+- Started work on a team functionality
+- Started work on various admin specific commands
+- Added admin team to the team menu that is called and loaded in the load function
+
+Created Files:
+    functions/spells/functions/team_up.mcfunction
+    functions/spells/functions/team_up_effect.mcfunction
+    functions/spells/functions/team_up_accept.mcfunction
+    functions/spells/functions/team_up_reject.mcfunction
+    functions/spells/functions/team_up_leave.mcfunction
+    functions/triggers/set_unstuck_location.mcfunction
+    functions/triggers/unstuck.mcfunction
+    functions/triggers/undo_parties.mcfunction
+    functions/triggers/disable_spell_casting.mcfunction
+    functions/triggers/view_party.mcfunction
+=======================================================================================================================
+
+8/22/2023 - Hatt
+=======================================================================================================================
+- Created Lava's Grace Spell
+- Created Magma Elemental Spell
+
+Created Files:
+    functions/spells/fire/magma/lavas_grace.mcfunction
+    functions/spells/fire/magma/lavas_grace_effect.mcfunction
+    functions/spells/fire/magma/magma_elemental.mcfunction
+    functions/spells/fire/magma/magma_elemental.mcfunction
+=======================================================================================================================
+
+8/20/2023 - Hatt
+=======================================================================================================================
+- Removed the obsidian blast function and moved the commands into the root of the lance mcfunction because all lance spells break blocks.
+- Created a tag list of blocks that won't break when Lance spells are used on them
+
+Created Files:
+    functions/tags/lance_unbreakable.json
+=======================================================================================================================
+
+8/19/2023 - Hatt
+=======================================================================================================================
+- Began implimenting a method to detect who attacked players. (Will attempt to use this to make custom death messages and possible revenge modifiers)
+- re-organized the spell effects to be more readable
+- Added casting levels to the Fire Aura spell
+- Added the ability for Fire Aura to smelt blocks on the ground
+- Began work on Lance spells
+- Created tag for breakable blocks
+
+Created Files:
+    functions/spells/fire/fire_aura_effect.mcfunction
+    functions/spells/fire/magma/obsidian_blast_dig.mcfunction
+    functions/spells/fire/magma/obsidian_blast_effect.mcfunction
+    functions/spells/fire/magma/obsidian_blast_explode.mcfunction
+    functions/spells/fire/magma/obsidian_blast.mcfunction
+    functions/tags/breakable.json
+=======================================================================================================================
+
+8/16/2023 - Hatt
+=======================================================================================================================
+- Changed Lightning Stun spell to use the player_id score to prevent the spell from targeting the player that casted it.
+- Added method to delete book and caster when shifting
+- Fixed typo in mod book
+- Started creating wave spell type
+- Changed level up to remove the threshhold amount instead of setting it to zero. This will help actually calculating the leveling up score.
+Created Files:
+    functions/effects/wave.mcfunction
+    functions/effects/magma_wave.mcfunction
+    functions/effects/magma_wave_effect.mcfunction
+    tags/blocks/solid.json
+=======================================================================================================================
+
+8/15/2023 - Hatt
+=======================================================================================================================
+- Changed Self category to utilize player_id to have accurate teleporting
+- Created conduit self spell
+- Created Volt Chain spell
+- Created Magnetism spell
+- Created Nimbus spell
+- Finished out lightning spells
+- Started making unlock functions
+- Unlock functions for lightning spells is complete (Super easy with the new system *Pats self on back*)
+- Created unlocks for magma spells
+- Added Molten Touch spell
+- Added Lava Plume spell
+- Added Magma Walker Spell
+
+Created Files:
+    functions/spells/fire/lightning/conduit.mcfunction
+    functions/spells/fire/lightning/conduit_effect.mcfunction
+    functions/spells/fire/lightning/volt_chain_effect.mcfunction
+    functions/spells/fire/lightning/volt_chain_chain.mcfunction
+    functions/spells/fire/lightning/magnetism_effect.mcfunction
+    functions/spells/fire/lightning/nimbus_effect.mcfunction
+    functions/spells/fire/lightning/unlocks/unlock_ball_lightning.mcfunction
+    functions/spells/fire/lightning/unlocks/unlock_conduit.mcfunction
+    functions/spells/fire/lightning/unlocks/unlock_lightning_bolt.mcfunction
+    functions/spells/fire/lightning/unlocks/unlock_lightning_stun.mcfunction
+    functions/spells/fire/lightning/unlocks/unlock_magnetism.mcfunction
+    functions/spells/fire/lightning/unlocks/unlock_nimbus.mcfunction
+    functions/spells/fire/lightning/unlocks/unlock_volt_chain.mcfunction
+    functions/spells/fire/magma/unlocks/unlock_lava_plume.mcfunction
+    functions/spells/fire/magma/unlocks/unlock_lavas_grace.mcfunction
+    functions/spells/fire/magma/unlocks/unlock_magma_elemental.mcfunction
+    functions/spells/fire/magma/unlocks/unlock_magma_walker.mcfunction
+    functions/spells/fire/magma/unlocks/unlock_magma_wave.mcfunction
+    functions/spells/fire/magma/unlocks/unlock_molten_touch.mcfunction
+    functions/spells/fire/magma/unlocks/unlock_obsidian_blast.mcfunction
+    functions/spells/fire/magma/molten_touch.mcfunction
+    functions/spells/fire/magma/lava_plume.mcfunction
+    functions/spells/fire/magma/lava_plume_effect.mcfunction
+    functions/spells/fire/magma/lava_plume_attack.mcfunction
+    functions/spells/fire/magma/magma_walker.mcfunction
+    functions/spells/fire/magma/magma_walker_effect.mcfunction
+=======================================================================================================================
+
+8/14/2023 - Hatt
+=======================================================================================================================
+- Created a way to detect what player is casting what spell. (This may eliminate the need to give players the caster tag alltogether.)
+Created Files:
+    functions/triggers/set_player_id
+    functions/detectors/player_id_spawner
+=======================================================================================================================
+
+7/30/2023 - Hatt
+=======================================================================================================================
+- Started work on bolt type spells starting with lightning lightning_stun
+- Added gamerule to disable global sound events
+Created Files:
+    functions/spells/fire/lightning/lightning_stun_effect.mcfunction
+=======================================================================================================================
+
+7/25/2023 - Hatt
+=======================================================================================================================
+- Spell unlock scripts for every planned on every spell line is Completed
+=======================================================================================================================
+
+7/24/2023 - Hatt
+=======================================================================================================================
+- Banged out the spell execution scripts for every spell planned
+- Began work on the spell unlock scripts
+=======================================================================================================================
+
+7/23/2023 - Hatt
+=======================================================================================================================
+- Fixed issue with the decrease stat function not recognizing Zero as an option.
+- Made the triggers accessable from a help menu using /trigger help. This frees up more of the main tick loop
+- Deleted dangling trigger scoreboards as all triggers are accessable through help menu.
+- Re-ordered the unlock functions to be more readable
+- Began work on lightning spells
+
+Created Files:
+    functions/triggers/help.mcfunction
+    functions/spells/fire/lightning/unlocks/unlock_conduit.mcfunction
+    functions/spells/fire/lightning/unlocks/unlock_magnetism.mcfunction
+    functions/spells/fire/lightning/unlocks/unlock_nimbus.mcfunction
+    functions/spells/fire/lightning/ball_lightning.mcfunction
+    functions/spells/fire/lightning/ball_lightning_explode.mcfunction
+    functions/spells/fire/lightning/conduit.mcfunction
+    functions/spells/fire/lightning/lightning_bolt.mcfunction
+    functions/spells/fire/lightning/lightning_bolt_explode.mcfunction
+    functions/spells/fire/lightning/lightning_stun.mcfunction
+    functions/spells/fire/lightning/magnetism.mcfunction
+    functions/spells/fire/lightning/nimbus.mcfunction
+    functions/spells/fire/lightning/volt_chain.mcfunction
+
+Removed Files:
+    functions/spells/fire/lightning/unlocks/unlock_storm.mcfunction
+=======================================================================================================================
+
+7/23/2023 - Scott
+=======================================================================================================================
+- Added Scotticles To The Chat
+=======================================================================================================================
+
+7/22/2023 - Hatt
+=======================================================================================================================
+- Added wither effect to people who have less than zero wil. This will be used for players that over use their spells.
+- Added a line to show the mana line in red when below zero.
+- Reduced the amount of objectives in tick
+- Moved mana regen lines into mana regen function
+- Added trigger to reset all progress and start over
+- Deleted dangling scoreboards we will not be needing
+- Made a system where by the caster is automatically given to the player when they die.
+- Made a system that automatically gives players a spellbook when they die.
+- Simplified the spell casting method in the spells. Instead of checking if the requred mana cost is met on every line, the mana cost is checked at the top of the file, then the player is given a temporary tag to tell if the spell can be cast.
+- Moved the kill timer inside of the spell effect functions thus freeing up more of the main tick loop
+- Capped the Will power stat to 100
+- Added some extra flare to the mana regen while shifting
+- Made it so that the spell casting cooldown is dynamic and will reduce as players level up. (Minimum is 1/2 second cooldown)
+- Added method to increase spell power.
+
+Created Files:
+    functions/spells/fire/incinerate_effects.mcfunction
+    functions/triggers/reset_wil.mcfunction
+    functions/detectors/on_death.mcfunction
+    functions/options/book_on_death.mcfunction
+    functions/options/caster_on_death.mcfunction
+=======================================================================================================================
+
+7/21/2023 - Hatt
+=======================================================================================================================
+- Changed the item switch function to be compressed into one file. We need to make sure that all items that we want to be switchable have the tag: switchable:1b as well as its identity tag. 
+- Added a method to change caster skin through the mod book
+- Created companion resource pack to hold models for custom content
+- Added line to show mana bar when it is less than full
+- Cleaned up the transition of the starter book to the caster so you get 1 caster and 1 spellbook upon selecting your spell line.
+- Added item_switch tag to triggers for caster and spellbook
+- Made it so that the Mana Regen effec5t only works when willpower is higher than 0
+- Fixed bugs relating to increasing & decreasing stats.
+
+Created Files:
+    functions/detectors/item_switch
+    functions/triggers/set_caster_skin.mcfunction
+
+Removed Files:
+    functions/books/modify_spell.mcfunction
+    functions/books/refresh_spellbook.mcfunction
+    functions/triggers/change_caster_skin.mcfunction
+=======================================================================================================================
+
+7/20/2023 - Hatt
+=======================================================================================================================
+- Implimented a method to change caster skin
+- Added score initialization for caster skin
+- Added more flair to choosing Fire line
+- Changed tag given upon doing the starter book
+- Added tags in load to expand the number of total spells available. New format is 7 spells per category and 6 grand spells per line
+- Added blade spell tree
+- Added spellsword, and antimagic spell categories
+- Finally implimented a method to bind spells to spell slots
+- Added detections to tick loop to detect when books and casters are thrown out. (May be able to be simplified into one line and function later.)
+- Changed spell number from 106 to 136 in caster due to expanded spells
+
+Created Files:
+    functions/books/unlock_blade_tree.mcfunction
+    functions/triggers/get_modbook.mcfunction
+    functions/triggers/set_spell1.mcfunction
+    functions/triggers/set_spell2.mcfunction
+    functions/triggers/set_spell3.mcfunction
+    functions/triggers/set_spell4.mcfunction
+    functions/triggers/set_spell5.mcfunction
+    functions/books/modify_spell.mcfunction
+=======================================================================================================================
+
+7/19/2023 - Hatt
+=======================================================================================================================
+- Created level up system
+- Level up notations and scoreboard adds have been added to each spell
+- Re-organized several functions to use temp variables in order to ensure all functions are executed.
+- Split grand book functions into their respective elements.
+- Created empowerment system. Stats can now be increased and decreased.
+- Added book refresh detector to tick system to update book when it is thrown out of inventory.
+- Added defensive and utility spell types to effect loop.
+- Pack was broken before due to syntax error in several functions. These have been fixed.
+
+Created Files:
+    functions/detectors/level_up.mcfunction
+    functions/books/refresh_book.mcfunction
+    functions/effects/defensive_spells.mcfunction
+    functions/effects/utility_spells.mcfunction
+
+=======================================================================================================================
+
+7/10/2023 - Hatt
+=======================================================================================================================
+- Particles added for all elements in projectile.mcfunction
+- Book mcfunctions created for all of the elements.
+- Trigger get_book created which will give players the spell book that corosponds to their line. (Note that the trigger will not work until the tag system is working)
+
+Created Files:
+    functions/books/air/get_aether_book.mcfunction
+    functions/books/air/get_air_book.mcfunction
+    functions/books/air/get_air_grand_book.mcfunction
+    functions/books/air/get_sound_book.mcfunction
+    functions/books/darkness/get_darkness_book.mcfunction
+    functions/books/darkness/get_darkness_grand_book.mcfunction
+    functions/books/darkness/get_death_book.mcfunction
+    functions/books/darkness/get_spirit_book.mcfunction
+    functions/books/earth/get_crystal_book.mcfunction
+    functions/books/earth/get_earth_book.mcfunction
+    functions/books/earth/get_earth_grand_book.mcfunction
+    functions/books/earth/get_metal_book.mcfunction
+    functions/books/fire/get_fire_book.mcfunction
+    functions/books/fire/get_fire_grand_book.mcfunction
+    functions/books/fire/get_magma_book.mcfunction
+    functions/books/fire/get_lightning_book.mcfunction
+    functions/books/light/get_celestial_book.mcfunction
+    functions/books/light/get_light_book.mcfunction
+    functions/books/light/get_time_book.mcfunction
+    functions/books/light/get_light_grand_book.mcfunction
+    functions/books/nature/get_nature_book.mcfunction
+    functions/books/nature/get_nature_grand_book.mcfunction
+    functions/books/nature/get_wild_book.mcfunction
+    functions/books/nature/get_life_book.mcfunction
+    functions/books/space/get_space_book.mcfunction
+    functions/books/space/get_space_grand_book.mcfunction
+    functions/books/space/get_void_book.mcfunction
+    functions/books/space/get_chaos_book.mcfunction
+    functions/books/water/get_water_book.mcfunction
+    functions/books/water/get_water_grand.mcfunction
+    functions/books/water/get_ice_book.mcfunction
+    functions/books/water/get_healing_book.mcfunction
+    functions/books/starter_book.mcfunction
+    functions/books/unlock_air_tree.mcfunction
+    functions/books/unlock_darkness_tree.mcfunction
+    functions/books/unlock_earth_tree.mcfunction
+    functions/books/unlock_fire_tree.mcfunction
+    functions/books/unlock_light_tree.mcfunction
+    functions/books/unlock_nature_tree.mcfunction
+    functions/books/unlock_space_tree.mcfunction
+    functions/books/unlock_water_tree.mcfunction
+    Many more files in books and stats folders...
+=======================================================================================================================
+
+7/9/2023 - Hatt
+=======================================================================================================================
+- Number changed in spell1 from 1 to 1.5
+=======================================================================================================================
+
+7/4/2023 - Hatt
+=======================================================================================================================
+-Datapack format changed to 15
+-Changed file structure to be folder inside of folder instead of second root structure. Makes more sense, was error on my part when explaining to Nova. Will explain to group during meeting.
+-Re-organized the tick function into a more readable format.
+-Added helpful notations to make spell creation easier for people who are not me.
+-Added a books folder for the books I need to write...
+-Removed references to item_use with warped fungus as it is outdated.
+-Imported Spiral Data tags and scoreboards into the load file.
+-Organized load file into readable format for people who are not me.
+-Implimented the Spiral casting system utilizing interaction entities. activated by holding stick with tag:{caster:1b} This frees up CustomModelData tag for changing models.
+-Made caster system to work in main hand AND offhand.
+-Implimented cooldown system.
+-Implimented mana system.
+-Implimented mana recharge system.
+-Implimented system where people in creative recharge mana and cooldown instantly.
+-Spells can be changed using scoreboard values. (Use guide in load function for spell values)
+-Spells fireball and dark fire changed to work with spell caster.
+-Darkfire spell changed to use damage command instead of effect. Outdated pack format & Damage command has limit 1 restriction which is why it did not work last time.
+-Added mana cost of 200 to darkfire spell
+-Fireball spell changed to make creeper not drop loot or fly upwards upon exploding.
+-Added mana cost of 100 to fireball spell
+-Camel & Sniffer added to peaceful entities list
+-Added short method to get a new caster
+-Added folders for effects, triggers, and detectors so thise functions can be out of the way of the root folder
+-Re-named tick to _tick and load to _load so they appear at the top of the list in the root folder so we do not lose them.
+-Moved projectile.mcfunction into the effects folder
+-Added folders in the spell function to organize the spells therein
+-Completed the fire line
+
+Created Files:
+    functions/detectors/caster_ai.mcfunction
+    functions/detectors/detect_shift.mcfunction - Used to detect when the player is crouching
+    functions/detectors/detect_jump.mcfunction - Used to detect when the player jumps
+    functions/spell_slot1.mcfunction - Used for casting system left click
+    functions/spell_slot2.mcfunction - Used for casting system right click
+    functions/spell_slot3.mcfunction - Used for casting system shift + left click
+    functions/spell_slot4.mcfunction - Used for casting system shift + right click
+    functions/spell_slot5.mcfunction - Used for casting system shift + jump
+    functions/spells/fire/charge_explode.mcfunction - Used for Fire rain spell, detonated on impact with ground
+    functions/spells/fire/explosion.mcfunction - Used for explosion spell
+    functions/spells/fire/fire_aura.mcfunction - Used for fire aura spell
+    functions/spells/fire/fire_charge.mcfunction - Used for fire rain spell, summons lobs that fall from sky
+    functions/spells/fire/fire_rain.mcfunction - used for fire rain spell
+    functions/spells/fire/grenade - Used for grenade spell good lob example
+    functions/spells/fire/incinerate.mcfunction - Used for incinerate spell good slow_projectile example
+    functions/spells/fire/land_mine - Used for land mine spell good mine example
+    functions/spells/fire/land_mine_explode - Used to activate the explosion from the land mine spell
+    functions/effects/offensive_spells.mcfunction - Used to generalize and direct spells that exist.
+    functions/effects/beam.mcfunction - Used to run effects for beam spells
+    functions/effects/bolt.mcfunction - Used to run effects for bolt spells
+    functions/effects/construction.mcfunction - Used to run effects for construction spells
+    functions/effects/fast_projectile.mcfunction - Used to run effects for fast_projectile spells
+    functions/effects/lance.mcfunction - Used to run effects for lance spells
+    functions/effects/lob.mcfunction - Used to run effects for lob spells
+    functions/effects/mark.mcfunction - Used to run effects for mark spells
+    functions/effects/mine.mcfunction - Used to run effects for mine spells
+    functions/effects/self.mcfunction - Used to run effects for self spells
+    functions/effects/slow_projectile.mcfunction - Used to run effects for slow_projectile spells
+    functions/effects/spike.mcfunction - Used to run effects for spike spells
+    functions/effects/summon.mcfunction - used to run effects for summon spells
+    functions/effects/touch.mcfunction - Used to run effects for touch spells
+    functions/effects/zone.mcfunction - Used to run effects for zone spells
+    functions/triggers/get_caster.mcfunction - Used to get the casting device
+    tags/entitytypes/non_activating.json - Used for defining entities that we don't want projectiles to activate on
+=======================================================================================================================
+

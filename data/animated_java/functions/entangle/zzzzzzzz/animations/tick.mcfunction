@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.entangle.animation.spawn] run function animated_java:entangle/zzzzzzzz/animations/spawn/tick

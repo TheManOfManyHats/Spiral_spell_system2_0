@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.nimbus_cloud.animation.idle] run function animated_java:nimbus_cloud/zzzzzzzz/animations/idle/tick

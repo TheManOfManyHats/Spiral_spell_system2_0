@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.musical_number.bone.8] run data modify entity @s {} merge value {transformation:[-2.3431156354922585e-18f,0f,1f,-0.8124999999999999f,0f,0.02352999999999994f,0f,3.1250000000000004f,-0.02352999999999994f,0f,-9.957992501029599e-17f,-1.2035714285714292f,0f,0f,0f,1f],start_interpolation:0}

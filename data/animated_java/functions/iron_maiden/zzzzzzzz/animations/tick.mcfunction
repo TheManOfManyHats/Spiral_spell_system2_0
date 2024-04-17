@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.iron_maiden.animation.spawn] run function animated_java:iron_maiden/zzzzzzzz/animations/spawn/tick

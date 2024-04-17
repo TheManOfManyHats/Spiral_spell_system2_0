@@ -1,0 +1,2 @@
+execute if score @s aj.tween_time matches 1.. run function animated_java:haunted_blades/zzzzzzzz/animations/mob_spawn/tick_tween
+execute unless score @s aj.tween_time matches 1.. run function animated_java:haunted_blades/zzzzzzzz/animations/mob_spawn/tick_animation

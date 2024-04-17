@@ -1,0 +1,1 @@
+tag @s remove aj.calamity.animation.spawn

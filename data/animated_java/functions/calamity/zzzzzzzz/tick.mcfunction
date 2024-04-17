@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.calamity.root] run function animated_java:calamity/zzzzzzzz/tick_as_root

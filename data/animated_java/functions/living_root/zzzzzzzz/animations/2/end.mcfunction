@@ -1,0 +1,3 @@
+execute if score @s aj.living_root.animation.2.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:living_root/zzzzzzzz/animations/2/end_loop
+execute if score @s aj.living_root.animation.2.loop_mode = $aj.loop_mode.once aj.i run function animated_java:living_root/animations/2/stop
+execute if score @s aj.living_root.animation.2.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:living_root/animations/2/pause

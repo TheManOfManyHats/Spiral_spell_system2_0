@@ -1,0 +1,10 @@
+execute if entity @s[tag=aj.calamity.bone.9] run data modify entity @s item.tag.CustomModelData set value 11
+execute if entity @s[tag=aj.calamity.bone.8] run data modify entity @s item.tag.CustomModelData set value 12
+execute if entity @s[tag=aj.calamity.bone.7] run data modify entity @s item.tag.CustomModelData set value 13
+execute if entity @s[tag=aj.calamity.bone.6] run data modify entity @s item.tag.CustomModelData set value 14
+execute if entity @s[tag=aj.calamity.bone.5] run data modify entity @s item.tag.CustomModelData set value 15
+execute if entity @s[tag=aj.calamity.bone.4] run data modify entity @s item.tag.CustomModelData set value 16
+execute if entity @s[tag=aj.calamity.bone.3] run data modify entity @s item.tag.CustomModelData set value 17
+execute if entity @s[tag=aj.calamity.bone.2] run data modify entity @s item.tag.CustomModelData set value 18
+execute if entity @s[tag=aj.calamity.bone.1] run data modify entity @s item.tag.CustomModelData set value 19
+execute if entity @s[tag=aj.calamity.bone.sword] run data modify entity @s item.tag.CustomModelData set value 20

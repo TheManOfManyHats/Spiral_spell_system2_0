@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.distance_scshp.bone.ship] run data modify entity @s item.tag.CustomModelData set value 61

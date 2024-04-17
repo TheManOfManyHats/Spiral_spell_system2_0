@@ -1,0 +1,3 @@
+execute if score @s aj.fx_wild_slashes.animation.attack_lv1.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:fx_wild_slashes/zzzzzzzz/animations/attack_lv1/end_loop
+execute if score @s aj.fx_wild_slashes.animation.attack_lv1.loop_mode = $aj.loop_mode.once aj.i run function animated_java:fx_wild_slashes/animations/attack_lv1/stop
+execute if score @s aj.fx_wild_slashes.animation.attack_lv1.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:fx_wild_slashes/animations/attack_lv1/pause

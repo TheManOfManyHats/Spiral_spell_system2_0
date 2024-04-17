@@ -1,0 +1,1 @@
+function animated_java:distance_scshp/zzzzzzzz/apply_variant/default/as_bone

@@ -1,0 +1,2 @@
+scoreboard players set @s aj.nimbus_cloud.rig_loaded 1
+execute unless score @s aj.nimbus_cloud.export_version = aj.nimbus_cloud.export_version aj.i at @s run function animated_java:nimbus_cloud/zzzzzzzz/mark_outdated_rig

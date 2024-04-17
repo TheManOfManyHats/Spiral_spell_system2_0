@@ -1,0 +1,2 @@
+scoreboard players set @s aj.iron_fist.rig_loaded 1
+execute unless score @s aj.iron_fist.export_version = aj.iron_fist.export_version aj.i at @s run function animated_java:iron_fist/zzzzzzzz/mark_outdated_rig

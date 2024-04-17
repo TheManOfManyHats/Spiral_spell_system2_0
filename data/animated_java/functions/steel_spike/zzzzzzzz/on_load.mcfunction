@@ -1,0 +1,2 @@
+scoreboard players set @s aj.steel_spike.rig_loaded 1
+execute unless score @s aj.steel_spike.export_version = aj.steel_spike.export_version aj.i at @s run function animated_java:steel_spike/zzzzzzzz/mark_outdated_rig

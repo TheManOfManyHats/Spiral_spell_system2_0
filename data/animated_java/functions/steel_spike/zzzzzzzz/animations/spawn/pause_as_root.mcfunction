@@ -1,0 +1,1 @@
+tag @s remove aj.steel_spike.animation.spawn

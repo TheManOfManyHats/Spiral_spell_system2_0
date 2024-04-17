@@ -1,0 +1,4 @@
+execute if entity @s[tag=aj.cyclone.bone.bone3] run data modify entity @s {} merge value {transformation:[-2f,0f,1.2246467991473533e-15f,0f,0f,2f,0f,2.296875f,-1.2246467991473533e-15f,0f,-2f,0f,0f,0f,0f,1f],start_interpolation:0}
+execute if entity @s[tag=aj.cyclone.bone.bone2] run data modify entity @s {} merge value {transformation:[-1.125f,0f,1.2399548841366951e-15f,0f,0f,1.125f,0f,1.3125f,-1.2399548841366951e-15f,0f,-1.125f,0f,0f,0f,0f,1f],start_interpolation:0}
+execute if entity @s[tag=aj.cyclone.bone.bone4] run data modify entity @s {} merge value {transformation:[-1f,0f,6.123233995736766e-16f,0f,0f,1f,0f,0.5625f,-6.123233995736766e-16f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation:0}
+execute if entity @s[tag=aj.cyclone.bone.bone] run data modify entity @s {} merge value {transformation:[-1f,0f,2.0818995585505003e-15f,0f,0f,1f,0f,0.09375f,-2.0818995585505003e-15f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation:0}

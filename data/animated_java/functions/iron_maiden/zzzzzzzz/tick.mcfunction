@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.iron_maiden.root] run function animated_java:iron_maiden/zzzzzzzz/tick_as_root

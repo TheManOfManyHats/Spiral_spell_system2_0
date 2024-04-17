@@ -1,0 +1,3 @@
+function animated_java:living_root/zzzzzzzz/animations/1/pause_as_root
+function animated_java:living_root/zzzzzzzz/animations/2/pause_as_root
+function animated_java:living_root/zzzzzzzz/animations/3/pause_as_root

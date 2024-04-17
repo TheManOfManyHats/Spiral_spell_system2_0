@@ -1,0 +1,2 @@
+scoreboard players set @s aj.distance_scshp.rig_loaded 1
+execute unless score @s aj.distance_scshp.export_version = aj.distance_scshp.export_version aj.i at @s run function animated_java:distance_scshp/zzzzzzzz/mark_outdated_rig

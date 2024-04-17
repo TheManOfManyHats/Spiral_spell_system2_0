@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.musical_number.root] run function animated_java:musical_number/zzzzzzzz/tick_as_root

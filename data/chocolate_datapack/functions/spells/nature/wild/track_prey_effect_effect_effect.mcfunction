@@ -1,0 +1,2 @@
+execute at @s as @a if score @s player_id = @e[limit=1,tag=track_prey_marker,sort=nearest] player_id run particle dust 0.627 0.004 0.004 .5 ~ ~ ~ 0 .5 0 0 1 force @s
+execute at @s as @a if score @s player_id = @e[limit=1,tag=track_prey_marker,sort=nearest] player_id run playsound block.amethyst_block.chime ambient @s ~ ~ ~ 1 2

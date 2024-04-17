@@ -1,0 +1,41 @@
+{
+    "values": [
+    "obsidian",
+    "bedrock",
+    "barrier",
+    "crying_obsidian",
+    "light",
+    "air",
+    "water",
+    "iron_block",
+    "gold_block",
+    "diamond_block",
+    "iron_door",
+    "cobweb",
+    "stone_bricks",
+    "deepslate_bricks",
+    "bricks",
+    "deepslate_tiles",
+    "nether_bricks",
+    "nether_portal",
+    "end_gateway",
+    "end_portal_frame",
+    "end_portal",
+    "end_stone_bricks",
+    "stone_brick_wall",
+    "brick_wall",
+    "end_stone_brick_wall",
+    "polished_blackstone_bricks",
+    "polished_blackstone_brick_wall",
+    "anvil",
+    "hopper",
+    "chest",
+    "trapped_chest",
+    "ender_chest",
+    "command_block",
+    "chain_command_block",
+    "repeating_command_block"
+]
+}
+
+

@@ -1,0 +1,3 @@
+execute if score @s aj.haunted_blades.animation.mob_idle.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:haunted_blades/zzzzzzzz/animations/mob_idle/end_loop
+execute if score @s aj.haunted_blades.animation.mob_idle.loop_mode = $aj.loop_mode.once aj.i run function animated_java:haunted_blades/animations/mob_idle/stop
+execute if score @s aj.haunted_blades.animation.mob_idle.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:haunted_blades/animations/mob_idle/pause

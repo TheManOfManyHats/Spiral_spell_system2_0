@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.tornado.animation.idle] run function animated_java:tornado/zzzzzzzz/animations/idle/tick

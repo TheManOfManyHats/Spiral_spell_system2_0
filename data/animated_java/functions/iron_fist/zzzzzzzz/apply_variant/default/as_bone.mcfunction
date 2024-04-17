@@ -1,0 +1,2 @@
+execute if entity @s[tag=aj.iron_fist.bone.right] run data modify entity @s item.tag.CustomModelData set value 44
+execute if entity @s[tag=aj.iron_fist.bone.left] run data modify entity @s item.tag.CustomModelData set value 45

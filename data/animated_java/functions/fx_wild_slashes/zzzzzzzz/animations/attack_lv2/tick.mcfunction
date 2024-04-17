@@ -1,0 +1,2 @@
+execute if score @s aj.tween_time matches 1.. run function animated_java:fx_wild_slashes/zzzzzzzz/animations/attack_lv2/tick_tween
+execute unless score @s aj.tween_time matches 1.. run function animated_java:fx_wild_slashes/zzzzzzzz/animations/attack_lv2/tick_animation

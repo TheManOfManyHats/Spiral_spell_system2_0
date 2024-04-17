@@ -1,0 +1,3 @@
+execute if score @s aj.iron_fist.animation.lv3.loop_mode = $aj.loop_mode.loop aj.i run function animated_java:iron_fist/zzzzzzzz/animations/lv3/end_loop
+execute if score @s aj.iron_fist.animation.lv3.loop_mode = $aj.loop_mode.once aj.i run function animated_java:iron_fist/animations/lv3/stop
+execute if score @s aj.iron_fist.animation.lv3.loop_mode = $aj.loop_mode.hold aj.i run function animated_java:iron_fist/animations/lv3/pause

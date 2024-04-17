@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..120 run function animated_java:fx_wild_slashes/zzzzzzzz/animations/attack_lv3/tree/branch_0_120

@@ -1,0 +1,2 @@
+scoreboard players set @s aj.haunted_blades.rig_loaded 1
+execute unless score @s aj.haunted_blades.export_version = aj.haunted_blades.export_version aj.i at @s run function animated_java:haunted_blades/zzzzzzzz/mark_outdated_rig

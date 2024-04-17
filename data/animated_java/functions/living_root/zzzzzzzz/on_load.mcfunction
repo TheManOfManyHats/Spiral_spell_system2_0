@@ -1,0 +1,2 @@
+scoreboard players set @s aj.living_root.rig_loaded 1
+execute unless score @s aj.living_root.export_version = aj.living_root.export_version aj.i at @s run function animated_java:living_root/zzzzzzzz/mark_outdated_rig

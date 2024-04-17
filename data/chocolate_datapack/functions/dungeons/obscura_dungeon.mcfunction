@@ -1,0 +1,1 @@
+schedule function chocolate_datapack:dungeons/obscura_dungeon 5t

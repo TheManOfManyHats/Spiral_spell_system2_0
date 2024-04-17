@@ -1,0 +1,1 @@
+function animated_java:haunted_blades/zzzzzzzz/animations/mob_idle/tick_animation

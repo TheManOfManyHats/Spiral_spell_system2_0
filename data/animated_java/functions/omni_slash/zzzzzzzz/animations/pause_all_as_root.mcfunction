@@ -1,0 +1,1 @@
+function animated_java:omni_slash/zzzzzzzz/animations/spawn/pause_as_root

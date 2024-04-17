@@ -1,0 +1,1 @@
+function animated_java:calamity/zzzzzzzz/animations/fall/tick_animation

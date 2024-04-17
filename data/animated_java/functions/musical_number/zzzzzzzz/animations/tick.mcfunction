@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.musical_number.animation.spawn] run function animated_java:musical_number/zzzzzzzz/animations/spawn/tick

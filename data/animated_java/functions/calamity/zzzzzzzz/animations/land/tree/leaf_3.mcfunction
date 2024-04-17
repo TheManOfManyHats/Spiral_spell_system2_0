@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:calamity/zzzzzzzz/animations/land/tree/leaf_3_as_bone

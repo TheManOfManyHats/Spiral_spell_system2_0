@@ -1,0 +1,1 @@
+function animated_java:nimbus_cloud/zzzzzzzz/animations/idle/tick_animation

@@ -1,0 +1,2 @@
+scoreboard players set @s aj.omni_slash.rig_loaded 1
+execute unless score @s aj.omni_slash.export_version = aj.omni_slash.export_version aj.i at @s run function animated_java:omni_slash/zzzzzzzz/mark_outdated_rig

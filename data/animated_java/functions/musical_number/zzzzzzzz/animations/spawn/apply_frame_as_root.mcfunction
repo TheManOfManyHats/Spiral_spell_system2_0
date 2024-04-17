@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..170 run function animated_java:musical_number/zzzzzzzz/animations/spawn/tree/branch_0_170

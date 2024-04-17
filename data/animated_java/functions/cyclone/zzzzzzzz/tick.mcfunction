@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.cyclone.root] run function animated_java:cyclone/zzzzzzzz/tick_as_root

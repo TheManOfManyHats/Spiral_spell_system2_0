@@ -1,0 +1,1 @@
+tag @s remove aj.haunted_blades.animation.spawn

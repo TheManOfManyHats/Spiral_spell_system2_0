@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.nimbus_cloud.root] run function animated_java:nimbus_cloud/zzzzzzzz/tick_as_root

@@ -1,0 +1,1 @@
+function animated_java:steel_spike/zzzzzzzz/animations/spawn/tick_animation

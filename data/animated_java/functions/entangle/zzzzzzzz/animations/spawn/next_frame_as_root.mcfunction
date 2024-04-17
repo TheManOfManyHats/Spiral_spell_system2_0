@@ -1,0 +1,1 @@
+function animated_java:entangle/zzzzzzzz/animations/spawn/tick_animation

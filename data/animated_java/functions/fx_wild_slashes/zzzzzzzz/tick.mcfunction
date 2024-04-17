@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.fx_wild_slashes.root] run function animated_java:fx_wild_slashes/zzzzzzzz/tick_as_root

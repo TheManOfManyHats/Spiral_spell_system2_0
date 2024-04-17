@@ -1,0 +1,1 @@
+tag @s remove aj.fx_wild_slashes.animation.attack_lv3

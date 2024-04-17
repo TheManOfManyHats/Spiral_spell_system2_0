@@ -1,0 +1,1 @@
+function animated_java:living_root/zzzzzzzz/animations/1/tick_animation

@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.haunted_blades.root] run function animated_java:haunted_blades/zzzzzzzz/tick_as_root

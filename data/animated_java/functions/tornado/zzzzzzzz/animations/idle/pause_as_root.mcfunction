@@ -1,0 +1,1 @@
+tag @s remove aj.tornado.animation.idle

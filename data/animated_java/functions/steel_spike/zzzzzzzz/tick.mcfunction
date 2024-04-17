@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.steel_spike.root] run function animated_java:steel_spike/zzzzzzzz/tick_as_root

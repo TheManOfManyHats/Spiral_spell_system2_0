@@ -1,0 +1,3 @@
+function animated_java:iron_fist/zzzzzzzz/animations/lv1/pause_as_root
+function animated_java:iron_fist/zzzzzzzz/animations/lv2/pause_as_root
+function animated_java:iron_fist/zzzzzzzz/animations/lv3/pause_as_root

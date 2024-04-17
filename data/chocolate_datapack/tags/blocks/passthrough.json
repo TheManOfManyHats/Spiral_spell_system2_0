@@ -1,0 +1,31 @@
+{
+    "values": [
+    "air",
+    "light",
+    "water",
+    "#buttons",
+    "#all_hanging_signs",
+    "#signs",
+    "#flowers",
+    "#tall_flowers",
+    "grass",
+    "tall_grass",
+    "#banners",
+    "#wool_carpets",
+    "#coral_plants",
+    "#saplings",
+    "torch",
+    "redstone_torch",
+    "redstone_wire",
+    "tripwire",
+    "#rails",
+    "end_portal",
+    "nether_portal",
+    "snow",
+    "powder_snow",
+    "#pressure_plates",
+    "#leaves"
+]
+}
+
+

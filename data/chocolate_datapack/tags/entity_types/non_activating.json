@@ -1,0 +1,30 @@
+{
+    "values": [
+    "#arrows",
+    "interaction",
+    "area_effect_cloud",
+    "item",
+    "item_display",
+    "text_display",
+    "block_display",
+    "snowball",
+    "eye_of_ender",
+    "fishing_bobber",
+    "marker",
+    "experience_bottle",
+    "experience_orb",
+    "evoker_fangs",
+    "firework_rocket",
+    "item_frame",
+    "glow_item_frame",
+    "dragon_fireball",
+    "fireball",
+    "armor_stand",
+    "potion",
+    "small_fireball",
+    "leash_knot",
+    "painting",
+    "shulker_bullet",
+    "trident"
+]
+}

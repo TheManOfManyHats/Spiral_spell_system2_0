@@ -1,0 +1,1 @@
+function animated_java:iron_maiden/zzzzzzzz/animations/spawn/tick_animation

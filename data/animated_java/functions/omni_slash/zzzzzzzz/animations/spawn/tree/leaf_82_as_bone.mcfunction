@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.omni_slash.bone.sword] run data modify entity @s {} merge value {transformation:[-10.893749999999999f,0f,1.3340996068211477e-15f,-4.382459307730881e-18f,0f,10.893749999999999f,0f,4.517249406974511f,-1.3340996068211477e-15f,0f,-10.893749999999999f,-5.366964763606149e-34f,0f,0f,0f,1f],start_interpolation:0}

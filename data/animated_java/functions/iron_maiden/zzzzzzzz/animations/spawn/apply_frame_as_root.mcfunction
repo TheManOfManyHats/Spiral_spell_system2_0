@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..63 run function animated_java:iron_maiden/zzzzzzzz/animations/spawn/tree/branch_0_63

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arms_up_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brewer_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:512,display:{Name:'[{\"text\":\"Ancient Coin\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like an old coin.\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"This could probably be restored.\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+						}
+					]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/desert_well"
+}

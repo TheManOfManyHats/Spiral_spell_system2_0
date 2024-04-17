@@ -1,0 +1,2 @@
+scoreboard players set @s aj.iron_maiden.rig_loaded 1
+execute unless score @s aj.iron_maiden.export_version = aj.iron_maiden.export_version aj.i at @s run function animated_java:iron_maiden/zzzzzzzz/mark_outdated_rig

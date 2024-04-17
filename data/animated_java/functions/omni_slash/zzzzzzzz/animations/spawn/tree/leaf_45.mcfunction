@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:omni_slash/zzzzzzzz/animations/spawn/tree/leaf_45_as_bone

@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.omni_slash.animation.spawn] run function animated_java:omni_slash/zzzzzzzz/animations/spawn/tick

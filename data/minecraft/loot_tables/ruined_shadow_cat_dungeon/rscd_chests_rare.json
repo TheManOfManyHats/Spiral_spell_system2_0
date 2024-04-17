@@ -1,0 +1,311 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:518,display:{Name:'[{\"text\":\"Ancient Key\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like an old key.\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"This could probably be restored.\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "MAnuscript1 xxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "Manuscript 2xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "Manuscript3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty"
+        },
+        {
+          "type": "minecraft:empty"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gilded_blackstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{itemsadder: {id:\"shadowy_blob\",namespace:\"myitems\"},CustomModelData:10031,display:{Name:'{\"italic\": false,\"color\": \"white\",\"text\": \"Shadowy Blob\"}',Lore:['{\"italic\": false,\"text\": \"An object undeniably of Shadow-kit origin\"}','{\"italic\":false,\"text\": \"Shining a light on it does not make it brighter\"}']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crimson_stem"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_stem"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 49
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{MYTHIC_EGG:\"Nocsy_Drakonin_Egg\",CustomModelData:95500,display:{Name:'[{\"text\":\"Mysterious Egg\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This appears to be an ancient\",\"italic\":false}]','[{\"text\":\"egg of some kind. It\\'s old\",\"italic\":false}]','[{\"text\":\"but something may yet hatch\",\"italic\":false}]','[{\"text\":\"from it.\",\"italic\":false}]']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "Katana xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fire_charge",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:charcoal",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

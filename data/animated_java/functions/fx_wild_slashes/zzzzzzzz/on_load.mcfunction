@@ -1,0 +1,2 @@
+scoreboard players set @s aj.fx_wild_slashes.rig_loaded 1
+execute unless score @s aj.fx_wild_slashes.export_version = aj.fx_wild_slashes.export_version aj.i at @s run function animated_java:fx_wild_slashes/zzzzzzzz/mark_outdated_rig

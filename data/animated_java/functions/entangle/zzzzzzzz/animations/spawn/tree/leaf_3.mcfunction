@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:entangle/zzzzzzzz/animations/spawn/tree/leaf_3_as_bone

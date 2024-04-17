@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.cyclone.animation.idle] run function animated_java:cyclone/zzzzzzzz/animations/idle/tick

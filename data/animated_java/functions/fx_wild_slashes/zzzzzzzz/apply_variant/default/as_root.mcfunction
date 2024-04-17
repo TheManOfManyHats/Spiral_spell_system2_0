@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:fx_wild_slashes/zzzzzzzz/apply_variant/default/as_bone

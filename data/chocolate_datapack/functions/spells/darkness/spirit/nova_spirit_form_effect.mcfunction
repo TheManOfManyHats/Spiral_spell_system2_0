@@ -1,0 +1,3 @@
+execute at @s[scores={kill_timer=1}] as @a if score @s player_id = @e[tag=nova_spirit_form,limit=1,sort=nearest] player_id run gamemode survival @s
+execute at @s[scores={kill_timer=2..}] as @a if score @s player_id = @e[tag=nova_spirit_form,limit=1,sort=nearest] player_id at @s run particle soul_fire_flame ~ ~1 ~ .1 .1 .1 0 10 force
+execute at @s[scores={kill_timer=1}] run particle soul_fire_flame ~ ~ ~ .1 .1 .1 .5 50 force

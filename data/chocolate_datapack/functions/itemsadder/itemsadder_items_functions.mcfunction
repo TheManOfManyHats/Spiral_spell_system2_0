@@ -1,0 +1,1 @@
+execute as @e[nbt={Item:{tag:{itemsadder:{id:"chrono_crystal_shard"}}}}] run function chocolate_datapack:itemsadder/chrono_crystal_shard

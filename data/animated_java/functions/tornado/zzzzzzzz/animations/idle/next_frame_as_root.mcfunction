@@ -1,0 +1,1 @@
+function animated_java:tornado/zzzzzzzz/animations/idle/tick_animation

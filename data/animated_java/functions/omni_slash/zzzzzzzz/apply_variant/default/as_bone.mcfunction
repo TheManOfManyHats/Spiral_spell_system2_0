@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.omni_slash.bone.sword] run data modify entity @s item.tag.CustomModelData set value 21

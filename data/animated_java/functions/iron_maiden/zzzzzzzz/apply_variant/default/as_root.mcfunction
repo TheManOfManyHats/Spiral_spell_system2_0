@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:iron_maiden/zzzzzzzz/apply_variant/default/as_bone

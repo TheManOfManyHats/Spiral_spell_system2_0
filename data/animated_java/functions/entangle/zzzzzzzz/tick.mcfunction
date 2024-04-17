@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.entangle.root] run function animated_java:entangle/zzzzzzzz/tick_as_root

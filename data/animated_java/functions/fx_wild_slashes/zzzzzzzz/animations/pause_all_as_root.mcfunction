@@ -1,0 +1,3 @@
+function animated_java:fx_wild_slashes/zzzzzzzz/animations/attack_lv1/pause_as_root
+function animated_java:fx_wild_slashes/zzzzzzzz/animations/attack_lv2/pause_as_root
+function animated_java:fx_wild_slashes/zzzzzzzz/animations/attack_lv3/pause_as_root

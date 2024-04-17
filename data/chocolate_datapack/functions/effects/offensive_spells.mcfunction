@@ -1,0 +1,16 @@
+execute as @s[tag=self] run function chocolate_datapack:effects/self
+execute as @s[tag=touch] run function chocolate_datapack:effects/touch
+execute as @s[tag=slow_projectile] run function chocolate_datapack:effects/slow_projectile
+execute as @s[tag=projectile] run function chocolate_datapack:effects/projectile
+execute as @s[tag=fast_projectile] run function chocolate_datapack:effects/fast_projectile
+execute as @s[tag=bolt] run function chocolate_datapack:effects/bolt
+execute as @s[tag=beam] run function chocolate_datapack:effects/beam
+execute as @s[tag=lob] run function chocolate_datapack:effects/lob
+execute as @s[tag=lance] run function chocolate_datapack:effects/lance
+execute as @s[tag=mine] run function chocolate_datapack:effects/mine
+execute as @s[tag=mark] run function chocolate_datapack:effects/mark
+execute as @s[tag=zone] run function chocolate_datapack:effects/zone
+execute as @s[tag=spike] run function chocolate_datapack:effects/spike
+execute as @s[tag=summon] run function chocolate_datapack:effects/summon
+execute as @s[tag=construction] run function chocolate_datapack:effects/construction
+execute as @s[tag=wave] run function chocolate_datapack:effects/wave

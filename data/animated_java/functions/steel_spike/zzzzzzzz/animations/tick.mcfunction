@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.steel_spike.animation.spawn] run function animated_java:steel_spike/zzzzzzzz/animations/spawn/tick

@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.steel_spike.bone.bone] run data modify entity @s item.tag.CustomModelData set value 49

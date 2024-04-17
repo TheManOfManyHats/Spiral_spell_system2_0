@@ -1,0 +1,4 @@
+function animated_java:haunted_blades/zzzzzzzz/animations/spawn/pause_as_root
+function animated_java:haunted_blades/zzzzzzzz/animations/mob_spawn/pause_as_root
+function animated_java:haunted_blades/zzzzzzzz/animations/mob_idle/pause_as_root
+function animated_java:haunted_blades/zzzzzzzz/animations/mob_attack/pause_as_root

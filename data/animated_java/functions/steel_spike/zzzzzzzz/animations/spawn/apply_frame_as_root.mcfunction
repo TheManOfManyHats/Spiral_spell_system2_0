@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..4 run function animated_java:steel_spike/zzzzzzzz/animations/spawn/tree/branch_0_4

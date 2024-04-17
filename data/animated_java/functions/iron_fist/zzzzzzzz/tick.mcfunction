@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.iron_fist.root] run function animated_java:iron_fist/zzzzzzzz/tick_as_root

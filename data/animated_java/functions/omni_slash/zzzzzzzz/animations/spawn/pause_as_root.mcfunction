@@ -1,0 +1,1 @@
+tag @s remove aj.omni_slash.animation.spawn

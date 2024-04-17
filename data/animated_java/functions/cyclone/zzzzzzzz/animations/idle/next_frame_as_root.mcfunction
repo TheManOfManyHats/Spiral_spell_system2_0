@@ -1,0 +1,1 @@
+function animated_java:cyclone/zzzzzzzz/animations/idle/tick_animation
