@@ -15,13 +15,13 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute as @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run effect give @s resistance 30 2 true
+execute as @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run effect give @s resistance 30 1 true
 #MED POWER
 #Summon armor stand that is the actual attack
-execute as @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run effect give @s resistance 60 4 true
+execute as @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run effect give @s resistance 60 2 true
 #HIGH POWER
 #Summon armor stand that is the actual attack
-execute as @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run effect give @s resistance 90 6 true
+execute as @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run effect give @s resistance 90 3 true
 #Dramatic flare
 execute at @s[tag=1] run playsound block.deepslate.place ambient @a ~ ~ ~ 1 0
 execute at @s[tag=1] run particle block stone ~ ~1 ~ 1 .5 1 .1 20 force

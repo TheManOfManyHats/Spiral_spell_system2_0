@@ -25,6 +25,7 @@ execute as @s[tag=1,scores={spell_power=3}] at @s as @e[distance=..5,type=!#choc
 #Summon armor stand that is the actual attack
 execute as @s[tag=1,scores={spell_power=5}] at @s as @e[distance=..7,type=!#chocolate_datapack:non_activating] unless score @s player_id = @p[tag=1] player_id unless score @s team_id = @p[tag=1] team_id run damage @s 12 generic
 execute as @s[tag=1,scores={spell_power=5}] at @s as @e[distance=..7,type=!#chocolate_datapack:non_activating] unless score @s player_id = @p[tag=1] player_id unless score @s team_id = @p[tag=1] team_id run effect give @s blindness 6 0 true
+execute as @s[tag=1] run effect give @s resistance 1 100 true
 #Dramatic flare
 execute at @s[scores={spell_power=1}] run summon firework_rocket ~ ~1 ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;15790320],FadeColors:[I;15790320]}]}}}}
 execute at @s[scores={spell_power=3}] run summon firework_rocket ~ ~1 ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:1,Trail:0,Colors:[I;14602026],FadeColors:[I;15790320]},{Type:0,Flicker:0,Trail:0,Colors:[I;15790320],FadeColors:[I;15790320]}]}}}}
