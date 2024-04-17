@@ -1,3 +1,9 @@
+4/16/24 - Hatt
+=======================================================================================================================
+ - Re-opened Git repository to allow other users to help.
+ - Over the course of time between the last note and this one, I have added a lot of stuff and fixed a lot of bugs, the datapack is waaaaaaay different now than what it was before.
+=======================================================================================================================
+
 1/1/24 - 2/19/24 - Hatt
 =======================================================================================================================
 - Completed all of the spells with the exception of the grand spells.
