@@ -691,7 +691,7 @@ execute as @s[scores={function=1231},tag=antimagic_slash_unlocked] run scoreboar
 execute as @s[scores={function=1232},tag=absorbing_slash_unlocked] run scoreboard players set @s spell1 232
 execute as @s[scores={function=1233},tag=piercing_slash_unlocked] run scoreboard players set @s spell1 233
 execute as @s[scores={function=1234},tag=reflecting_slash_unlocked] run scoreboard players set @s spell1 234
-execute as @s[scores={function=1235},tag=anti_magic_kounai_unlocked] run scoreboard players set @s spell1 235
+execute as @s[scores={function=1235},tag=antimagic_kounai_unlocked] run scoreboard players set @s spell1 235
 execute as @s[scores={function=1236},tag=draining_crescent_unlocked] run scoreboard players set @s spell1 236
 execute as @s[scores={function=1237},tag=draining_zone_unlocked] run scoreboard players set @s spell1 237
 execute as @s[scores={function=1238},tag=omni_blade_unlocked] run scoreboard players set @s spell1 238
@@ -940,7 +940,7 @@ execute as @s[scores={function=2231},tag=antimagic_slash_unlocked] run scoreboar
 execute as @s[scores={function=2232},tag=absorbing_slash_unlocked] run scoreboard players set @s spell2 232
 execute as @s[scores={function=2233},tag=piercing_slash_unlocked] run scoreboard players set @s spell2 233
 execute as @s[scores={function=2234},tag=reflecting_slash_unlocked] run scoreboard players set @s spell2 234
-execute as @s[scores={function=2235},tag=anti_magic_kounai_unlocked] run scoreboard players set @s spell2 235
+execute as @s[scores={function=2235},tag=antimagic_kounai_unlocked] run scoreboard players set @s spell2 235
 execute as @s[scores={function=2236},tag=draining_crescent_unlocked] run scoreboard players set @s spell2 236
 execute as @s[scores={function=2237},tag=draining_zone_unlocked] run scoreboard players set @s spell2 237
 execute as @s[scores={function=2238},tag=omni_blade_unlocked] run scoreboard players set @s spell2 238
@@ -1189,7 +1189,7 @@ execute as @s[scores={function=3231},tag=antimagic_slash_unlocked] run scoreboar
 execute as @s[scores={function=3232},tag=absorbing_slash_unlocked] run scoreboard players set @s spell3 232
 execute as @s[scores={function=3233},tag=piercing_slash_unlocked] run scoreboard players set @s spell3 233
 execute as @s[scores={function=3234},tag=reflecting_slash_unlocked] run scoreboard players set @s spell3 234
-execute as @s[scores={function=3235},tag=anti_magic_kounai_unlocked] run scoreboard players set @s spell3 235
+execute as @s[scores={function=3235},tag=antimagic_kounai_unlocked] run scoreboard players set @s spell3 235
 execute as @s[scores={function=3236},tag=draining_crescent_unlocked] run scoreboard players set @s spell3 236
 execute as @s[scores={function=3237},tag=draining_zone_unlocked] run scoreboard players set @s spell3 237
 execute as @s[scores={function=3238},tag=omni_blade_unlocked] run scoreboard players set @s spell3 238
@@ -1438,7 +1438,7 @@ execute as @s[scores={function=4231},tag=antimagic_slash_unlocked] run scoreboar
 execute as @s[scores={function=4232},tag=absorbing_slash_unlocked] run scoreboard players set @s spell4 232
 execute as @s[scores={function=4233},tag=piercing_slash_unlocked] run scoreboard players set @s spell4 233
 execute as @s[scores={function=4234},tag=reflecting_slash_unlocked] run scoreboard players set @s spell4 234
-execute as @s[scores={function=4235},tag=anti_magic_kounai_unlocked] run scoreboard players set @s spell4 235
+execute as @s[scores={function=4235},tag=antimagic_kounai_unlocked] run scoreboard players set @s spell4 235
 execute as @s[scores={function=4236},tag=draining_crescent_unlocked] run scoreboard players set @s spell4 236
 execute as @s[scores={function=4237},tag=draining_zone_unlocked] run scoreboard players set @s spell4 237
 execute as @s[scores={function=4238},tag=omni_blade_unlocked] run scoreboard players set @s spell4 238
@@ -1687,7 +1687,7 @@ execute as @s[scores={function=5231},tag=antimagic_slash_unlocked] run scoreboar
 execute as @s[scores={function=5232},tag=absorbing_slash_unlocked] run scoreboard players set @s spell5 232
 execute as @s[scores={function=5233},tag=piercing_slash_unlocked] run scoreboard players set @s spell5 233
 execute as @s[scores={function=5234},tag=reflecting_slash_unlocked] run scoreboard players set @s spell5 234
-execute as @s[scores={function=5235},tag=anti_magic_kounai_unlocked] run scoreboard players set @s spell5 235
+execute as @s[scores={function=5235},tag=antimagic_kounai_unlocked] run scoreboard players set @s spell5 235
 execute as @s[scores={function=5236},tag=draining_crescent_unlocked] run scoreboard players set @s spell5 236
 execute as @s[scores={function=5237},tag=draining_zone_unlocked] run scoreboard players set @s spell5 237
 execute as @s[scores={function=5238},tag=omni_blade_unlocked] run scoreboard players set @s spell5 238

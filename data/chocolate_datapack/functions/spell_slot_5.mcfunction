@@ -291,7 +291,7 @@ execute as @s[scores={spell5=231,spell_cooldown=0,jammed=0},tag=antimagic_slash_
 execute as @s[scores={spell5=232,spell_cooldown=0,jammed=0},tag=absorbing_slash_unlocked] run function chocolate_datapack:spells/blade/antimagic/absorbing_slash
 execute as @s[scores={spell5=233,spell_cooldown=0,jammed=0},tag=piercing_slash_unlocked] run function chocolate_datapack:spells/blade/antimagic/piercing_slash
 execute as @s[scores={spell5=234,spell_cooldown=0,jammed=0},tag=reflecting_slash_unlocked] run function chocolate_datapack:spells/blade/antimagic/reflecting_slash
-execute as @s[scores={spell5=235,spell_cooldown=0,jammed=0},tag=anti_magic_kounai_unlocked] run function chocolate_datapack:spells/blade/antimagic/antimagic_kounai
+execute as @s[scores={spell5=235,spell_cooldown=0,jammed=0},tag=antimagic_kounai_unlocked] run function chocolate_datapack:spells/blade/antimagic/antimagic_kounai
 execute as @s[scores={spell5=236,spell_cooldown=0,jammed=0},tag=draining_crescent_unlocked] run function chocolate_datapack:spells/blade/antimagic/draining_crescent_slash
 execute as @s[scores={spell5=237,spell_cooldown=0,jammed=0},tag=draining_zone_unlocked] run function chocolate_datapack:spells/blade/antimagic/draining_zone
 execute as @s[scores={spell5=238,spell_cooldown=0,jammed=0},tag=omni_blade_unlocked  ] run function chocolate_datapack:spells/blade/blade_grand/omni_blade
