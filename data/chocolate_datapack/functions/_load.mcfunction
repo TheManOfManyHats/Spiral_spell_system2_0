@@ -162,6 +162,15 @@ scoreboard objectives add goto_spawn trigger
 #caster_on_death_false
 #book_on_death_false
 
+##=====Race Tags=====#
+#obscura
+#construct
+#shadowcat
+#revenant
+#kenku
+#human
+#lemon
+
 ##==Power Types:===#
 ##---fire
  ##lightning
@@ -484,7 +493,7 @@ scoreboard objectives add goto_spawn trigger
  #- absorbing_slash_unlocked           232  *  #   5   900
  #- piercing_slash_unlocked            233  *  #   10  1000
  #- reflecting_slash_unlocked          234  *  #   15  1200
- #- anti_magic_kounai_unlocked         235  *  #   20  1400
+ #- antimagic_kounai_unlocked         235  *  #   20  1400
  #- draining_crescent_slash_unlocked   236  *  #   25  2500
  #- draining_zone_unlocked             237  *  #   30  2600
 ##blade_grand_user
