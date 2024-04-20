@@ -290,6 +290,8 @@ tag @s remove lemon
 
 execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.magic_level int 1.0 run scoreboard players get @s magic_level
 scoreboard players reset @s magic_level
+execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.level_up_threshhold int 1.0 run scoreboard players get @s level_up_threshhold
+scoreboard players reset @s level_up_threshhold
 execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.spiral_exhaustion int 1.0 run scoreboard players get @s spiral_exhaustion
 scoreboard players reset @s spiral_exhaustion
 execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.skill_points int 1.0 run scoreboard players get @s skill_points
@@ -615,6 +617,7 @@ execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved
 execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["lemon"]}}}] run tag @s add lemon
 
 execute if score @s PlayerUUID = @s ItemUUID store result score @s magic_level run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.magic_level
+execute if score @s PlayerUUID = @s ItemUUID store result score @s level_up_threshhold run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.level_up_threshhold
 execute if score @s PlayerUUID = @s ItemUUID store result score @s spiral_exhaustion run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spiral_exhaustion
 execute if score @s PlayerUUID = @s ItemUUID store result score @s skill_points run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.skill_points
 execute if score @s PlayerUUID = @s ItemUUID store result score @s max_wil run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.max_wil
