@@ -43,11 +43,7 @@ execute store result block 0 0 0 Items[{Slot:1b}].tag.past_spell_5 int 1 run sco
 execute store result block 0 0 0 Items[{Slot:1b}].tag.knowledge_factor int 1 run scoreboard players get @s knowledge_factor
 execute store result block 0 0 0 Items[{Slot:1b}].tag.team_up_timer int 1 run scoreboard players get @s team_up_timer
 execute store result block 0 0 0 Items[{Slot:1b}].tag.player_id int 1 run scoreboard players get @s player_id
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick", tag:{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b},Count:1b}}
-execute at @s run data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item set from block 0 0 0 Items[{Slot:1b}]
-execute as @s run function chocolate_datapack:triggers/reset_wil
-clear @s written_book{starterbook:1b}
-execute at @s run kill @e[type=item,nbt={Item:{id:"minecraft:written_book"}},limit=1,sort=nearest]
+
 
 #execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.magic_level int 1.0 run scoreboard players get @s magic_level
 #scoreboard players reset @s magic_level
@@ -78,8 +74,8 @@ execute at @s run kill @e[type=item,nbt={Item:{id:"minecraft:written_book"}},lim
 #execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.player_cooldown int 1.0 run scoreboard players get @s player_cooldown
 #scoreboard players reset @s player_cooldown
 #
-#execute store result score @s ItemUUID run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.fuuid
-#execute store result score @s PlayerUUID run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] UUID[0]
+#execute store result score @s ItemUUID run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.fuuid
+#execute store result score @s PlayerUUID run data get entity @s[nbt={SelectedItem:{tag:{}}}] UUID[0]
 
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:["fire_user"]}}}] run tag @s add fire_user
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:["fireball_unlocked"]}}}] run tag @s add fireball_unlocked
@@ -369,41 +365,46 @@ execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:["calamity_unlocked"]}}}] ru
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:["ultimate_skyward_strike_unlocked"]}}}] run tag @s add ultimate_skyward_strike_unlocked
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:["haunted_blades_unlocked"]}}}] run tag @s add haunted_blades_unlocked
 
-execute store result score @s magic_level run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.magic_level
-execute store result score @s level_up_threshhold run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.level_up_threshhold
-execute store result score @s spiral_exhaustion run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spiral_exhaustion
-execute store result score @s skill_points run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.skill_points
-execute store result score @s max_wil run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.max_wil
-execute store result score @s wil run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.wil
-execute store result score @s knowledge run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.knowledge
-execute store result score @s strength run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.strength
-execute store result score @s speed run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.speed
-execute store result score @s defense run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.defense
-execute store result score @s fortification run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.fortification
-execute store result score @s vitality run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.vitality
-execute store result score @s willpower run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.willpower
-execute store result score @s spell1 run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell1
-execute store result score @s spell2 run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell2
-execute store result score @s spell3 run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell3
-execute store result score @s spell4 run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell4
-execute store result score @s spell5 run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell5
-execute store result score @s caster_skin run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.caster_skin
-execute store result score @s spell_cost run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell_cost
-execute store result score @s spell1_power run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell1_power
-execute store result score @s spell2_power run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell2_power
-execute store result score @s spell3_power run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell3_power
-execute store result score @s spell4_power run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell4_power
-execute store result score @s spell5_power run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.spell5_power
-execute store result score @s times_overloaded run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.times_overloaded
-execute store result score @s jammer_bound run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.jammer_bound
-execute store result score @s past_spell_1 run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.past_spell_1
-execute store result score @s past_spell_2 run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.past_spell_2
-execute store result score @s past_spell_3 run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.past_spell_3
-execute store result score @s past_spell_4 run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.past_spell_4
-execute store result score @s past_spell_5 run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.past_spell_5
-execute store result score @s knowledge_factor run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.knowledge_factor
-execute store result score @s team_up_timer run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.team_up_timer
-execute store result score @s player_id run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.player_id
+execute store result score @s magic_level run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.magic_level
+execute store result score @s level_up_threshhold run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.level_up_threshhold
+execute store result score @s spiral_exhaustion run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spiral_exhaustion
+execute store result score @s skill_points run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.skill_points
+execute store result score @s max_wil run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.max_wil
+execute store result score @s wil run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.wil
+execute store result score @s knowledge run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.knowledge
+execute store result score @s strength run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.strength
+execute store result score @s speed run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.speed
+execute store result score @s defense run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.defense
+execute store result score @s fortification run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.fortification
+execute store result score @s vitality run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.vitality
+execute store result score @s willpower run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.willpower
+execute store result score @s spell1 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell1
+execute store result score @s spell2 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell2
+execute store result score @s spell3 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell3
+execute store result score @s spell4 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell4
+execute store result score @s spell5 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell5
+execute store result score @s caster_skin run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.caster_skin
+execute store result score @s spell_cost run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell_cost
+execute store result score @s spell1_power run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell1_power
+execute store result score @s spell2_power run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell2_power
+execute store result score @s spell3_power run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell3_power
+execute store result score @s spell4_power run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell4_power
+execute store result score @s spell5_power run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell5_power
+execute store result score @s times_overloaded run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.times_overloaded
+execute store result score @s jammer_bound run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.jammer_bound
+execute store result score @s past_spell_1 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.past_spell_1
+execute store result score @s past_spell_2 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.past_spell_2
+execute store result score @s past_spell_3 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.past_spell_3
+execute store result score @s past_spell_4 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.past_spell_4
+execute store result score @s past_spell_5 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.past_spell_5
+execute store result score @s knowledge_factor run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.knowledge_factor
+execute store result score @s team_up_timer run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.team_up_timer
+execute store result score @s player_id run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.player_id
 
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick", tag:{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b},Count:1b}}
+execute at @s run data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item set from block 0 0 0 Items[{Slot:1b}]
+execute as @s run function chocolate_datapack:triggers/reset_wil
+clear @s written_book{starterbook:1b}
+execute at @s run kill @e[type=item,nbt={Item:{id:"minecraft:written_book"}},limit=1,sort=nearest]
 execute as @s run function chocolate_datapack:detectors/initialize_empowerments
-item replace entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] weapon.mainhand with minecraft:air
+item replace entity @s[nbt={SelectedItem:{tag:{}}}] weapon.mainhand with minecraft:air
