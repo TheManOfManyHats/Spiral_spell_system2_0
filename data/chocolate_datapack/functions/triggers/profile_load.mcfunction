@@ -6,7 +6,7 @@
 item replace block 0 0 0 container.1 with stick{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b,Count:1b}
 
 
-data modify block 0 0 0 Items[{Slot:1b}].tag.Saved_Profile append from entity @s Tags
+data modify block 0 0 0 Items[{Slot:1b}].Saved_Profile append from entity @s Tags
 execute store result block 0 0 0 Items[{Slot:1b}].magic_level int 1 run scoreboard players get @s magic_level
 execute store result block 0 0 0 Items[{Slot:1b}].level_up_threshhold int 1 run scoreboard players get @s level_up_threshhold
 execute store result block 0 0 0 Items[{Slot:1b}].spiral_exhaustion int 1 run scoreboard players get @s spiral_exhaustion
