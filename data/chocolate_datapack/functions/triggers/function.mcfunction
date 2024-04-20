@@ -80,6 +80,7 @@ execute as @s[scores={function=56}] run function chocolate_datapack:triggers/res
 execute as @s[scores={function=57}] run function chocolate_datapack:triggers/set_unstuck_location
 execute as @s[scores={function=58}] run function chocolate_datapack:triggers/undo_parties
 execute as @s[scores={function=59}] run function chocolate_datapack:triggers/disable_spell_casting
+execute as @s[scores={function=30000}] run function chocolate_datapack:triggers/profile_save
 
 ##==============================HELP MENU ITEMS==========================##
 execute as @s[scores={function=60}] run give @s stick{Unbreakable:1,CustomModelData:500,Consumable:1b,SmallLevelUp:1b,Enchantments:[{}],display:{Name:'[{"text":"Shard of Knowledge (Lesser)","italic":false,"color":"light_purple"}]',Lore:['[{"text":"A strange crystal shard","italic":false,"color":"gold"}]','[{"text":"Which contains just enough","italic":false,"color":"gold"}]','[{"text":"knowledge to deepen your","italic":false,"color":"gold"}]','[{"text":"spiral by a single level.","italic":false,"color":"gold"}]']},HideFlags:100} 1
