@@ -1,7 +1,7 @@
 execute run summon minecraft:item 0 0 0 {Item:{id:"minecraft:stick", tag:{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b},Count:1b}}
-execute run teleport @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick", tag:{DisplayName:["profile"],Consumable:1b}}},limit=1,sort=nearest] @s
-data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick", tag:{DisplayName:["profile"],Consumable:1b}}},limit=1,sort=nearest] Item.tag.fuuid set from entity @s UUID[0]
-data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick", tag:{DisplayName:["profile"],Consumable:1b}}},limit=1,sort=nearest] Item.tag.Saved_Profile set from entity @s Tags
+execute run teleport @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] @s
+data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.fuuid set from entity @s UUID[0]
+data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.Saved_Profile set from entity @s Tags
 tag @s remove fire_user
 tag @s remove fireball_unlocked
 tag @s remove explosion_unlocked
