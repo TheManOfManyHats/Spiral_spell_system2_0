@@ -1,43 +1,43 @@
 item replace block 0 0 0 container.1 with stick{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b,Count:1b}
 
 
-data modify block 0 0 0 Items[{Slot:1b}].Saved_Profile append from entity @s Tags
-execute store result block 0 0 0 Items[{Slot:1b}].magic_level int 1 run scoreboard players get @s magic_level
-execute store result block 0 0 0 Items[{Slot:1b}].level_up_threshhold int 1 run scoreboard players get @s level_up_threshhold
-execute store result block 0 0 0 Items[{Slot:1b}].spiral_exhaustion int 1 run scoreboard players get @s spiral_exhaustion
-execute store result block 0 0 0 Items[{Slot:1b}].skill_points int 1 run scoreboard players get @s skill_points
-execute store result block 0 0 0 Items[{Slot:1b}].max_wil int 1 run scoreboard players get @s max_wil
-execute store result block 0 0 0 Items[{Slot:1b}].wil int 1 run scoreboard players get @s wil
-execute store result block 0 0 0 Items[{Slot:1b}].knowledge int 1 run scoreboard players get @s knowledge
-execute store result block 0 0 0 Items[{Slot:1b}].strength int 1 run scoreboard players get @s strength
-execute store result block 0 0 0 Items[{Slot:1b}].speed int 1 run scoreboard players get @s speed
-execute store result block 0 0 0 Items[{Slot:1b}].defense int 1 run scoreboard players get @s defense
-execute store result block 0 0 0 Items[{Slot:1b}].fortification int 1 run scoreboard players get @s fortification
-execute store result block 0 0 0 Items[{Slot:1b}].vitality int 1 run scoreboard players get @s vitality
-execute store result block 0 0 0 Items[{Slot:1b}].willpower int 1 run scoreboard players get @s willpower
-execute store result block 0 0 0 Items[{Slot:1b}].player_cooldown int 1 run scoreboard players get @s player_cooldown
-execute store result block 0 0 0 Items[{Slot:1b}].spell1 int 1 run scoreboard players get @s spell1
-execute store result block 0 0 0 Items[{Slot:1b}].spell2 int 1 run scoreboard players get @s spell2
-execute store result block 0 0 0 Items[{Slot:1b}].spell3 int 1 run scoreboard players get @s spell3
-execute store result block 0 0 0 Items[{Slot:1b}].spell4 int 1 run scoreboard players get @s spell4
-execute store result block 0 0 0 Items[{Slot:1b}].spell5 int 1 run scoreboard players get @s spell5
-execute store result block 0 0 0 Items[{Slot:1b}].caster_skin int 1 run scoreboard players get @s caster_skin
-execute store result block 0 0 0 Items[{Slot:1b}].spell_cost int 1 run scoreboard players get @s spell_cost
-execute store result block 0 0 0 Items[{Slot:1b}].spell1_power int 1 run scoreboard players get @s spell1_power
-execute store result block 0 0 0 Items[{Slot:1b}].spell2_power int 1 run scoreboard players get @s spell2_power
-execute store result block 0 0 0 Items[{Slot:1b}].spell3_power int 1 run scoreboard players get @s spell3_power
-execute store result block 0 0 0 Items[{Slot:1b}].spell4_power int 1 run scoreboard players get @s spell4_power
-execute store result block 0 0 0 Items[{Slot:1b}].spell5_power int 1 run scoreboard players get @s spell5_power
-execute store result block 0 0 0 Items[{Slot:1b}].times_overloaded int 1 run scoreboard players get @s times_overloaded
-execute store result block 0 0 0 Items[{Slot:1b}].jammer_bound int 1 run scoreboard players get @s jammer_bound
-execute store result block 0 0 0 Items[{Slot:1b}].past_spell_1 int 1 run scoreboard players get @s past_spell_1
-execute store result block 0 0 0 Items[{Slot:1b}].past_spell_2 int 1 run scoreboard players get @s past_spell_2
-execute store result block 0 0 0 Items[{Slot:1b}].past_spell_3 int 1 run scoreboard players get @s past_spell_3
-execute store result block 0 0 0 Items[{Slot:1b}].past_spell_4 int 1 run scoreboard players get @s past_spell_4
-execute store result block 0 0 0 Items[{Slot:1b}].past_spell_5 int 1 run scoreboard players get @s past_spell_5
-execute store result block 0 0 0 Items[{Slot:1b}].knowledge_factor int 1 run scoreboard players get @s knowledge_factor
-execute store result block 0 0 0 Items[{Slot:1b}].team_up_timer int 1 run scoreboard players get @s team_up_timer
-execute store result block 0 0 0 Items[{Slot:1b}].player_id int 1 run scoreboard players get @s player_id
+data modify block 0 0 0 Items[{Slot:1b}].tag.Saved_Profile append from entity @s Tags
+execute store result block 0 0 0 Items[{Slot:1b}].tag.magic_level int 1 run scoreboard players get @s magic_level
+execute store result block 0 0 0 Items[{Slot:1b}].tag.level_up_threshhold int 1 run scoreboard players get @s level_up_threshhold
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spiral_exhaustion int 1 run scoreboard players get @s spiral_exhaustion
+execute store result block 0 0 0 Items[{Slot:1b}].tag.skill_points int 1 run scoreboard players get @s skill_points
+execute store result block 0 0 0 Items[{Slot:1b}].tag.max_wil int 1 run scoreboard players get @s max_wil
+execute store result block 0 0 0 Items[{Slot:1b}].tag.wil int 1 run scoreboard players get @s wil
+execute store result block 0 0 0 Items[{Slot:1b}].tag.knowledge int 1 run scoreboard players get @s knowledge
+execute store result block 0 0 0 Items[{Slot:1b}].tag.strength int 1 run scoreboard players get @s strength
+execute store result block 0 0 0 Items[{Slot:1b}].tag.speed int 1 run scoreboard players get @s speed
+execute store result block 0 0 0 Items[{Slot:1b}].tag.defense int 1 run scoreboard players get @s defense
+execute store result block 0 0 0 Items[{Slot:1b}].tag.fortification int 1 run scoreboard players get @s fortification
+execute store result block 0 0 0 Items[{Slot:1b}].tag.vitality int 1 run scoreboard players get @s vitality
+execute store result block 0 0 0 Items[{Slot:1b}].tag.willpower int 1 run scoreboard players get @s willpower
+execute store result block 0 0 0 Items[{Slot:1b}].tag.player_cooldown int 1 run scoreboard players get @s player_cooldown
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell1 int 1 run scoreboard players get @s spell1
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell2 int 1 run scoreboard players get @s spell2
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell3 int 1 run scoreboard players get @s spell3
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell4 int 1 run scoreboard players get @s spell4
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell5 int 1 run scoreboard players get @s spell5
+execute store result block 0 0 0 Items[{Slot:1b}].tag.caster_skin int 1 run scoreboard players get @s caster_skin
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell_cost int 1 run scoreboard players get @s spell_cost
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell1_power int 1 run scoreboard players get @s spell1_power
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell2_power int 1 run scoreboard players get @s spell2_power
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell3_power int 1 run scoreboard players get @s spell3_power
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell4_power int 1 run scoreboard players get @s spell4_power
+execute store result block 0 0 0 Items[{Slot:1b}].tag.spell5_power int 1 run scoreboard players get @s spell5_power
+execute store result block 0 0 0 Items[{Slot:1b}].tag.times_overloaded int 1 run scoreboard players get @s times_overloaded
+execute store result block 0 0 0 Items[{Slot:1b}].tag.jammer_bound int 1 run scoreboard players get @s jammer_bound
+execute store result block 0 0 0 Items[{Slot:1b}].tag.past_spell_1 int 1 run scoreboard players get @s past_spell_1
+execute store result block 0 0 0 Items[{Slot:1b}].tag.past_spell_2 int 1 run scoreboard players get @s past_spell_2
+execute store result block 0 0 0 Items[{Slot:1b}].tag.past_spell_3 int 1 run scoreboard players get @s past_spell_3
+execute store result block 0 0 0 Items[{Slot:1b}].tag.past_spell_4 int 1 run scoreboard players get @s past_spell_4
+execute store result block 0 0 0 Items[{Slot:1b}].tag.past_spell_5 int 1 run scoreboard players get @s past_spell_5
+execute store result block 0 0 0 Items[{Slot:1b}].tag.knowledge_factor int 1 run scoreboard players get @s knowledge_factor
+execute store result block 0 0 0 Items[{Slot:1b}].tag.team_up_timer int 1 run scoreboard players get @s team_up_timer
+execute store result block 0 0 0 Items[{Slot:1b}].tag.player_id int 1 run scoreboard players get @s player_id
 execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick", tag:{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b},Count:1b}}
 execute at @s run data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item set from block 0 0 0 Items[{Slot:1b}]
 execute as @s run function chocolate_datapack:triggers/reset_wil
