@@ -29,6 +29,8 @@ execute as @s if score @s knowledge >= @s level_up_threshhold run function choco
 #Help Menu
 scoreboard players enable @s help
 scoreboard players enable @s function
+scoreboard players enable @s[name=LukeTheAnimator] summon_unlucky
+scoreboard players enable @s[name=Unluckyfelis] summon_luke
 execute as @s[scores={help=1}] run function chocolate_datapack:triggers/help
 execute as @s[scores={function=1..}] run function chocolate_datapack:triggers/function
 execute as @s[scores={portal_cooldown=1..}] run scoreboard players remove @s portal_cooldown 1
@@ -38,6 +40,8 @@ tag @s[tag=item_switch] remove item_switch
 execute as @s[scores={sleeps=1}] run function chocolate_datapack:detectors/sleep
 execute as @s[scores={spiral_exhaustion=500..1000}] run function chocolate_datapack:detectors/spiralitus_effects
 execute as @s[scores={spiral_exhaustion=1000}] run function chocolate_datapack:detectors/spiralitus
+execute as @s[scores={summon_unlucky=1}] run function chocolate_datapack:triggers/summon_unlucky
+execute as @s[scores={summon_luke=1}] run function chocolate_datapack:triggers/summon_luke
 ##------------------------------------------------------##
 
 ##--------------------MANA RECHARGE---------------------##

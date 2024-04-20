@@ -1,6 +1,6 @@
+execute at @s run playsound block.enchantment_table.use ambient @a ~ ~ ~ 1 0
+execute at @p run particle enchant ~ ~1 ~ 0 0 0 2 100 force
 item replace block 0 0 0 container.1 with stick{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b,Count:1b}
-
-
 data modify block 0 0 0 Items[{Slot:1b}].tag.Saved_Profile append from entity @s Tags
 execute store result block 0 0 0 Items[{Slot:1b}].tag.magic_level int 1 run scoreboard players get @s magic_level
 execute store result block 0 0 0 Items[{Slot:1b}].tag.level_up_threshhold int 1 run scoreboard players get @s level_up_threshhold
@@ -41,24 +41,5 @@ execute store result block 0 0 0 Items[{Slot:1b}].tag.player_id int 1 run scoreb
 execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick", tag:{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b},Count:1b}}
 execute at @s run data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item merge from block 0 0 0 Items[{Slot:1b}]
 execute as @s run function chocolate_datapack:triggers/reset_wil
-
-#execute run summon minecraft:item 0 0 0 {Item:{id:"minecraft:stick", tag:{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b},Count:1b}}
-#execute run teleport @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] @s
-#data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.fuuid set from entity @s UUID[0]
-#data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.Saved_Profile set from entity @s Tags
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.magic_level int 1.0 run scoreboard players get @s magic_level
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.level_up_threshhold int 1.0 run scoreboard players get @s level_up_threshhold
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.spiral_exhaustion int 1.0 run scoreboard players get @s spiral_exhaustion
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.skill_points int 1.0 run scoreboard players get @s skill_points
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.max_wil int 1.0 run scoreboard players get @s max_wil
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.wil int 1.0 run scoreboard players get @s wil
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.knowledge int 1.0 run scoreboard players get @s knowledge
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.strength int 1.0 run scoreboard players get @s strength
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.speed int 1.0 run scoreboard players get @s speed
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.defense int 1.0 run scoreboard players get @s defense
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.fortification int 1.0 run scoreboard players get @s fortification
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.vitality int 1.0 run scoreboard players get @s vitality
-#xecute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.willpower int 1.0 run scoreboard players get @s willpower
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.player_cooldown int 1.0 run scoreboard players get @s player_cooldown
 
 

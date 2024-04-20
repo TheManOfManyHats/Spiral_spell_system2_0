@@ -97,6 +97,8 @@ scoreboard objectives add max_room_number dummy
 scoreboard objectives add room_varience dummy
 scoreboard objectives add ItemUUID dummy
 scoreboard objectives add PlayerUUID dummy
+scoreboard objectives add summon_luke trigger
+scoreboard objectives add summon_unlucky trigger
 ##-----------------------------------------------------------##
 
 ##------------CREATE SHULKER STORAGE BOX IN WORLD------------##
