@@ -70,4 +70,613 @@ execute as @s[nbt={active_effects:[{id:"minecraft:water_breathing",amplifier:99b
 execute as @s[nbt={active_effects:[{id:"minecraft:weakness",amplifier:99b}]}] run effect clear @s weakness
 execute as @s[nbt={active_effects:[{id:"minecraft:wither",amplifier:99b}]}] run effect clear @s wither
 
+execute run summon minecraft:item 0 0 0 {Item:{id:"minecraft:stick", tag:{DisplayName:["profile"],Consumable:1b},Count:1b}}
+execute run teleport @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick", tag:{DisplayName:["profile"],Consumable:1b}}},limit=1,sort=nearest] @s
+data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick", tag:{DisplayName:["profile"],Consumable:1b}}},limit=1,sort=nearest] Item.tag.fuuid set from entity @s UUID[0]
+data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick", tag:{DisplayName:["profile"],Consumable:1b}}},limit=1,sort=nearest] Item.tag.DisplayName set from entity @s Tags
+tag @s remove fire_user
+tag @s remove fireball_unlocked
+tag @s remove explosion_unlocked
+tag @s remove landmine_unlocked
+tag @s remove fire_aura_unlocked
+tag @s remove grenade_unlocked
+tag @s remove incinerate_unlocked
+tag @s remove fire_rain_unlocked
+tag @s remove lightning_bolt_unlocked
+tag @s remove lightning_stun_unlocked
+tag @s remove chain_volt_unlocked
+tag @s remove ball_lightning_unlocked
+tag @s remove magnetism_unlocked
+tag @s remove conduit_unlocked
+tag @s remove nimbus_unlocked
+tag @s remove molten_touch_unlocked
+tag @s remove lava_plume_unlocked
+tag @s remove magma_walker_unlocked
+tag @s remove magma_wave_unlocked
+tag @s remove obsidian_blast_unlocked
+tag @s remove lavas_grace_unlocked
+tag @s remove overheat_unlocked
+tag @s remove lightning_user
+tag @s remove magma_user
+tag @s remove fire_grand_user
+tag @s remove heat_wave_unlocked
+tag @s remove drought_unlocked
+tag @s remove eruption_unlocked
+tag @s remove storm_unlocked
+tag @s remove discharge_unlocked
+tag @s remove water_user
+tag @s remove water_gun_unlocked
+tag @s remove water_pulse_unlocked
+tag @s remove wave_unlocked
+tag @s remove water_prison_unlocked
+tag @s remove water_walker_unlocked
+tag @s remove aurora_beam_unlocked
+tag @s remove conduits_grace_unlocked
+tag @s remove cold_wind_unlocked
+tag @s remove ice_lance_unlocked
+tag @s remove ice_spike_unlocked
+tag @s remove freeze_unlocked
+tag @s remove frosted_rain_unlocked
+tag @s remove frozen_shell_unlocked
+tag @s remove ice_wall_unlocked
+tag @s remove water_heal_unlocked
+tag @s remove group_heal_unlocked
+tag @s remove revitalize_unlocked
+tag @s remove water_regenerate_unlocked
+tag @s remove absorbtion_unlocked
+tag @s remove healing_pool_unlocked
+tag @s remove rejuvenate_unlocked
+tag @s remove ice_user
+tag @s remove healing_user
+tag @s remove water_grand_user
+tag @s remove hail_storm_unlocked
+tag @s remove heavy_rain_unlocked
+tag @s remove tsunami_unlocked
+tag @s remove waters_grace_unlocked
+tag @s remove frozen_hell_unlocked
+tag @s remove gift_of_neptune_unlocked
+tag @s remove earth_user
+tag @s remove dig_unlocked
+tag @s remove rock_throw_unlocked
+tag @s remove pillar_unlocked
+tag @s remove quicksand_unlocked
+tag @s remove stone_spear_unlocked
+tag @s remove rock_skin_unlocked
+tag @s remove stelagmite_unlocked
+tag @s remove iron_fist_unlocked
+tag @s remove iron_skin_unlocked
+tag @s remove iron_lance_unlocked
+tag @s remove steel_blade_unlocked
+tag @s remove iron_maiden_unlocked
+tag @s remove steel_spike_unlocked
+tag @s remove hapestus_anvil_unlocked
+tag @s remove crystal_bullet_unlocked
+tag @s remove crystal_bloom_unlocked
+tag @s remove refraction_unlocked
+tag @s remove lattice_barrier_unlocked
+tag @s remove crystal_spike_unlocked
+tag @s remove crystal_resonance_unlocked
+tag @s remove shatter_unlocked
+tag @s remove metal_spells
+tag @s remove crystal_user
+tag @s remove earth_grand_user
+tag @s remove tera-kinesis_unlocked
+tag @s remove sinking_earth_unlocked
+tag @s remove sand_storm_unlocked
+tag @s remove gaias_blessing_unlocked
+tag @s remove brand_storm_unlocked
+tag @s remove carpet_bloom_unlocked
+tag @s remove air_user
+tag @s remove wind_cutter_unlocked
+tag @s remove back_draft_unlocked
+tag @s remove zephyr_speed_unlocked
+tag @s remove up_draft_unlocked
+tag @s remove air_sphere_unlocked
+tag @s remove wind_wall_unlocked
+tag @s remove cyclone_unlocked
+tag @s remove wind_slash_unlocked
+tag @s remove suffocation_zone_unlocked
+tag @s remove tornado_unlocked
+tag @s remove nimbus_storm_unlocked
+tag @s remove supreme_updraft_unlocked
+tag @s remove fog_of_war_unlocked
+tag @s remove cloud_burst_unlocked
+tag @s remove sonic_boom_unlocked
+tag @s remove echolocation_unlocked
+tag @s remove ear_rupture_unlocked
+tag @s remove piercing_sound_unlocked
+tag @s remove debilitate_unlocked
+tag @s remove frequency_strike_unlocked
+tag @s remove musical_number_unlocked
+tag @s remove aether_user
+tag @s remove sound_user
+tag @s remove air_grand_user
+tag @s remove typhoon_unlocked
+tag @s remove hurricane_unlocked
+tag @s remove sky_cutter_unlocked
+tag @s remove wil_emp_unlocked
+tag @s remove sonic_blast_unlocked
+tag @s remove sonic_doom_unlocked
+tag @s remove nature_user
+tag @s remove sticker_bush_unlocked
+tag @s remove entangle_unlocked
+tag @s remove living_root_unlocked
+tag @s remove harvest_unlocked
+tag @s remove leech_seed_unlocked
+tag @s remove spore_unlocked
+tag @s remove grow_tree_unlocked
+tag @s remove life_heal_unlocked
+tag @s remove life_regenerate_unlocked
+tag @s remove growth_unlocked
+tag @s remove replicate_unlocked
+tag @s remove life_extension_unlocked
+tag @s remove healing_wisp_unlocked
+tag @s remove kodama_spirit_unlocked
+tag @s remove senses_unlocked
+tag @s remove pounce_unlocked
+tag @s remove track_prey_unlocked
+tag @s remove wild_evasion_unlocked
+tag @s remove wild_slashes_unlocked
+tag @s remove wyld_wil_unlocked
+tag @s remove wild_aspect_unlocked
+tag @s remove life_user
+tag @s remove wild_user
+tag @s remove nature_grand_user
+tag @s remove yggdrasil_unlocked
+tag @s remove gift_of_gaia_unlocked
+tag @s remove immortality_unlocked
+tag @s remove howling_moon_unlocked
+tag @s remove sundelion_unlocked
+tag @s remove grand_wyld_wil_unlocked
+tag @s remove darkness_user
+tag @s remove dark_fire_unlocked
+tag @s remove night_sight_unlocked
+tag @s remove dark_hold_unlocked
+tag @s remove night_zone_unlocked
+tag @s remove dark_surge_unlocked
+tag @s remove shadow_step_unlocked
+tag @s remove shadow_form_unlocked
+tag @s remove blood_shot_unlocked
+tag @s remove life_drain_unlocked
+tag @s remove buff_dead_unlocked
+tag @s remove life_exchange_unlocked
+tag @s remove raise_dead_unlocked
+tag @s remove pestilence_unlocked
+tag @s remove undead_explosion_unlocked
+tag @s remove spirit_shot_unlocked
+tag @s remove wil_drain_unlocked
+tag @s remove spirit_lock_unlocked
+tag @s remove summon_spirit_unlocked
+tag @s remove spirit_form_unlocked
+tag @s remove spirit_anchor_unlocked
+tag @s remove soul_barrier_unlocked
+tag @s remove death_user
+tag @s remove spirit_user
+tag @s remove darkness_grand_user
+tag @s remove ancient_undead_dragon_unlocked
+tag @s remove amegeddon_unlocked
+tag @s remove wrath_of_shadows_unlocked
+tag @s remove black_hole_sphere_unlocked
+tag @s remove soul_husk_unlocked
+tag @s remove spirit_storm_unlocked
+tag @s remove light_user
+tag @s remove light_ray_unlocked
+tag @s remove flash_bang_unlocked
+tag @s remove holy_healing_unlocked
+tag @s remove light_arrow_unlocked
+tag @s remove light_barrier_unlocked
+tag @s remove light_judgement_unlocked
+tag @s remove cosmic_ray_unlocked
+tag @s remove celestial_skin_unlocked
+tag @s remove gamma_burst_unlocked
+tag @s remove gravity_well_unlocked
+tag @s remove meteorite_unlocked
+tag @s remove constelation_atunement_unlocked
+tag @s remove nova_unlocked
+tag @s remove borrow_unlocked
+tag @s remove time_chrono_anchor_unlocked
+tag @s remove rejuvenate_unlocked
+tag @s remove maturate_unlocked
+tag @s remove time_freeze_unlocked
+tag @s remove prediction_blast_unlocked
+tag @s remove frame_skip_unlocked
+tag @s remove celestial_user
+tag @s remove time_user
+tag @s remove light_grand_user
+tag @s remove holy_lance_unlocked
+tag @s remove solar_beam_unlocked
+tag @s remove rain_of_light_unlocked
+tag @s remove light_speed_unlocked
+tag @s remove time_stop_unlocked
+tag @s remove time_barrier_unlocked
+tag @s remove space_user
+tag @s remove blink_unlocked
+tag @s remove warp_unlocked
+tag @s remove recal_unlocked
+tag @s remove mass_recal_unlocked
+tag @s remove swap_unlocked
+tag @s remove space_chrono_anchor_unlocked
+tag @s remove rift_unlocked
+tag @s remove void_bolt_unlocked
+tag @s remove erasure_sphere_unlocked
+tag @s remove space_warp_unlocked
+tag @s remove eradicate_unlocked
+tag @s remove void_warp_unlocked
+tag @s remove reality_slip_unlocked
+tag @s remove entropy_unlocked
+tag @s remove elastic_space_unlocked
+tag @s remove distortion_zone_unlocked
+tag @s remove quantum_lock_unlocked
+tag @s remove chaos_spear_unlocked
+tag @s remove chaos_judgement_unlocked
+tag @s remove gravity_knuckle_unlocked
+tag @s remove chaos_blast_unlocked
+tag @s remove void_user
+tag @s remove chaos_user
+tag @s remove space_grand_user
+tag @s remove void_ultima_unlocked
+tag @s remove end_warp_unlocked
+tag @s remove nether_warp_unlocked
+tag @s remove black_hole_unlocked
+tag @s remove neutron_fist_unlocked
+tag @s remove gravity_inversion_unlocked
+tag @s remove blade_user
+tag @s remove slash_unlocked
+tag @s remove spin_slash_unlocked
+tag @s remove rising_slash_unlocked
+tag @s remove parry_unlocked
+tag @s remove dash_slash_unlocked
+tag @s remove crescent_slash_unlocked
+tag @s remove wild_slashes_unlocked
+tag @s remove fire_slash_unlocked
+tag @s remove ice_slash_unlocked
+tag @s remove wind_slash_unlocked
+tag @s remove shadow_slash_unlocked
+tag @s remove thunder_blade_unlocked
+tag @s remove blade_zone_unlocked
+tag @s remove illusury_strikes_unlocked
+tag @s remove antimagic_slash_unlocked
+tag @s remove absorbing_slash_unlocked
+tag @s remove piercing_slash_unlocked
+tag @s remove reflecting_slash_unlocked
+tag @s remove antimagic_kounai_unlocked
+tag @s remove draining_crescent_slash_unlocked
+tag @s remove draining_zone_unlocked
+tag @s remove spellsword_user
+tag @s remove antimagic_user
+tag @s remove blade_grand_user
+tag @s remove omni_blade_unlocked
+tag @s remove omega_crescent_unlocked
+tag @s remove one_thousand_cuts_unlocked
+tag @s remove calamity_unlocked
+tag @s remove ultimate_skyward_strike_unlocked
+tag @s remove haunted_blades_unlocked
+tag @s remove mark_unlocked
+tag @s remove obscura
+tag @s remove construct
+tag @s remove shadowcat
+tag @s remove revenant
+tag @s remove kenku
+tag @s remove human
+tag @s remove lemon
 
+
+execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.magic_level int 1.0 run scoreboard players get @s magic_level
+scoreboard players reset @s magic_level
+execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.spiral_exhaustion int 1.0 run scoreboard players get @s spiral_exhaustion
+scoreboard players reset @s spiral_exhaustion
+execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.skill_points int 1.0 run scoreboard players get @s skill_points
+scoreboard players reset @s skill_points
+execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.max_wil int 1.0 run scoreboard players get @s max_wil
+scoreboard players reset @s max_wil
+execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.wil int 1.0 run scoreboard players get @s wil
+scoreboard players reset @s wil
+execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.knowledge int 1.0 run scoreboard players get @s knowledge
+scoreboard players reset @s knowledge
+
+execute store result score @s ItemUUID run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.fuuid
+execute store result score @s PlayerUUID run data get entity @s[nbt={SelectedItem:{tag:{}}}] UUID[0]
+
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["fire_user"]}}}] run tag @s add fire_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["fireball_unlocked"]}}}] run tag @s add fireball_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["explosion_unlocked"]}}}] run tag @s add explosion_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["landmine_unlocked"]}}}] run tag @s add landmine_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["fire_aura_unlocked"]}}}] run tag @s add fire_aura_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["grenade_unlocked"]}}}] run tag @s add grenade_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["incinerate_unlocked"]}}}] run tag @s add incinerate_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["fire_rain_unlocked"]}}}] run tag @s add fire_rain_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["lightning_bolt_unlocked"]}}}] run tag @s add lightning_bolt_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["lightning_stun_unlocked"]}}}] run tag @s add lightning_stun_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["chain_volt_unlocked"]}}}] run tag @s add chain_volt_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["ball_lightning_unlocked"]}}}] run tag @s add ball_lightning_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["magnetism_unlocked"]}}}] run tag @s add magnetism_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["conduit_unlocked"]}}}] run tag @s add conduit_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["nimbus_unlocked"]}}}] run tag @s add nimbus_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["molten_touch_unlocked"]}}}] run tag @s add molten_touch_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["lava_plume_unlocked"]}}}] run tag @s add lava_plume_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["magma_walker_unlocked"]}}}] run tag @s add magma_walker_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["magma_wave_unlocked"]}}}] run tag @s add magma_wave_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["obsidian_blast_unlocked"]}}}] run tag @s add obsidian_blast_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["lavas_grace_unlocked"]}}}] run tag @s add lavas_grace_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["overheat_unlocked"]}}}] run tag @s add overheat_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["lightning_user"]}}}] run tag @s add lightning_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["magma_user"]}}}] run tag @s add magma_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["fire_grand_user"]}}}] run tag @s add fire_grand_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["inferno_unlocked"]}}}] run tag @s add heat_wave_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["drought_unlocked"]}}}] run tag @s add drought_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["eruption_unlocked"]}}}] run tag @s add eruption_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["storm_unlocked"]}}}] run tag @s add storm_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["discharge_unlocked"]}}}] run tag @s add discharge_unlocked
+
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["water_user"]}}}] run tag @s add water_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["water_gun_unlocked"]}}}] run tag @s add water_gun_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["water_pulse_unlocked"]}}}] run tag @s add water_pulse_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wave_unlocked"]}}}] run tag @s add wave_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["water_prison_unlocked"]}}}] run tag @s add water_prison_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["water_walker_unlocked"]}}}] run tag @s add water_walker_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["aurora_beam_unlocked"]}}}] run tag @s add aurora_beam_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["conduits_grace_unlocked"]}}}] run tag @s add conduits_grace_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["cold_wind_unlocked"]}}}] run tag @s add cold_wind_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["ice_lance_unlocked"]}}}] run tag @s add ice_lance_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["ice_spike_unlocked"]}}}] run tag @s add ice_spike_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["freeze_unlocked"]}}}] run tag @s add freeze_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["frosted_rain_unlocked"]}}}] run tag @s add frosted_rain_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["frozen_shell_unlocked"]}}}] run tag @s add frozen_shell_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["ice_wall_unlocked"]}}}] run tag @s add ice_wall_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["water_heal_unlocked"]}}}] run tag @s add water_heal_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["group_heal_unlocked"]}}}] run tag @s add group_heal_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["revitalize_unlocked"]}}}] run tag @s add revitalize_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["water_regenerate_unlocked"]}}}] run tag @s add water_regenerate_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["absorbtion_unlocked"]}}}] run tag @s add absorbtion_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["healing_pool_unlocked"]}}}] run tag @s add healing_pool_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["rejuvenate_unlocked"]}}}] run tag @s add rejuvenate_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["ice_user"]}}}] run tag @s add ice_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["healing_user"]}}}] run tag @s add healing_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["water_grand_user"]}}}] run tag @s add water_grand_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["hail_storm_unlocked"]}}}] run tag @s add hail_storm_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["heavy_rain_unlocked"]}}}] run tag @s add heavy_rain_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["tsunami_unlocked"]}}}] run tag @s add tsunami_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["waters_grace_unlocked"]}}}] run tag @s add waters_grace_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["frozen_hell_unlocked"]}}}] run tag @s add frozen_hell_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["gift_of_neptune_unlocked"]}}}] run tag @s add gift_of_neptune_unlocked
+
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["earth_user"]}}}] run tag @s add earth_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["dig_unlocked"]}}}] run tag @s add dig_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["rock_throw_unlocked"]}}}] run tag @s add rock_throw_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["pillar_unlocked"]}}}] run tag @s add pillar_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["quicksand_unlocked"]}}}] run tag @s add quicksand_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["stone_spear_unlocked"]}}}] run tag @s add stone_spear_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["rock_skin_unlocked"]}}}] run tag @s add rock_skin_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["stelagmite_unlocked"]}}}] run tag @s add stelagmite_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["iron_fist_unlocked"]}}}] run tag @s add iron_fist_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["iron_skin_unlocked"]}}}] run tag @s add iron_skin_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["iron_lance_unlocked"]}}}] run tag @s add iron_lance_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["steel_blade_unlocked"]}}}] run tag @s add steel_blade_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["iron_maiden_unlocked"]}}}] run tag @s add iron_maiden_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["steel_spike_unlocked"]}}}] run tag @s add steel_spike_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["hapestus_anvil_unlocked"]}}}] run tag @s add hapestus_anvil_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["crystal_bullet_unlocked"]}}}] run tag @s add crystal_bullet_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["crystal_bloom_unlocked"]}}}] run tag @s add crystal_bloom_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["refraction_unlocked"]}}}] run tag @s add refraction_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["lattice_barrier_unlocked"]}}}] run tag @s add lattice_barrier_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["crystal_spike_unlocked"]}}}] run tag @s add crystal_spike_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["crystal_resonance_unlocked"]}}}] run tag @s add crystal_resonance_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["shatter_unlocked"]}}}] run tag @s add shatter_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["metal_user"]}}}] run tag @s add metal_spells
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["crystal_user"]}}}] run tag @s add crystal_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["earth_grand_user"]}}}] run tag @s add earth_grand_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["tera-kinesis_unlocked"]}}}] run tag @s add tera-kinesis_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["sinking_earth_unlocked"]}}}] run tag @s add sinking_earth_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["sand_storm_unlocked"]}}}] run tag @s add sand_storm_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["gaias_blessing_unlocked"]}}}] run tag @s add gaias_blessing_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["brand_storm_unlocked"]}}}] run tag @s add brand_storm_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["carpet_bloom_unlocked"]}}}] run tag @s add carpet_bloom_unlocked
+
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["air_user"]}}}] run tag @s add air_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wind_cutter_unlocked"]}}}] run tag @s add wind_cutter_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["back_draft_unlocked"]}}}] run tag @s add back_draft_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["zephyr_speed_unlocked"]}}}] run tag @s add zephyr_speed_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["up_draft_unlocked"]}}}] run tag @s add up_draft_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["air_sphere_unlocked"]}}}] run tag @s add air_sphere_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wind_wall_unlocked"]}}}] run tag @s add wind_wall_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["cyclone_unlocked"]}}}] run tag @s add cyclone_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wind_slash_unlocked"]}}}] run tag @s add wind_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["suffocation_zone_unlocked"]}}}] run tag @s add suffocation_zone_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["tornado_unlocked"]}}}] run tag @s add tornado_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["nimbus_storm_unlocked"]}}}] run tag @s add nimbus_storm_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["supreme_updraft_unlocked"]}}}] run tag @s add supreme_updraft_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["fog_of_war_unlocked"]}}}] run tag @s add fog_of_war_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["cloud_burst_unlocked"]}}}] run tag @s add cloud_burst_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["sonic_boom_unlocked"]}}}] run tag @s add sonic_boom_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["echolocation_unlocked"]}}}] run tag @s add echolocation_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["ear_rupture_unlocked"]}}}] run tag @s add ear_rupture_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["piercing_sound_unlocked"]}}}] run tag @s add piercing_sound_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["debilitate_unlocked"]}}}] run tag @s add debilitate_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["frequency_strike_unlocked"]}}}] run tag @s add frequency_strike_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["musical_number_unlocked"]}}}] run tag @s add musical_number_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["aether_user"]}}}] run tag @s add aether_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["sound_user"]}}}] run tag @s add sound_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["air_grand_user"]}}}] run tag @s add air_grand_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["typhoon_unlocked"]}}}] run tag @s add typhoon_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["hurricane_unlocked"]}}}] run tag @s add hurricane_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["sky_cutter_unlocked"]}}}] run tag @s add sky_cutter_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wil_emp_unlocked"]}}}] run tag @s add wil_emp_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["sonic_blast_unlocked"]}}}] run tag @s add sonic_blast_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["sonic_doom_unlocked"]}}}] run tag @s add sonic_doom_unlocked
+
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["nature_user"]}}}] run tag @s add nature_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["sticker_bush_unlocked"]}}}] run tag @s add sticker_bush_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["entangle_unlocked"]}}}] run tag @s add entangle_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["living_root_unlocked"]}}}] run tag @s add living_root_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["harvest_unlocked"]}}}] run tag @s add harvest_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["leech_seed_unlocked"]}}}] run tag @s add leech_seed_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["spore_unlocked"]}}}] run tag @s add spore_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["grow_tree_unlocked"]}}}] run tag @s add grow_tree_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["life_heal_unlocked"]}}}] run tag @s add life_heal_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["life_regenerate_unlocked"]}}}] run tag @s add life_regenerate_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["growth_unlocked"]}}}] run tag @s add growth_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["replicate_unlocked"]}}}] run tag @s add replicate_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["life_extension_unlocked"]}}}] run tag @s add life_extension_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["healing_wisp_unlocked"]}}}] run tag @s add healing_wisp_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["kodama_spirit_unlocked"]}}}] run tag @s add kodama_spirit_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["senses_unlocked"]}}}] run tag @s add senses_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["pounce_unlocked"]}}}] run tag @s add pounce_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["track_prey_unlocked"]}}}] run tag @s add track_prey_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wild_evasion_unlocked"]}}}] run tag @s add wild_evasion_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wild_slashes_unlocked"]}}}] run tag @s add wild_slashes_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wyld_wil_unlocked"]}}}] run tag @s add wyld_wil_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wild_aspect_unlocked"]}}}] run tag @s add wild_aspect_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["life_user"]}}}] run tag @s add life_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wild_user"]}}}] run tag @s add wild_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["nature_grand_user"]}}}] run tag @s add nature_grand_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["yggdrasil_unlocked"]}}}] run tag @s add yggdrasil_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["gift_of_gaia_unlocked"]}}}] run tag @s add gift_of_gaia_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["immortality_unlocked"]}}}] run tag @s add immortality_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["howling_moon_unlocked"]}}}] run tag @s add howling_moon_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["sundelion_unlocked"]}}}] run tag @s add sundelion_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["grand_wyld_wil_unlocked"]}}}] run tag @s add grand_wyld_wil_unlocked
+
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["darkness_user"]}}}] run tag @s add darkness_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["dark_fire_unlocked"]}}}] run tag @s add dark_fire_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["night_sight_unlocked"]}}}] run tag @s add night_sight_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["dark_hold_unlocked"]}}}] run tag @s add dark_hold_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["night_zone_unlocked"]}}}] run tag @s add night_zone_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["dark_surge_unlocked"]}}}] run tag @s add dark_surge_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["shadow_step_unlocked"]}}}] run tag @s add shadow_step_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["shadow_form_unlocked"]}}}] run tag @s add shadow_form_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["blood_shot_unlocked"]}}}] run tag @s add blood_shot_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["life_drain_unlocked"]}}}] run tag @s add life_drain_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["buff_dead_unlocked"]}}}] run tag @s add buff_dead_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["life_exchange_unlocked"]}}}] run tag @s add life_exchange_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["raise_dead_unlocked"]}}}] run tag @s add raise_dead_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["pestilence_unlocked"]}}}] run tag @s add pestilence_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["undead_explosion_unlocked"]}}}] run tag @s add undead_explosion_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["spirit_shot_unlocked"]}}}] run tag @s add spirit_shot_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wil_drain_unlocked"]}}}] run tag @s add wil_drain_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["spirit_lock_unlocked"]}}}] run tag @s add spirit_lock_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["summon_spirit_unlocked"]}}}] run tag @s add summon_spirit_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["spirit_form_unlocked"]}}}] run tag @s add spirit_form_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["spirit_anchor_unlocked"]}}}] run tag @s add spirit_anchor_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["soul_barrier_unlocked"]}}}] run tag @s add soul_barrier_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["death_user"]}}}] run tag @s add death_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["spirit_user"]}}}] run tag @s add spirit_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["darkness_grand_user"]}}}] run tag @s add darkness_grand_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["ancient_undead_dragon_unlocked"]}}}] run tag @s add ancient_undead_dragon_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["amegeddon_unlocked"]}}}] run tag @s add amegeddon_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wrath_of_shadows_unlocked"]}}}] run tag @s add wrath_of_shadows_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["black_hole_sphere_unlocked"]}}}] run tag @s add black_hole_sphere_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["soul_husk_unlocked"]}}}] run tag @s add soul_husk_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["spirit_storm_unlocked"]}}}] run tag @s add spirit_storm_unlocked
+
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["light_user"]}}}] run tag @s add light_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["light_ray_unlocked"]}}}] run tag @s add light_ray_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["flash_bang_unlocked"]}}}] run tag @s add flash_bang_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["holy_healing_unlocked"]}}}] run tag @s add holy_healing_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["solar_flare_unlocked"]}}}] run tag @s add solar_flare_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["light_arrow_unlocked"]}}}] run tag @s add light_arrow_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["light_barrier_unlocked"]}}}] run tag @s add light_barrier_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["light_judgement_unlocked"]}}}] run tag @s add light_judgement_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["cosmic_ray_unlocked"]}}}] run tag @s add cosmic_ray_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["celestial_skin_unlocked"]}}}] run tag @s add celestial_skin_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["gamma_burst_unlocked"]}}}] run tag @s add gamma_burst_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["gravity_well_unlocked"]}}}] run tag @s add gravity_well_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["meteorite_unlocked"]}}}] run tag @s add meteorite_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["constelation_atunement_unlocked"]}}}] run tag @s add constelation_atunement_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["nova_unlocked"]}}}] run tag @s add nova_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["borrow_unlocked"]}}}] run tag @s add borrow_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["time_chrono_anchor_unlocked"]}}}] run tag @s add time_chrono_anchor_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["rejuvenate_unlocked"]}}}] run tag @s add rejuvenate_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["maturate_unlocked"]}}}] run tag @s add maturate_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["time_freeze_unlocked"]}}}] run tag @s add time_freeze_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["prediction_blast_unlocked"]}}}] run tag @s add prediction_blast_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["frame_skip_unlocked"]}}}] run tag @s add frame_skip_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["celestial_user"]}}}] run tag @s add celestial_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["time_user"]}}}] run tag @s add time_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["light_grand_user"]}}}] run tag @s add light_grand_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["holy_lance_unlocked"]}}}] run tag @s add holy_lance_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["solar_beam_unlocked"]}}}] run tag @s add solar_beam_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["rain_of_light_unlocked"]}}}] run tag @s add rain_of_light_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["light_speed_unlocked"]}}}] run tag @s add light_speed_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["time_stop_unlocked"]}}}] run tag @s add time_stop_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["time_barrier_unlocked"]}}}] run tag @s add time_barrier_unlocked
+
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["space_user"]}}}] run tag @s add space_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["mark_unlocked"]}}}] run tag @s add mark_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["blink_unlocked"]}}}] run tag @s add blink_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["warp_unlocked"]}}}] run tag @s add warp_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["recal_unlocked"]}}}] run tag @s add recal_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["mass_recal_unlocked"]}}}] run tag @s add mass_recal_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["swap_unlocked"]}}}] run tag @s add swap_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["space_chrono_anchor_unlocked"]}}}] run tag @s add space_chrono_anchor_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["rift_unlocked"]}}}] run tag @s add rift_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["void_bolt_unlocked"]}}}] run tag @s add void_bolt_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["erasure_sphere_unlocked"]}}}] run tag @s add erasure_sphere_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["space_warp_unlocked"]}}}] run tag @s add space_warp_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["eradicate_unlocked"]}}}] run tag @s add eradicate_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["void_warp_unlocked"]}}}] run tag @s add void_warp_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["reality_slip_unlocked"]}}}] run tag @s add reality_slip_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["entropy_unlocked"]}}}] run tag @s add entropy_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["elastic_space_unlocked"]}}}] run tag @s add elastic_space_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["distortion_zone_unlocked"]}}}] run tag @s add distortion_zone_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["quantum_lock_unlocked"]}}}] run tag @s add quantum_lock_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["chaos_spear_unlocked"]}}}] run tag @s add chaos_spear_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["chaos_judgement_unlocked"]}}}] run tag @s add chaos_judgement_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["gravity_knuckle_unlocked"]}}}] run tag @s add gravity_knuckle_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["chaos_blast_unlocked"]}}}] run tag @s add chaos_blast_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["void_user"]}}}] run tag @s add void_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["chaos_user"]}}}] run tag @s add chaos_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["space_grand_user"]}}}] run tag @s add space_grand_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["void_ultima_unlocked"]}}}] run tag @s add void_ultima_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["end_warp_unlocked"]}}}] run tag @s add end_warp_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["nether_warp_unlocked"]}}}] run tag @s add nether_warp_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["black_hole_unlocked"]}}}] run tag @s add black_hole_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["neutron_fist_unlocked"]}}}] run tag @s add neutron_fist_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["gravity_inversion_unlocked"]}}}] run tag @s add gravity_inversion_unlocked
+
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["blade_user"]}}}] run tag @s add blade_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["slash_unlocked"]}}}] run tag @s add slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["spin_slash_unlocked"]}}}] run tag @s add spin_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["rising_slash_unlocked"]}}}] run tag @s add rising_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["parry_unlocked"]}}}] run tag @s add parry_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["dash_slash_unlocked"]}}}] run tag @s add dash_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["crescent_slash_unlocked"]}}}] run tag @s add crescent_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wild_slashes_unlocked"]}}}] run tag @s add wild_slashes_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["fire_slash_unlocked"]}}}] run tag @s add fire_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["ice_slash_unlocked"]}}}] run tag @s add ice_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["wind_slash_unlocked"]}}}] run tag @s add wind_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["shadow_slash_unlocked"]}}}] run tag @s add shadow_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["thunder_blade_unlocked"]}}}] run tag @s add thunder_blade_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["blade_zone_unlocked"]}}}] run tag @s add blade_zone_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["illusury_strikes_unlocked"]}}}] run tag @s add illusury_strikes_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["antimagic_slash_unlocked"]}}}] run tag @s add antimagic_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["absorbing_slash_unlocked"]}}}] run tag @s add absorbing_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["piercing_slash_unlocked"]}}}] run tag @s add piercing_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["reflecting_slash_unlocked"]}}}] run tag @s add reflecting_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["antimagic_kounai_unlocked"]}}}] run tag @s add antimagic_kounai_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["draining_crescent_slash_unlocked"]}}}] run tag @s add draining_crescent_slash_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["draining_zone_unlocked"]}}}] run tag @s add draining_zone_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["spellsword_user"]}}}] run tag @s add spellsword_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["antimagic_user"]}}}] run tag @s add antimagic_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["blade_grand_user"]}}}] run tag @s add blade_grand_user
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["omni_blade_unlocked"]}}}] run tag @s add omni_blade_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["omega_crescent_unlocked"]}}}] run tag @s add omega_crescent_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["one_thousand_cuts_unlocked"]}}}] run tag @s add one_thousand_cuts_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["calamity_unlocked"]}}}] run tag @s add calamity_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["ultimate_skyward_strike_unlocked"]}}}] run tag @s add ultimate_skyward_strike_unlocked
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["haunted_blades_unlocked"]}}}] run tag @s add haunted_blades_unlocked
+
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["obscura"]}}}] run tag @s add obscura
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["construct"]}}}] run tag @s add construct
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["shadowcat"]}}}] run tag @s add shadowcat
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["revenant"]}}}] run tag @s add revenant
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["kenku"]}}}] run tag @s add kenku
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["human"]}}}] run tag @s add human
+execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{DisplayName:["lemon"]}}}] run tag @s add lemon
+
+execute if score @s PlayerUUID = @s ItemUUID store result score @s magic_level run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.magic_level
+execute if score @s PlayerUUID = @s ItemUUID store result score @s spiral_exhaustion run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spiral_exhaustion
+execute if score @s PlayerUUID = @s ItemUUID store result score @s skill_points run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.skill_points
+execute if score @s PlayerUUID = @s ItemUUID store result score @s max_wil run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.max_wil
+execute if score @s PlayerUUID = @s ItemUUID store result score @s wil run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.wil
+execute if score @s PlayerUUID = @s ItemUUID store result score @s knowledge run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.knowledge
+item replace entity @s[nbt={SelectedItem:{tag:{}}}] weapon.mainhand with minecraft:air
