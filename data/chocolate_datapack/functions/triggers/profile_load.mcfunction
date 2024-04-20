@@ -312,6 +312,8 @@ execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stic
 scoreboard players reset @s vitality
 execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.willpower int 1.0 run scoreboard players get @s willpower
 scoreboard players reset @s willpower
+execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.player_cooldown int 1.0 run scoreboard players get @s player_cooldown
+scoreboard players reset @s player_cooldown
 
 execute store result score @s ItemUUID run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.fuuid
 execute store result score @s PlayerUUID run data get entity @s[nbt={SelectedItem:{tag:{}}}] UUID[0]
@@ -624,6 +626,7 @@ execute if score @s PlayerUUID = @s ItemUUID store result score @s defense run d
 execute if score @s PlayerUUID = @s ItemUUID store result score @s fortification run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.fortification
 execute if score @s PlayerUUID = @s ItemUUID store result score @s vitality run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.vitality
 execute if score @s PlayerUUID = @s ItemUUID store result score @s willpower run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.willpower
+execute if score @s PlayerUUID = @s ItemUUID store result score @s player_cooldown run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.player_cooldown
 
 execute as @s run function chocolate_datapack:detectors/initialize_empowerments
 item replace entity @s[nbt={SelectedItem:{tag:{}}}] weapon.mainhand with minecraft:air
