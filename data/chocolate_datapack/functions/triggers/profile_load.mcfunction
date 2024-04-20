@@ -709,6 +709,6 @@ execute store result score @s player_id run data get entity @s[nbt={SelectedItem
 
 
 execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick", tag:{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b},Count:1b}}
-execute at @s run data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] {} set from block 0 0 0 Items[{Slot:1b}]
+execute at @s run data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item merge from block 0 0 0 Items[{Slot:1b}]
 execute as @s run function chocolate_datapack:detectors/initialize_empowerments
 item replace entity @s[nbt={SelectedItem:{tag:{}}}] weapon.mainhand with minecraft:air
