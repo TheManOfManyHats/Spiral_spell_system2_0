@@ -6,7 +6,7 @@
 item replace block 0 0 0 container.1 with stick{Item:{id:"minecraft:stick", tag:{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b},Count:1b}}
 
 data modify block 0 0 0 Items[{Slot:1b}].tag.fuuid merge from entity @s UUID[0]
-data modify block 0 0 0 Items[{Slot:1b}].tag.Saved_Profile set from entity @s Tags
+data modify block 0 0 0 Items[{Slot:1b}].tag.Saved_Profile append from entity @s Tags
 execute store result block 0 0 0 Items[{Slot:1b}].tag.magic_level int 1 run scoreboard players get @s magic_level
 execute store result block 0 0 0 Items[{Slot:1b}].tag.level_up_threshhold int 1 run scoreboard players get @s level_up_threshhold
 execute store result block 0 0 0 Items[{Slot:1b}].tag.spiral_exhaustion int 1 run scoreboard players get @s spiral_exhaustion
@@ -419,13 +419,6 @@ execute if score @s PlayerUUID = @s ItemUUID store result score @s past_spell_5 
 execute if score @s PlayerUUID = @s ItemUUID store result score @s knowledge_factor run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.knowledge_factor
 execute if score @s PlayerUUID = @s ItemUUID store result score @s team_up_timer run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.team_up_timer
 execute if score @s PlayerUUID = @s ItemUUID store result score @s player_id run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.player_id
-execute if score @s PlayerUUID = @s ItemUUID store result score @s player_cooldown run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.player_cooldown
-execute if score @s PlayerUUID = @s ItemUUID store result score @s player_cooldown run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.player_cooldown
-execute if score @s PlayerUUID = @s ItemUUID store result score @s player_cooldown run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.player_cooldown
-execute if score @s PlayerUUID = @s ItemUUID store result score @s player_cooldown run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.player_cooldown
-execute if score @s PlayerUUID = @s ItemUUID store result score @s player_cooldown run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.player_cooldown
-execute if score @s PlayerUUID = @s ItemUUID store result score @s player_cooldown run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.player_cooldown
-execute if score @s PlayerUUID = @s ItemUUID store result score @s player_cooldown run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.player_cooldown
 
 execute as @s run function chocolate_datapack:detectors/initialize_empowerments
 item replace entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] weapon.mainhand with minecraft:air
