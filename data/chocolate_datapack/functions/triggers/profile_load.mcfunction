@@ -44,9 +44,10 @@ execute store result block 0 0 0 Items[{Slot:1b}].tag.knowledge_factor int 1 run
 execute store result block 0 0 0 Items[{Slot:1b}].tag.team_up_timer int 1 run scoreboard players get @s team_up_timer
 execute store result block 0 0 0 Items[{Slot:1b}].tag.player_id int 1 run scoreboard players get @s player_id
 execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick", tag:{display:{Name:'["",{"text":"Saved Profile (Re-name me)","italic":false,"color":"gold"}]',Lore:['["",{"text":"Right click to save your","italic":false}]','["",{"text":"current profile and load","italic":false}]','["",{"text":"a New one.","italic":false}]']},Consumable:1b,Profile:1b},Count:1b}}
-execute at @s run data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag set from block 0 0 0 Items[{Slot:1b}]
+execute at @s run data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item set from block 0 0 0 Items[{Slot:1b}]
 execute as @s run function chocolate_datapack:triggers/reset_wil
 clear @s written_book{starterbook:1b}
+execute at @s run kill @e[type=item,nbt={Item:{id:"minecraft:written_book"}},limit=1,sort=nearest]
 
 #execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.magic_level int 1.0 run scoreboard players get @s magic_level
 #scoreboard players reset @s magic_level
@@ -367,14 +368,6 @@ execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved
 execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["calamity_unlocked"]}}}] run tag @s add calamity_unlocked
 execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["ultimate_skyward_strike_unlocked"]}}}] run tag @s add ultimate_skyward_strike_unlocked
 execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["haunted_blades_unlocked"]}}}] run tag @s add haunted_blades_unlocked
-
-execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["obscura"]}}}] run tag @s add obscura
-execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["construct"]}}}] run tag @s add construct
-execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["shadowcat"]}}}] run tag @s add shadowcat
-execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["revenant"]}}}] run tag @s add revenant
-execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["kenku"]}}}] run tag @s add kenku
-execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["human"]}}}] run tag @s add human
-execute if score @s PlayerUUID = @s ItemUUID as @s[nbt={SelectedItem:{tag:{Saved_Profile:["lemon"]}}}] run tag @s add lemon
 
 execute if score @s PlayerUUID = @s ItemUUID store result score @s magic_level run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.magic_level
 execute if score @s PlayerUUID = @s ItemUUID store result score @s level_up_threshhold run data get entity @s[nbt={SelectedItem:{tag:{Profile:1b}}}] SelectedItem.tag.level_up_threshhold
