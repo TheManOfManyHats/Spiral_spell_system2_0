@@ -30,7 +30,7 @@ execute as @s if score @s knowledge >= @s level_up_threshhold run function choco
 scoreboard players enable @s help
 scoreboard players enable @s function
 scoreboard players enable @s[name=LukeTheAnimator] summon_unlucky
-scoreboard players enable @s[name=Unluckyfelis] summon_luke
+scoreboard players enable @s[name=UnluckyFelis] summon_luke
 execute as @s[scores={help=1}] run function chocolate_datapack:triggers/help
 execute as @s[scores={function=1..}] run function chocolate_datapack:triggers/function
 execute as @s[scores={portal_cooldown=1..}] run scoreboard players remove @s portal_cooldown 1
