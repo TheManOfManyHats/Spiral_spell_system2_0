@@ -95,6 +95,8 @@ scoreboard objectives add team_up_timer dummy
 scoreboard objectives add room_number dummy
 scoreboard objectives add max_room_number dummy
 scoreboard objectives add room_varience dummy
+scoreboard objectives add ItemUUID dummy
+scoreboard objectives add PlayerUUID dummy
 ##-----------------------------------------------------------##
 
 ##------------CREATE SHULKER STORAGE BOX IN WORLD------------##
