@@ -47,14 +47,6 @@ execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick", tag:{display:{N
 execute at @s run data modify entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag set from block 0 0 0 Items[{Slot:1b}]
 execute as @s run function chocolate_datapack:triggers/reset_wil
 clear @s written_book{starterbook:1b}
-tag @s remove obscura
-tag @s remove construct
-tag @s remove shadowcat
-tag @s remove revenant
-tag @s remove kenku
-tag @s remove human
-tag @s remove lemon
-tag @s remove spawned
 
 #execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.magic_level int 1.0 run scoreboard players get @s magic_level
 #scoreboard players reset @s magic_level
