@@ -9,7 +9,7 @@ tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
-tellraw @s {"text":"[Save Profile]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 30000"},"hoverEvent":{"action":"show_text","contents":"Click to store all your data into a profile item, clearing the data from you in the process"}}
+tellraw @s[team=admin] {"text":"[Save Profile]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 30000"},"hoverEvent":{"action":"show_text","contents":"Click to store all your data into a profile item, clearing the data from you in the process"}}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"[Reset Progress]","bold":true,"underlined":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger function set 56"},"hoverEvent":{"action":"show_text","contents":"Click to Reset all progress and choose a different power *THIS IS IRREVERSIBLE!*."}}
 ## ADMIN STUFF
