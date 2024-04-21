@@ -5,11 +5,11 @@ tellraw @s {"text":"[Change Caster Skin]","bold":true,"underlined":true,"color":
 tellraw @s {"text":"[View Party Members]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 53"},"hoverEvent":{"action":"show_text","contents":"Click to view all the members online that are a part of your party"}}
 tellraw @s {"text":"[Leave Party]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 54"},"hoverEvent":{"action":"show_text","contents":"Click to leave any parties you have joined"}}
 tellraw @s {"text":"[Unstuck]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 55"},"hoverEvent":{"action":"show_text","contents":"Click to be unstuck and warped safely to a global location set by the server admin"}}
+tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
+tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
+tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
+tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"[Save Profile]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 30000"},"hoverEvent":{"action":"show_text","contents":"Click to store all your data into a profile item, clearing the data from you in the process"}}
-tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
-tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
-tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
-tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"[Reset Progress]","bold":true,"underlined":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger function set 56"},"hoverEvent":{"action":"show_text","contents":"Click to Reset all progress and choose a different power *THIS IS IRREVERSIBLE!*."}}
 ## ADMIN STUFF

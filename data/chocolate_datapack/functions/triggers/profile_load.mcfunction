@@ -678,6 +678,7 @@ execute store result score @s defense run data get entity @s[nbt={SelectedItem:{
 execute store result score @s fortification run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.fortification
 execute store result score @s vitality run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.vitality
 execute store result score @s willpower run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.willpower
+execute store result score @s player_cooldown run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.player_cooldown
 execute store result score @s spell1 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell1
 execute store result score @s spell2 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell2
 execute store result score @s spell3 run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.spell3
