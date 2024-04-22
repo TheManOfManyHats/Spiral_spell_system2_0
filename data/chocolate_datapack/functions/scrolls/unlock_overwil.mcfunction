@@ -29,3 +29,6 @@ tag @s remove 2
 tag @s remove 3
 tag @s remove 4
 ##===============================================##
+
+##===================Eat Scroll==================##
+clear @s stick{overwil_unlocker:1b}
