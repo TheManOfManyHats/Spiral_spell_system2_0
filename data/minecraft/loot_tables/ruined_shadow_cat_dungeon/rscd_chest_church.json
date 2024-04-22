@@ -17,7 +17,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"text\":\"----- ----ing Ritual Ri7-3\",\"italic\":false}]',Lore:['[{\"text\":\"With the blood of -------,we\",\"italic\":false}]','[{\"text\":\"now bind the -------th this\",\"italic\":false}]','[{\"text\":\"union. May this --pease the\",\"italic\":false}]','[{\"text\":\"s--dows and stave off its ----\",\"italic\":false}]','[{\"text\":\"---luence over our lives.\",\"italic\":false}]','[{\"text\":\"I now pronounce y-- -----\",\"italic\":false}]']}}"
+              "tag": "{display:{Name:'[\"\",{\"text\":\"------ ---ing Ritual Ri--\",\"italic\":false,\"color\":\"gold\",\"bold\":true}]',Lore:['[\"\",{\"text\":\"With the --ood of -------,we\",\"italic\":false,\"color\":\"dark_red\"}]','[\"\",{\"text\":\"now bind the ----th this union.\",\"italic\":false,\"color\":\"dark_red\"}]','[\"\",{\"text\":\"--- this --pease the s---ows and\",\"italic\":false,\"color\":\"dark_red\"}]','[\"\",{\"text\":\"stave off its --------- --fluence\",\"italic\":false,\"color\":\"dark_red\"}]','[\"\",{\"text\":\"over your lives.\",\"italic\":false,\"color\":\"dark_red\"}]','[\"\",{\"text\":\"I now pronounce y-- -----.\",\"italic\":false,\"color\":\"dark_red\"}]']}}"
             }
           ]
         },
