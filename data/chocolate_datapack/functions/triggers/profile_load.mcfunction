@@ -40,6 +40,7 @@ execute store result block 0 0 0 Items[{Slot:1b}].tag.past_spell_5 int 1 run sco
 execute store result block 0 0 0 Items[{Slot:1b}].tag.knowledge_factor int 1 run scoreboard players get @s knowledge_factor
 execute store result block 0 0 0 Items[{Slot:1b}].tag.team_up_timer int 1 run scoreboard players get @s team_up_timer
 execute store result block 0 0 0 Items[{Slot:1b}].tag.player_id int 1 run scoreboard players get @s player_id
+
 tag @s remove fire_user
 tag @s remove fireball_unlocked
 tag @s remove explosion_unlocked

@@ -22,6 +22,7 @@ execute as @s[predicate=!chocolate_datapack:holding_caster_mainhand,predicate=!c
 #Executes jump detection
 execute as @s[scores={jump=1..}] run function chocolate_datapack:detectors/detect_jump
 execute as @s if score @s knowledge >= @s level_up_threshhold run function chocolate_datapack:detectors/level_up
+execute as @s[predicate=chocolate_datapack:is_sneaking,scores={overwil_cooldown=0},tag=overwil_unlocked] run function chocolate_datapack:scrolls/overwil
 ##------------------------------------------------------##
 #9
 
@@ -56,6 +57,7 @@ scoreboard players remove @s[scores={spell_cooldown=1..}] spell_cooldown 1
 #If player is in creative, remove cooldown instantly:
 scoreboard players set @s[gamemode=creative] spell_cooldown 0
 scoreboard players remove @s[scores={give_species_item=1..}] give_species_item 1
+scoreboard players remove @s[scores={overwil_cooldown=1..}] overwil_cooldown 1
 scoreboard players remove @s[scores={jammed=1..}] jammed 1
 execute as @s[scores={jammed=1},team=!admin] run gamemode survival
 execute as @s[scores={jammed=1},tag=silenced] run tag @s remove silenced
