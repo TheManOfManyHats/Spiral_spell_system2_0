@@ -31,4 +31,4 @@ tag @s remove 4
 ##===============================================##
 
 ##===================Eat Scroll==================##
-clear @s stick{overwil_unlocker:1b}
+clear @s stick{overwil_unlocker:1b} 1
