@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:10004,display:{Name:'{\"italic\": false,\"color\": \"white\",\"text\": \"Vibrant Titanium Ingot\"}'},itemsadder:{id:\"vibrant_titanium_ingot\",namespace:\"myitems\"}}"
+              "tag": "{CustomModelData:10012,display:{Name:'{\"italic\": false,\"color\": \"white\",\"text\": \"Vibrant Titanium Ingot\"}'},itemsadder:{id:\"vibrant_titanium_ingot\",namespace:\"myitems\"}}"
             },
             {
               "function": "minecraft:set_count",
