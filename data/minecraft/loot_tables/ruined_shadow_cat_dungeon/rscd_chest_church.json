@@ -17,7 +17,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[{\"text\":\"##&#&%@* ^%%$#ing Ritual Ri7%3\",\"italic\":false}]',Lore:['[{\"text\":\"With the blood of ##*#X#@@#,we\",\"italic\":false}]','[{\"text\":\"now bind the #*#^@#@##7th this\",\"italic\":false}]','[{\"text\":\"union. May this #%pease the\",\"italic\":false}]','[{\"text\":\"s##dows and stave off its ####\",\"italic\":false}]','[{\"text\":\"###luence over our lives.\",\"italic\":false}]','[{\"text\":\"I now pronounce y##``` *&^%$#\",\"italic\":false}]']}}"
+              "tag": "{display:{Name:'[{\"text\":\"----- ----ing Ritual Ri7%3\",\"italic\":false}]',Lore:['[{\"text\":\"With the blood of -------,we\",\"italic\":false}]','[{\"text\":\"now bind the -------th this\",\"italic\":false}]','[{\"text\":\"union. May this --pease the\",\"italic\":false}]','[{\"text\":\"s--dows and stave off its ----\",\"italic\":false}]','[{\"text\":\"---luence over our lives.\",\"italic\":false}]','[{\"text\":\"I now pronounce y-- -----\",\"italic\":false}]']}}"
             }
           ]
         },

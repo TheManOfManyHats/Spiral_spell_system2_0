@@ -23,3 +23,5 @@ tellraw @s[team=admin] {"text":"[Get Greater Shard of Knowledge]","bold":true,"u
 tellraw @s[team=admin] {"text":"[Level Up]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 63"},"hoverEvent":{"action":"show_text","contents":"Click to Increase level by 1"}}
 tellraw @s[team=admin] {"text":"[Create Spell Jammer]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 72"},"hoverEvent":{"action":"show_text","contents":"Click to create a Spell Jammer"}}
 tellraw @s[team=admin] {"text":"[Enable Items Adder Casting]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 64"},"hoverEvent":{"action":"show_text","contents":"Click to change the caster into one built in Items Adder"}}
+
+give @p chest{BlockEntityTag:{LootTable:"minecraft:ruined_shadow_cat_dungeon/rscd_chest_shrine"}}
