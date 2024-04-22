@@ -119,7 +119,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "DUNGEON KEY"
+              "tag": "{CustomModelData:518,display:{Name:'[{\"text\":\"Ancient Key\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like an old key.\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"This could probably be restored.\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
             },
             {
               "function": "minecraft:set_count",
