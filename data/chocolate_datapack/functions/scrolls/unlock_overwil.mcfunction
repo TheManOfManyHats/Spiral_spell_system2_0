@@ -23,6 +23,9 @@ tag @s[tag=1] add overwil_unlocked
 scoreboard players operation @s[tag=1] skill_points -= @s unlock_cost
 ##===============================================##
 
+##===================Eat Scroll==================##
+clear @s[tag=1] stick{overwil_unlocker:1b} 1
+
 ##===============REMOVE TEMP TAGS================##
 tag @s remove 1
 tag @s remove 2
@@ -30,5 +33,3 @@ tag @s remove 3
 tag @s remove 4
 ##===============================================##
 
-##===================Eat Scroll==================##
-clear @s stick{overwil_unlocker:1b} 1
