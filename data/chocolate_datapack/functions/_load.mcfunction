@@ -95,6 +95,11 @@ scoreboard objectives add team_up_timer dummy
 scoreboard objectives add room_number dummy
 scoreboard objectives add max_room_number dummy
 scoreboard objectives add room_varience dummy
+scoreboard objectives add ItemUUID dummy
+scoreboard objectives add PlayerUUID dummy
+scoreboard objectives add summon_luke trigger
+scoreboard objectives add summon_unlucky trigger
+scoreboard objectives add overwil_cooldown dummy
 ##-----------------------------------------------------------##
 
 ##------------CREATE SHULKER STORAGE BOX IN WORLD------------##
@@ -509,4 +514,8 @@ scoreboard objectives add goto_spawn trigger
 
  ##DLC SPELLS
  #- atomic_cataclysm                                    245
+
+ ##Passives
+ #- overwil_unlocked
+#give @a stick{Consumable:1b,overwil_unlocker:1b,display:{Name:'["",{"text":"Ability Scroll (Overwil)","italic":false,"color":"gold"}]',Lore:['["",{"text":"If the caster is being affected","italic":false,"color":"white"}]','["",{"text":"by a spell that has lasting","italic":false,"color":"white"}]','["",{"text":"effects, this ability can be","italic":false,"color":"white"}]','["",{"text":"used to break the caster out","italic":false,"color":"white"}]','["",{"text":"of the offending spell.","italic":false,"color":"white"}]','[""]','["",{"text":"Overwil does not need to be bound","italic":false,"color":"white"}]','["",{"text":"in order to be used. Simply crouch after this scroll is consumed and it will execute.","italic":false,"color":"white"}]','[""]','["",{"text":"Unlock Cost:","italic":false,"color":"gold"},{"text":" ","italic":false},{"text":"10 KP","italic":false,"color":"dark_red"}]']},CustomModelData:539}
 tellraw @a "Datapack Loaded..."

@@ -34,8 +34,6 @@ execute as @s if score @s knowledge >= @s level_up_threshhold run function choco
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{LargeLevelUp:1b}}}] run scoreboard players operation @s knowledge += @s level_up_threshhold
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{LargeLevelUp:1b}}}] run clear @s stick{LargeLevelUp:1b} 1
 
-
-
 execute as @s[nbt={active_effects:[{id:"minecraft:absorption",amplifier:99b}]}] run effect clear @s absorption
 execute as @s[nbt={active_effects:[{id:"minecraft:bad_omen",amplifier:99b}]}] run effect clear @s bad_omen
 execute as @s[nbt={active_effects:[{id:"minecraft:blindness",amplifier:99b}]}] run effect clear @s blindness
@@ -70,4 +68,8 @@ execute as @s[nbt={active_effects:[{id:"minecraft:water_breathing",amplifier:99b
 execute as @s[nbt={active_effects:[{id:"minecraft:weakness",amplifier:99b}]}] run effect clear @s weakness
 execute as @s[nbt={active_effects:[{id:"minecraft:wither",amplifier:99b}]}] run effect clear @s wither
 
+execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{Profile:1b}}}] run function chocolate_datapack:triggers/profile_load
 
+##=======ABILITY SCROLLS========##
+execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{overwil_unlocker:1b}}}] run function chocolate_datapack:scrolls/unlock_overwil
+##==============================##
