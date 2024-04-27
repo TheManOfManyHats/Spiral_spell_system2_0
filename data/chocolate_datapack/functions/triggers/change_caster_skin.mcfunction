@@ -20,3 +20,7 @@ tellraw @s {"text":"Valteths Caster","bold":true,"color":"dark_green","clickEven
 tellraw @s[name="wastefuldragonz"] {"text":"Partial Transformation","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10018"}}
 tellraw @s {"text":"Microphone","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10019"}}
 tellraw @s[name="DrNote"] {"text":"Staff of Chaos","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10020"}}
+tellraw @s {"text":"Butterfly Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10021"}}
+tellraw @s {"text":"Purple_tea Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10022"}}
+tellraw @s {"text":"Bellflower Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10023"}}
+tellraw @s {"text":"Ghostlotle Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10024"}}

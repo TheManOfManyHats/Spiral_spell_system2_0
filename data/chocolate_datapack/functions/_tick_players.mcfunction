@@ -73,5 +73,5 @@ execute at @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{eighties_sc
 execute as @s[tag=spells_disabled] if entity @e[type=item_display,tag=player_id_giver,tag=!spells_disabled] run tag @s remove spells_disabled
 execute as @s[tag=!spells_disabled] if entity @e[type=item_display,tag=player_id_giver,tag=spells_disabled] run tag @s add spells_disabled
 ##------------------------------------------------------##
-execute as @s[scores={magic_level=100..}] run scoreboard players set @s spiral_exhaustion 1000
+execute as @s[scores={magic_level=120..}] run scoreboard players set @s spiral_exhaustion 1000
 #28
