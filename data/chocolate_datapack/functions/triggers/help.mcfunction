@@ -10,9 +10,10 @@ tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
+tellraw @s {"text":"[Save Profile]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 30000"},"hoverEvent":{"action":"show_text","contents":"Click to store all your data into a profile item, clearing the data from you in the process"}}
 tellraw @s {"text":"[Reset Progress]","bold":true,"underlined":true,"color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger function set 56"},"hoverEvent":{"action":"show_text","contents":"Click to Reset all progress and choose a different power *THIS IS IRREVERSIBLE!*."}}
 ## ADMIN STUFF
-tellraw @s[team=admin] {"text":"[Save Profile]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 30000"},"hoverEvent":{"action":"show_text","contents":"Click to store all your data into a profile item, clearing the data from you in the process"}}
+
 tellraw @s[team=admin] {"text":"VVVV---------ADMIN FUNCTIONS---------VVVV","bold":true,"underlined":true,"color":"light_purple"}
 tellraw @s[team=admin] {"text":"[Set Unstuck Location]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 57"},"hoverEvent":{"action":"show_text","contents":"Click to set the unstuck location to your current location"}}
 tellraw @s[team=admin] {"text":"[Undo All Parties]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 58"},"hoverEvent":{"action":"show_text","contents":"Click to disband all parties"}}
@@ -20,6 +21,7 @@ tellraw @s[team=admin] {"text":"[Disable All Spell Casting Toggle]","bold":true,
 tellraw @s[team=admin] {"text":"[Get Lesser Shard of Knowledge]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 60"},"hoverEvent":{"action":"show_text","contents":"Click to get Lesser Shard of Knowledge"}}
 tellraw @s[team=admin] {"text":"[Get Average Shard of Knowledge]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 61"},"hoverEvent":{"action":"show_text","contents":"Click to get Average Shard of Knowledge"}}
 tellraw @s[team=admin] {"text":"[Get Greater Shard of Knowledge]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 62"},"hoverEvent":{"action":"show_text","contents":"Click to get Greater Shard of Knowledge"}}
+tellraw @s[team=admin] {"text":"[Return Crystal]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 73"},"hoverEvent":{"action":"show_text","contents":"Click to get Return Crystal"}}
 tellraw @s[team=admin] {"text":"[Level Up]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 63"},"hoverEvent":{"action":"show_text","contents":"Click to Increase level by 1"}}
 tellraw @s[team=admin] {"text":"[Create Spell Jammer]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 72"},"hoverEvent":{"action":"show_text","contents":"Click to create a Spell Jammer"}}
 tellraw @s[team=admin] {"text":"[Enable Items Adder Casting]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 64"},"hoverEvent":{"action":"show_text","contents":"Click to change the caster into one built in Items Adder"}}
