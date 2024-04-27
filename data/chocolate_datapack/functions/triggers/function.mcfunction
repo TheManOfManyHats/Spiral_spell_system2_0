@@ -115,7 +115,7 @@ execute as @s[scores={function=72}] run function chocolate_datapack:triggers/cre
 ##=========================GET RETURN CRYSTAL============================##
 
 ##=======================================================================##
-execute as @s[scores={function=73}] run give @s stick{itemsadder: {id: "return_crystal", namespace: "myitems"},Unbreakable:1,CustomModelData:545,Enchantments:[{}],display:{Name:'[{"text":"Return Crystal","italic":false,"color":"light_purple"}]',Lore:['[{"text":"A strange crystal shard","italic":false,"color":"gold"}]','[{"text":"which when used will teleport","italic":false,"color":"gold"}]','[{"text":"you out of a dungeon!","italic":false,"color":"gold"}]']},HideFlags:100} 1
+execute as @s[scores={function=73}] run give @s stick{Consumable:1b,return_crystal:1b,itemsadder: {id: "return_crystal", namespace: "myitems"},Unbreakable:1,CustomModelData:545,Enchantments:[{}],display:{Name:'[{"text":"Return Crystal","italic":false,"color":"light_purple"}]',Lore:['[{"text":"A strange crystal shard","italic":false,"color":"gold"}]','[{"text":"which when used will teleport","italic":false,"color":"gold"}]','[{"text":"you out of a dungeon!","italic":false,"color":"gold"}]']},HideFlags:100} 1
 ##=======================================================================##
 
 ##====================================FIRE SPELLS=====================================## 101 - 130

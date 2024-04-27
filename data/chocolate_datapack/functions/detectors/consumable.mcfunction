@@ -69,6 +69,7 @@ execute as @s[nbt={active_effects:[{id:"minecraft:weakness",amplifier:99b}]}] ru
 execute as @s[nbt={active_effects:[{id:"minecraft:wither",amplifier:99b}]}] run effect clear @s wither
 
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{Profile:1b}}}] run function chocolate_datapack:triggers/profile_load
+execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{return_crystal:1b}}}] run clear @s stick{return_crystal:1b} 1
 
 ##=======ABILITY SCROLLS========##
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{overwil_unlocker:1b}}}] run function chocolate_datapack:scrolls/unlock_overwil
