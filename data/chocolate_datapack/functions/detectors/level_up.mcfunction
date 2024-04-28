@@ -1,10 +1,18 @@
 scoreboard players operation @s knowledge -= @s level_up_threshhold
 scoreboard players add @s skill_points 2
-scoreboard players add @s level_up_threshhold 10
+
+scoreboard players set @s scoreboard_operation_holder1 10
+scoreboard players operation @s scoreboard_operation_holder2 = @s magic_level
+scoreboard players operation @s scoreboard_operation_holder2 *= @s scoreboard_operation_hoolder1
+
+scoreboard players operation @s level_up_threshhold = @s scoreboard_operation_holder2
 scoreboard players add @s magic_level 1
 scoreboard players operation @s scoreboard_operation_holder1 = @s magic_level
 scoreboard players operation @s scoreboard_operation_holder1 *= @s willpower
 scoreboard players operation @s scoreboard_operation_holder1 += @s level_up_threshhold
+
+
+
 
 scoreboard players operation @s max_wil += @s scoreboard_operation_holder1
 scoreboard players operation @s scoreboard_operation_holder2 = @s magic_level
