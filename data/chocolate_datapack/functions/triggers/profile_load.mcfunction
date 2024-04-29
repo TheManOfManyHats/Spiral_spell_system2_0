@@ -334,6 +334,7 @@ tag @s remove haunted_blades_unlocked
 tag @s remove team_up_unlocked
 tag @s remove mark_unlocked
 tag @s remove starter_tree_chosen
+tag @s remove overwil_unlocked
 tag @s remove 1
 tag @s remove 2
 tag @s remove 3
@@ -665,6 +666,8 @@ execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["one_thousand_cuts_unlocke
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["calamity_unlocked"]]}}}] run tag @s add calamity_unlocked
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["ultimate_skyward_strike_unlocked"]]}}}] run tag @s add ultimate_skyward_strike_unlocked
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["haunted_blades_unlocked"]]}}}] run tag @s add haunted_blades_unlocked
+
+execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["overwil_unlocked"]]}}}] run tag @s add overwil_unlocked
 
 execute as @s[tag=fire_user] run function chocolate_datapack:books/fire/get_fire_book
 execute as @s[tag=lightning_user] run function chocolate_datapack:books/fire/get_lightning_book
