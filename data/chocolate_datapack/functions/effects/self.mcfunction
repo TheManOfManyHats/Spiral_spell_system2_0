@@ -78,4 +78,7 @@ execute at @s[tag=wild_evasion] run function chocolate_datapack:spells/nature/wi
 
 #WILD_SLASHES #4
 execute at @s[tag=wild_wild_slashes] run function chocolate_datapack:spells/nature/wild/wild_slashes_effect
+
+execute at @s[tag=aerobatics] run function chocolate_datapack:spells/staff_spells/acrobat/aerobatics_effect
+
 ##----------------------------------------------------------------------------##
