@@ -1,4 +1,0 @@
-execute at @s run particle squid_ink ~ ~1 ~ .1 .1 .1 .1 20 force
-execute at @s run particle sculk_soul ~ ~1 ~ .3 .5 .3 0 10 force
-execute at @s run playsound entity.vex.ambient ambient @a ~ ~ ~ .5 2
-give @s wooden_sword{Unbreakable:1,weapon_switchable:1b,eighties_scythe:2b,CustomModelData:1,display:{Name:'[{"text":"Eighties\'s Cane","italic":false,"color":"gold"}]',Lore:['[{"text":"A simple wooden cane stained and","italic":false}]','[{"text":"polished with black lacquer.","italic":false}]','[{"text":"Holding it, it seems heavier than","italic":false}]','[{"text":"it looks for some reason...","italic":false}]']},HideFlags:124} 1

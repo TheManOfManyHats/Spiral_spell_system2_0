@@ -1,3 +1,0 @@
-execute as @s[tag=lv1] at @s as @e[type=#chocolate_datapack:non_activating,tag=!reflecting_slash,distance=..4] at @s run tp @s ~ ~ ~ ~180 ~
-execute as @s[tag=lv2] at @s as @e[type=#chocolate_datapack:non_activating,tag=!reflecting_slash,distance=..4] at @s run tp @s ~ ~ ~ ~180 ~
-execute as @s[tag=lv3] at @s as @e[type=#chocolate_datapack:non_activating,tag=!reflecting_slash,distance=..4] at @s run tp @s ~ ~ ~ ~180 ~

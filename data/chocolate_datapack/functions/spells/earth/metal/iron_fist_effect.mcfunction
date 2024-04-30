@@ -1,4 +1,0 @@
-execute at @s[tag=lv1] positioned ~ ~ ~ as @e[distance=..5,type=!#chocolate_datapack:non_activating] unless score @s player_id = @e[tag=iron_fist,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=iron_fist,limit=1,sort=nearest] team_id run damage @s 4 generic
-execute at @s[tag=lv2] positioned ~ ~ ~ as @e[distance=..5,type=!#chocolate_datapack:non_activating] unless score @s player_id = @e[tag=iron_fist,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=iron_fist,limit=1,sort=nearest] team_id run damage @s 8 generic
-execute at @s[tag=lv3] positioned ~ ~ ~ as @e[distance=..5,type=!#chocolate_datapack:non_activating] unless score @s player_id = @e[tag=iron_fist,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=iron_fist,limit=1,sort=nearest] team_id run damage @s 12 generic
-#execute at @s[] run playsound block.anvil.place ambient @a ~ ~ ~ 1 1
