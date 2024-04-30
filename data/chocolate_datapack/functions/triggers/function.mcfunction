@@ -112,10 +112,6 @@ execute as @s[scores={function=71}] run function chocolate_datapack:spells/funct
 
 ##===========================CREATE SPELL JAMMER=========================##
 execute as @s[scores={function=72}] run function chocolate_datapack:triggers/create_spelljammer
-##=========================GET RETURN CRYSTAL============================##
-
-##=======================================================================##
-execute as @s[scores={function=73}] run give @s stick{Consumable:1b,return_crystal:1b,itemsadder: {id: "return_crystal", namespace: "myitems"},Unbreakable:1,CustomModelData:545,Enchantments:[{}],display:{Name:'[{"text":"Return Crystal","italic":false,"color":"light_purple"}]',Lore:['[{"text":"A strange crystal shard","italic":false,"color":"gold"}]','[{"text":"which when used will teleport","italic":false,"color":"gold"}]','[{"text":"you out of a dungeon!","italic":false,"color":"gold"}]']},HideFlags:100} 1
 ##=======================================================================##
 
 ##====================================FIRE SPELLS=====================================## 101 - 130
@@ -708,6 +704,9 @@ execute as @s[scores={function=1243},tag=haunted_blades_unlocked] run scoreboard
 execute as @s[scores={function=1244}] run scoreboard players set @s spell1 244
 execute as @s[scores={function=1245}] run scoreboard players set @s spell1 245
 execute as @s[scores={function=1246},tag=nova_spirit_form_unlocked] run scoreboard players set @s spell1 246
+execute as @s[scores={function=1247},tag=aerobatics_unlocked] run scoreboard players set @s spell1 247
+execute as @s[scores={function=1248},tag=bullet_stroke_unlocked] run scoreboard players set @s spell1 248
+execute as @s[scores={function=1249},tag=freerun_unlocked] run scoreboard players set @s spell1 249
 
 ##==============================SET SPELLS ON RIGHT CLICK===========================##
 execute as @s[scores={function=2000}] run scoreboard players set @s spell2 0
@@ -957,6 +956,10 @@ execute as @s[scores={function=2243},tag=haunted_blades_unlocked] run scoreboard
 execute as @s[scores={function=2244}] run scoreboard players set @s spell2 244
 execute as @s[scores={function=2245}] run scoreboard players set @s spell2 245
 execute as @s[scores={function=2246},tag=nova_spirit_form_unlocked] run scoreboard players set @s spell2 246
+execute as @s[scores={function=2247},tag=aerobatics_unlocked] run scoreboard players set @s spell2 247
+execute as @s[scores={function=2248},tag=bullet_stroke_unlocked] run scoreboard players set @s spell2 248
+execute as @s[scores={function=2249},tag=freerun_unlocked] run scoreboard players set @s spell2 249
+
 
 ##==============================SET SPELLS ON SHIFT LEFT CLICK===========================##
 execute as @s[scores={function=3000}] run scoreboard players set @s spell3 0
@@ -1206,6 +1209,9 @@ execute as @s[scores={function=3243},tag=haunted_blades_unlocked] run scoreboard
 execute as @s[scores={function=3244}] run scoreboard players set @s spell3 244
 execute as @s[scores={function=3245}] run scoreboard players set @s spell3 245
 execute as @s[scores={function=3246},tag=nova_spirit_form_unlocked] run scoreboard players set @s spell3 246
+execute as @s[scores={function=3247},tag=aerobatics_unlocked] run scoreboard players set @s spell3 247
+execute as @s[scores={function=3248},tag=bullet_stroke_unlocked] run scoreboard players set @s spell3 248
+execute as @s[scores={function=3249},tag=freerun_unlocked] run scoreboard players set @s spell3 249
 
 ##==============================SET SPELLS ON SHIFT RIGHT CLICK===========================##
 execute as @s[scores={function=4000}] run scoreboard players set @s spell4 0
@@ -1455,6 +1461,9 @@ execute as @s[scores={function=4243},tag=haunted_blades_unlocked] run scoreboard
 execute as @s[scores={function=4244}] run scoreboard players set @s spell4 244
 execute as @s[scores={function=4245}] run scoreboard players set @s spell4 245
 execute as @s[scores={function=4246},tag=nova_spirit_form_unlocked] run scoreboard players set @s spell4 246
+execute as @s[scores={function=4247},tag=aerobatics_unlocked] run scoreboard players set @s spell4 247
+execute as @s[scores={function=4248},tag=bullet_stroke_unlocked] run scoreboard players set @s spell4 248
+execute as @s[scores={function=4249},tag=freerun_unlocked] run scoreboard players set @s spell4 249
 
 ##==============================SET SPELLS ON SHICF JUMP===========================##
 execute as @s[scores={function=5000}] run scoreboard players set @s spell5 0
@@ -1704,6 +1713,9 @@ execute as @s[scores={function=5243},tag=haunted_blades_unlocked] run scoreboard
 execute as @s[scores={function=5244}] run scoreboard players set @s spell5 244
 execute as @s[scores={function=5245}] run scoreboard players set @s spell5 245
 execute as @s[scores={function=5246},tag=nova_spirit_form_unlocked] run scoreboard players set @s spell5 246
+execute as @s[scores={function=5247},tag=aerobatics_unlocked] run scoreboard players set @s spell5 247
+execute as @s[scores={function=5248},tag=bullet_stroke_unlocked] run scoreboard players set @s spell5 248
+execute as @s[scores={function=5249},tag=freerun_unlocked] run scoreboard players set @s spell5 249
 
 execute as @s[scores={function=1000..1999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Left Click!\n===========================================","bold":true,"color":"dark_green"}]
 execute as @s[scores={function=2000..2999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Right Click!\n===========================================","bold":true,"color":"dark_green"}]
@@ -1785,5 +1797,7 @@ execute as @s[scores={function=20003}] run function chocolate_datapack:spells/sp
 execute as @s[scores={function=20004}] run function chocolate_datapack:spells/darkness/spirit/summon_spirit
 execute as @s[scores={function=20005}] run function chocolate_datapack:spells/darkness/spirit/wil_drain
 
+
 scoreboard players set @s function 0
+
 

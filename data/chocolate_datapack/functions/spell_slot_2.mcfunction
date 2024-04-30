@@ -6,7 +6,7 @@ execute if score @s[scores={magic_level=15..}] spell2 = @s past_spell_2 run scor
 execute if score @s[scores={magic_level=15..}] spell2 = @s past_spell_3 run scoreboard players remove @s knowledge_factor 1
 execute if score @s[scores={magic_level=15..}] spell2 = @s past_spell_4 run scoreboard players remove @s knowledge_factor 1
 execute if score @s[scores={magic_level=15..}] spell2 = @s past_spell_5 run scoreboard players remove @s knowledge_factor 1
-execute as @s[scores={magic_level=100..}] run scoreboard players set @s knowledge_factor 0
+execute as @s[scores={magic_level=75..}] run scoreboard players set @s knowledge_factor 0
 scoreboard players operation @s past_spell_5 = @s past_spell_4
 scoreboard players operation @s past_spell_4 = @s past_spell_3
 scoreboard players operation @s past_spell_3 = @s past_spell_2
@@ -304,7 +304,16 @@ execute as @s[scores={spell2=243,spell_cooldown=0,jammed=0},tag=haunted_blades_u
 
 ##=========================SPELL EXPANSION===========================##
 execute as @s[scores={spell2=246,spell_cooldown=0,jammed=0},tag=nova_spirit_form_unlocked] run function chocolate_datapack:spells/darkness/spirit/nova_spirit_form
+execute as @s[scores={spell2=247,spell_cooldown=0,jammed=0},tag=aerobatics_unlocked] run function chocolate_datapack:spells/staff_spells/acrobat/aerobatics
+execute as @s[scores={spell2=248,spell_cooldown=0,jammed=0},tag=bullet_stroke_unlocked] run function chocolate_datapack:spells/staff_spells/acrobat/bullet_stroke
+execute as @s[scores={spell2=249,spell_cooldown=0,jammed=0},tag=freerun_unlocked] run function chocolate_datapack:spells/staff_spells/acrobat/freerun
 ##===================================================================##
+
+# Kills Interaction Cube:
+execute at @s positioned ~ ~1.5 ~ run kill @e[type=interaction,distance=..1,sort=nearest,limit=1]
+
+# Notifies if nothing is equipped to the spell slot
+tellraw @s[scores={spell2=0}] "You do not have an ability bound to [Right Click]"
 
 # Kills Interaction Cube:
 execute at @s positioned ~ ~1.5 ~ run kill @e[type=interaction,distance=..1,sort=nearest,limit=1]
