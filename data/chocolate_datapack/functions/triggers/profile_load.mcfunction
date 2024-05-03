@@ -346,39 +346,6 @@ attribute @s generic.knockback_resistance base set 0
 scoreboard players set @s willpower 0
 scoreboard players set @s reset_wil 0
 
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.magic_level int 1.0 run scoreboard players get @s magic_level
-#scoreboard players reset @s magic_level
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.level_up_threshhold int 1.0 run scoreboard players get @s level_up_threshhold
-#scoreboard players reset @s level_up_threshhold
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.spiral_exhaustion int 1.0 run scoreboard players get @s spiral_exhaustion
-#scoreboard players reset @s spiral_exhaustion
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.skill_points int 1.0 run scoreboard players get @s skill_points
-#scoreboard players reset @s skill_points
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.max_wil int 1.0 run scoreboard players get @s max_wil
-#scoreboard players reset @s max_wil
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.wil int 1.0 run scoreboard players get @s wil
-#scoreboard players reset @s wil
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.knowledge int 1.0 run scoreboard players get @s knowledge
-#scoreboard players reset @s knowledge
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.strength int 1.0 run scoreboard players get @s strength
-#scoreboard players reset @s strength
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.speed int 1.0 run scoreboard players get @s speed
-#scoreboard players reset @s speed
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.defense int 1.0 run scoreboard players get @s defense
-#scoreboard players reset @s defense
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.fortification int 1.0 run scoreboard players get @s fortification
-#scoreboard players reset @s fortification
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.vitality int 1.0 run scoreboard players get @s vitality
-#scoreboard players reset @s vitality
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.willpower int 1.0 run scoreboard players get @s willpower
-#scoreboard players reset @s willpower
-#execute store result entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick"}},limit=1,sort=nearest] Item.tag.player_cooldown int 1.0 run scoreboard players get @s player_cooldown
-#scoreboard players reset @s player_cooldown
-#
-#execute store result score @s ItemUUID run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.fuuid
-#execute store result score @s PlayerUUID run data get entity @s[nbt={SelectedItem:{tag:{}}}] UUID[0]
-
-
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["fire_user"]]}}}] run tag @s add fire_user
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["fireball_unlocked"]]}}}] run tag @s add fireball_unlocked
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["explosion_unlocked"]]}}}] run tag @s add explosion_unlocked
@@ -464,7 +431,7 @@ execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["lattice_barrier_unlocked"
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["crystal_spike_unlocked"]]}}}] run tag @s add crystal_spike_unlocked
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["crystal_resonance_unlocked"]]}}}] run tag @s add crystal_resonance_unlocked
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["shatter_unlocked"]]}}}] run tag @s add shatter_unlocked
-execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["metal_user"]]}}}] run tag @s add metal_spells
+execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["metal_user"]]}}}] run tag @s add metal_user
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["crystal_user"]]}}}] run tag @s add crystal_user
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["earth_grand_user"]]}}}] run tag @s add earth_grand_user
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["tera-kinesis_unlocked"]]}}}] run tag @s add tera-kinesis_unlocked
@@ -669,59 +636,7 @@ execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["haunted_blades_unlocked"]
 
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["overwil_unlocked"]]}}}] run tag @s add overwil_unlocked
 
-execute as @s[tag=fire_user] run function chocolate_datapack:books/fire/get_fire_book
-execute as @s[tag=lightning_user] run function chocolate_datapack:books/fire/get_lightning_book
-execute as @s[tag=magma_user] run function chocolate_datapack:books/fire/get_magma_book
-execute as @s[tag=lightning_grand_user] run function chocolate_datapack:books/fire/get_fire_grand_book
-execute as @s[tag=magma_grand_user] run function chocolate_datapack:books/fire/get_fire_grand_book
-
-execute as @s[tag=water_user] run function chocolate_datapack:books/water/get_water_book
-execute as @s[tag=ice_user] run function chocolate_datapack:books/water/get_ice_book
-execute as @s[tag=healing_user] run function chocolate_datapack:books/water/get_healing_book
-execute as @s[tag=healing_grand_user] run function chocolate_datapack:books/water/get_water_grand_book
-execute as @s[tag=ice_grand_user] run function chocolate_datapack:books/water/get_water_grand_book
-
-execute as @s[tag=earth_user] run function chocolate_datapack:books/earth/get_earth_book
-execute as @s[tag=metal_user] run function chocolate_datapack:books/earth/get_metal_book
-execute as @s[tag=crystal_user] run function chocolate_datapack:books/earth/get_crystal_book
-execute as @s[tag=metal_grand_user] run function chocolate_datapack:books/earth/get_earth_grand_book
-execute as @s[tag=crystal_grand_user] run function chocolate_datapack:books/earth/get_earth_grand_book
-
-execute as @s[tag=air_user] run function chocolate_datapack:books/air/get_air_book
-execute as @s[tag=aether_user] run function chocolate_datapack:books/air/get_aether_book
-execute as @s[tag=sound_user] run function chocolate_datapack:books/air/get_sound_book
-execute as @s[tag=aether_grand_user] run function chocolate_datapack:books/air/get_air_grand_book
-execute as @s[tag=sound_grand_user] run function chocolate_datapack:books/air/get_air_grand_book
-
-execute as @s[tag=nature_user] run function chocolate_datapack:books/nature/get_nature_book
-execute as @s[tag=life_user] run function chocolate_datapack:books/nature/get_life_book
-execute as @s[tag=wild_user] run function chocolate_datapack:books/nature/get_wild_book
-execute as @s[tag=life_grand_user] run function chocolate_datapack:books/nature/get_nature_grand_book
-execute as @s[tag=wild_grand_user] run function chocolate_datapack:books/nature/get_nature_grand_book
-
-execute as @s[tag=darkness_user] run function chocolate_datapack:books/darkness/get_darkness_book
-execute as @s[tag=death_user] run function chocolate_datapack:books/darkness/get_death_book
-execute as @s[tag=spirit_user] run function chocolate_datapack:books/darkness/get_spirit_book
-execute as @s[tag=death_grand_user] run function chocolate_datapack:books/darkness/get_darkness_grand_book
-execute as @s[tag=spirit_grand_user] run function chocolate_datapack:books/darkness/get_darkness_grand_book
-
-execute as @s[tag=light_user] run function chocolate_datapack:books/light/get_light_book
-execute as @s[tag=celestial_user] run function chocolate_datapack:books/light/get_celestial_book
-execute as @s[tag=time_user] run function chocolate_datapack:books/light/get_time_book
-execute as @s[tag=celestial_grand_user] run function chocolate_datapack:books/light/get_light_grand_book
-execute as @s[tag=time_grand_user] run function chocolate_datapack:books/light/get_light_grand_book
-
-execute as @s[tag=space_user] run function chocolate_datapack:books/space/get_space_book
-execute as @s[tag=void_user] run function chocolate_datapack:books/space/get_void_book
-execute as @s[tag=chaos_user] run function chocolate_datapack:books/space/get_chaos_book
-execute as @s[tag=void_grand_user] run function chocolate_datapack:books/space/get_space_grand_book
-execute as @s[tag=chaos_grand_user] run function chocolate_datapack:books/space/get_space_grand_book
-
-execute as @s[tag=blade_user] run function chocolate_datapack:books/blade/get_blade_book
-execute as @s[tag=spellsword_user] run function chocolate_datapack:books/blade/get_spellsword_book
-execute as @s[tag=antimagic_user] run function chocolate_datapack:books/blade/get_antimagic_book
-execute as @s[tag=spellsword_grand_user] run function chocolate_datapack:books/blade/get_blade_grand_book
-execute as @s[tag=antimagic_grand_user] run function chocolate_datapack:books/blade/get_blade_grand_book
+execute as @s run function chocolate_datapack:triggers/get_book
 
 execute store result score @s magic_level run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.magic_level
 execute store result score @s level_up_threshhold run data get entity @s[nbt={SelectedItem:{tag:{}}}] SelectedItem.tag.level_up_threshhold

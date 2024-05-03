@@ -23,4 +23,5 @@ tellraw @s[name="DrNote"] {"text":"Staff of Chaos","bold":true,"color":"dark_gre
 tellraw @s {"text":"Butterfly Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10021"}}
 tellraw @s {"text":"Purple_tea Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10022"}}
 tellraw @s {"text":"Bellflower Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10023"}}
-tellraw @s {"text":"Ghostlotle Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10024"}}
+tellraw @s {"text":"Ghostlotl Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10024"}}
+tellraw @s {"text":"Staff of Annihilation","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10025"}}
