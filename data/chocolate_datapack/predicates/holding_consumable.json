@@ -5,9 +5,6 @@
       "type": "minecraft:player",
       "equipment": {
         "mainhand": {
-          "items": [
-            "minecraft:stick"
-          ],
           "nbt": "{Consumable:1b}"
         }
       }
