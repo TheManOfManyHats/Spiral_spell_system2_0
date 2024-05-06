@@ -74,3 +74,7 @@ execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{return_crystal:1b}}}]
 ##=======ABILITY SCROLLS========##
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{overwil_unlocker:1b}}}] run function chocolate_datapack:scrolls/unlock_overwil
 ##==============================##
+
+##========SPIRIT ANCHOR=========##
+execute as @s[nbt={SelectedItem:{tag:{Spirit_Anchor:1b}}}] run function chocolate_datapack:spells/darkness/spirit/spirit_anchor_consume
+##==============================##
