@@ -100,6 +100,7 @@ scoreboard objectives add PlayerUUID dummy
 scoreboard objectives add summon_luke trigger
 scoreboard objectives add summon_unlucky trigger
 scoreboard objectives add overwil_cooldown dummy
+scoreboard objectives add custom_model_number dummy
 ##-----------------------------------------------------------##
 
 ##------------CREATE SHULKER STORAGE BOX IN WORLD------------##

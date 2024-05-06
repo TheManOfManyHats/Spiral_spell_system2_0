@@ -114,6 +114,20 @@ execute as @s[scores={function=71}] run function chocolate_datapack:spells/funct
 execute as @s[scores={function=72}] run function chocolate_datapack:triggers/create_spelljammer
 ##=======================================================================##
 
+##=========================CHANGE CUSTOM MODEL DATA======================##
+execute as @s[scores={function=74}] run function chocolate_datapack:triggers/model_data_changer/init
+execute as @s[scores={function=75}] run function chocolate_datapack:triggers/model_data_changer/sub_100
+execute as @s[scores={function=76}] run function chocolate_datapack:triggers/model_data_changer/sub_10
+execute as @s[scores={function=77}] run function chocolate_datapack:triggers/model_data_changer/sub_5
+execute as @s[scores={function=78}] run function chocolate_datapack:triggers/model_data_changer/sub_1
+execute as @s[scores={function=79}] run function chocolate_datapack:triggers/model_data_changer/clear
+execute as @s[scores={function=80}] run function chocolate_datapack:triggers/model_data_changer/plus_1
+execute as @s[scores={function=81}] run function chocolate_datapack:triggers/model_data_changer/plus_5
+execute as @s[scores={function=82}] run function chocolate_datapack:triggers/model_data_changer/plus_10
+execute as @s[scores={function=83}] run function chocolate_datapack:triggers/model_data_changer/plus_100
+##=======================================================================##
+
+
 ##====================================FIRE SPELLS=====================================## 101 - 130
 #Standard
 execute as @s[scores={function=101}] run function chocolate_datapack:spells/fire/unlocks/unlock_fireball
