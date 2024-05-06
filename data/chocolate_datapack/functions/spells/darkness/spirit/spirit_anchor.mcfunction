@@ -20,6 +20,8 @@ execute as @s[tag=imbuing,tag=1] run execute store result storage chocolate_data
 execute as @s[tag=imbuing,tag=1] run execute store result storage chocolate_datapack:functions/spells/darkness/spirit/spell_power Lv int 1 run scoreboard players get @s spell_power
 execute as @s[tag=imbuing,tag=1] run data modify block 0 0 0 Items[{Slot:0b}].tag merge from storage chocolate_datapack:functions/spells/darkness/spirit/imbue_soul
 execute as @s[tag=imbuing,tag=1] run data modify block 0 0 0 Items[{Slot:0b}].tag merge from storage chocolate_datapack:functions/spells/darkness/spirit/spell_power
+execute as @s[tag=imbuing,tag=1] run data modify block 0 0 0 Items[{Slot:0b}].tag.Consumable set value 1b
+execute as @s[tag=imbuing,tag=1] run data modify block 0 0 0 Items[{Slot:0b}].tag.Spirit_Anchor set value 1b
 execute as @s[tag=imbuing,tag=1] run item replace entity @s weapon.offhand from block 0 0 0 container.0
 
 #Dramatic flare
