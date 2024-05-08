@@ -1,5 +1,5 @@
 ##=============SKILL POINT REQUIREMENT===========##
-scoreboard players set @s unlock_cost 15
+scoreboard players set @s unlock_cost 20
 ##===============================================##
 
 ##===================CHECKS======================##
