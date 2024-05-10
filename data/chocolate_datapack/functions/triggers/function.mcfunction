@@ -721,16 +721,16 @@ execute as @s[scores={function=1246},tag=nova_spirit_form_unlocked] run scoreboa
 execute as @s[scores={function=1247},tag=aerobatics_unlocked] run scoreboard players set @s spell1 247
 execute as @s[scores={function=1248},tag=bullet_stroke_unlocked] run scoreboard players set @s spell1 248
 execute as @s[scores={function=1249},tag=freerun_unlocked] run scoreboard players set @s spell1 249
-execute as @s[scores={function=1249},tag=luke_spell_free_hand_unlocked] run scoreboard players set @s spell1 250
-execute as @s[scores={function=1249},tag=luke_spell_summon_boat_unlocked] run scoreboard players set @s spell1 251
-execute as @s[scores={function=1249},tag=luke_spell_skelton_horse_unlocked] run scoreboard players set @s spell1 252
-execute as @s[scores={function=1249},tag=luke_spell_transmutiation_unlocked] run scoreboard players set @s spell1 253
-execute as @s[scores={function=1249},tag=luke_spell_summon_golem_unlocked] run scoreboard players set @s spell1 254
-execute as @s[scores={function=1249},tag=luke_spell_gale_wings_unlocked] run scoreboard players set @s spell1 255
-execute as @s[scores={function=1249},tag=luke_spell_bastion_pauldrons_unlocked] run scoreboard players set @s spell1 256
-execute as @s[scores={function=1249},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell1 257
-execute as @s[scores={function=1249},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell1 258
-execute as @s[scores={function=1249},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell1 259
+execute as @s[scores={function=1250},tag=luke_spell_free_hand_unlocked] run scoreboard players set @s spell1 250
+execute as @s[scores={function=1251},tag=luke_spell_summon_boat_unlocked] run scoreboard players set @s spell1 251
+execute as @s[scores={function=1252},tag=luke_spell_skelton_horse_unlocked] run scoreboard players set @s spell1 252
+execute as @s[scores={function=1253},tag=luke_spell_transmutiation_unlocked] run scoreboard players set @s spell1 253
+execute as @s[scores={function=1254},tag=luke_spell_summon_golem_unlocked] run scoreboard players set @s spell1 254
+execute as @s[scores={function=1255},tag=luke_spell_gale_wings_unlocked] run scoreboard players set @s spell1 255
+execute as @s[scores={function=1256},tag=luke_spell_bastion_pauldrons_unlocked] run scoreboard players set @s spell1 256
+execute as @s[scores={function=1257},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell1 257
+execute as @s[scores={function=1258},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell1 258
+execute as @s[scores={function=1259},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell1 259
 
 ##==============================SET SPELLS ON RIGHT CLICK===========================##
 execute as @s[scores={function=2000}] run scoreboard players set @s spell2 0
@@ -983,16 +983,16 @@ execute as @s[scores={function=2246},tag=nova_spirit_form_unlocked] run scoreboa
 execute as @s[scores={function=2247},tag=aerobatics_unlocked] run scoreboard players set @s spell2 247
 execute as @s[scores={function=2248},tag=bullet_stroke_unlocked] run scoreboard players set @s spell2 248
 execute as @s[scores={function=2249},tag=freerun_unlocked] run scoreboard players set @s spell2 249
-execute as @s[scores={function=2249},tag=luke_spell_free_hand_unlocked] run scoreboard players set @s spell2 250
-execute as @s[scores={function=2249},tag=luke_spell_summon_boat_unlocked] run scoreboard players set @s spell2 251
-execute as @s[scores={function=2249},tag=luke_spell_skelton_horse_unlocked] run scoreboard players set @s spell2 252
-execute as @s[scores={function=2249},tag=luke_spell_transmutiation_unlocked] run scoreboard players set @s spell2 253
-execute as @s[scores={function=2249},tag=luke_spell_summon_golem_unlocked] run scoreboard players set @s spell2 254
-execute as @s[scores={function=2249},tag=luke_spell_gale_wings_unlocked] run scoreboard players set @s spell2 255
-execute as @s[scores={function=2249},tag=luke_spell_bastion_pauldrons_unlocked] run scoreboard players set @s spell2 256
-execute as @s[scores={function=2249},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell2 257
-execute as @s[scores={function=2249},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell2 258
-execute as @s[scores={function=2249},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell2 259
+execute as @s[scores={function=2250},tag=luke_spell_free_hand_unlocked] run scoreboard players set @s spell2 250
+execute as @s[scores={function=2251},tag=luke_spell_summon_boat_unlocked] run scoreboard players set @s spell2 251
+execute as @s[scores={function=2252},tag=luke_spell_skelton_horse_unlocked] run scoreboard players set @s spell2 252
+execute as @s[scores={function=2253},tag=luke_spell_transmutiation_unlocked] run scoreboard players set @s spell2 253
+execute as @s[scores={function=2254},tag=luke_spell_summon_golem_unlocked] run scoreboard players set @s spell2 254
+execute as @s[scores={function=2255},tag=luke_spell_gale_wings_unlocked] run scoreboard players set @s spell2 255
+execute as @s[scores={function=2256},tag=luke_spell_bastion_pauldrons_unlocked] run scoreboard players set @s spell2 256
+execute as @s[scores={function=2257},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell2 257
+execute as @s[scores={function=2258},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell2 258
+execute as @s[scores={function=2259},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell2 259
 
 ##==============================SET SPELLS ON SHIFT LEFT CLICK===========================##
 execute as @s[scores={function=3000}] run scoreboard players set @s spell3 0
@@ -1245,16 +1245,16 @@ execute as @s[scores={function=3246},tag=nova_spirit_form_unlocked] run scoreboa
 execute as @s[scores={function=3247},tag=aerobatics_unlocked] run scoreboard players set @s spell3 247
 execute as @s[scores={function=3248},tag=bullet_stroke_unlocked] run scoreboard players set @s spell3 248
 execute as @s[scores={function=3249},tag=freerun_unlocked] run scoreboard players set @s spell3 249
-execute as @s[scores={function=3249},tag=luke_spell_free_hand_unlocked] run scoreboard players set @s spell3 250
-execute as @s[scores={function=3249},tag=luke_spell_summon_boat_unlocked] run scoreboard players set @s spell3 251
-execute as @s[scores={function=3249},tag=luke_spell_skelton_horse_unlocked] run scoreboard players set @s spell3 252
-execute as @s[scores={function=3249},tag=luke_spell_transmutiation_unlocked] run scoreboard players set @s spell3 253
-execute as @s[scores={function=3249},tag=luke_spell_summon_golem_unlocked] run scoreboard players set @s spell3 254
-execute as @s[scores={function=3249},tag=luke_spell_gale_wings_unlocked] run scoreboard players set @s spell3 255
-execute as @s[scores={function=3249},tag=luke_spell_bastion_pauldrons_unlocked] run scoreboard players set @s spell3 256
-execute as @s[scores={function=3249},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell3 257
-execute as @s[scores={function=3249},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell3 258
-execute as @s[scores={function=3249},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell3 259
+execute as @s[scores={function=3250},tag=luke_spell_free_hand_unlocked] run scoreboard players set @s spell3 250
+execute as @s[scores={function=3251},tag=luke_spell_summon_boat_unlocked] run scoreboard players set @s spell3 251
+execute as @s[scores={function=3252},tag=luke_spell_skelton_horse_unlocked] run scoreboard players set @s spell3 252
+execute as @s[scores={function=3253},tag=luke_spell_transmutiation_unlocked] run scoreboard players set @s spell3 253
+execute as @s[scores={function=3254},tag=luke_spell_summon_golem_unlocked] run scoreboard players set @s spell3 254
+execute as @s[scores={function=3255},tag=luke_spell_gale_wings_unlocked] run scoreboard players set @s spell3 255
+execute as @s[scores={function=3256},tag=luke_spell_bastion_pauldrons_unlocked] run scoreboard players set @s spell3 256
+execute as @s[scores={function=3257},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell3 257
+execute as @s[scores={function=3258},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell3 258
+execute as @s[scores={function=3259},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell3 259
 
 ##==============================SET SPELLS ON SHIFT RIGHT CLICK===========================##
 execute as @s[scores={function=4000}] run scoreboard players set @s spell4 0
@@ -1507,16 +1507,16 @@ execute as @s[scores={function=4246},tag=nova_spirit_form_unlocked] run scoreboa
 execute as @s[scores={function=4247},tag=aerobatics_unlocked] run scoreboard players set @s spell4 247
 execute as @s[scores={function=4248},tag=bullet_stroke_unlocked] run scoreboard players set @s spell4 248
 execute as @s[scores={function=4249},tag=freerun_unlocked] run scoreboard players set @s spell4 249
-execute as @s[scores={function=4249},tag=luke_spell_free_hand_unlocked] run scoreboard players set @s spell4 250
-execute as @s[scores={function=4249},tag=luke_spell_summon_boat_unlocked] run scoreboard players set @s spell4 251
-execute as @s[scores={function=4249},tag=luke_spell_skelton_horse_unlocked] run scoreboard players set @s spell4 252
-execute as @s[scores={function=4249},tag=luke_spell_transmutiation_unlocked] run scoreboard players set @s spell4 253
-execute as @s[scores={function=4249},tag=luke_spell_summon_golem_unlocked] run scoreboard players set @s spell4 254
-execute as @s[scores={function=4249},tag=luke_spell_gale_wings_unlocked] run scoreboard players set @s spell4 255
-execute as @s[scores={function=4249},tag=luke_spell_bastion_pauldrons_unlocked] run scoreboard players set @s spell4 256
-execute as @s[scores={function=4249},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell4 257
-execute as @s[scores={function=4249},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell4 258
-execute as @s[scores={function=4249},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell4 259
+execute as @s[scores={function=4250},tag=luke_spell_free_hand_unlocked] run scoreboard players set @s spell4 250
+execute as @s[scores={function=4251},tag=luke_spell_summon_boat_unlocked] run scoreboard players set @s spell4 251
+execute as @s[scores={function=4252},tag=luke_spell_skelton_horse_unlocked] run scoreboard players set @s spell4 252
+execute as @s[scores={function=4253},tag=luke_spell_transmutiation_unlocked] run scoreboard players set @s spell4 253
+execute as @s[scores={function=4254},tag=luke_spell_summon_golem_unlocked] run scoreboard players set @s spell4 254
+execute as @s[scores={function=4255},tag=luke_spell_gale_wings_unlocked] run scoreboard players set @s spell4 255
+execute as @s[scores={function=4256},tag=luke_spell_bastion_pauldrons_unlocked] run scoreboard players set @s spell4 256
+execute as @s[scores={function=4257},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell4 257
+execute as @s[scores={function=4258},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell4 258
+execute as @s[scores={function=4259},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell4 259
 
 ##==============================SET SPELLS ON SHICF JUMP===========================##
 execute as @s[scores={function=5000}] run scoreboard players set @s spell5 0
@@ -1769,16 +1769,16 @@ execute as @s[scores={function=5246},tag=nova_spirit_form_unlocked] run scoreboa
 execute as @s[scores={function=5247},tag=aerobatics_unlocked] run scoreboard players set @s spell5 247
 execute as @s[scores={function=5248},tag=bullet_stroke_unlocked] run scoreboard players set @s spell5 248
 execute as @s[scores={function=5249},tag=freerun_unlocked] run scoreboard players set @s spell5 249
-execute as @s[scores={function=5249},tag=luke_spell_free_hand_unlocked] run scoreboard players set @s spell5 250
-execute as @s[scores={function=5249},tag=luke_spell_summon_boat_unlocked] run scoreboard players set @s spell5 251
-execute as @s[scores={function=5249},tag=luke_spell_skelton_horse_unlocked] run scoreboard players set @s spell5 252
-execute as @s[scores={function=5249},tag=luke_spell_transmutiation_unlocked] run scoreboard players set @s spell5 253
-execute as @s[scores={function=5249},tag=luke_spell_summon_golem_unlocked] run scoreboard players set @s spell5 254
-execute as @s[scores={function=5249},tag=luke_spell_gale_wings_unlocked] run scoreboard players set @s spell5 255
-execute as @s[scores={function=5249},tag=luke_spell_bastion_pauldrons_unlocked] run scoreboard players set @s spell5 256
-execute as @s[scores={function=5249},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell5 257
-execute as @s[scores={function=5249},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell5 258
-execute as @s[scores={function=5249},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell5 259
+execute as @s[scores={function=5250},tag=luke_spell_free_hand_unlocked] run scoreboard players set @s spell5 250
+execute as @s[scores={function=5251},tag=luke_spell_summon_boat_unlocked] run scoreboard players set @s spell5 251
+execute as @s[scores={function=5252},tag=luke_spell_skelton_horse_unlocked] run scoreboard players set @s spell5 252
+execute as @s[scores={function=5253},tag=luke_spell_transmutiation_unlocked] run scoreboard players set @s spell5 253
+execute as @s[scores={function=5254},tag=luke_spell_summon_golem_unlocked] run scoreboard players set @s spell5 254
+execute as @s[scores={function=5255},tag=luke_spell_gale_wings_unlocked] run scoreboard players set @s spell5 255
+execute as @s[scores={function=5256},tag=luke_spell_bastion_pauldrons_unlocked] run scoreboard players set @s spell5 256
+execute as @s[scores={function=5257},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell5 257
+execute as @s[scores={function=5258},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell5 258
+execute as @s[scores={function=5259},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell5 259
 
 execute as @s[scores={function=1000..1999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Left Click!\n===========================================","bold":true,"color":"dark_green"}]
 execute as @s[scores={function=2000..2999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Right Click!\n===========================================","bold":true,"color":"dark_green"}]
