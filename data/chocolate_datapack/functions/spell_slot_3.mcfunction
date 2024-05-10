@@ -307,6 +307,17 @@ execute as @s[scores={spell3=246,spell_cooldown=0,jammed=0},tag=nova_spirit_form
 execute as @s[scores={spell3=247,spell_cooldown=0,jammed=0},tag=aerobatics_unlocked] run function chocolate_datapack:spells/staff_spells/acrobat/aerobatics
 execute as @s[scores={spell3=248,spell_cooldown=0,jammed=0},tag=bullet_stroke_unlocked] run function chocolate_datapack:spells/staff_spells/acrobat/bullet_stroke
 execute as @s[scores={spell3=249,spell_cooldown=0,jammed=0},tag=freerun_unlocked] run function chocolate_datapack:spells/staff_spells/acrobat/freerun
+
+execute as @s[scores={spell3=250,spell_cooldown=0,jammed=0},tag=luke_spell_free_hand_unlocked] run function chocolate_datapack:spells/luke_spells/free_hand
+execute as @s[scores={spell3=251,spell_cooldown=0,jammed=0},tag=luke_spell_summon_boat_unlocked] run function chocolate_datapack:spells/luke_spells/summon_boat
+execute as @s[scores={spell3=252,spell_cooldown=0,jammed=0},tag=luke_spell_skelton_horse_unlocked] run function chocolate_datapack:spells/luke_spells/summon_horse
+execute as @s[scores={spell3=253,spell_cooldown=0,jammed=0},tag=luke_spell_transmutiation_unlocked] run function chocolate_datapack:spells/luke_spells/transmutation
+execute as @s[scores={spell3=254,spell_cooldown=0,jammed=0},tag=luke_spell_summon_golem_unlocked] run function chocolate_datapack:spells/luke_spells/summon_golem
+execute as @s[scores={spell3=255,spell_cooldown=0,jammed=0},tag=luke_spell_gale_wings_unlocked] run function chocolate_datapack:spells/luke_spells/gale_wings
+execute as @s[scores={spell3=256,spell_cooldown=0,jammed=0},tag=luke_spell_bastion_pauldrons_unlocked] run function chocolate_datapack:spells/luke_spells/bastion_pauldrons
+execute as @s[scores={spell3=257,spell_cooldown=0,jammed=0},tag=luke_spell_bacon_launcher_unlocked] run function chocolate_datapack:spells/luke_spells/bacon_launcher
+execute as @s[scores={spell3=258,spell_cooldown=0,jammed=0},tag=luke_spell_fire_shield_unlocked] run function chocolate_datapack:spells/luke_spells/fire_shield
+execute as @s[scores={spell3=259,spell_cooldown=0,jammed=0},tag=luke_spell_summon_tnt_unlocked] run function chocolate_datapack:spells/luke_spells/summon_tnt
 ##===================================================================##
 
 # Kills Interaction Cube:

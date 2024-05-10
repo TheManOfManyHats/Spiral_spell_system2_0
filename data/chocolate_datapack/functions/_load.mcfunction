@@ -514,8 +514,23 @@ scoreboard objectives add goto_spawn trigger
  ##function_spells
  #- team_up_unlocked                                    244 *   #   0   
 
- ##DLC SPELLS
- #- atomic_cataclysm                                    245
+  ##DLC SPELLS
+ #- mark_unlocked                                       245
+ #- nova_spirit_form_unlocked                           246
+ #- aerobatics_unlocked                                 247
+ #- bullet_stroke_unlocked                              248
+ #- freerun_unlocked                                    249
+
+ #- luke_spell_free_hand_unlocked                       250
+ #- luke_spell_summon_boat_unlocked                     251
+ #- luke_spell_skelton_horse_unlocked                   252
+ #- luke_spell_transmutiation_unlocked                  253
+ #- luke_spell_summon_golem_unlocked                    254
+ #- luke_spell_gale_wings_unlocked                      255
+ #- luke_spell_bastion_pauldrons_unlocked               256
+ #- luke_spell_bacon_launcher_unlocked                  257
+ #- luke_spell_fire_shield_unlocked                     258
+ #- luke_spell_summon_tnt_unlocked                      259
 
  ##Passives
  #- overwil_unlocked
