@@ -17,7 +17,7 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 execute at @s[tag=1,scores={spell_power=1}] at @e[type=snow_golem,tag=luke_golem] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
 execute at @s[tag=1,scores={spell_power=1}] at @e[type=snow_golem,tag=luke_golem] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
 execute at @s[tag=1,scores={spell_power=1}] run kill @e[type=snow_golem,tag=luke_golem]
-execute at @s[tag=1,scores={spell_power=1}] run summon snow_golem ^ ^ ^5 {Tags:["luke_golem"]}
+execute at @s[tag=1,scores={spell_power=1}] run summon snow_golem ^ ^2 ^5 {Tags:["luke_golem"]}
 execute at @s[tag=1,scores={spell_power=1}] at @e[type=snow_golem,tag=luke_golem] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
 execute at @s[tag=1,scores={spell_power=1}] at @e[type=snow_golem,tag=luke_golem] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
 
@@ -25,7 +25,7 @@ execute at @s[tag=1,scores={spell_power=1}] at @e[type=snow_golem,tag=luke_golem
 execute at @s[tag=1,scores={spell_power=3}] at @e[type=iron_golem,tag=luke_golem] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
 execute at @s[tag=1,scores={spell_power=3}] at @e[type=iron_golem,tag=luke_golem] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
 execute at @s[tag=1,scores={spell_power=3}] run kill @e[type=iron_golem,tag=luke_golem]
-execute at @s[tag=1,scores={spell_power=3}] run summon iron_golem ^ ^ ^5 {Tags:["luke_golem"]}
+execute at @s[tag=1,scores={spell_power=3}] run summon iron_golem ^ ^2 ^5 {Tags:["luke_golem"]}
 execute at @s[tag=1,scores={spell_power=3}] at @e[type=iron_golem,tag=luke_golem] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
 execute at @s[tag=1,scores={spell_power=3}] at @e[type=iron_golem,tag=luke_golem] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
 
@@ -33,7 +33,7 @@ execute at @s[tag=1,scores={spell_power=3}] at @e[type=iron_golem,tag=luke_golem
 execute at @s[tag=1,scores={spell_power=5}] at @e[type=iron_golem,tag=luke_golem] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
 execute at @s[tag=1,scores={spell_power=5}] at @e[type=iron_golem,tag=luke_golem] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
 execute at @s[tag=1,scores={spell_power=5}] run kill @e[type=iron_golem,tag=luke_golem]
-execute at @s[tag=1,scores={spell_power=5}] run summon iron_golem ^ ^ ^5 {Tags:["luke_golem"]}
+execute at @s[tag=1,scores={spell_power=5}] run summon iron_golem ^ ^2 ^5 {Tags:["luke_golem"]}
 execute at @s[tag=1,scores={spell_power=5}] at @e[type=iron_golem,tag=luke_golem] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
 execute at @s[tag=1,scores={spell_power=5}] at @e[type=iron_golem,tag=luke_golem] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
 ##-----------------------------------------------------------------##

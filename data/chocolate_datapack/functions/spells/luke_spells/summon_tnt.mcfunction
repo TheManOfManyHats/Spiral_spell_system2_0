@@ -17,31 +17,34 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 execute at @s[tag=1,scores={spell_power=1}] at @e[type=tnt,tag=luke_tnt] run particle electric_spark ~ ~.5 ~ .5 .5 .5 1 500 force
 execute at @s[tag=1,scores={spell_power=1}] at @e[type=tnt,tag=luke_tnt] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
 execute at @s[tag=1,scores={spell_power=1}] run kill @e[type=tnt,tag=luke_tnt]
-execute at @s[tag=1,scores={spell_power=1}] run summon tnt ^ ^ ^5 {Tags:["luke_tnt"]}
+execute at @s[tag=1,scores={spell_power=1}] run summon tnt ^ ^ ^5 {Tags:["luke_tnt"],Fuse:100}
 execute at @s[tag=1,scores={spell_power=1}] at @e[type=tnt,tag=luke_tnt] run particle electric_spark ~ ~.5 ~ .5 .5 .5 1 500 force
 execute at @s[tag=1,scores={spell_power=1}] at @e[type=tnt,tag=luke_tnt] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
+execute at @s[tag=1,scores={spell_power=1}] positioned ^ ^ ^4 run playsound entity.tnt.primed ambient @a ~ ~ ~ 1 1
 
 #MED POWER
 execute at @s[tag=1,scores={spell_power=3}] at @e[type=tnt,tag=luke_tnt] run particle electric_spark ~ ~.5 ~ .5 .5 .5 1 500 force
 execute at @s[tag=1,scores={spell_power=3}] at @e[type=tnt,tag=luke_tnt] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
 execute at @s[tag=1,scores={spell_power=3}] run kill @e[type=tnt,tag=luke_tnt]
-execute at @s[tag=1,scores={spell_power=3}] run summon tnt ^-2 ^ ^5 {Tags:["luke_tnt"]}
-execute at @s[tag=1,scores={spell_power=3}] run summon tnt ^ ^ ^7 {Tags:["luke_tnt"]}
-execute at @s[tag=1,scores={spell_power=3}] run summon tnt ^2 ^ ^5 {Tags:["luke_tnt"]}
+execute at @s[tag=1,scores={spell_power=3}] run summon tnt ^-2 ^ ^5 {Tags:["luke_tnt"],Fuse:100}
+execute at @s[tag=1,scores={spell_power=3}] run summon tnt ^ ^ ^7 {Tags:["luke_tnt"],Fuse:100}
+execute at @s[tag=1,scores={spell_power=3}] run summon tnt ^2 ^ ^5 {Tags:["luke_tnt"],Fuse:100}
 execute at @s[tag=1,scores={spell_power=3}] at @e[type=tnt,tag=luke_tnt] run particle electric_spark ~ ~.5 ~ .5 .5 .5 1 500 force
 execute at @s[tag=1,scores={spell_power=3}] at @e[type=tnt,tag=luke_tnt] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
+execute at @s[tag=1,scores={spell_power=3}] positioned ^ ^ ^4 run playsound entity.tnt.primed ambient @a ~ ~ ~ 1 1
 
 #HIGH POWER
 execute at @s[tag=1,scores={spell_power=5}] at @e[type=tnt,tag=luke_tnt] run particle electric_spark ~ ~.5 ~ .5 .5 .5 1 500 force
 execute at @s[tag=1,scores={spell_power=5}] at @e[type=tnt,tag=luke_tnt] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
 execute at @s[tag=1,scores={spell_power=5}] run kill @e[type=tnt,tag=luke_tnt]
-execute at @s[tag=1,scores={spell_power=5}] run summon tnt ^-2 ^ ^5 {Tags:["luke_tnt"]}
-execute at @s[tag=1,scores={spell_power=5}] run summon tnt ^ ^ ^7 {Tags:["luke_tnt"]}
-execute at @s[tag=1,scores={spell_power=5}] run summon tnt ^2 ^ ^5 {Tags:["luke_tnt"]}
-execute at @s[tag=1,scores={spell_power=5}] run summon tnt ^-2 ^ ^9 {Tags:["luke_tnt"]}
-execute at @s[tag=1,scores={spell_power=5}] run summon tnt ^2 ^ ^9 {Tags:["luke_tnt"]}
+execute at @s[tag=1,scores={spell_power=5}] run summon tnt ^-2 ^ ^5 {Tags:["luke_tnt"],Fuse:100}
+execute at @s[tag=1,scores={spell_power=5}] run summon tnt ^ ^ ^7 {Tags:["luke_tnt"],Fuse:100}
+execute at @s[tag=1,scores={spell_power=5}] run summon tnt ^2 ^ ^5 {Tags:["luke_tnt"],Fuse:100}
+execute at @s[tag=1,scores={spell_power=5}] run summon tnt ^-2 ^ ^9 {Tags:["luke_tnt"],Fuse:100}
+execute at @s[tag=1,scores={spell_power=5}] run summon tnt ^2 ^ ^9 {Tags:["luke_tnt"],Fuse:100}
 execute at @s[tag=1,scores={spell_power=5}] at @e[type=tnt,tag=luke_tnt] run particle electric_spark ~ ~.5 ~ .5 .5 .5 1 500 force
 execute at @s[tag=1,scores={spell_power=5}] at @e[type=tnt,tag=luke_tnt] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
+execute at @s[tag=1,scores={spell_power=5}] positioned ^ ^ ^4 run playsound entity.tnt.primed ambient @a ~ ~ ~ 1 1
 ##-----------------------------------------------------------------##
 
 ##--------------PERFORM COOLDOWN MANA COST AND XP------------------##

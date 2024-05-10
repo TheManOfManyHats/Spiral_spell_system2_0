@@ -15,19 +15,19 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","luke_spell","gale_wings","lv1","new_spell"],teleport_duration:1,item:{id:"minecraft:stick",tag:{"CustomModelData":11}}}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","luke_spell","gale_wings","lv1","new_spell"],item_display:"head",teleport_duration:1,item:{id:"minecraft:stick",tag:{"CustomModelData":11}}}
 
 #Put kill timer on item_display that lasts for 5 seconds
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=gale_wings,sort=nearest,limit=1,tag=new_spell] kill_timer 100
 #MED POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","luke_spell","gale_wings","lv2","new_spell"],teleport_duration:1,item:{id:"minecraft:stick",tag:{"CustomModelData":11}}}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","luke_spell","gale_wings","lv2","new_spell"],item_display:"head",teleport_duration:1,item:{id:"minecraft:stick",tag:{"CustomModelData":11}}}
 
 #Put kill timer on item_display that lasts for 5 seconds
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=gale_wings,sort=nearest,limit=1,tag=new_spell] kill_timer 200
 #HIGH POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","luke_spell","gale_wings","lv3","new_spell"],teleport_duration:1,item:{id:"minecraft:stick",tag:{"CustomModelData":11}}}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","luke_spell","gale_wings","lv3","new_spell"],item_display:"head",teleport_duration:1,item:{id:"minecraft:stick",tag:{"CustomModelData":11}}}
 
 #Put kill timer on item_display that lasts for 5 seconds
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=gale_wings,sort=nearest,limit=1,tag=new_spell] kill_timer 300

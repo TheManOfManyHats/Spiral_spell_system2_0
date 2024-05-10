@@ -392,3 +392,4 @@ execute at @s if entity @s[tag=1,nbt={Inventory:[{Slot:-106b,id:"minecraft:totem
 execute at @s if entity @s[tag=2] run tag @s remove 1
 
 tag @s remove 1
+tag @s remove 2
