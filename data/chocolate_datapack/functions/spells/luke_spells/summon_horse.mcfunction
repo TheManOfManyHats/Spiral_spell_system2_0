@@ -15,27 +15,27 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 execute at @s[tag=1,scores={spell_power=1}] at @e[type=skeleton_horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
-execute at @s[tag=1,scores={spell_power=1}] at @e[type=horse,tag=luke_horse] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
-execute at @s[tag=1,scores={spell_power=1}] run kill @e[type=horse,tag=luke_horse]
+execute at @s[tag=1,scores={spell_power=1}] at @e[type=skeleton_horse,tag=luke_horse] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
+execute at @s[tag=1,scores={spell_power=1}] run kill @e[type=skeleton_horse,tag=luke_horse]
 execute at @s[tag=1,scores={spell_power=1}] run summon minecraft:skeleton_horse ^ ^ ^5 {SaddleItem:{id:"saddle",Count:1},Tame:1,Tags:["luke_horse"],CustomName:'[{"text":"Davy Bones"}]',DeathLootTable:"minecraft:empty"}
-execute at @s[tag=1,scores={spell_power=1}] at @e[type=horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
-execute at @s[tag=1,scores={spell_power=1}] at @e[type=horse,tag=luke_horse] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
+execute at @s[tag=1,scores={spell_power=1}] at @e[type=skeleton_horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
+execute at @s[tag=1,scores={spell_power=1}] at @e[type=skeleton_horse,tag=luke_horse] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
 
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] at @e[type=horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
-execute at @s[tag=1,scores={spell_power=3}] at @e[type=horse,tag=luke_horse] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
-execute at @s[tag=1,scores={spell_power=3}] run kill @e[type=horse,tag=luke_horse]
+execute at @s[tag=1,scores={spell_power=3}] at @e[type=skeleton_horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
+execute at @s[tag=1,scores={spell_power=3}] at @e[type=skeleton_horse,tag=luke_horse] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
+execute at @s[tag=1,scores={spell_power=3}] run kill @e[type=skeleton_horse,tag=luke_horse]
 execute at @s[tag=1,scores={spell_power=3}] run summon minecraft:skeleton_horse ^ ^ ^5 {SaddleItem:{id:"saddle",Count:1},Tame:1,Tags:["luke_horse"],CustomName:'[{"text":"Davy Bones"}]',DeathLootTable:"minecraft:empty"}
-execute at @s[tag=1,scores={spell_power=3}] at @e[type=horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
-execute at @s[tag=1,scores={spell_power=3}] at @e[type=horse,tag=luke_horse] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
+execute at @s[tag=1,scores={spell_power=3}] at @e[type=skeleton_horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
+execute at @s[tag=1,scores={spell_power=3}] at @e[type=skeleton_horse,tag=luke_horse] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
 
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] at @e[type=horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
-execute at @s[tag=1,scores={spell_power=5}] at @e[type=horse,tag=luke_horse] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
-execute at @s[tag=1,scores={spell_power=5}] run kill @e[type=horse,tag=luke_horse]
+execute at @s[tag=1,scores={spell_power=5}] at @e[type=skeleton_horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
+execute at @s[tag=1,scores={spell_power=5}] at @e[type=skeleton_horse,tag=luke_horse] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
+execute at @s[tag=1,scores={spell_power=5}] run kill @e[type=skeleton_horse,tag=luke_horse]
 execute at @s[tag=1,scores={spell_power=5}] run summon minecraft:skeleton_horse ^ ^ ^5 {SaddleItem:{id:"saddle",Count:1},Tame:1,Tags:["luke_horse"],CustomName:'[{"text":"Davy Bones"}]',DeathLootTable:"minecraft:empty"}
-execute at @s[tag=1,scores={spell_power=5}] at @e[type=horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
-execute at @s[tag=1,scores={spell_power=5}] at @e[type=horse,tag=luke_horse] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
+execute at @s[tag=1,scores={spell_power=5}] at @e[type=skeleton_horse,tag=luke_horse] run particle electric_spark ~ ~.5 ~ 1 1 1 1 100 force
+execute at @s[tag=1,scores={spell_power=5}] at @e[type=skeleton_horse,tag=luke_horse] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
 ##-----------------------------------------------------------------##
 
 ##--------------PERFORM COOLDOWN MANA COST AND XP------------------##

@@ -14,28 +14,28 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
-execute at @s[tag=1,scores={spell_power=1}] at @e[type=boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
-execute at @s[tag=1,scores={spell_power=1}] at @e[type=boat,tag=lukeboat] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
-execute at @s[tag=1,scores={spell_power=1}] run kill @e[type=boat,tag=lukeboat]
+execute at @s[tag=1,scores={spell_power=1}] at @e[type=chest_boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
+execute at @s[tag=1,scores={spell_power=1}] at @e[type=chest_boat,tag=lukeboat] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
+execute at @s[tag=1,scores={spell_power=1}] run kill @e[type=chest_boat,tag=lukeboat]
 execute at @s[tag=1,scores={spell_power=1}] run summon chest_boat ^ ^ ^5 {Tags:["lukeboat"],Type:"bamboo"}
-execute at @s[tag=1,scores={spell_power=1}] at @e[type=boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
-execute at @s[tag=1,scores={spell_power=1}] at @e[type=boat,tag=lukeboat] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
+execute at @s[tag=1,scores={spell_power=1}] at @e[type=chest_boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
+execute at @s[tag=1,scores={spell_power=1}] at @e[type=chest_boat,tag=lukeboat] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
 
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] at @e[type=boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
-execute at @s[tag=1,scores={spell_power=3}] at @e[type=boat,tag=lukeboat] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
-execute at @s[tag=1,scores={spell_power=3}] run kill @e[type=boat,tag=lukeboat]
+execute at @s[tag=1,scores={spell_power=3}] at @e[type=chest_boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
+execute at @s[tag=1,scores={spell_power=3}] at @e[type=chest_boat,tag=lukeboat] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
+execute at @s[tag=1,scores={spell_power=3}] run kill @e[type=chest_boat,tag=lukeboat]
 execute at @s[tag=1,scores={spell_power=3}] run summon chest_boat ^ ^ ^5 {Tags:["lukeboat"],Type:"mangrove"}
-execute at @s[tag=1,scores={spell_power=3}] at @e[type=boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
-execute at @s[tag=1,scores={spell_power=3}] at @e[type=boat,tag=lukeboat] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
+execute at @s[tag=1,scores={spell_power=3}] at @e[type=chest_boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
+execute at @s[tag=1,scores={spell_power=3}] at @e[type=chest_boat,tag=lukeboat] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
 
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] at @e[type=boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
-execute at @s[tag=1,scores={spell_power=5}] at @e[type=boat,tag=lukeboat] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
-execute at @s[tag=1,scores={spell_power=5}] run kill @e[type=boat,tag=lukeboat]
+execute at @s[tag=1,scores={spell_power=5}] at @e[type=chest_boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
+execute at @s[tag=1,scores={spell_power=5}] at @e[type=chest_boat,tag=lukeboat] run playsound minecraft:block.scaffolding.break ambient @a ~ ~ ~ 1 0
+execute at @s[tag=1,scores={spell_power=5}] run kill @e[type=chest_boat,tag=lukeboat]
 execute at @s[tag=1,scores={spell_power=5}] run summon chest_boat ^ ^ ^5 {Tags:["lukeboat"],Type:"dark_oak"}
-execute at @s[tag=1,scores={spell_power=5}] at @e[type=boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
-execute at @s[tag=1,scores={spell_power=5}] at @e[type=boat,tag=lukeboat] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
+execute at @s[tag=1,scores={spell_power=5}] at @e[type=chest_boat,tag=lukeboat] run particle electric_spark ~ ~.5 ~ 1 1 1 1 500 force
+execute at @s[tag=1,scores={spell_power=5}] at @e[type=chest_boat,tag=lukeboat] run playsound entity.player.levelup ambient @a ~ ~ ~ 1 1.5
 ##-----------------------------------------------------------------##
 
 ##--------------PERFORM COOLDOWN MANA COST AND XP------------------##

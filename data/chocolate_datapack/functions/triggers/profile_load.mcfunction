@@ -346,6 +346,10 @@ attribute @s generic.knockback_resistance base set 0
 scoreboard players set @s willpower 0
 scoreboard players set @s reset_wil 0
 
+execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["team_up_unlocked"]]}}}] run tag @s add team_up_unlocked
+execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["mark_unlocked"]]}}}] run tag @s add mark_unlocked
+execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["starter_tree_chosen"]]}}}] run tag @s add starter_tree_chosen
+
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["fire_user"]]}}}] run tag @s add fire_user
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["fireball_unlocked"]]}}}] run tag @s add fireball_unlocked
 execute as @s[nbt={SelectedItem:{tag:{Saved_Profile:[["explosion_unlocked"]]}}}] run tag @s add explosion_unlocked
