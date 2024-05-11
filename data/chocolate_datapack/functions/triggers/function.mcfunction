@@ -1867,7 +1867,7 @@ execute as @s[scores={function=20010}] run function chocolate_datapack:spells/ai
 execute as @s[scores={function=20011}] run function chocolate_datapack:spells/blade/spellsword/wind_slash
 execute as @s[scores={function=20012}] run function chocolate_datapack:spells/light/light_ray
 execute as @s[scores={function=20013}] run function chocolate_datapack:spells/space/blink
-execute as @s[scores={function=20014}] run function chocolate_datapack:spells/fire/lightning/stun
+execute as @s[scores={function=20014}] run function chocolate_datapack:spells/fire/lightning/lightning_stun
 execute as @s[scores={function=20015}] run function chocolate_datapack:spells/water/ice/ice_spike
 execute as @s[scores={function=20016}] run function chocolate_datapack:spells/earth/stone_spear
 execute as @s[scores={function=20017}] run function chocolate_datapack:spells/earth/dig
