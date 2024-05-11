@@ -1859,7 +1859,22 @@ execute as @s[scores={function=20002}] run function chocolate_datapack:spells/sp
 execute as @s[scores={function=20003}] run function chocolate_datapack:spells/space/mark
 execute as @s[scores={function=20004}] run function chocolate_datapack:spells/darkness/spirit/summon_spirit
 execute as @s[scores={function=20005}] run function chocolate_datapack:spells/darkness/spirit/wil_drain
-
+execute as @s[scores={function=20006}] run function chocolate_datapack:spells/fire/fireball
+execute as @s[scores={function=20007}] run function chocolate_datapack:spells/fire/magma/overheat
+execute as @s[scores={function=20008}] run function chocolate_datapack:spells/water/water_gun
+execute as @s[scores={function=20009}] run function chocolate_datapack:spells/water/water_heal
+execute as @s[scores={function=20010}] run function chocolate_datapack:spells/air/wind_cutter
+execute as @s[scores={function=20011}] run function chocolate_datapack:spells/blade/spellsword/wind_slash
+execute as @s[scores={function=20012}] run function chocolate_datapack:spells/light/light_ray
+execute as @s[scores={function=20013}] run function chocolate_datapack:spells/space/blink
+execute as @s[scores={function=20014}] run function chocolate_datapack:spells/fire/lightning/stun
+execute as @s[scores={function=20015}] run function chocolate_datapack:spells/water/ice/ice_spike
+execute as @s[scores={function=20016}] run function chocolate_datapack:spells/earth/stone_spear
+execute as @s[scores={function=20017}] run function chocolate_datapack:spells/earth/dig
+execute as @s[scores={function=20018}] run function chocolate_datapack:spells/fire/lightning/lightning_bolt
+execute as @s[scores={function=20019}] run function chocolate_datapack:spells/fire/lightning/ball_lightning
+execute as @s[scores={function=20020}] run function chocolate_datapack:spells/nature/living_root
+execute as @s[scores={function=20021}] run function chocolate_datapack:spells/nature/leech_seed
 
 scoreboard players set @s function 0
 
