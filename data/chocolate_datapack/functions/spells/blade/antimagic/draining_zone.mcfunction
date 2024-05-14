@@ -15,15 +15,15 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #Summon armor stand that is the actual attack
 #LOW POWER
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","blade","draining_zone","zone","lv1","new_spell"]}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","blade","draining_zone","zone","lv1","new_spell","spiral_spell"]}
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run scoreboard players set @e[sort=nearest,distance=..1,tag=new_spell] kill_timer 200
 
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","blade","draining_zone","zone","lv2","new_spell"]}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","blade","draining_zone","zone","lv2","new_spell","spiral_spell"]}
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run scoreboard players set @e[sort=nearest,distance=..1,tag=new_spell] kill_timer 400
 
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","blade","draining_zone","zone","lv3","new_spell"]}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","blade","draining_zone","zone","lv3","new_spell","spiral_spell"]}
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run scoreboard players set @e[sort=nearest,distance=..1,tag=new_spell] kill_timer 600
 #Put kill timer on item_display that lasts for 5 seconds
 
