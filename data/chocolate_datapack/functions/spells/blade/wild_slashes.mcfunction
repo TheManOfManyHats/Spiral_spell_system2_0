@@ -26,6 +26,8 @@ execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.f
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add blade
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add new_spell
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add new_spell
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add spiral_spell
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add spiral_spell
 #Put kill timer on armorstand that lasts for 2 seconds
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run scoreboard players set @e[tag=wild_slashes_root1,sort=nearest,limit=1,tag=new_spell] kill_timer 40
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run scoreboard players set @e[tag=wild_slashes,tag=lv1,sort=nearest,limit=1,tag=new_spell] kill_timer 40
