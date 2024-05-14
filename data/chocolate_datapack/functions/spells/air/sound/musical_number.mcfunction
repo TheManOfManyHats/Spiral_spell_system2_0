@@ -22,6 +22,8 @@ execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.musical_number.root] add
 execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.musical_number.bone] add musical_number
 execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.musical_number.root] add new_spell
 execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.musical_number.bone] add new_spell
+execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.musical_number.root] add spiral_spell
+execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.musical_number.bone] add spiral_spell
 execute at @s[tag=1] positioned ~ ~ ~ as @e[tag=aj.musical_number.root,tag=new_spell,distance=..1] run function animated_java:musical_number/animations/spawn/play
 execute at @s[tag=1] positioned ~ ~ ~ as @e[tag=musical_number,sort=nearest,distance=..1,tag=new_spell] run scoreboard players set @s kill_timer 350
 
