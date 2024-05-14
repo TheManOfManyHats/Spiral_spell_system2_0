@@ -8,9 +8,7 @@ execute as @s[tag=defensive,tag=!mark_spell] run scoreboard players add @s kill_
 
 ##-------------------SPELL EFECTS-----------------------##
 #This is where the effect line for the different spell designation goes:
-execute as @s[tag=offensive] run function chocolate_datapack:effects/offensive_spells
-execute as @s[tag=defensive] run function chocolate_datapack:effects/defensive_spells
-execute as @s[tag=utility] run function chocolate_datapack:effects/utility_spells
+execute as @s[tag=spiral_spell] run function chocolate_datapack:effects/spiral_spell
 execute as @s[scores={portal_cooldown=1..}] run scoreboard players remove @s portal_cooldown 1
 ##------------------------------------------------------##
 
