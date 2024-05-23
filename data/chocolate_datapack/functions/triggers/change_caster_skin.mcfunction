@@ -25,3 +25,4 @@ tellraw @s {"text":"Purple_tea Caster","bold":true,"color":"dark_green","clickEv
 tellraw @s {"text":"Bellflower Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10023"}}
 tellraw @s {"text":"Ghostlotl Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10024"}}
 tellraw @s {"text":"Staff of Annihilation","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10025"}}
+tellraw @s {"text":"Black Hole Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10026"}}
