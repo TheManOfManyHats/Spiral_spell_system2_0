@@ -100,4 +100,5 @@ execute as @s[tag=draining_crescent_slash] at @s run function chocolate_datapack
 #BACON LAUNCHER #1
 execute as @s[tag=bacon_launcher] at @s rotated as @s unless block ^ ^ ^.5 #chocolate_datapack:passthrough run function chocolate_datapack:spells/luke_spells/bacon_launcher_effect
 execute as @s[tag=bacon_launcher] at @s rotated as @s positioned ^ ^ ^.5 if entity @e[distance=..2,type=!#chocolate_datapack:non_activating] unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] player_id = @s player_id unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] team_id = @s team_id run function chocolate_datapack:spells/luke_spells/bacon_launcher_effect
+execute as @s[tag=bacon_launcher] at @s rotated as @s run tp @e[type=pig,tag=bacon_launcher,sort=nearest,limit=1] ~ ~ ~ ~ ~
 ##----------------------------------------------------------------------------##
