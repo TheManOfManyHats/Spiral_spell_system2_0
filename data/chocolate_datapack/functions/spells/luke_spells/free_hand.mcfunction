@@ -69,7 +69,7 @@ execute at @s[tag=1,scores={spell_power=5}] rotated as @s positioned ^ ^ ^8 run 
 
 ##--------------PERFORM COOLDOWN MANA COST AND XP------------------##
 #Apply cooldown
-scoreboard players operation @s[tag=1] spell_cooldown = @s player_cooldown
+#scoreboard players operation @s[tag=1] spell_cooldown = @s player_cooldown
 #Give XP
 scoreboard players operation @s[tag=1] knowledge += @s knowledge_factor
 #Remove required mana
