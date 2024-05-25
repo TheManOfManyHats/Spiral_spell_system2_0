@@ -24,13 +24,17 @@ execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon item_
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon pig ~ ~ ~ {Tags:["offensive","projectile","luke_spells","bacon_launcher","lv3","new_spell"]}
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","luke_spells","bacon_launcher","lv3","new_spell"]}
 #Put kill timer on item_display that lasts for 5 seconds
-execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=bacon_launcher,sort=nearest,limit=1,tag=new_spell] kill_timer 100
+execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[type=pig,tag=bacon_launcher,sort=nearest,limit=1,tag=new_spell] kill_timer 100
+execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[type=item_display,tag=bacon_launcher,sort=nearest,limit=1,tag=new_spell] kill_timer 100
 #put player's spell ID on the spell
-execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players operation @e[tag=bacon_launcher,limit=1,sort=nearest,tag=new_spell] player_id = @s[tag=1] player_id
+execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players operation @e[type=pig,tag=bacon_launcher,limit=1,sort=nearest,tag=new_spell] player_id = @s[tag=1] player_id
+execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players operation @e[type=item_display,tag=bacon_launcher,limit=1,sort=nearest,tag=new_spell] player_id = @s[tag=1] player_id
 #put player's team ID on the spell
-execute at @s[tag=1,scores={team_id=1..}] positioned ~ ~1.5 ~ run scoreboard players operation @e[tag=bacon_launcher,limit=1,sort=nearest,tag=new_spell] team_id = @s[tag=1] team_id
+execute at @s[tag=1,scores={team_id=1..}] positioned ~ ~1.5 ~ run scoreboard players operation @e[type=pig,tag=bacon_launcher,limit=1,sort=nearest,tag=new_spell] team_id = @s[tag=1] team_id
+execute at @s[tag=1,scores={team_id=1..}] positioned ~ ~1.5 ~ run scoreboard players operation @e[type=item_display,tag=bacon_launcher,limit=1,sort=nearest,tag=new_spell] team_id = @s[tag=1] team_id
 #Teleport attack item_display to player to match facing when fired
-execute at @s[tag=1] rotated as @s positioned ~ ~1.5 ~ run tp @e[tag=bacon_launcher,sort=nearest,limit=1,tag=new_spell] ~ ~ ~ ~ ~
+execute at @s[tag=1] rotated as @s positioned ~ ~1.5 ~ run tp @e[type=pig,tag=bacon_launcher,sort=nearest,limit=1,tag=new_spell] ~ ~ ~ ~ ~
+execute at @s[tag=1] rotated as @s positioned ~ ~1.5 ~ run tp @e[type=item_display,tag=bacon_launcher,sort=nearest,limit=1,tag=new_spell] ~ ~ ~ ~ ~
 #Dramatic flare
 execute at @s[tag=1] run playsound minecraft:entity.ghast.shoot ambient @a ~ ~ ~ 1 1
 execute at @s[tag=1] run playsound minecraft:entity.pig.death ambient @a ~ ~ ~ 1 1
