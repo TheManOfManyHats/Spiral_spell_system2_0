@@ -36,6 +36,12 @@ execute at @s[tag=1,scores={team_id=1..}] positioned ~ ~1.5 ~ run scoreboard pla
 #Dramatic flare
 execute at @s[tag=1] run playsound minecraft:block.anvil.place ambient @a ~ ~ ~ 1 1
 execute at @s[tag=1] run particle minecraft:flame ~ ~1 ~ 1 .5 1 .1 20 force
+effect give @s[tag=1,scores={spell_power=1}] fire_resistance 30 10 true
+effect give @s[tag=1,scores={spell_power=1}] resistance 30 2 true
+effect give @s[tag=1,scores={spell_power=3}] fire_resistance 30 20 true
+effect give @s[tag=1,scores={spell_power=5}] resistance 30 3 true
+effect give @s[tag=1,scores={spell_power=5}] fire_resistance 30 30 true
+effect give @s[tag=1,scores={spell_power=5}] resistance 30 4 true
 ##-----------------------------------------------------------------##
 
 ##--------------PERFORM COOLDOWN MANA COST AND XP------------------##
