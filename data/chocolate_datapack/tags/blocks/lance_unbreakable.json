@@ -34,7 +34,9 @@
     "ender_chest",
     "command_block",
     "chain_command_block",
-    "repeating_command_block"
+    "repeating_command_block",
+    "note_block",
+    "brown_mushroom_block"
 ]
 }
 
