@@ -1,0 +1,1 @@
+execute at @s run give @p wither_skeleton_spawn_egg{EntityTag:{id:armor_stand,Invisible:1b,Marker:1b,Small:1b,DisabledSlots:4144959,Tags:["Custom_Crop","New_Seed","grapes"]},CustomModelData:2,display:{Name:'[{"text":"Grape Seeds","italic":false}]'}} 1

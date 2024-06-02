@@ -25,3 +25,7 @@ execute as @s[type=interaction,tag=casting_cube] at @s unless entity @p[distance
 execute as @s[type=item,nbt={Item:{tag:{switchable:1b}}}] at @s as @a[predicate=!chocolate_datapack:is_sneaking,limit=1,distance=..2,tag=!item_switch,tag=!get_caster,tag=!get_modbook,tag=!get_spellbook,scores={death=0}] run function chocolate_datapack:detectors/item_switch
 execute as @s[type=item,nbt={Item:{tag:{weapon_switchable:1b}}}] at @s as @a[limit=1,distance=..2,tag=!item_switch,tag=!get_caster,tag=!get_modbook,tag=!get_spellbook,scores={death=0}] run function chocolate_datapack:detectors/item_switch
 kill @s[type=item,nbt={Item:{tag:{switchable:1b}}}]
+
+#Crops
+execute as @s[type=armor_stand,tag=New_Seed] run function chocolate_datapack:crops/new_crop
+execute as @s[type=item_display,tag=custom_crop] run function chocolate_datapack:crops/crops_grow
