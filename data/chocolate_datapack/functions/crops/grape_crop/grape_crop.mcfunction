@@ -32,5 +32,5 @@ execute as @s[scores={growth=8..}] at @s as @e[tag=grape_crop,type=interaction,l
 execute as @s[scores={growth=-99}] at @s as @e[tag=grape_crop,type=interaction,limit=1,sort=nearest,nbt={interaction:{}}] run kill @s
 execute as @s[scores={growth=-99}] at @s run scoreboard players set @s growth 4
 
-#execute at @s unless block ~ ~0 ~ melon_stem run kill @s
+execute at @s unless block ~ ~0 ~ melon_stem run kill @s
 execute at @s unless block ~ ~0 ~ melon_stem run playsound block.crop.break ambient @a ~ ~ ~ 1 1
