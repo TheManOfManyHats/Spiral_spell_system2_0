@@ -95,4 +95,8 @@ execute as @s[tag=leech_seed] at @s if entity @e[distance=..2,type=!#chocolate_d
 
 #TREACK_PREY #9
 execute as @s[tag=track_prey] at @s if entity @e[distance=..2,type=!#chocolate_datapack:non_activating] unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] player_id = @s player_id unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] team_id = @s team_id run function chocolate_datapack:spells/nature/wild/track_prey_effect
+
+#LIGHT_STEP #1
+execute as @s[tag=light_step] at @s rotated as @s unless block ^ ^ ^.5 #chocolate_datapack:passthrough run function chocolate_datapack:spells/light/light_effect_on_block
+execute as @s[tag=light_step] at @s rotated as @s positioned ^ ^ ^.5 if entity @e[distance=..2,type=!#chocolate_datapack:non_activating] unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] player_id = @s player_id unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] team_id = @s team_id run function chocolate_datapack:spells/light/light_step_effect_on_player
 ##-----------------------------------------------------------------------------##
