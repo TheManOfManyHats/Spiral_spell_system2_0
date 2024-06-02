@@ -34,7 +34,7 @@ execute at @s[tag=1,scores={team_id=1..}] positioned ~ ~1.5 ~ run scoreboard pla
 #Teleport attack marker to player to match facing when fired
 execute at @s[tag=1] rotated as @s positioned ~ ~1.5 ~ run tp @e[tag=light_step,sort=nearest,limit=1,tag=new_spell] ~ ~ ~ ~ ~
 #Dramatic flare
-execute at @s[tag=1] run playsound entity.vex.charge ambient @a ~ ~ ~ 1 1
+execute at @s[tag=1] run playsound entity.allay.ambient_with_item ambient @a ~ ~ ~ 1 1
 execute at @s[tag=1] run particle dust 1 0.961 0.729 1 ~ ~1 ~ 1 .5 1 0 20 force
 ##-----------------------------------------------------------------##
 
