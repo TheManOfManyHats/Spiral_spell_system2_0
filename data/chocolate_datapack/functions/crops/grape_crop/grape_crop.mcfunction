@@ -1,4 +1,4 @@
-execute at @s[scores={growth=2..7}] unless block ~ ~ ~ melon_stem run summon item ~ ~ ~ {Item:{id:"minecraft:wither_skeleton_spawn_egg",tag:{EntityTag:{id:armor_stand,Invisible:1b,Marker:1b,Small:1b,DisabledSlots:4144959,Tags:["Custom_Crop","New_Seed","grapes"]},CustomModelData:2,display:{Name:'[{"text":"Grape Seeds","italic":false}]'}},Count: 2}}
+execute at @s[scores={growth=2..7}] unless block ~ ~ ~ melon_stem run summon item ~ ~0.5 ~ {Item:{id:"minecraft:wither_skeleton_spawn_egg",tag:{EntityTag:{id:armor_stand,Invisible:1b,Marker:1b,Small:1b,DisabledSlots:4144959,Tags:["Custom_Crop","New_Seed","grapes"]},CustomModelData:2,display:{Name:'[{"text":"Grape Seeds","italic":false}]'},Silent:1b},Count: 2}}
 execute at @s if block ~ ~0 ~ melon_stem[age=1] run scoreboard players add @s growth 1
 execute at @s if block ~ ~0 ~ melon_stem[age=1] run setblock ~ ~0 ~ melon_stem[age=0] replace
 execute at @s if block ~ ~0 ~ melon_stem[age=2] run scoreboard players add @s growth 1
@@ -32,5 +32,5 @@ execute as @s[scores={growth=8..}] at @s as @e[tag=grape_crop,type=interaction,l
 execute as @s[scores={growth=-99}] at @s as @e[tag=grape_crop,type=interaction,limit=1,sort=nearest,nbt={interaction:{}}] run kill @s
 execute as @s[scores={growth=-99}] at @s run scoreboard players set @s growth 4
 
-execute at @s unless block ~ ~0 ~ melon_stem run kill @s
+#execute at @s unless block ~ ~0 ~ melon_stem run kill @s
 execute at @s unless block ~ ~0 ~ melon_stem run playsound block.crop.break ambient @a ~ ~ ~ 1 1
