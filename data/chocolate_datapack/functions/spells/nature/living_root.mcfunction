@@ -46,7 +46,7 @@ execute at @s[tag=1] rotated as @s positioned ~ ~ ~ run tp @e[distance=..1,sort=
 
 ##--------------PERFORM COOLDOWN MANA COST AND XP------------------##
 #Apply cooldown
-scoreboard players set @s[tag=1] spell_cooldown 500
+scoreboard players operation @s[tag=1] spell_cooldown = @s player_cooldown
 #Give XP
 scoreboard players operation @s[tag=1] knowledge += @s knowledge_factor
 #Remove required mana

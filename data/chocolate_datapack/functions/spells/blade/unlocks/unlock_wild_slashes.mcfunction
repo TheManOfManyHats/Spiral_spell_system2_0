@@ -3,7 +3,7 @@ scoreboard players set @s unlock_cost 30
 ##===============================================##
 
 ##===================CHECKS======================##
-tag @s[tag=wild_slashes_unlocked] add 4
+tag @s[tag=blade_slashes_unlocked] add 4
 tag @s[tag=!blade_user,tag=!antimagic_user,tag=!spellsword_user,tag=!antimagic_grand_user,tag=!spellsword_grand_user] add 2
 execute if score @s skill_points < @s unlock_cost run tag @s add 3
 tag @s[tag=!2,tag=!3,tag=!4] add 1
@@ -18,7 +18,7 @@ tellraw @s[tag=4] "You already know this ability"
 ##===============================================##
 
 ##===============UNLOCK THE SPELL================##
-tag @s[tag=1] add wild_slashes_unlocked
+tag @s[tag=1] add blade_slashes_unlocked
 scoreboard players operation @s[tag=1] skill_points -= @s unlock_cost
 ##===============================================##
 

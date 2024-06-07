@@ -279,7 +279,7 @@ execute as @s[scores={spell3=219,spell_cooldown=0,jammed=0},tag=rising_slash_unl
 execute as @s[scores={spell3=220,spell_cooldown=0,jammed=0},tag=parry_unlocked] run function chocolate_datapack:spells/blade/parry
 execute as @s[scores={spell3=221,spell_cooldown=0,jammed=0},tag=dash_slash_unlocked] run function chocolate_datapack:spells/blade/dash_slash
 execute as @s[scores={spell3=222,spell_cooldown=0,jammed=0},tag=crescent_slash_unlocked] run function chocolate_datapack:spells/blade/crescent_slash
-execute as @s[scores={spell3=223,spell_cooldown=0,jammed=0},tag=wild_slashes_unlocked] run function chocolate_datapack:spells/blade/wild_slashes
+execute as @s[scores={spell3=223,spell_cooldown=0,jammed=0},tag=blade_slashes_unlocked] run function chocolate_datapack:spells/blade/wild_slashes
 execute as @s[scores={spell3=224,spell_cooldown=0,jammed=0},tag=fire_slash_unlocked] run function chocolate_datapack:spells/blade/spellsword/fire_slash
 execute as @s[scores={spell3=225,spell_cooldown=0,jammed=0},tag=ice_slash_unlocked] run function chocolate_datapack:spells/blade/spellsword/ice_slash
 execute as @s[scores={spell3=226,spell_cooldown=0,jammed=0},tag=blade_wind_slash_unlocked] run function chocolate_datapack:spells/blade/spellsword/wind_slash
