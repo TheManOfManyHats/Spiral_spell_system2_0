@@ -16,13 +16,14 @@ tellraw @s[name="LukeTheAnimator"] {"text":"Pencil","bold":true,"color":"dark_gr
 tellraw @s {"text":"Antimagic Blade","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10014"}}
 tellraw @s {"text":"Awakened Antimagic Blade","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10015"}}
 tellraw @s {"text":"Sculk Cane","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10016"}}
-tellraw @s {"text":"Valteths Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10017"}}
+tellraw @s[name="Valteth"] {"text":"Valteths Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10017"}}
 tellraw @s[name="wastefuldragonz"] {"text":"Partial Transformation","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10018"}}
 tellraw @s {"text":"Microphone","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10019"}}
 tellraw @s[name="DrNote"] {"text":"Staff of Chaos","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10020"}}
-tellraw @s {"text":"Butterfly Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10021"}}
-tellraw @s {"text":"Purple_tea Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10022"}}
-tellraw @s {"text":"Bellflower Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10023"}}
-tellraw @s {"text":"Ghostlotl Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10024"}}
-tellraw @s {"text":"Staff of Annihilation","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10025"}}
-tellraw @s {"text":"Black Hole Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10026"}}
+tellraw @s[name="TtaterTott_"] {"text":"Butterfly Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10021"}}
+tellraw @s[name="_purple_tea_"] {"text":"Purple_tea Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10022"}}
+tellraw @s[name="ACrowChild"] {"text":"Bellflower Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10023"}}
+tellraw @s[name="ghostolotl_"] {"text":"Ghostlotl Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10024"}}
+tellraw @s[name="_virtualriot"] {"text":"Staff of Annihilation","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10025"}}
+tellraw @s[name="MrUnknowen000"] {"text":"Black Hole Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10026"}}
+tellraw @s[name="Unfair_Spacedad"] {"text":"Silt Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10027"}}
