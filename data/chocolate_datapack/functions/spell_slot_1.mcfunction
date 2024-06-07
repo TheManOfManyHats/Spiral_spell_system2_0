@@ -217,7 +217,7 @@ execute as @s[scores={spell1=162,spell_cooldown=0,jammed=0},tag=spirit_storm_unl
 execute as @s[scores={spell1=163,spell_cooldown=0,jammed=0},tag=light_ray_unlocked] run function chocolate_datapack:spells/light/light_ray
 execute as @s[scores={spell1=164,spell_cooldown=0,jammed=0},tag=flash_bang_unlocked] run function chocolate_datapack:spells/light/flash_bang
 execute as @s[scores={spell1=165,spell_cooldown=0,jammed=0},tag=holy_healing_unlocked] run function chocolate_datapack:spells/light/holy_healing
-execute as @s[scores={spell1=166,spell_cooldown=0,jammed=0},tag=solar_flare_unlocked] run function chocolate_datapack:spells/light/solar_flare
+execute as @s[scores={spell1=166,spell_cooldown=0,jammed=0},tag=light_step_unlocked] run function chocolate_datapack:spells/light/light_step
 execute as @s[scores={spell1=167,spell_cooldown=0,jammed=0},tag=light_arrow_unlocked] run function chocolate_datapack:spells/light/light_arrow
 execute as @s[scores={spell1=168,spell_cooldown=0,jammed=0},tag=light_barrier_unlocked] run function chocolate_datapack:spells/light/light_barrier
 execute as @s[scores={spell1=169,spell_cooldown=0,jammed=0},tag=light_judgement_unlocked] run function chocolate_datapack:spells/light/light_judgement

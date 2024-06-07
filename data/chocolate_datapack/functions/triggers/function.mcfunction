@@ -361,7 +361,7 @@ execute as @s[scores={function=630}] run function chocolate_datapack:spells/dark
 execute as @s[scores={function=701}] run function chocolate_datapack:spells/light/unlocks/unlock_light_ray
 execute as @s[scores={function=702}] run function chocolate_datapack:spells/light/unlocks/unlock_flash_bang
 execute as @s[scores={function=703}] run function chocolate_datapack:spells/light/unlocks/unlock_holy_healing
-execute as @s[scores={function=704}] run function chocolate_datapack:spells/light/unlocks/unlock_solar_flare
+execute as @s[scores={function=704}] run function chocolate_datapack:spells/light/unlocks/unlock_light_step
 execute as @s[scores={function=705}] run function chocolate_datapack:spells/light/unlocks/unlock_light_arrow
 execute as @s[scores={function=706}] run function chocolate_datapack:spells/light/unlocks/unlock_light_barrier
 execute as @s[scores={function=707}] run function chocolate_datapack:spells/light/unlocks/unlock_light_judgement
@@ -637,7 +637,7 @@ execute as @s[scores={function=1162},tag=spirit_storm_unlocked] run scoreboard p
 execute as @s[scores={function=1163},tag=light_ray_unlocked] run scoreboard players set @s spell1 163
 execute as @s[scores={function=1164},tag=flash_bang_unlocked] run scoreboard players set @s spell1 164
 execute as @s[scores={function=1165},tag=holy_healing_unlocked] run scoreboard players set @s spell1 165
-execute as @s[scores={function=1166},tag=solar_flare_unlocked] run scoreboard players set @s spell1 166
+execute as @s[scores={function=1166},tag=light_step_unlocked] run scoreboard players set @s spell1 166
 execute as @s[scores={function=1167},tag=light_arrow_unlocked] run scoreboard players set @s spell1 167
 execute as @s[scores={function=1168},tag=light_barrier_unlocked] run scoreboard players set @s spell1 168
 execute as @s[scores={function=1169},tag=light_judgement_unlocked] run scoreboard players set @s spell1 169
@@ -899,7 +899,7 @@ execute as @s[scores={function=2162},tag=spirit_storm_unlocked] run scoreboard p
 execute as @s[scores={function=2163},tag=light_ray_unlocked] run scoreboard players set @s spell2 163
 execute as @s[scores={function=2164},tag=flash_bang_unlocked] run scoreboard players set @s spell2 164
 execute as @s[scores={function=2165},tag=holy_healing_unlocked] run scoreboard players set @s spell2 165
-execute as @s[scores={function=2166},tag=solar_flare_unlocked] run scoreboard players set @s spell2 166
+execute as @s[scores={function=2166},tag=light_step_unlocked] run scoreboard players set @s spell2 166
 execute as @s[scores={function=2167},tag=light_arrow_unlocked] run scoreboard players set @s spell2 167
 execute as @s[scores={function=2168},tag=light_barrier_unlocked] run scoreboard players set @s spell2 168
 execute as @s[scores={function=2169},tag=light_judgement_unlocked] run scoreboard players set @s spell2 169
@@ -1161,7 +1161,7 @@ execute as @s[scores={function=3162},tag=spirit_storm_unlocked] run scoreboard p
 execute as @s[scores={function=3163},tag=light_ray_unlocked] run scoreboard players set @s spell3 163
 execute as @s[scores={function=3164},tag=flash_bang_unlocked] run scoreboard players set @s spell3 164
 execute as @s[scores={function=3165},tag=holy_healing_unlocked] run scoreboard players set @s spell3 165
-execute as @s[scores={function=3166},tag=solar_flare_unlocked] run scoreboard players set @s spell3 166
+execute as @s[scores={function=3166},tag=light_step_unlocked] run scoreboard players set @s spell3 166
 execute as @s[scores={function=3167},tag=light_arrow_unlocked] run scoreboard players set @s spell3 167
 execute as @s[scores={function=3168},tag=light_barrier_unlocked] run scoreboard players set @s spell3 168
 execute as @s[scores={function=3169},tag=light_judgement_unlocked] run scoreboard players set @s spell3 169
@@ -1423,7 +1423,7 @@ execute as @s[scores={function=4162},tag=spirit_storm_unlocked] run scoreboard p
 execute as @s[scores={function=4163},tag=light_ray_unlocked] run scoreboard players set @s spell4 163
 execute as @s[scores={function=4164},tag=flash_bang_unlocked] run scoreboard players set @s spell4 164
 execute as @s[scores={function=4165},tag=holy_healing_unlocked] run scoreboard players set @s spell4 165
-execute as @s[scores={function=4166},tag=solar_flare_unlocked] run scoreboard players set @s spell4 166
+execute as @s[scores={function=4166},tag=light_step_unlocked] run scoreboard players set @s spell4 166
 execute as @s[scores={function=4167},tag=light_arrow_unlocked] run scoreboard players set @s spell4 167
 execute as @s[scores={function=4168},tag=light_barrier_unlocked] run scoreboard players set @s spell4 168
 execute as @s[scores={function=4169},tag=light_judgement_unlocked] run scoreboard players set @s spell4 169
@@ -1685,7 +1685,7 @@ execute as @s[scores={function=5162},tag=spirit_storm_unlocked] run scoreboard p
 execute as @s[scores={function=5163},tag=light_ray_unlocked] run scoreboard players set @s spell5 163
 execute as @s[scores={function=5164},tag=flash_bang_unlocked] run scoreboard players set @s spell5 164
 execute as @s[scores={function=5165},tag=holy_healing_unlocked] run scoreboard players set @s spell5 165
-execute as @s[scores={function=5166},tag=solar_flare_unlocked] run scoreboard players set @s spell5 166
+execute as @s[scores={function=5166},tag=light_step_unlocked] run scoreboard players set @s spell5 166
 execute as @s[scores={function=5167},tag=light_arrow_unlocked] run scoreboard players set @s spell5 167
 execute as @s[scores={function=5168},tag=light_barrier_unlocked] run scoreboard players set @s spell5 168
 execute as @s[scores={function=5169},tag=light_judgement_unlocked] run scoreboard players set @s spell5 169
