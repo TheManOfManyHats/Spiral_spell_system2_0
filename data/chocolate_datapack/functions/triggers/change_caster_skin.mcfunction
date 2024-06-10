@@ -27,3 +27,5 @@ tellraw @s[name="ghostolotl_"] {"text":"Ghostlotl Caster","bold":true,"color":"d
 tellraw @s[name="_virtualriot"] {"text":"Staff of Annihilation","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10025"}}
 tellraw @s[name="MrUnknowen000"] {"text":"Black Hole Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10026"}}
 tellraw @s[name="Unfair_Spacedad"] {"text":"Silt Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10027"}}
+tellraw @s[name="Nova_Genesis"] {"text":"Soul Flame Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10028"}}
+tellraw @s[] {"text":"Stick Staff","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10029"}}
