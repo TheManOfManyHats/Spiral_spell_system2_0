@@ -24,10 +24,11 @@ tellraw @s[name="TtaterTott_"] {"text":"Butterfly Caster","bold":true,"color":"d
 tellraw @s[name="_purple_tea_"] {"text":"Purple_tea Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10022"}}
 tellraw @s[name="ACrowChild"] {"text":"Bellflower Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10023"}}
 tellraw @s[name="ghostolotl_"] {"text":"Ghostlotl Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10024"}}
-tellraw @s[name="_virtualriot"] {"text":"Staff of Annihilation","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10025"}}
+tellraw @s[name="_Virtualriot"] {"text":"Staff of Annihilation","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10025"}}
 tellraw @s[name="MrUnknowen000"] {"text":"Black Hole Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10026"}}
 tellraw @s[name="Unfair_Spacedad"] {"text":"Silt Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10027"}}
 tellraw @s[name="Nova_Genesis"] {"text":"Soul Flame Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10028"}}
 tellraw @s[] {"text":"Stick Staff","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10029"}}
 tellraw @s[] {"text":"Corndog!","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10030"}}
 tellraw @s[] {"text":"Cotton Candy!","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10031"}}
+tellraw @s[name="TheMightyTofu"] {"text":"Tofus Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10032"}}
