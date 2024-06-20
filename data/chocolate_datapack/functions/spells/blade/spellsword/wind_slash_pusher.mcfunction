@@ -80,3 +80,157 @@ execute as @s at @s if block ~ ~-1 ~ jungle_leaves run summon item ~ ~-1 ~ {Item
 execute as @s at @s if block ~ ~-1 ~ spruce_leaves run summon item ~ ~-1 ~ {Item:{id:"minecraft:spruce_leaves"}}
 execute as @s at @s if block ~ ~-1 ~ mangrove_leaves run summon item ~ ~-1 ~ {Item:{id:"minecraft:mangrove_leaves"}}
 execute as @s at @s if block ~ ~-1 ~ #leaves run setblock ~ ~-1 ~ air destroy
+
+execute as @s at @s if block ~ ~ ~2 oak_leaves run summon item ~ ~ ~2 {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~ ~ ~2 dark_oak_leaves run summon item ~ ~ ~2 {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~ ~ ~2 birch_leaves run summon item ~ ~ ~2 {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~ ~ ~2 acacia_leaves run summon item ~ ~ ~2 {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~ ~ ~2 azalea_leaves run summon item ~ ~ ~2 {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~ ~ ~2 cherry_leaves run summon item ~ ~ ~2 {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~ ~ ~2 jungle_leaves run summon item ~ ~ ~2 {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~ ~ ~2 spruce_leaves run summon item ~ ~ ~2 {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~ ~ ~2 mangrove_leaves run summon item ~ ~ ~2 {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~ ~ ~2 #leaves run setblock ~ ~ ~2 air destroy
+
+execute as @s at @s if block ~ ~ ~-2 oak_leaves run summon item ~ ~ ~-2 {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~ ~ ~-2 dark_oak_leaves run summon item ~ ~ ~-2 {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~ ~ ~-2 birch_leaves run summon item ~ ~ ~-2 {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~ ~ ~-2 acacia_leaves run summon item ~ ~ ~-2 {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~ ~ ~-2 azalea_leaves run summon item ~ ~ ~-2 {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~ ~ ~-2 cherry_leaves run summon item ~ ~ ~-2 {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~ ~ ~-2 jungle_leaves run summon item ~ ~ ~-2 {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~ ~ ~-2 spruce_leaves run summon item ~ ~ ~-2 {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~ ~ ~-2 mangrove_leaves run summon item ~ ~ ~-2 {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~ ~ ~-2 #leaves run setblock ~ ~ ~-2 air destroy
+
+execute as @s at @s if block ~2 ~ ~ oak_leaves run summon item ~2 ~ ~ {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~2 ~ ~ dark_oak_leaves run summon item ~2 ~ ~ {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~2 ~ ~ birch_leaves run summon item ~2 ~ ~ {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~2 ~ ~ acacia_leaves run summon item ~2 ~ ~ {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~2 ~ ~ azalea_leaves run summon item ~2 ~ ~ {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~2 ~ ~ cherry_leaves run summon item ~2 ~ ~ {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~2 ~ ~ jungle_leaves run summon item ~2 ~ ~ {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~2 ~ ~ spruce_leaves run summon item ~2 ~ ~ {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~2 ~ ~ mangrove_leaves run summon item ~2 ~ ~ {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~2 ~ ~ #leaves run setblock ~2 ~ ~ air destroy
+
+execute as @s at @s if block ~-2 ~ ~ oak_leaves run summon item ~-2 ~ ~ {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~-2 ~ ~ dark_oak_leaves run summon item ~-2 ~ ~ {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~-2 ~ ~ birch_leaves run summon item ~-2 ~ ~ {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~-2 ~ ~ acacia_leaves run summon item ~-2 ~ ~ {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~-2 ~ ~ azalea_leaves run summon item ~-2 ~ ~ {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~-2 ~ ~ cherry_leaves run summon item ~-2 ~ ~ {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~-2 ~ ~ jungle_leaves run summon item ~-2 ~ ~ {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~-2 ~ ~ spruce_leaves run summon item ~-2 ~ ~ {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~-2 ~ ~ mangrove_leaves run summon item ~-2 ~ ~ {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~-2 ~ ~ #leaves run setblock ~-2 ~ ~ air destroy
+
+execute as @s at @s if block ~ ~2 ~ oak_leaves run summon item ~ ~2 ~ {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~ ~2 ~ dark_oak_leaves run summon item ~ ~2 ~ {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~ ~2 ~ birch_leaves run summon item ~ ~2 ~ {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~ ~2 ~ acacia_leaves run summon item ~ ~2 ~ {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~ ~2 ~ azalea_leaves run summon item ~ ~2 ~ {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~ ~2 ~ cherry_leaves run summon item ~ ~2 ~ {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~ ~2 ~ jungle_leaves run summon item ~ ~2 ~ {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~ ~2 ~ spruce_leaves run summon item ~ ~2 ~ {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~ ~2 ~ mangrove_leaves run summon item ~ ~2 ~ {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~ ~2 ~ #leaves run setblock ~ ~2 ~ air destroy
+
+execute as @s at @s if block ~ ~-2 ~ oak_leaves run summon item ~ ~-2 ~ {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~ ~-2 ~ dark_oak_leaves run summon item ~ ~-2 ~ {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~ ~-2 ~ birch_leaves run summon item ~ ~-2 ~ {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~ ~-2 ~ acacia_leaves run summon item ~ ~-2 ~ {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~ ~-2 ~ azalea_leaves run summon item ~ ~-2 ~ {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~ ~-2 ~ cherry_leaves run summon item ~ ~-2 ~ {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~ ~-2 ~ jungle_leaves run summon item ~ ~-2 ~ {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~ ~-2 ~ spruce_leaves run summon item ~ ~-2 ~ {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~ ~-2 ~ mangrove_leaves run summon item ~ ~-2 ~ {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~ ~-2 ~ #leaves run setblock ~ ~-2 ~ air destroy
+
+execute as @s at @s if block ~1 ~-1 ~1 oak_leaves run summon item ~1 ~-1 ~1 {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~1 dark_oak_leaves run summon item ~1 ~-1 ~1 {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~1 birch_leaves run summon item ~1 ~-1 ~1 {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~1 acacia_leaves run summon item ~1 ~-1 ~1 {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~1 azalea_leaves run summon item ~1 ~-1 ~1 {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~1 cherry_leaves run summon item ~1 ~-1 ~1 {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~1 jungle_leaves run summon item ~1 ~-1 ~1 {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~1 spruce_leaves run summon item ~1 ~-1 ~1 {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~1 mangrove_leaves run summon item ~1 ~-1 ~1 {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~1 #leaves run setblock ~1 ~-1 ~1 air destroy
+
+execute as @s at @s if block ~-1 ~-1 ~1 oak_leaves run summon item ~-1 ~-1 ~1 {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~1 dark_oak_leaves run summon item ~-1 ~-1 ~1 {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~1 birch_leaves run summon item ~-1 ~-1 ~1 {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~1 acacia_leaves run summon item ~-1 ~-1 ~1 {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~1 azalea_leaves run summon item ~-1 ~-1 ~1 {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~1 cherry_leaves run summon item ~-1 ~-1 ~1 {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~1 jungle_leaves run summon item ~-1 ~-1 ~1 {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~1 spruce_leaves run summon item ~-1 ~-1 ~1 {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~1 mangrove_leaves run summon item ~-1 ~-1 ~1 {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~1 #leaves run setblock ~-1 ~-1 ~1 air destroy
+
+execute as @s at @s if block ~1 ~-1 ~-1 oak_leaves run summon item ~1 ~-1 ~-1 {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~-1 dark_oak_leaves run summon item ~1 ~-1 ~-1 {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~-1 birch_leaves run summon item ~1 ~-1 ~-1 {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~-1 acacia_leaves run summon item ~1 ~-1 ~-1 {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~-1 azalea_leaves run summon item ~1 ~-1 ~-1 {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~-1 cherry_leaves run summon item ~1 ~-1 ~-1 {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~-1 jungle_leaves run summon item ~1 ~-1 ~-1 {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~-1 spruce_leaves run summon item ~1 ~-1 ~-1 {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~-1 mangrove_leaves run summon item ~1 ~-1 ~-1 {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~1 ~-1 ~-1 #leaves run setblock ~1 ~-1 ~-1 air destroy
+
+execute as @s at @s if block ~-1 ~-1 ~-1 oak_leaves run summon item ~-1 ~-1 ~-1 {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~-1 dark_oak_leaves run summon item ~-1 ~-1 ~-1 {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~-1 birch_leaves run summon item ~-1 ~-1 ~-1 {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~-1 acacia_leaves run summon item ~-1 ~-1 ~-1 {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~-1 azalea_leaves run summon item ~-1 ~-1 ~-1 {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~-1 cherry_leaves run summon item ~-1 ~-1 ~-1 {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~-1 jungle_leaves run summon item ~-1 ~-1 ~-1 {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~-1 spruce_leaves run summon item ~-1 ~-1 ~-1 {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~-1 mangrove_leaves run summon item ~-1 ~-1 ~-1 {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~-1 ~-1 ~-1 #leaves run setblock ~1 ~-1 ~1 air destroy
+
+execute as @s at @s if block ~1 ~1 ~1 oak_leaves run summon item ~1 ~1 ~1 {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~1 ~1 ~1 dark_oak_leaves run summon item ~1 ~1 ~1 {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~1 ~1 ~1 birch_leaves run summon item ~1 ~1 ~1 {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~1 ~1 ~1 acacia_leaves run summon item ~1 ~1 ~1 {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~1 ~1 ~1 azalea_leaves run summon item ~1 ~1 ~1 {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~1 ~1 ~1 cherry_leaves run summon item ~1 ~1 ~1 {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~1 ~1 ~1 jungle_leaves run summon item ~1 ~1 ~1 {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~1 ~1 ~1 spruce_leaves run summon item ~1 ~1 ~1 {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~1 ~1 ~1 mangrove_leaves run summon item ~1 ~1 ~1 {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~1 ~1 ~1 #leaves run setblock ~1 ~1 ~1 air destroy
+
+execute as @s at @s if block ~-1 ~1 ~1 oak_leaves run summon item ~-1 ~1 ~1 {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~1 dark_oak_leaves run summon item ~-1 ~1 ~1 {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~1 birch_leaves run summon item ~-1 ~1 ~1 {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~1 acacia_leaves run summon item ~-1 ~1 ~1 {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~1 azalea_leaves run summon item ~-1 ~1 ~1 {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~1 cherry_leaves run summon item ~-1 ~1 ~1 {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~1 jungle_leaves run summon item ~-1 ~1 ~1 {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~1 spruce_leaves run summon item ~-1 ~1 ~1 {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~1 mangrove_leaves run summon item ~-1 ~1 ~1 {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~1 #leaves run setblock ~-1 ~1 ~1 air destroy
+
+execute as @s at @s if block ~1 ~1 ~-1 oak_leaves run summon item ~1 ~1 ~-1 {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~1 ~1 ~-1 dark_oak_leaves run summon item ~1 ~1 ~-1 {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~1 ~1 ~-1 birch_leaves run summon item ~1 ~1 ~-1 {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~1 ~1 ~-1 acacia_leaves run summon item ~1 ~1 ~-1 {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~1 ~1 ~-1 azalea_leaves run summon item ~1 ~1 ~-1 {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~1 ~1 ~-1 cherry_leaves run summon item ~1 ~1 ~-1 {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~1 ~1 ~-1 jungle_leaves run summon item ~1 ~1 ~-1 {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~1 ~1 ~-1 spruce_leaves run summon item ~1 ~1 ~-1 {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~1 ~1 ~-1 mangrove_leaves run summon item ~1 ~1 ~-1 {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~1 ~1 ~-1 #leaves run setblock ~1 ~1 ~-1 air destroy
+
+execute as @s at @s if block ~-1 ~1 ~-1 oak_leaves run summon item ~-1 ~1 ~-1 {Item:{id:"minecraft:oak_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~-1 dark_oak_leaves run summon item ~-1 ~1 ~-1 {Item:{id:"minecraft:dark_oak_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~-1 birch_leaves run summon item ~-1 ~1 ~-1 {Item:{id:"minecraft:birch_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~-1 acacia_leaves run summon item ~-1 ~1 ~-1 {Item:{id:"minecraft:acacia_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~-1 azalea_leaves run summon item ~-1 ~1 ~-1 {Item:{id:"minecraft:azalea_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~-1 cherry_leaves run summon item ~-1 ~1 ~-1 {Item:{id:"minecraft:cherry_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~-1 jungle_leaves run summon item ~-1 ~1 ~-1 {Item:{id:"minecraft:jungle_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~-1 spruce_leaves run summon item ~-1 ~1 ~-1 {Item:{id:"minecraft:spruce_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~-1 mangrove_leaves run summon item ~-1 ~1 ~-1 {Item:{id:"minecraft:mangrove_leaves"}}
+execute as @s at @s if block ~-1 ~1 ~-1 #leaves run setblock ~1 ~1 ~1 air destroy
