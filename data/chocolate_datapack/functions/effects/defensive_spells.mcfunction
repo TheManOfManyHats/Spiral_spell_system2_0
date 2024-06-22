@@ -14,3 +14,4 @@ execute as @s[tag=spike] run function chocolate_datapack:effects/spike
 execute as @s[tag=summon] run function chocolate_datapack:effects/summon
 execute as @s[tag=construction] run function chocolate_datapack:effects/construction
 execute as @s[tag=wave] run function chocolate_datapack:effects/wave
+execute as @s[tag=homing] run function chocolate_datapack:effects/homing
