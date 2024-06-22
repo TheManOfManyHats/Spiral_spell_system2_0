@@ -318,6 +318,7 @@ execute as @s[scores={spell4=256,spell_cooldown=0,jammed=0},tag=luke_spell_basti
 execute as @s[scores={spell4=257,spell_cooldown=0,jammed=0},tag=luke_spell_bacon_launcher_unlocked] run function chocolate_datapack:spells/luke_spells/bacon_launcher
 execute as @s[scores={spell4=258,spell_cooldown=0,jammed=0},tag=luke_spell_fire_shield_unlocked] run function chocolate_datapack:spells/luke_spells/fire_shield
 execute as @s[scores={spell4=259,spell_cooldown=0,jammed=0},tag=luke_spell_summon_tnt_unlocked] run function chocolate_datapack:spells/luke_spells/summon_tnt
+execute as @s[scores={spell4=260,spell_cooldown=0,jammed=0},tag=fierros_fiery_unlocked] run function chocolate_datapack:spells/staff_spells/fierros_fiery
 ##===================================================================##
 
 # Kills Interaction Cube:
