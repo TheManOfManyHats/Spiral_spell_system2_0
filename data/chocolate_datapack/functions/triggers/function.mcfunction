@@ -731,6 +731,7 @@ execute as @s[scores={function=1256},tag=luke_spell_bastion_pauldrons_unlocked] 
 execute as @s[scores={function=1257},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell1 257
 execute as @s[scores={function=1258},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell1 258
 execute as @s[scores={function=1259},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell1 259
+execute as @s[scores={function=1260},tag=fierros_fury_unlocked] run scoreboard players set @s spell1 260
 
 ##==============================SET SPELLS ON RIGHT CLICK===========================##
 execute as @s[scores={function=2000}] run scoreboard players set @s spell2 0
@@ -993,6 +994,7 @@ execute as @s[scores={function=2256},tag=luke_spell_bastion_pauldrons_unlocked] 
 execute as @s[scores={function=2257},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell2 257
 execute as @s[scores={function=2258},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell2 258
 execute as @s[scores={function=2259},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell2 259
+execute as @s[scores={function=2260},tag=fierros_fury_unlocked] run scoreboard players set @s spell1 260
 
 ##==============================SET SPELLS ON SHIFT LEFT CLICK===========================##
 execute as @s[scores={function=3000}] run scoreboard players set @s spell3 0
@@ -1255,6 +1257,7 @@ execute as @s[scores={function=3256},tag=luke_spell_bastion_pauldrons_unlocked] 
 execute as @s[scores={function=3257},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell3 257
 execute as @s[scores={function=3258},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell3 258
 execute as @s[scores={function=3259},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell3 259
+execute as @s[scores={function=3260},tag=fierros_fury_unlocked] run scoreboard players set @s spell1 260
 
 ##==============================SET SPELLS ON SHIFT RIGHT CLICK===========================##
 execute as @s[scores={function=4000}] run scoreboard players set @s spell4 0
@@ -1517,6 +1520,7 @@ execute as @s[scores={function=4256},tag=luke_spell_bastion_pauldrons_unlocked] 
 execute as @s[scores={function=4257},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell4 257
 execute as @s[scores={function=4258},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell4 258
 execute as @s[scores={function=4259},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell4 259
+execute as @s[scores={function=4260},tag=fierros_fury_unlocked] run scoreboard players set @s spell1 260
 
 ##==============================SET SPELLS ON SHICF JUMP===========================##
 execute as @s[scores={function=5000}] run scoreboard players set @s spell5 0
@@ -1779,6 +1783,7 @@ execute as @s[scores={function=5256},tag=luke_spell_bastion_pauldrons_unlocked] 
 execute as @s[scores={function=5257},tag=luke_spell_bacon_launcher_unlocked] run scoreboard players set @s spell5 257
 execute as @s[scores={function=5258},tag=luke_spell_fire_shield_unlocked] run scoreboard players set @s spell5 258
 execute as @s[scores={function=5259},tag=luke_spell_summon_tnt_unlocked] run scoreboard players set @s spell5 259
+execute as @s[scores={function=5260},tag=fierros_fury_unlocked] run scoreboard players set @s spell1 260
 
 execute as @s[scores={function=1000..1999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Left Click!\n===========================================","bold":true,"color":"dark_green"}]
 execute as @s[scores={function=2000..2999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Right Click!\n===========================================","bold":true,"color":"dark_green"}]
