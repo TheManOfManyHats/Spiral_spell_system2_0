@@ -1,0 +1,9 @@
+execute if score @s withdrawal >= @s withdrawal1 run attribute @s minecraft:generic.movement_speed modifier add facade-a-a-a-000000000 addictioneffect -.03 add
+execute if score @s withdrawal >= @s withdrawal2 run attribute @s minecraft:generic.attack_speed modifier add facade-a-a-a-000000001 addictioneffect -1 add
+execute if score @s withdrawal >= @s withdrawal3 run attribute @s minecraft:generic.movement_speed modifier add facade-a-a-a-000000002 addictioneffect -.02 add
+execute if score @s withdrawal >= @s withdrawal3 run effect give @s minecraft:nausea infinite 2 true
+execute if score @s withdrawal >= @s withdrawal4 run effect give @s minecraft:hunger infinite 2 true
+execute if score @s withdrawal >= @s withdrawal4 run attribute @s minecraft:generic.max_health modifier add facade-a-a-a-000000003 addictioneffect -5 add
+execute if score @s withdrawal >= @s withdrawal5 run attribute @s minecraft:generic.max_health modifier add facade-a-a-a-000000004 addictioneffect -5 add
+execute if score @s withdrawal >= @s withdrawal6 run attribute @s minecraft:generic.max_health modifier add facade-a-a-a-000000005 addictioneffect -5 add
+execute if score @s withdrawal >= @s withdrawal7 run attribute @s minecraft:generic.max_health modifier add facade-a-a-a-000000006 addictioneffect -5 add
