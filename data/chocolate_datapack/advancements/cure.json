@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "nbt": "{cure:true}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "chocolate_datapack:cureaddiction"
+  }
+}
