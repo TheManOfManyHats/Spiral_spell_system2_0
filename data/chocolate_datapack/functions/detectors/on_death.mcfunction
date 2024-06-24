@@ -11,5 +11,6 @@ execute as @s[tag=!book_on_death_false] run tag @s add item_switch
 execute as @s[tag=!caster_on_death_false] run function chocolate_datapack:triggers/get_caster
 execute as @s[tag=!book_on_death_false] run function chocolate_datapack:triggers/get_book
 execute as @s run function chocolate_datapack:detectors/initialize_empowerments
+execute as @s[tag=addicted] run function chocolate_datapack:addictioneffect
 scoreboard players reset @s attacked_by_id
 tag @s remove 1
