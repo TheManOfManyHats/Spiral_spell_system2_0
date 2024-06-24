@@ -6,4 +6,4 @@ execute if score @s withdrawal >= @s withdrawal4 run effect give @s minecraft:hu
 execute if score @s withdrawal >= @s withdrawal4 run attribute @s minecraft:generic.max_health modifier add facade-a-a-a-000000003 addictioneffect -5 add
 execute if score @s withdrawal >= @s withdrawal5 run attribute @s minecraft:generic.max_health modifier add facade-a-a-a-000000004 addictioneffect -5 add
 execute if score @s withdrawal >= @s withdrawal6 run attribute @s minecraft:generic.max_health modifier add facade-a-a-a-000000005 addictioneffect -5 add
-execute if score @s withdrawal >= @s withdrawal7 run attribute @s minecraft:generic.max_health modifier add facade-a-a-a-000000006 addictioneffect -5 add
+execute if score @s withdrawal >= @s withdrawal7 run attribute @s minecraft:generic.max_health modifier add facade-a-a-a-000000006 addictioneffect -4 add
