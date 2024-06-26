@@ -5,7 +5,7 @@ scoreboard players set @s unlock_cost 25
 ##===================CHECKS======================##
 tag @s[tag=metal_user,tag=metal_grand_user] add 5
 tag @s[tag=crystal_resonance_unlocked] add 4
-tag @s[tag=!water_user,tag=!ice_user,tag=!healing_user,tag=!ice_grand_user,tag=!healing_grand_user] add 2
+tag @s[tag=!earth_user,tag=!metal_user,tag=!crystal_user,tag=!metal_grand_user,tag=!crystal_grand_user] add 2
 execute if score @s skill_points < @s unlock_cost run tag @s add 3
 tag @s[tag=!2,tag=!3,tag=!4,tag=!5] add 1
 ##===============================================##
