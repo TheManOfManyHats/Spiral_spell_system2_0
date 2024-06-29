@@ -323,6 +323,7 @@ execute as @s[scores={spell2=260,spell_cooldown=0,jammed=0},tag=fierros_fiery_un
 
 ##===================================================================##
 execute as @s[scores={spell1=261,spell_cooldown=0,jammed=0},tag=cow_form_unlocked] run function chocolate_datapack:spells/shifter/cow_form
+execute as @s[scores={spell1=262,spell_cooldown=0,jammed=0},tag=aquatic_shape_unlocked] run function chocolate_datapack:spells/shifter/aquatic_shape
 
 # Kills Interaction Cube:
 execute at @s positioned ~ ~1.5 ~ run kill @e[type=interaction,distance=..1,sort=nearest,limit=1]
