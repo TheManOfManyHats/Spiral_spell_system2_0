@@ -130,4 +130,7 @@ execute as @s[tag=blade_zone] at @s rotated as @s unless block ~ ~-.5 ~ #chocola
 
 #WIND SLASH PUSH
 execute as @s[tag=blade_wind_slash_pusher] at @s run function chocolate_datapack:spells/blade/spellsword/wind_slash_pusher
+
+#WEB_SNARE
+execute as @s[tag=web_snare] at @s rotated as @s unless block ~ ~-.5 ~ #chocolate_datapack:passthrough run function chocolate_datapack:spells/shifting/web_snare_effect
 ##----------------------------------------------------------------------------##
