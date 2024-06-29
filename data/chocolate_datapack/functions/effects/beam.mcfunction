@@ -13,3 +13,6 @@ execute as @s[tag=cosmic_ray] run function chocolate_datapack:spells/light/celes
 
 #Aurora Beam
 execute as @s[tag=aurora_beam] run function chocolate_datapack:spells/water/aurora_beam_effect
+
+#ACIDIC_VOMIT
+execute as @s[tag=acidic_vomit] run function chocolate_datapack:spells/shifter/acidic_vomit_effect
