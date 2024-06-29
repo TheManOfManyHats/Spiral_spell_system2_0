@@ -84,5 +84,6 @@ scoreboard players operation @s[tag=1] knowledge += @s knowledge_factor
 scoreboard players operation @s[tag=1] wil -= @s spell_cost
 ##-----------------------------------------------------------------##
 # Remove tags
+execute at @s[tag=1] positioned ~ ~2 ~ run tag @e[sort=nearest,distance=..1,tag=new_spell] add chocolate_datapack_spell
 execute at @s[tag=1] positioned ~ ~2 ~ run tag @e[sort=nearest,distance=..1,tag=new_spell] remove new_spell
 tag @s remove 1

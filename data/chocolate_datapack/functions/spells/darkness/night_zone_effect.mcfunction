@@ -1,7 +1,7 @@
 ##----------------DAMAGING LINES-------------------##
-execute at @s[tag=lv1] run summon item_display ~ ~ ~ {Tags:["zone","darkness","offensive","night_zone_zone","lv1","new_spell"]}
-execute at @s[tag=lv2] run summon item_display ~ ~ ~ {Tags:["zone","darkness","offensive","night_zone_zone","lv2","new_spell"]}
-execute at @s[tag=lv3] run summon item_display ~ ~ ~ {Tags:["zone","darkness","offensive","night_zone_zone","lv3","new_spell"]}
+execute at @s[tag=lv1] run summon item_display ~ ~ ~ {Tags:["zone","darkness","offensive","night_zone_zone","lv1","new_spell","chocolate_datapack_spell"]}
+execute at @s[tag=lv2] run summon item_display ~ ~ ~ {Tags:["zone","darkness","offensive","night_zone_zone","lv2","new_spell","chocolate_datapack_spell"]}
+execute at @s[tag=lv3] run summon item_display ~ ~ ~ {Tags:["zone","darkness","offensive","night_zone_zone","lv3","new_spell","chocolate_datapack_spell"]}
 
 execute at @s[tag=lv1] run scoreboard players set @e[tag=night_zone_zone,tag=new_spell,sort=nearest,tag=lv1] kill_timer 200
 execute at @s[tag=lv2] run scoreboard players set @e[tag=night_zone_zone,tag=new_spell,sort=nearest,tag=lv2] kill_timer 400

@@ -15,11 +15,11 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","lance","ice","ice_lance","lv1","new_spell"],teleport_duration:1,item_display:"head",item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1045}}}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","lance","ice","ice_lance","lv1","new_spell","chocolate_datapack_spell"],teleport_duration:1,item_display:"head",item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1045}}}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","lance","ice","ice_lance","lv2","new_spell"],teleport_duration:1,item_display:"head",item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1046}}}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","lance","ice","ice_lance","lv2","new_spell","chocolate_datapack_spell"],teleport_duration:1,item_display:"head",item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1046}}}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","lance","ice","ice_lance","lv3","new_spell"],teleport_duration:1,item_display:"head",item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1047}}}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","lance","ice","ice_lance","lv3","new_spell","chocolate_datapack_spell"],teleport_duration:1,item_display:"head",item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1047}}}
 #Put kill timer on item_display that lasts for 5 seconds
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=ice_lance,sort=nearest,limit=1,tag=new_spell] kill_timer 100
 #put player's spell ID on the spell

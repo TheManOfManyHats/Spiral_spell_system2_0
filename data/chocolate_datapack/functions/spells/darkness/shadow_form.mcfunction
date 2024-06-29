@@ -15,17 +15,17 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["utility","self","shadow","shadow_form","lv1","new_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b,NoGravity:1b}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["utility","self","shadow","shadow_form","lv1","new_spell","chocolate_datapack_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b,NoGravity:1b}
 #Put kill timer on armorstand that lasts for 5 seconds
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=shadow_form,tag=lv1,sort=nearest,limit=1,tag=new_spell] kill_timer 200
 #MED POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["utility","self","shadow","shadow_form","lv2","new_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b,NoGravity:1b}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["utility","self","shadow","shadow_form","lv2","new_spell","chocolate_datapack_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b,NoGravity:1b}
 #Put kill timer on armorstand that lasts for 5 seconds
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=shadow_form,tag=lv2,sort=nearest,limit=1,tag=new_spell] kill_timer 400
 #HIGH POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["utility","self","shadow","shadow_form","lv3","new_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b,NoGravity:1b}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["utility","self","shadow","shadow_form","lv3","new_spell","chocolate_datapack_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b,NoGravity:1b}
 #Put kill timer on armorstand that lasts for 5 seconds
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=shadow_form,tag=lv3,sort=nearest,limit=1,tag=new_spell] kill_timer 600
 #put player's spell ID on the spell

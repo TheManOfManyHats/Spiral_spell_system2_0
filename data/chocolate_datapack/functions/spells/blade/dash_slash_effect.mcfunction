@@ -1,12 +1,12 @@
 execute at @s as @a if score @s player_id = @e[tag=dash_slash,sort=nearest,limit=1] player_id run tp @s ~ ~ ~
-execute at @s[tag=lv1] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv1"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1009}}}
-execute at @s[tag=lv1] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv1"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1011}}}
+execute at @s[tag=lv1] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv1","chocolate_datapack_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1009}}}
+execute at @s[tag=lv1] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv1","chocolate_datapack_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1011}}}
 
-execute at @s[tag=lv2] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv2"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1009}}}
-execute at @s[tag=lv2] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv2"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1011}}}
+execute at @s[tag=lv2] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv2","chocolate_datapack_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1009}}}
+execute at @s[tag=lv2] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv2","chocolate_datapack_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1011}}}
 
-execute at @s[tag=lv3] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv3"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1009}}}
-execute at @s[tag=lv3] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv3"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1011}}}
+execute at @s[tag=lv3] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv3","chocolate_datapack_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1009}}}
+execute at @s[tag=lv3] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","blade","dash_slash_slash","lv3","chocolate_datapack_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1011}}}
 
 
 execute at @s[tag=lv1] rotated as @s positioned ~ ~-1 ~ positioned ^ ^ ^ as @e[distance=..3,type=!#chocolate_datapack:non_activating] unless score @s player_id = @e[tag=dash_slash,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=dash_slash,limit=1,sort=nearest] team_id run damage @s 4 generic

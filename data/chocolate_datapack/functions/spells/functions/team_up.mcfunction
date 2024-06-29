@@ -22,7 +22,7 @@ execute as @s[tag=2] run tag @s remove 2
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1] positioned ~ ~1.5 ~ run summon marker ~ ~ ~ {Tags:["utility","bolt","function","team_up","lv1"]}
+execute at @s[tag=1] positioned ~ ~1.5 ~ run summon marker ~ ~ ~ {Tags:["utility","bolt","function","team_up","chocolate_datapack_spell","lv1"]}
 
 #Put kill timer on marker that lasts for 1 seconds
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=team_up,sort=nearest,limit=1] kill_timer 20

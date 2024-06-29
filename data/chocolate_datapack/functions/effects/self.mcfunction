@@ -79,6 +79,7 @@ execute at @s[tag=wild_evasion] run function chocolate_datapack:spells/nature/wi
 #WILD_SLASHES #4
 execute at @s[tag=wild_wild_slashes] run function chocolate_datapack:spells/nature/wild/wild_slashes_effect
 
+#AROBATICS
 execute at @s[tag=aerobatics] run function chocolate_datapack:spells/staff_spells/acrobat/aerobatics_effect
 
 #CHAMELEON_SKIN
@@ -89,4 +90,7 @@ execute at @s[tag=wraith_walker] run function chocolate_datapack:spells/shifter/
 
 #AQUATIC SHAPE
 execute at @s[tag=aquatic_shape] run function chocolate_datapack:spells/shifter/aquatic_shape_effect
+
+#COW FORM
+execute at @s[tag=cow_form] run function chocolate_datapack:spells/shifter/cow_form_effect
 ##----------------------------------------------------------------------------##

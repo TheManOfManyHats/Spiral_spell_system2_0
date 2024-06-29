@@ -15,13 +15,13 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack and add new_spell tag
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon item_display ~ ~1 ~ {item_display:"head",Tags:["offensive","touch","blade","rising_slash","lv1","new_spell","spiral_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1015}}}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon item_display ~ ~1 ~ {item_display:"head",Tags:["offensive","touch","blade","rising_slash","lv1","new_spell","chocolate_datapack_spell","spiral_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1015}}}
 
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon item_display ~ ~1 ~ {item_display:"head",Tags:["offensive","touch","blade","rising_slash","lv2","new_spell","spiral_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1015}}}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon item_display ~ ~1 ~ {item_display:"head",Tags:["offensive","touch","blade","rising_slash","lv2","new_spell","chocolate_datapack_spell","spiral_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1015}}}
 
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon item_display ~ ~1 ~ {item_display:"head",Tags:["offensive","touch","blade","rising_slash","lv3","new_spell","spiral_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1015}}}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon item_display ~ ~1 ~ {item_display:"head",Tags:["offensive","touch","blade","rising_slash","lv3","new_spell","chocolate_datapack_spell","spiral_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1015}}}
 
 #Put kill timer on item_display that lasts for 5 seconds
 execute at @s[tag=1] positioned ~ ~1 ~ run scoreboard players set @e[tag=rising_slash,sort=nearest,limit=1,tag=new_spell] kill_timer 6

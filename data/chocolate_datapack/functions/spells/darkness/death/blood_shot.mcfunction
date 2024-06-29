@@ -15,13 +15,13 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack and add new_spell tag
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","blood","blood_shot","lv1","new_spell"],teleport_duration:1}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","blood","blood_shot","lv1","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 execute at @s[tag=1,scores={spell_power=1}] run damage @s 2 dry_out
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","blood","blood_shot","lv2","new_spell"],teleport_duration:1}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","blood","blood_shot","lv2","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 execute at @s[tag=1,scores={spell_power=3}] run damage @s 4 dry_out
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","blood","blood_shot","lv3","new_spell"],teleport_duration:1}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","blood","blood_shot","lv3","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 execute at @s[tag=1,scores={spell_power=5}] run damage @s 6 dry_out
 
 #Put kill timer on item_display that lasts for 5 seconds

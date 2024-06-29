@@ -2,9 +2,9 @@
 execute at @s run kill @e[tag=volt_chain_effect,distance=..2]
 
 ##----------------DAMAGING LINES-------------------##
-execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run summon armor_stand ~ ~ ~ {Tags:["offensive","mark","volt_chain_effect","lv1"],Invisible:1b,Invulnerable:1b}
-execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run summon armor_stand ~ ~ ~ {Tags:["offensive","mark","volt_chain_effect","lv2"],Invisible:1b,Invulnerable:1b}
-execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run summon armor_stand ~ ~ ~ {Tags:["offensive","mark","volt_chain_effect","lv3"],Invisible:1b,Invulnerable:1b}
+execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run summon armor_stand ~ ~ ~ {Tags:["offensive","mark","volt_chain_effect","lv1","chocolate_datapack_spell"],Invisible:1b,Invulnerable:1b}
+execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run summon armor_stand ~ ~ ~ {Tags:["offensive","mark","volt_chain_effect","lv2","chocolate_datapack_spell"],Invisible:1b,Invulnerable:1b}
+execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run summon armor_stand ~ ~ ~ {Tags:["offensive","mark","volt_chain_effect","lv3","chocolate_datapack_spell"],Invisible:1b,Invulnerable:1b}
 
 execute at @s[tag=lv1] as @e[tag=volt_chain_effect,sort=nearest,limit=1] run scoreboard players set @s kill_timer 20
 execute at @s[tag=lv2] as @e[tag=volt_chain_effect,sort=nearest,limit=1] run scoreboard players set @s kill_timer 40

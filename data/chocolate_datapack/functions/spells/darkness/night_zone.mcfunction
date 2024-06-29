@@ -17,11 +17,11 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 execute as @s[tag=1] rotated as @s positioned 0 0 0 align xyz run summon minecraft:armor_stand ^ ^ ^1 {Invulnerable:1b,NoGravity:1b,Tags:["aim"]}
 #Summon armor stand that is the actual attack
 #LOW POWER
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["offensive","lob","darkness","night_zone","lv1","new_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["offensive","lob","darkness","night_zone","lv1","new_spell","chocolate_datapack_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["offensive","lob","darkness","night_zone","lv2","new_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["offensive","lob","darkness","night_zone","lv2","new_spell","chocolate_datapack_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["offensive","lob","darkness","night_zone","lv3","new_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon armor_stand ~ ~ ~ {Tags:["offensive","lob","darkness","night_zone","lv3","new_spell","chocolate_datapack_spell"],Invisible:1b,Small:1b,NoBasePlate:1b,Silent:1b}
 #Put kill timer on armorstand that lasts for 5 seconds
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=night_zone,sort=nearest,limit=1,tag=new_spell] kill_timer 100
 #put player's spell ID on the spell

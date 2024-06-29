@@ -15,11 +15,11 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #Summon marker entitiy that is the actual attack
 #LOW POWER
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","zone","lightning","nimbus","lv1","new_spell"]}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","zone","lightning","nimbus","lv1","new_spell","chocolate_datapack_spell"]}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","zone","lightning","nimbus","lv2","new_spell"]}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","zone","lightning","nimbus","lv2","new_spell","chocolate_datapack_spell"]}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","zone","lightning","nimbus","lv3","new_spell"]}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","zone","lightning","nimbus","lv3","new_spell","chocolate_datapack_spell"]}
 #Put kill timer on marker entity that lasts for 10 Seconds
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=nimbus,sort=nearest,tag=new_spell] kill_timer 200
 #put player's spell ID on the spell

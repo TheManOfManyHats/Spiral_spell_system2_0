@@ -17,11 +17,11 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 execute as @s[tag=1] rotated as @s positioned 0 0 0 align xyz run summon minecraft:armor_stand ^ ^ ^1 {Invulnerable:1b,NoGravity:1b,Tags:["aim"]}
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=1}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","cyclone","lv1","new_spell"],DisabledSlots:4144959}
+execute at @s[tag=1,scores={spell_power=1}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","cyclone","lv1","new_spell","chocolate_datapack_spell"],DisabledSlots:4144959}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","cyclone","lv2","new_spell"],DisabledSlots:4144959}
+execute at @s[tag=1,scores={spell_power=3}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","cyclone","lv2","new_spell","chocolate_datapack_spell"],DisabledSlots:4144959}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","cyclone","lv3",new_spell],DisabledSlots:4144959}
+execute at @s[tag=1,scores={spell_power=5}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","cyclone","lv3","new_spell","chocolate_datapack_spell"],DisabledSlots:4144959}
 
 execute as @s[tag=1] at @s run function animated_java:cyclone/summon
 execute as @s[tag=1] at @s run tag @e[tag=aj.cyclone.root,limit=1,sort=nearest] add cyclone_animator
