@@ -321,6 +321,9 @@ execute as @s[scores={spell4=259,spell_cooldown=0,jammed=0},tag=luke_spell_summo
 execute as @s[scores={spell4=260,spell_cooldown=0,jammed=0},tag=fierros_fiery_unlocked] run function chocolate_datapack:spells/staff_spells/fierros_fiery
 ##===================================================================##
 
+##===================================================================##
+execute as @s[scores={spell1=261,spell_cooldown=0,jammed=0},tag=cow_form_unlocked] run function chocolate_datapack:spells/shifter/cow_form
+
 # Kills Interaction Cube:
 execute at @s positioned ~ ~1.5 ~ run kill @e[type=interaction,distance=..1,sort=nearest,limit=1]
 
