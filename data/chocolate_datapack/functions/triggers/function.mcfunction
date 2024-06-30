@@ -473,7 +473,7 @@ execute as @s[scores={function=930}] run function chocolate_datapack:spells/blad
 ##=============================SHIFTER SPELLS====================================##
 execute as @s[scores={function=931}] run function chocolate_datapack:spells/shifter/unlocks/unlock_cow_form
 execute as @s[scores={function=932}] run function chocolate_datapack:spells/shifter/unlocks/unlock_aquatic_shape
-
+execute as @s[scores={function=933}] run function chocolate_datapack:spells/shifter/unlocks/unlock_web_snare
 
 ##==============================SET SPELLS ON LEFT CLICK===========================##
 execute as @s[scores={function=1000}] run scoreboard players set @s spell1 0
@@ -739,6 +739,7 @@ execute as @s[scores={function=1259},tag=luke_spell_summon_tnt_unlocked] run sco
 execute as @s[scores={function=1260},tag=fierros_fiery_unlocked] run scoreboard players set @s spell1 260
 execute as @s[scores={function=1261},tag=cow_form_unlocked] run scoreboard players set @s spell1 261
 execute as @s[scores={function=1262},tag=aquatic_shape_unlocked] run scoreboard players set @s spell1 262
+execute as @s[scores={function=1263},tag=web_snare_unlocked] run scoreboard players set @s spell1 263
 
 ##==============================SET SPELLS ON RIGHT CLICK===========================##
 execute as @s[scores={function=2000}] run scoreboard players set @s spell2 0
@@ -1004,6 +1005,7 @@ execute as @s[scores={function=2259},tag=luke_spell_summon_tnt_unlocked] run sco
 execute as @s[scores={function=2260},tag=fierros_fiery_unlocked] run scoreboard players set @s spell1 260
 execute as @s[scores={function=2261},tag=cow_form_unlocked] run scoreboard players set @s spell1 261
 execute as @s[scores={function=2262},tag=aquatic_shape_unlocked] run scoreboard players set @s spell1 262
+execute as @s[scores={function=2263},tag=web_snare_unlocked] run scoreboard players set @s spell1 263
 
 ##==============================SET SPELLS ON SHIFT LEFT CLICK===========================##
 execute as @s[scores={function=3000}] run scoreboard players set @s spell3 0
@@ -1269,6 +1271,7 @@ execute as @s[scores={function=3259},tag=luke_spell_summon_tnt_unlocked] run sco
 execute as @s[scores={function=3260},tag=fierros_fiery_unlocked] run scoreboard players set @s spell1 260
 execute as @s[scores={function=3261},tag=cow_form_unlocked] run scoreboard players set @s spell1 261
 execute as @s[scores={function=3262},tag=aquatic_shape_unlocked] run scoreboard players set @s spell1 262
+execute as @s[scores={function=3263},tag=web_snare_unlocked] run scoreboard players set @s spell1 263
 
 ##==============================SET SPELLS ON SHIFT RIGHT CLICK===========================##
 execute as @s[scores={function=4000}] run scoreboard players set @s spell4 0
@@ -1534,6 +1537,7 @@ execute as @s[scores={function=4259},tag=luke_spell_summon_tnt_unlocked] run sco
 execute as @s[scores={function=4260},tag=fierros_fiery_unlocked] run scoreboard players set @s spell1 260
 execute as @s[scores={function=4261},tag=cow_form_unlocked] run scoreboard players set @s spell1 261
 execute as @s[scores={function=4262},tag=aquatic_shape_unlocked] run scoreboard players set @s spell1 262
+execute as @s[scores={function=4263},tag=web_snare_unlocked] run scoreboard players set @s spell1 263
 
 ##==============================SET SPELLS ON SHICF JUMP===========================##
 execute as @s[scores={function=5000}] run scoreboard players set @s spell5 0
@@ -1799,6 +1803,7 @@ execute as @s[scores={function=5259},tag=luke_spell_summon_tnt_unlocked] run sco
 execute as @s[scores={function=5260},tag=fierros_fiery_unlocked] run scoreboard players set @s spell1 260
 execute as @s[scores={function=5261},tag=cow_form_unlocked] run scoreboard players set @s spell1 261
 execute as @s[scores={function=5262},tag=aquatic_shape_unlocked] run scoreboard players set @s spell1 262
+execute as @s[scores={function=5263},tag=web_snare_unlocked] run scoreboard players set @s spell1 263
 
 execute as @s[scores={function=1000..1999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Left Click!\n===========================================","bold":true,"color":"dark_green"}]
 execute as @s[scores={function=2000..2999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Right Click!\n===========================================","bold":true,"color":"dark_green"}]
