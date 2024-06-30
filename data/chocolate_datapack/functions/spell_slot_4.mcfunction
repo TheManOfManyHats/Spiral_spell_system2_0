@@ -325,7 +325,7 @@ execute as @s[scores={spell4=260,spell_cooldown=0,jammed=0},tag=fierros_fiery_un
 execute as @s[scores={spell1=261,spell_cooldown=0,jammed=0},tag=cow_form_unlocked] run function chocolate_datapack:spells/shifter/cow_form
 execute as @s[scores={spell1=262,spell_cooldown=0,jammed=0},tag=aquatic_shape_unlocked] run function chocolate_datapack:spells/shifter/aquatic_shape
 execute as @s[scores={spell1=263,spell_cooldown=0,jammed=0},tag=web_snare_unlocked] run function chocolate_datapack:spells/shifter/web_snare
-
+execute as @s[scores={spell1=264,spell_cooldown=0,jammed=0},tag=aerial_shape__unlocked] run function chocolate_datapack:spells/shifter/aerial_shape
 
 
 # Kills Interaction Cube:
