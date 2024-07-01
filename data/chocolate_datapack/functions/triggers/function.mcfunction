@@ -475,6 +475,8 @@ execute as @s[scores={function=931}] run function chocolate_datapack:spells/shif
 execute as @s[scores={function=932}] run function chocolate_datapack:spells/shifter/unlocks/unlock_aquatic_shape
 execute as @s[scores={function=933}] run function chocolate_datapack:spells/shifter/unlocks/unlock_web_snare
 execute as @s[scores={function=934}] run function chocolate_datapack:spells/shifter/unlocks/unlock_aerial_shape
+execute as @s[scores={function=935}] run function chocolate_datapack:spells/shifter/unlocks/unlock_chameleon_skin
+execute as @s[scores={function=936}] run function chocolate_datapack:spells/shifter/eldritch/unlocks/unlock_wraith_walker
 ##==============================SET SPELLS ON LEFT CLICK===========================##
 execute as @s[scores={function=1000}] run scoreboard players set @s spell1 0
 execute as @s[scores={function=1001},tag=fireball_unlocked] run scoreboard players set @s spell1 1
@@ -741,6 +743,8 @@ execute as @s[scores={function=1261},tag=cow_form_unlocked] run scoreboard playe
 execute as @s[scores={function=1262},tag=aquatic_shape_unlocked] run scoreboard players set @s spell1 262
 execute as @s[scores={function=1263},tag=web_snare_unlocked] run scoreboard players set @s spell1 263
 execute as @s[scores={function=1264},tag=aerial_shape_unlocked] run scoreboard players set @s spell1 264
+execute as @s[scores={function=1265},tag=chameleon_skin_unlocked] run scoreboard players set @s spell1 265
+execute as @s[scores={function=1266},tag=wraith_walker_unlocked] run scoreboard players set @s spell1 266
 
 ##==============================SET SPELLS ON RIGHT CLICK===========================##
 execute as @s[scores={function=2000}] run scoreboard players set @s spell2 0
@@ -1008,6 +1012,8 @@ execute as @s[scores={function=2261},tag=cow_form_unlocked] run scoreboard playe
 execute as @s[scores={function=2262},tag=aquatic_shape_unlocked] run scoreboard players set @s spell1 262
 execute as @s[scores={function=2263},tag=web_snare_unlocked] run scoreboard players set @s spell1 263
 execute as @s[scores={function=2264},tag=aerial_shape_unlocked] run scoreboard players set @s spell1 264
+execute as @s[scores={function=2265},tag=chameleon_skin_unlocked] run scoreboard players set @s spell1 265
+execute as @s[scores={function=2266},tag=wraith_walker_unlocked] run scoreboard players set @s spell1 266
 
 ##==============================SET SPELLS ON SHIFT LEFT CLICK===========================##
 execute as @s[scores={function=3000}] run scoreboard players set @s spell3 0
@@ -1275,6 +1281,9 @@ execute as @s[scores={function=3261},tag=cow_form_unlocked] run scoreboard playe
 execute as @s[scores={function=3262},tag=aquatic_shape_unlocked] run scoreboard players set @s spell1 262
 execute as @s[scores={function=3263},tag=web_snare_unlocked] run scoreboard players set @s spell1 263
 execute as @s[scores={function=3264},tag=aerial_shape_unlocked] run scoreboard players set @s spell1 264
+execute as @s[scores={function=3265},tag=chameleon_skin_unlocked] run scoreboard players set @s spell1 265
+execute as @s[scores={function=3266},tag=wraith_walker_unlocked] run scoreboard players set @s spell1 266
+
 
 ##==============================SET SPELLS ON SHIFT RIGHT CLICK===========================##
 execute as @s[scores={function=4000}] run scoreboard players set @s spell4 0
@@ -1542,6 +1551,9 @@ execute as @s[scores={function=4261},tag=cow_form_unlocked] run scoreboard playe
 execute as @s[scores={function=4262},tag=aquatic_shape_unlocked] run scoreboard players set @s spell1 262
 execute as @s[scores={function=4263},tag=web_snare_unlocked] run scoreboard players set @s spell1 263
 execute as @s[scores={function=4264},tag=aerial_shape_unlocked] run scoreboard players set @s spell1 264
+execute as @s[scores={function=4265},tag=chameleon_skin_unlocked] run scoreboard players set @s spell1 265
+execute as @s[scores={function=4266},tag=wraith_walker_unlocked] run scoreboard players set @s spell1 266
+
 
 ##==============================SET SPELLS ON SHICF JUMP===========================##
 execute as @s[scores={function=5000}] run scoreboard players set @s spell5 0
@@ -1809,7 +1821,8 @@ execute as @s[scores={function=5261},tag=cow_form_unlocked] run scoreboard playe
 execute as @s[scores={function=5262},tag=aquatic_shape_unlocked] run scoreboard players set @s spell1 262
 execute as @s[scores={function=5263},tag=web_snare_unlocked] run scoreboard players set @s spell1 263
 execute as @s[scores={function=5264},tag=aerial_shape_unlocked] run scoreboard players set @s spell1 264
-
+execute as @s[scores={function=5265},tag=chameleon_skin_unlocked] run scoreboard players set @s spell1 265
+execute as @s[scores={function=5266},tag=wraith_walker_unlocked] run scoreboard players set @s spell1 266
 
 execute as @s[scores={function=1000..1999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Left Click!\n===========================================","bold":true,"color":"dark_green"}]
 execute as @s[scores={function=2000..2999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Right Click!\n===========================================","bold":true,"color":"dark_green"}]

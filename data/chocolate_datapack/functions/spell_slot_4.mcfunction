@@ -326,7 +326,8 @@ execute as @s[scores={spell1=261,spell_cooldown=0,jammed=0},tag=cow_form_unlocke
 execute as @s[scores={spell1=262,spell_cooldown=0,jammed=0},tag=aquatic_shape_unlocked] run function chocolate_datapack:spells/shifter/aquatic_shape
 execute as @s[scores={spell1=263,spell_cooldown=0,jammed=0},tag=web_snare_unlocked] run function chocolate_datapack:spells/shifter/web_snare
 execute as @s[scores={spell1=264,spell_cooldown=0,jammed=0},tag=aerial_shape__unlocked] run function chocolate_datapack:spells/shifter/aerial_shape
-
+execute as @s[scores={spell1=265,spell_cooldown=0,jammed=0},tag=chameleon_skin__unlocked] run function chocolate_datapack:spells/shifter/chameleon_skin
+execute as @s[scores={spell1=266,spell_cooldown=0,jammed=0},tag=wraith_walker__unlocked] run function chocolate_datapack:spells/shifter/wraith_walker
 
 # Kills Interaction Cube:
 execute at @s positioned ~ ~1.5 ~ run kill @e[type=interaction,distance=..1,sort=nearest,limit=1]
