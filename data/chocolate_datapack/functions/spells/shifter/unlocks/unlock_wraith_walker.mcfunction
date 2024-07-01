@@ -10,7 +10,7 @@ tag @s[tag=!2,tag=!3,tag=!4] add 1
 ##===============================================##
 
 ##================UNLOCK MESSAGES================##
-tellraw @s[tag=1] "Cow Form Unlocked!"
+tellraw @s[tag=1] "Wraith Walker Unlocked!"
 execute at @s[tag=1] run playsound block.note_block.bell ambient @s ~ ~ ~ .5 2
 tellraw @s[tag=2] "Your soul is incompatable with this ability"
 tellraw @s[tag=3] "You do not have enough Knowledge Points to learn this ability"
@@ -18,7 +18,7 @@ tellraw @s[tag=4] "You already know this ability"
 ##===============================================##
 
 ##===============UNLOCK THE SPELL================##
-tag @s[tag=1] add cow_form_unlocked
+tag @s[tag=1] add wraith_walker_unlocked
 scoreboard players operation @s[tag=1] skill_points -= @s unlock_cost
 ##===============================================##
 
