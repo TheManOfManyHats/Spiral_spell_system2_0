@@ -1907,6 +1907,9 @@ execute as @s[scores={function=20019}] run function chocolate_datapack:spells/fi
 execute as @s[scores={function=20020}] run function chocolate_datapack:spells/nature/living_root
 execute as @s[scores={function=20021}] run function chocolate_datapack:spells/nature/leech_seed
 
+execute as @s[scores={function=20022}] run function chocolate_datapack:spells/nature/wild/pounce
+execute as @s[scores={function=20023}] run function chocolate_datapack:spells/blade/antimagic/anti_magic_slash
+execute as @s[scores={function=20024}] run function chocolate_datapack:spells/blade/antimagic/draining_crescent_slash
 scoreboard players set @s function 0
 
 
