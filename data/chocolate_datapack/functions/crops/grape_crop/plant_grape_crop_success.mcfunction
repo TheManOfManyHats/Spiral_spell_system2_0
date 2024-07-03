@@ -2,3 +2,4 @@ execute at @s run summon item_display ~ ~ ~ {Tags:["custom_crop","grapes"],item_
 execute at @s run playsound item.crop.plant ambient @a ~ ~ ~ 1 1
 execute at @s run setblock ~ ~ ~ melon_stem[age=0] replace
 execute at @s as @e[type=item_display,limit=1,sort=nearest] run scoreboard players set @s growth 0
+
