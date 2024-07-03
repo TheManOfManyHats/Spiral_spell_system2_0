@@ -22,7 +22,7 @@ execute as @s[scores={growth=4}] run data merge entity @s {item:{id:"minecraft:s
 
 
 execute at @s[scores={growth=4..}] unless block ~ ~1 ~ wheat run summon item ~ ~1 ~ {Item:{id:"minecraft:wither_skeleton_spawn_egg",tag:{EntityTag:{id:armor_stand,Invisible:1b,Marker:1b,Small:1b,DisabledSlots:4144959,Tags:["custom_crop","New_Seed","ghostbloom_crop"]},CustomModelData:1,display:{Name:'[{"text":"Ghostbloom Seeds","italic":false}]'},Silent:1b},Count: 2}}
-execute at @s[scores={growth=4..}] unless block ~ ~1 ~ wheat run summon item ~ ~1 ~ {Item:{id:"minecraft:stick",tag:{CustomModelData:1101,display:{Name:'[{"text":"Ghostbloom Leaf","italic":false}]'}},Count: 2}}
+execute at @s[scores={growth=4..}] unless block ~ ~1 ~ wheat run summon item ~ ~1 ~ {Item:{id:"minecraft:stick",tag:{CustomModelData:1100,display:{Name:'[{"text":"Ghostbloom Leaf","italic":false}]'}},Count: 2}}
 
 execute at @s unless block ~ ~1 ~ wheat run kill @s
 execute at @s unless block ~ ~1 ~ wheat run playsound block.crop.break ambient @a ~ ~ ~ 1 1
