@@ -1,4 +1,4 @@
-execute at @s[scores={growth=2..7}] unless block ~ ~ ~ melon_stem run summon item ~ ~0.5 ~ {Item:{id:"minecraft:wither_skeleton_spawn_egg",tag:{EntityTag:{id:armor_stand,Invisible:1b,Marker:1b,Small:1b,DisabledSlots:4144959,Tags:["Custom_Crop","New_Seed","grapes"]},CustomModelData:2,display:{Name:'[{"text":"Grape Seeds","italic":false}]'},Silent:1b},Count: 2}}
+execute at @s[scores={growth=2..7}] unless block ~ ~ ~ melon_stem run summon item ~ ~0.5 ~ {Item:{id:"minecraft:wither_skeleton_spawn_egg",tag:{EntityTag:{id:armor_stand,Invisible:1b,Marker:1b,Small:1b,DisabledSlots:4144959,Tags:["custom_crop","New_Seed","grapes"]},CustomModelData:2,display:{Name:'[{"text":"Grape Seeds","italic":false}]'},Silent:1b},Count: 2}}
 execute at @s if block ~ ~0 ~ melon_stem[age=1] run scoreboard players add @s growth 1
 execute at @s if block ~ ~0 ~ melon_stem[age=1] run setblock ~ ~0 ~ melon_stem[age=0] replace
 execute at @s if block ~ ~0 ~ melon_stem[age=2] run scoreboard players add @s growth 1

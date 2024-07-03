@@ -1,4 +1,4 @@
-execute at @s[scores={growth=4..6}] unless block ~ ~1 ~ wheat run summon item ~ ~ ~ {Item:{id:"minecraft:wither_skeleton_spawn_egg",tag:{EntityTag:{id:armor_stand,Invisible:1b,Marker:1b,Small:1b,DisabledSlots:4144959,Tags:["Custom_Crop","New_Seed","ghostbloom_crop"]},CustomModelData:3,display:{Name:'[{"text":"Ghostbloom Seeds","italic":false}]'},Silent:1b},Count: 1}}
+execute at @s[scores={growth=1..4}] unless block ~ ~1 ~ wheat run summon item ~ ~ ~ {Item:{id:"minecraft:wither_skeleton_spawn_egg",tag:{EntityTag:{id:armor_stand,Invisible:1b,Marker:1b,Small:1b,DisabledSlots:4144959,Tags:["custom_crop","New_Seed","ghostbloom_crop"]},CustomModelData:3,display:{Name:'[{"text":"Ghostbloom Seeds","italic":false}]'},Silent:1b},Count: 1}}
 execute at @s if block ~ ~1 ~ wheat[age=1] run scoreboard players add @s growth 1
 execute at @s if block ~ ~1 ~ wheat[age=1] run setblock ~ ~1 ~ wheat[age=0] replace
 execute at @s if block ~ ~1 ~ wheat[age=2] run scoreboard players add @s growth 1
@@ -21,7 +21,7 @@ execute as @s[scores={growth=3}] run data merge entity @s {item:{id:"minecraft:s
 execute as @s[scores={growth=4}] run data merge entity @s {item:{id:"minecraft:stick",tag:{CustomModelData:1099}}}
 
 
-execute at @s[scores={growth=4..}] unless block ~ ~1 ~ wheat run summon item ~ ~1 ~ {Item:{id:"minecraft:wither_skeleton_spawn_egg",tag:{EntityTag:{id:armor_stand,Invisible:1b,Marker:1b,Small:1b,DisabledSlots:4144959,Tags:["Custom_Crop","New_Seed","ghostbloom_crop"]},CustomModelData:1,display:{Name:'[{"text":"Ghostbloom Seeds","italic":false}]'},Silent:1b},Count: 2}}
+execute at @s[scores={growth=4..}] unless block ~ ~1 ~ wheat run summon item ~ ~1 ~ {Item:{id:"minecraft:wither_skeleton_spawn_egg",tag:{EntityTag:{id:armor_stand,Invisible:1b,Marker:1b,Small:1b,DisabledSlots:4144959,Tags:["custom_crop","New_Seed","ghostbloom_crop"]},CustomModelData:1,display:{Name:'[{"text":"Ghostbloom Seeds","italic":false}]'},Silent:1b},Count: 2}}
 execute at @s[scores={growth=4..}] unless block ~ ~1 ~ wheat run summon item ~ ~1 ~ {Item:{id:"minecraft:stick",tag:{CustomModelData:1101,display:{Name:'[{"text":"Ghostbloom Leaf","italic":false}]'}},Count: 2}}
 
 execute at @s unless block ~ ~1 ~ wheat run kill @s
