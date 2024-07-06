@@ -1,1 +1,18 @@
-
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_porkchop"
+          ],
+          "nbt": "{addictive:true}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "chocolate_datapack:giveaddiction"
+  }
+}
