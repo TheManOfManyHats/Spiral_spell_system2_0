@@ -17,4 +17,5 @@ attribute @s minecraft:generic.max_health modifier remove facade-a-a-a-000000005
 attribute @s minecraft:generic.max_health modifier remove facade-a-a-a-000000006
 function chocolate_datapack:addictioneffect
 execute if score @s withdrawal > @s withdrawal_min run scoreboard players remove @s withdrawal 1
-advancement revoke @s only chocolate_datapack:addiction
+advancement revoke @s only chocolate_datapack:addictionraw
+advancement revoke @s only chocolate_datapack:addictioncooked
