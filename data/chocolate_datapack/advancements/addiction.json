@@ -5,7 +5,7 @@
       "conditions": {
         "item": {
           "items": [
-            "minecraft:cooked_beef"
+            "minecraft:porkchop"
           ],
           "nbt": "{addictive:true}"
         }
