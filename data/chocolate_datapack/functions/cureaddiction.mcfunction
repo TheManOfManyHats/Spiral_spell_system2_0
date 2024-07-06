@@ -9,3 +9,4 @@ attribute @s minecraft:generic.max_health modifier remove facade-a-a-a-000000005
 attribute @s minecraft:generic.max_health modifier remove facade-a-a-a-000000006
 effect clear @s minecraft:nausea
 effect clear @s minecraft:hunger
+advancement revoke @s only chocolate_datapack:cure
