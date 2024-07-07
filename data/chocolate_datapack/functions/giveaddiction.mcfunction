@@ -8,6 +8,8 @@ scoreboard players set @s withdrawal5 5
 scoreboard players set @s withdrawal6 6
 scoreboard players set @s withdrawal7 7
 effect give @s minecraft:saturation 10 1 true
+effect give @s minecraft:night_vision 600 1 true
+effect give @s minecraft:speed 600 1 true
 attribute @s minecraft:generic.movement_speed modifier remove facade-a-a-a-000000000
 attribute @s minecraft:generic.attack_speed modifier remove facade-a-a-a-000000001
 attribute @s minecraft:generic.movement_speed modifier remove facade-a-a-a-000000002
