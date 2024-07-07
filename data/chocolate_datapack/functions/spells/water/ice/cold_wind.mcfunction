@@ -17,11 +17,11 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 execute as @s[tag=1] rotated as @s positioned 0 0 0 align xyz run summon minecraft:armor_stand ^ ^ ^1 {Invulnerable:1b,NoGravity:1b,Tags:["aim"]}
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=1}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","ice","cold_wind","lv1","new_spell"],DisabledSlots:4144959}
+execute at @s[tag=1,scores={spell_power=1}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","ice","cold_wind","lv1","new_spell","chocolate_datapack_spell"],DisabledSlots:4144959}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","ice","cold_wind","lv2","new_spell"],DisabledSlots:4144959}
+execute at @s[tag=1,scores={spell_power=3}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","ice","cold_wind","lv2","new_spell","chocolate_datapack_spell"],DisabledSlots:4144959}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","ice","cold_wind","lv3","new_spell"],DisabledSlots:4144959}
+execute at @s[tag=1,scores={spell_power=5}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","wave","ice","cold_wind","lv3","new_spell","chocolate_datapack_spell"],DisabledSlots:4144959}
 
 #Put kill timer on armorstand that lasts for 5 seconds
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=cold_wind,sort=nearest,limit=1,tag=new_spell] kill_timer 100

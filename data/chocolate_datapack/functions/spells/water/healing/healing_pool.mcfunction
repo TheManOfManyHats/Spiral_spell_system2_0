@@ -15,13 +15,13 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","healing","healing_pool","lv1","new_spell"]}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","healing","healing_pool","lv1","new_spell","chocolate_datapack_spell"]}
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run scoreboard players set @e[distance=..1,limit=1,sort=nearest,tag=healing_pool,tag=new_spell,tag=lv1] kill_timer 300
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","healing","healing_pool","lv2","new_spell"]}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","healing","healing_pool","lv2","new_spell","chocolate_datapack_spell"]}
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run scoreboard players set @e[distance=..1,limit=1,sort=nearest,tag=healing_pool,tag=new_spell,tag=lv2] kill_timer 600
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","healing","healing_pool","lv3","new_spell"]}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","healing","healing_pool","lv3","new_spell","chocolate_datapack_spell"]}
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run scoreboard players set @e[distance=..1,limit=1,sort=nearest,tag=healing_pool,tag=new_spell,tag=lv3] kill_timer 900
 
 #put player's spell ID on the spell

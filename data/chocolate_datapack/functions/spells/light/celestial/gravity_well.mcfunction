@@ -15,11 +15,11 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #Summon item_display that is the actual attack
 #LOW POWER
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","celestial","gravity_well","lv1","new_spell"],teleport_duration:1}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","celestial","gravity_well","lv1","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","celestial","gravity_well","lv2","new_spell"],teleport_duration:1}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","celestial","gravity_well","lv2","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","celestial","gravity_well","lv3","new_spell"],teleport_duration:1}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","self","celestial","gravity_well","lv3","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 #Put kill timer on item_display that lasts for 5 seconds
 execute at @s[tag=1] positioned ~ ~ ~ run scoreboard players set @e[tag=gravity_well,tag=lv1,sort=nearest,limit=1,tag=new_spell] kill_timer 100
 execute at @s[tag=1] positioned ~ ~ ~ run scoreboard players set @e[tag=gravity_well,tag=lv2,sort=nearest,limit=1,tag=new_spell] kill_timer 200

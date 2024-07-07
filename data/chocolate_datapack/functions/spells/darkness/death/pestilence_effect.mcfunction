@@ -1,8 +1,8 @@
 
 ##----------------DAMAGING LINES-------------------##
-execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] at @s run summon item_display ~ ~ ~ {Tags:["offensive","mark","pestilence_effect","lv1"],teleport_duration:1}
-execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] at @s run summon item_display ~ ~ ~ {Tags:["offensive","mark","pestilence_effect","lv2"],teleport_duration:1}
-execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] at @s run summon item_display ~ ~ ~ {Tags:["offensive","mark","pestilence_effect","lv3"],teleport_duration:1}
+execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] at @s run summon item_display ~ ~ ~ {Tags:["offensive","mark","pestilence_effect","lv1","chocolate_datapack_spell"],teleport_duration:1}
+execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] at @s run summon item_display ~ ~ ~ {Tags:["offensive","mark","pestilence_effect","lv2","chocolate_datapack_spell"],teleport_duration:1}
+execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] at @s run summon item_display ~ ~ ~ {Tags:["offensive","mark","pestilence_effect","lv3","chocolate_datapack_spell"],teleport_duration:1}
 execute at @s as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] at @s run tp @e[tag=pestilence_effect,limit=1,sort=nearest] @s
 execute at @s[tag=lv1] as @e[tag=pestilence_effect,sort=nearest,limit=1] run scoreboard players set @s kill_timer 200
 execute at @s[tag=lv2] as @e[tag=pestilence_effect,sort=nearest,limit=1] run scoreboard players set @s kill_timer 400

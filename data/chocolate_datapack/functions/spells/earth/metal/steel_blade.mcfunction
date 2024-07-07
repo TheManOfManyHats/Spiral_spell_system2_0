@@ -15,11 +15,11 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack and add new_spell tag
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","metal","steel_blade","lv1","new_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1007}}}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","metal","steel_blade","lv1","new_spell","chocolate_datapack_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1007}}}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","metal","steel_blade","lv2","new_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1007}}}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","metal","steel_blade","lv2","new_spell","chocolate_datapack_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1007}}}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","metal","steel_blade","lv3","new_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1007}}}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon item_display ~ ~2 ~ {item_display:"head",Tags:["offensive","touch","metal","steel_blade","lv3","new_spell","chocolate_datapack_spell"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1007}}}
 #Put kill timer on item_display that lasts for 5 seconds
 execute at @s[tag=1] positioned ~ ~2 ~ run scoreboard players set @e[tag=steel_blade,sort=nearest,distance=..1,tag=new_spell] kill_timer 6
 #put player's spell ID on the spell

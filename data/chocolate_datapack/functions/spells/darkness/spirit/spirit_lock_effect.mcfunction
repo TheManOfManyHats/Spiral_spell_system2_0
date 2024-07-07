@@ -2,7 +2,7 @@
 execute at @s run kill @e[tag=spirit_lock_effect,distance=..2]
 
 ##----------------DAMAGING LINES-------------------##
-execute at @s as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run summon armor_stand ~ ~ ~ {Tags:["offensive","mark","spirit","spirit_lock_effect"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959}
+execute at @s as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run summon armor_stand ~ ~ ~ {Tags:["offensive","mark","spirit","spirit_lock_effect","chocolate_datapack_spell"],Invisible:1b,Invulnerable:1b,DisabledSlots:4144959}
 execute at @s as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] at @s run tp @e[tag=spirit_lock_effect,limit=1,sort=nearest] @s
 execute at @s[tag=lv1] as @e[tag=spirit_lock_effect,sort=nearest,limit=1] run scoreboard players set @s kill_timer 60
 execute at @s[tag=lv2] as @e[tag=spirit_lock_effect,sort=nearest,limit=1] run scoreboard players set @s kill_timer 120

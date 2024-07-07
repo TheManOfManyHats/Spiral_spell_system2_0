@@ -15,11 +15,11 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=1}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","construction","ice","ice_wall","lv1","new_spell"],DisabledSlots:4144959}
+execute at @s[tag=1,scores={spell_power=1}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","construction","ice","ice_wall","lv1","new_spell","chocolate_datapack_spell"],DisabledSlots:4144959}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","construction","ice","ice_wall","lv2","new_spell"],DisabledSlots:4144959}
+execute at @s[tag=1,scores={spell_power=3}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","construction","ice","ice_wall","lv2","new_spell","chocolate_datapack_spell"],DisabledSlots:4144959}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","construction","ice","ice_wall","lv3","new_spell"],DisabledSlots:4144959}
+execute at @s[tag=1,scores={spell_power=5}] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Tags:["offensive","construction","ice","ice_wall","lv3","new_spell","chocolate_datapack_spell"],DisabledSlots:4144959}
 
 #Put kill timer on armorstand that lasts for 5 seconds
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run scoreboard players set @e[tag=ice_wall,sort=nearest,limit=1,tag=new_spell] kill_timer 200

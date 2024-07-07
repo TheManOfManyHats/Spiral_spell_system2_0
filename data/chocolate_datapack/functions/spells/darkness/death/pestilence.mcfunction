@@ -15,11 +15,11 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack and add new_spell tag
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","bolt","death","pestilence","lv1","new_spell"]}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","bolt","death","pestilence","lv1","new_spell","chocolate_datapack_spell"]}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","bolt","death","pestilence","lv2","new_spell"]}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","bolt","death","pestilence","lv2","new_spell","chocolate_datapack_spell"]}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","bolt","death","pestilence","lv3","new_spell"]}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","bolt","death","pestilence","lv3","new_spell","chocolate_datapack_spell"]}
 
 #Put kill timer on marker that lasts for 1 seconds
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=pestilence,sort=nearest,limit=1,tag=new_spell] kill_timer 20

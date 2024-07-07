@@ -15,13 +15,13 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 #LOW POWER
 #Summon armor stand that is the actual attack
 execute at @s[scores={spell_power=1}] as @e[tag=mark_spell,tag=!new_spell,tag=lv1] if score @s player_id = @a[tag=1,limit=1,sort=nearest] player_id run kill @s
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","function","mark_spell","lv1","new_spell"]}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","function","mark_spell","lv1","new_spell","chocolate_datapack_spell"]}
 #MED POWER
 execute at @s[scores={spell_power=3}] as @e[tag=mark_spell,tag=!new_spell,tag=lv2] if score @s player_id = @a[tag=1,limit=1,sort=nearest] player_id run kill @s
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","function","mark_spell","lv2","new_spell"]}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","function","mark_spell","lv2","new_spell","chocolate_datapack_spell"]}
 #HIGH POWER
 execute at @s[scores={spell_power=5}] as @e[tag=mark_spell,tag=!new_spell,tag=lv3] if score @s player_id = @a[tag=1,limit=1,sort=nearest] player_id run kill @s
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","function","mark_spell","lv3","new_spell"]}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mark","function","mark_spell","lv3","new_spell","chocolate_datapack_spell"]}
 
 #put player's spell ID on the spell
 execute at @s[tag=1] positioned ~ ~ ~ run scoreboard players operation @e[tag=mark_spell,limit=1,sort=nearest,tag=new_spell] player_id = @s[tag=1] player_id

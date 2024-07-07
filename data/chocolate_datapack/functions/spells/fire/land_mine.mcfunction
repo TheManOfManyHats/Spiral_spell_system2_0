@@ -15,11 +15,11 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #Summon marker entitiy that is the actual attack
 #LOW POWER
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mine","fire","land_mine","lv1","new_spell"]}
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mine","fire","land_mine","lv1","new_spell","chocolate_datapack_spell"]}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mine","fire","land_mine","lv2","new_spell"]}
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mine","fire","land_mine","lv2","new_spell","chocolate_datapack_spell"]}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mine","fire","land_mine","lv3","new_spell"]}
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run summon marker ~ ~ ~ {Tags:["offensive","mine","fire","land_mine","lv3","new_spell","chocolate_datapack_spell"]}
 #Put kill timer on marker entity that lasts for 5 minutes
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=land_mine,sort=nearest,limit=1,tag=new_spell] kill_timer 6000
 #put player's spell ID on the spell
