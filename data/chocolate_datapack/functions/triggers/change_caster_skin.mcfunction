@@ -35,3 +35,4 @@ tellraw @s[name="TheMightyTofu"] {"text":"Tofus Caster","bold":true,"color":"dar
 tellraw @s[name="LunaSyren"] {"text":"Elucidator","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10033"}}
 tellraw @s[] {"text":"Ixen-Caex","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10034"}}
 tellraw @s[] {"text":"Aine Staff","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10035"}}
+tellraw @s[] {"text":"Ace Of Hearts","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10036"}}
