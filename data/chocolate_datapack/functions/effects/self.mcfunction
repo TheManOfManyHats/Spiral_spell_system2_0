@@ -6,7 +6,7 @@ execute at @s as @a if score @s player_id = @e[tag=self,limit=1,sort=nearest] pl
 execute at @s[tag=fire] run particle flame ~ ~1 ~ .2 .2 .2 .5 1 force
 execute at @s[tag=lightning] run particle electric_spark ~ ~1 ~ .2 .2 .2 .5 1 force
 execute at @s[tag=magma] run particle lava ~ ~1 ~ .2 .2 .2 .5 1 force
-
+execute at @s[tag=shifter] run particle spore_blossom_air ~ ~1 ~ .2 .2 .2 .5 1 force
 
 ##------------------------------ACTIVATION LINES-------------------------------##
 #FIRE_AURA #4
@@ -93,4 +93,7 @@ execute at @s[tag=aquatic_shape] run function chocolate_datapack:spells/shifter/
 
 #COW FORM
 execute at @s[tag=cow_form] run function chocolate_datapack:spells/shifter/cow_form_effect
+
+#INSECT SWARM
+execute at @s[tag=insect_swarm] run function chocolate_datapack:spells/shifter/insect_swarm_effect
 ##----------------------------------------------------------------------------##
