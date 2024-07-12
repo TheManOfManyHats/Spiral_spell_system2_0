@@ -2,10 +2,12 @@
 execute at @s run kill @e[tag=entangle_effect,distance=..2]
 
 ##----------------DAMAGING LINES-------------------##
-execute at @s as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run summon armor_stand ~ ~ ~ {Tags:["offensive","mark","entangle_effect"],Invisible:1b,Invulnerable:1b}
+execute at @s as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run summon armor_stand ~ ~ ~ {Tags:["offensive","mark","entangle_effect","chocolate_datapack_spell"],Invisible:1b,Invulnerable:1b}
 execute at @s as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] rotated as @s at @s run function animated_java:entangle/summon
 execute at @s as @e[tag=aj.entangle.root,distance=..2,sort=nearest] rotated as @s at @s run tag @s add vine
 execute at @s as @e[tag=aj.entangle.bone,distance=..2,sort=nearest] rotated as @s at @s run tag @s add vine
+execute at @s as @e[tag=aj.entangle.root,distance=..2,sort=nearest] rotated as @s at @s run tag @s add chocolate_datapack_spell
+execute at @s as @e[tag=aj.entangle.bone,distance=..2,sort=nearest] rotated as @s at @s run tag @s add chocolate_datapack_spell
 execute at @s as @e[tag=aj.entangle.root,sort=nearest,distance=..2] run function animated_java:entangle/animations/spawn/play
 execute at @s as @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] at @s run tp @e[tag=entangle_effect,limit=1,sort=nearest] @s
 execute at @s[tag=lv1] as @e[tag=entangle_effect,sort=nearest,limit=1] run scoreboard players set @s kill_timer 100
