@@ -29,7 +29,7 @@ execute at @s[tag=1,scores={team_id=1..}] positioned ~ ~1.5 ~ run scoreboard pla
 #Give player fire resistance
 #Dramatic flare
 execute at @s[tag=1] run playsound minecraft:entity.shulker.teleport ambient @a ~ ~ ~ 1 1
-execute at @s[tag=1] run particle minecraft:endrod ~ ~1 ~ 1 .5 1 .1 20 force
+execute at @s[tag=1] run particle minecraft:end_rod ~ ~1 ~ 1 .5 1 .1 20 force
 ##-----------------------------------------------------------------##
 
 ##--------------PERFORM COOLDOWN MANA COST AND XP------------------##
