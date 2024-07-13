@@ -86,7 +86,7 @@ execute at @s[tag=aerobatics] run function chocolate_datapack:spells/staff_spell
 execute at @s[tag=chameleon_skin] run function chocolate_datapack:spells/shifter/chameleon_skin_effect
 
 #WRAITH_WALKER
-execute at @s[tag=wraith_walker] run function chocolate_datapack:spells/shifter/eldritch/wraith_walk_effect
+execute at @s[tag=wraith_walker] run function chocolate_datapack:spells/shifter/eldritch/wraith_walker_effect
 
 #AQUATIC SHAPE
 execute at @s[tag=aquatic_shape] run function chocolate_datapack:spells/shifter/aquatic_shape_effect
@@ -98,5 +98,5 @@ execute at @s[tag=cow_form] run function chocolate_datapack:spells/shifter/cow_f
 execute at @s[tag=insect_swarm] run function chocolate_datapack:spells/shifter/insect_swarm_effect
 
 #AERIAL SHAPE
-execute as @s[tag=aerial_shape,scores={kill_timer=8..19}] at @s run function chocolate_datapack:spells/shifter/aerial_shape
+execute as @s[tag=aerial_shape] at @s run function chocolate_datapack:spells/shifter/aerial_shape
 ##----------------------------------------------------------------------------##
