@@ -1,4 +1,4 @@
-execute at @s as @a if score @s player_id = @e[tag=aerial_shape,sort=nearest,limit=1] player_id run tp @s ~ ~ ~
+execute at @s as @a if score @s player_id = @e[tag=aerial_shape,sort=nearest,limit=1] player_id at @s run tp @s ^ ^ ^.5
 
 execute at @s[tag=lv1] rotated as @s positioned ~ ~-1 ~ positioned ^ ^ ^ as @e[distance=..3,type=!#chocolate_datapack:non_activating] unless score @s player_id = @e[tag=aerial_shape,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=aerial_shape,limit=1,sort=nearest] team_id run damage @s 4 generic
 execute at @s[tag=lv2] rotated as @s positioned ~ ~-1 ~ positioned ^ ^ ^ as @e[distance=..3,type=!#chocolate_datapack:non_activating] unless score @s player_id = @e[tag=aerial_shape,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=aerial_shape,limit=1,sort=nearest] team_id run damage @s 8 generic
