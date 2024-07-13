@@ -329,6 +329,9 @@ execute as @s[scores={spell1=263,spell_cooldown=0,jammed=0},tag=web_snare_unlock
 execute as @s[scores={spell1=264,spell_cooldown=0,jammed=0},tag=aerial_shape_unlocked] run function chocolate_datapack:spells/shifter/aerial_shape
 execute as @s[scores={spell1=265,spell_cooldown=0,jammed=0},tag=chameleon_skin_unlocked] run function chocolate_datapack:spells/shifter/chameleon_skin
 execute as @s[scores={spell1=266,spell_cooldown=0,jammed=0},tag=wraith_walker_unlocked] run function chocolate_datapack:spells/shifter/wraith_walker
+execute as @s[scores={spell1=267,spell_cooldown=0,jammed=0},tag=insect_swarm_unlocked] run function chocolate_datapack:spells/shifter/insect_swarm
+execute as @s[scores={spell1=268,spell_cooldown=0,jammed=0},tag=charge_unlocked] run function chocolate_datapack:spells/shifter/charge
+execute as @s[scores={spell1=269,spell_cooldown=0,jammed=0},tag=silverfish_horde_unlocked] run function chocolate_datapack:spells/shifter/silverfish_horde
 
 
 # Kills Interaction Cube:

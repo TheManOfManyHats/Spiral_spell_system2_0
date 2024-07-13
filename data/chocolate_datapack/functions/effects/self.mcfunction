@@ -6,7 +6,7 @@ execute at @s as @a if score @s player_id = @e[tag=self,limit=1,sort=nearest] pl
 execute at @s[tag=fire] run particle flame ~ ~1 ~ .2 .2 .2 .5 1 force
 execute at @s[tag=lightning] run particle electric_spark ~ ~1 ~ .2 .2 .2 .5 1 force
 execute at @s[tag=magma] run particle lava ~ ~1 ~ .2 .2 .2 .5 1 force
-
+execute at @s[tag=shifter] run particle spore_blossom_air ~ ~1 ~ .2 .2 .2 .5 1 force
 
 ##------------------------------ACTIVATION LINES-------------------------------##
 #FIRE_AURA #4
@@ -86,11 +86,20 @@ execute at @s[tag=aerobatics] run function chocolate_datapack:spells/staff_spell
 execute at @s[tag=chameleon_skin] run function chocolate_datapack:spells/shifter/chameleon_skin_effect
 
 #WRAITH_WALKER
-execute at @s[tag=wraith_walker] run function chocolate_datapack:spells/shifter/eldritch/wraith_walk_effect
+execute at @s[tag=wraith_walker] run function chocolate_datapack:spells/shifter/eldritch/wraith_walker_effect
 
 #AQUATIC SHAPE
 execute at @s[tag=aquatic_shape] run function chocolate_datapack:spells/shifter/aquatic_shape_effect
 
 #COW FORM
 execute at @s[tag=cow_form] run function chocolate_datapack:spells/shifter/cow_form_effect
+
+#INSECT SWARM
+execute at @s[tag=insect_swarm] run function chocolate_datapack:spells/shifter/insect_swarm_effect
+
+#AERIAL SHAPE
+execute as @s[tag=aerial_shape] run function chocolate_datapack:spells/shifter/aerial_shape_effect
+
+#SILVERFISH_HORDE
+execute as @s[tag=silverfish_horde] run function chocolate_datapack:spells/shifter/asilverfish_horde_effect
 ##----------------------------------------------------------------------------##

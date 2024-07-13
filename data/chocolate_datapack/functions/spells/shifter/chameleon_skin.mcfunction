@@ -19,9 +19,12 @@ execute as @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run effect give 
 #MED POWER
 #Summon armor stand that is the actual attack
 execute as @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run effect give @s invisibility 60 4 true
+execute as @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run effect give @s speed 60 2 true
 #HIGH POWER
 #Summon armor stand that is the actual attack
 execute as @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run effect give @s invisibility 90 6 true
+execute as @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run effect give @s speed 90 4 true
+execute as @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run effect give @s jump_boost 90 4 true
 #put player's spell ID on the spell
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players operation @e[tag=chameleon_skin,limit=1,sort=nearest] player_id = @s[tag=1] player_id
 #put player's team ID on the spell
@@ -29,7 +32,7 @@ execute at @s[tag=1,scores={team_id=1..}] positioned ~ ~1.5 ~ run scoreboard pla
 #Give player fire resistance
 #Dramatic flare
 execute at @s[tag=1] run playsound minecraft:entity.shulker.teleport ambient @a ~ ~ ~ 1 1
-execute at @s[tag=1] run particle minecraft:endrod ~ ~1 ~ 1 .5 1 .1 20 force
+execute at @s[tag=1] run particle minecraft:end_rod ~ ~1 ~ 1 .5 1 .1 20 force
 ##-----------------------------------------------------------------##
 
 ##--------------PERFORM COOLDOWN MANA COST AND XP------------------##

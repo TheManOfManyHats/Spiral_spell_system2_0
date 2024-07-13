@@ -30,7 +30,7 @@ execute at @s[tag=1,scores={team_id=1..}] positioned ~ ~1.5 ~ run scoreboard pla
 execute at @s[tag=1] rotated as @s positioned ~ ~1.5 ~ run tp @e[tag=acidic_vomit,sort=nearest,limit=1,tag=new_spell] ~ ~ ~ ~ ~
 #Dramatic flare
 execute at @s[tag=1] run playsound minecraft:entity.slime.jump ambient @a ~ ~ ~ 1 1
-execute at @s[tag=1] run particle minecraft:nectar_drip_particle ~ ~1 ~ 1 .5 1 0 20 force
+execute at @s[tag=1] run particle minecraft:falling_nectar ~ ~1 ~ 1 .5 1 0 20 force
 ##-----------------------------------------------------------------##
 
 ##--------------PERFORM COOLDOWN MANA COST AND XP------------------##
