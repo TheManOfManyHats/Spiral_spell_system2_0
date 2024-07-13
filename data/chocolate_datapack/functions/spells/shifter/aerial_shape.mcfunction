@@ -32,6 +32,8 @@ execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run scoreboard p
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players operation @e[tag=aerial_shape,limit=1,sort=nearest,tag=new_spell] player_id = @s[tag=1] player_id
 #put player's team ID on the spell
 execute at @s[tag=1,scores={team_id=1..}] positioned ~ ~1.5 ~ run scoreboard players operation @e[tag=aerial_shape,limit=1,sort=nearest,tag=new_spell] team_id = @s[tag=1] team_id
+#Make player invisible
+execute as @s[tag=1,scores={spell_power=1}] positioned ~ ~1.5 ~ run effect give @s invisibility 30 2 true
 #Dramatic flare
 execute at @s[tag=1] run playsound minecraft:entity.ghast.shoot ambient @a ~ ~ ~ 1 1
 execute at @s[tag=1] run particle dust 0.016 0.239 0.239 .5 ~ ~1 ~ 1 .5 1 .1 20 force

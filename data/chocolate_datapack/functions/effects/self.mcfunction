@@ -96,4 +96,7 @@ execute at @s[tag=cow_form] run function chocolate_datapack:spells/shifter/cow_f
 
 #INSECT SWARM
 execute at @s[tag=insect_swarm] run function chocolate_datapack:spells/shifter/insect_swarm_effect
+
+#AERIAL SHAPE
+execute as @s[tag=charge,scores={kill_timer=8..19}] at @s run function chocolate_datapack:spells/shifter/aerial_shape
 ##----------------------------------------------------------------------------##
