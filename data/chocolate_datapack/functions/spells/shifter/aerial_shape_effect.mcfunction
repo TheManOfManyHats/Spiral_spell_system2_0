@@ -15,3 +15,4 @@ execute at @s[scores={team_id=1..}] positioned ~ ~2 ~ run scoreboard players ope
 execute at @s[] rotated as @s positioned ~ ~2.5 ~ run tp @e[tag=aerial_shape,sort=nearest,distance=..2] ~ ~ ~ ~ ~
 #Dramatic flare
 execute at @s[] run playsound entity.player.attack.sweep ambient @a ~ ~ ~ 1 1
+say hi
