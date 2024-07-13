@@ -23,13 +23,8 @@ execute as @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run effect give 
 #HIGH POWER
 #Summon armor stand that is the actual attack
 execute as @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run effect give @s invisibility 90 6 true
-<<<<<<< HEAD
-execute as @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run effect give @s speed 60 4 true
-execute as @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run effect give @s jump_boost 60 2 true
-=======
 execute as @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run effect give @s speed 90 4 true
 execute as @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run effect give @s jump_boost 90 4 true
->>>>>>> bda3ec65fdcbd8fdd5c418ec3de2a07f69e60a09
 #put player's spell ID on the spell
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players operation @e[tag=chameleon_skin,limit=1,sort=nearest] player_id = @s[tag=1] player_id
 #put player's team ID on the spell
