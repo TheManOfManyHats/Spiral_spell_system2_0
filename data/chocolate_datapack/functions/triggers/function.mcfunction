@@ -746,7 +746,7 @@ execute as @s[scores={function=1264},tag=aerial_shape_unlocked] run scoreboard p
 execute as @s[scores={function=1265},tag=chameleon_skin_unlocked] run scoreboard players set @s spell1 265
 execute as @s[scores={function=1266},tag=wraith_walker_unlocked] run scoreboard players set @s spell1 266
 execute as @s[scores={function=1267},tag=insect_swarm_unlocked] run scoreboard players set @s spell1 267
-execute as @s[scores={function=1268},tag=charge_unlocked] run scoreboard players set @s spell1 268
+execute as @s[scores={function=1269},tag=silverfish_horde] run scoreboard players set @s spell1 269
 
 ##==============================SET SPELLS ON RIGHT CLICK===========================##
 execute as @s[scores={function=2000}] run scoreboard players set @s spell2 0
@@ -1017,7 +1017,7 @@ execute as @s[scores={function=2264},tag=aerial_shape_unlocked] run scoreboard p
 execute as @s[scores={function=2265},tag=chameleon_skin_unlocked] run scoreboard players set @s spell1 265
 execute as @s[scores={function=2266},tag=wraith_walker_unlocked] run scoreboard players set @s spell1 266
 execute as @s[scores={function=2267},tag=insect_swarm_unlocked] run scoreboard players set @s spell1 267
-execute as @s[scores={function=2268},tag=charge_unlocked] run scoreboard players set @s spell1 268
+execute as @s[scores={function=2269},tag=silverfish_horde] run scoreboard players set @s spell1 269
 
 ##==============================SET SPELLS ON SHIFT LEFT CLICK===========================##
 execute as @s[scores={function=3000}] run scoreboard players set @s spell3 0
@@ -1288,7 +1288,7 @@ execute as @s[scores={function=3264},tag=aerial_shape_unlocked] run scoreboard p
 execute as @s[scores={function=3265},tag=chameleon_skin_unlocked] run scoreboard players set @s spell1 265
 execute as @s[scores={function=3266},tag=wraith_walker_unlocked] run scoreboard players set @s spell1 266
 execute as @s[scores={function=3267},tag=insect_swarm_unlocked] run scoreboard players set @s spell1 267
-execute as @s[scores={function=3268},tag=charge_unlocked] run scoreboard players set @s spell1 268
+execute as @s[scores={function=3269},tag=silverfish_horde] run scoreboard players set @s spell1 269
 
 ##==============================SET SPELLS ON SHIFT RIGHT CLICK===========================##
 execute as @s[scores={function=4000}] run scoreboard players set @s spell4 0
@@ -1560,6 +1560,7 @@ execute as @s[scores={function=4265},tag=chameleon_skin_unlocked] run scoreboard
 execute as @s[scores={function=4266},tag=wraith_walker_unlocked] run scoreboard players set @s spell1 266
 execute as @s[scores={function=4267},tag=insect_swarm_unlocked] run scoreboard players set @s spell1 267
 execute as @s[scores={function=4268},tag=charge_unlocked] run scoreboard players set @s spell1 268
+execute as @s[scores={function=4269},tag=silverfish_horde] run scoreboard players set @s spell1 269
 
 ##==============================SET SPELLS ON SHICF JUMP===========================##
 execute as @s[scores={function=5000}] run scoreboard players set @s spell5 0
@@ -1831,7 +1832,7 @@ execute as @s[scores={function=5265},tag=chameleon_skin_unlocked] run scoreboard
 execute as @s[scores={function=5266},tag=wraith_walker_unlocked] run scoreboard players set @s spell1 266
 execute as @s[scores={function=5267},tag=insect_swarm_unlocked] run scoreboard players set @s spell1 267
 execute as @s[scores={function=5268},tag=charge_unlocked] run scoreboard players set @s spell1 268
-
+execute as @s[scores={function=5269},tag=silverfish_horde] run scoreboard players set @s spell1 269
 
 execute as @s[scores={function=1000..1999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Left Click!\n===========================================","bold":true,"color":"dark_green"}]
 execute as @s[scores={function=2000..2999}] run tellraw @s ["",{"text":"\n\n\n\n"},{"text":"===========================================\nYou have changed the ability bound to Right Click!\n===========================================","bold":true,"color":"dark_green"}]

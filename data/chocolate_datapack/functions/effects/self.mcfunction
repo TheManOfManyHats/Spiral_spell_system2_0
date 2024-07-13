@@ -99,4 +99,7 @@ execute at @s[tag=insect_swarm] run function chocolate_datapack:spells/shifter/i
 
 #AERIAL SHAPE
 execute as @s[tag=aerial_shape] run function chocolate_datapack:spells/shifter/aerial_shape_effect
+
+#SILVERFISH_HORDE
+execute as @s[tag=silverfish_horde] run function chocolate_datapack:spells/shifter/asilverfish_horde_effect
 ##----------------------------------------------------------------------------##

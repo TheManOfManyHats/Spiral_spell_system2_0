@@ -330,7 +330,7 @@ execute as @s[scores={spell1=265,spell_cooldown=0,jammed=0},tag=chameleon_skin_u
 execute as @s[scores={spell1=266,spell_cooldown=0,jammed=0},tag=wraith_walker_unlocked] run function chocolate_datapack:spells/shifter/wraith_walker
 execute as @s[scores={spell1=267,spell_cooldown=0,jammed=0},tag=insect_swarm_unlocked] run function chocolate_datapack:spells/shifter/insect_swarm
 execute as @s[scores={spell1=268,spell_cooldown=0,jammed=0},tag=charge_unlocked] run function chocolate_datapack:spells/shifter/charge
-
+execute as @s[scores={spell1=269,spell_cooldown=0,jammed=0},tag=charge_unlocked] run function chocolate_datapack:spells/shifter/silverfish_horde_unlocked
 # Kills Interaction Cube:
 execute at @s positioned ~ ~1.5 ~ run kill @e[type=interaction,distance=..1,sort=nearest,limit=1]
 

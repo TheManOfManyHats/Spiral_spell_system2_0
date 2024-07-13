@@ -4,3 +4,4 @@ execute as @s[tag=vengeful_spirit_summon] run function chocolate_datapack:spells
 execute as @s[tag=undead_summon] run function chocolate_datapack:spells/darkness/death/raise_dead_attack_animation
 execute as @s[tag=healing_wisp] run function chocolate_datapack:spells/nature/life/healing_wisp_effect
 execute as @s[tag=kodama_spirit] run function chocolate_datapack:spells/nature/life/kodama_spirit_effect
+execute as @s[tag=silverfish_horde] run function chocolate_datapack:spells/shifter/silverfish_horde_attack_animation
