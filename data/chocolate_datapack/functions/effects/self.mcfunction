@@ -98,5 +98,5 @@ execute at @s[tag=cow_form] run function chocolate_datapack:spells/shifter/cow_f
 execute at @s[tag=insect_swarm] run function chocolate_datapack:spells/shifter/insect_swarm_effect
 
 #AERIAL SHAPE
-execute as @s[tag=aerial_shape] run function chocolate_datapack:spells/shifter/aerial_shape
+execute as @s[tag=aerial_shape] run function chocolate_datapack:spells/shifter/aerial_shape_effect
 ##----------------------------------------------------------------------------##

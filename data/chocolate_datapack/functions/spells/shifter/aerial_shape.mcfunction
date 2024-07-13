@@ -43,9 +43,7 @@ execute as @s[tag=1] positioned ~ ~1.5 ~ as @e[tag=aerial_shape,limit=1,sort=nea
 execute as @s[tag=1] positioned ~ ~1.5 ~ as @e[tag=aerial_shape,limit=1,sort=nearest,tag=new_spell] store result entity @s Motion[1] double .001 run scoreboard players get @s motiony
 execute as @s[tag=1] positioned ~ ~1.5 ~ as @e[tag=aerial_shape,limit=1,sort=nearest,tag=new_spell] store result entity @s Motion[2] double .001 run scoreboard players get @s motionz
 #Dramatic flare
-execute at @s[tag=1] run playsound minecraft:entity.ghast.shoot ambient @a ~ ~ ~ 1 1
-execute at @s[tag=1] run particle dust 0.016 0.239 0.239 .5 ~ ~1 ~ 1 .5 1 .1 20 force
-execute at @s[tag=1] run particle dust 0.361 0.773 0.773 .5 ~ ~1 ~ 1 .5 1 .1 20 force
+
 
 ##-----------------------------------------------------------------##
 
