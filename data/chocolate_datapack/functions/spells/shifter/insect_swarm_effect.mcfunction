@@ -1,13 +1,13 @@
 ##----------------DAMAGING LINES-------------------##
-execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,distance=..1] unless score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id unless score @s team_id = @e[tag=insect_swarm,sort=nearest,limit=1,distance=..1] team_id run effect give @s poison 10 0 true
+execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,distance=..1] unless score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id unless score @s team_id = @e[tag=insect_swarm,sort=nearest,limit=1,distance=..1] team_id run effect give @s poison 20 2 true
 execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,distance=..1] if score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id run effect give @s invisibility 5 0 true
 execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,distance=..1] if score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id run effect give @s regeneration 2 0 true
 
-execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,distance=..2] unless score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id unless score @s team_id = @e[tag=insect_swarm,sort=nearest,limit=1,distance=..1] team_id run effect give @s poison 10 1 true
+execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,distance=..2] unless score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id unless score @s team_id = @e[tag=insect_swarm,sort=nearest,limit=1,distance=..1] team_id run effect give @s poison 30 3 true
 execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,distance=..2] if score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id run effect give @s invisibility 5 0 true
 execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,distance=..1] if score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id run effect give @s regeneration 4 0 true
 
-execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,distance=..3] unless score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id unless score @s team_id = @e[tag=insect_swarm,sort=nearest,limit=1,distance=..1] team_id run effect give @s poison 10 2 true
+execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,distance=..3] unless score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id unless score @s team_id = @e[tag=insect_swarm,sort=nearest,limit=1,distance=..1] team_id run effect give @s poison 40 4 true
 execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,distance=..3] if score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id run effect give @s invisibility 5 0 true
 execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,distance=..1] if score @s player_id = @e[limit=1,sort=nearest,tag=insect_swarm,distance=..2] player_id run effect give @s regeneration 6 0 true
 
