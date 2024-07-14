@@ -1,7 +1,7 @@
 ##----------------DAMAGING LINES-------------------##
-execute at @s[tag=lv1] run summon item_display ~ ~ ~ {Tags:["zone","water","offensive","frosted_rain_zone","lv1"]}
-execute at @s[tag=lv2] run summon item_display ~ ~ ~ {Tags:["zone","water","offensive","frosted_rain_zone","lv2"]}
-execute at @s[tag=lv3] run summon item_display ~ ~ ~ {Tags:["zone","water","offensive","frosted_rain_zone","lv3"]}
+execute at @s[tag=lv1] run summon item_display ~ ~ ~ {Tags:["zone","water","offensive","frosted_rain_zone","lv1","chocolate_datapack_spell"]}
+execute at @s[tag=lv2] run summon item_display ~ ~ ~ {Tags:["zone","water","offensive","frosted_rain_zone","lv2","chocolate_datapack_spell"]}
+execute at @s[tag=lv3] run summon item_display ~ ~ ~ {Tags:["zone","water","offensive","frosted_rain_zone","lv3","chocolate_datapack_spell"]}
 
 execute at @s[tag=lv1] run scoreboard players set @e[tag=frosted_rain_zone,limit=1,sort=nearest] kill_timer 200
 execute at @s[tag=lv2] run scoreboard players set @e[tag=frosted_rain_zone,limit=1,sort=nearest] kill_timer 400

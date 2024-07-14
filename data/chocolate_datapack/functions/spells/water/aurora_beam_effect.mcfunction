@@ -1,11 +1,11 @@
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=lv1] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","fast_projectile","water","aurora_beam_projectile","lv1"]}
+execute at @s[tag=lv1] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","fast_projectile","water","aurora_beam_projectile","lv1","chocolate_datapack_spell"]}
 #MED POWER
-execute at @s[tag=lv2] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","fast_projectile","water","aurora_beam_projectile","lv2"]}
+execute at @s[tag=lv2] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","fast_projectile","water","aurora_beam_projectile","lv2","chocolate_datapack_spell"]}
 #HIGH POWER
-execute at @s[tag=lv3] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","fast_projectile","water","aurora_beam_projectile","lv3"]}
+execute at @s[tag=lv3] positioned ~ ~ ~ run summon item_display ~ ~ ~ {Tags:["offensive","fast_projectile","water","aurora_beam_projectile","lv3","chocolate_datapack_spell"]}
 
 #Put kill timer on projectile that lasts for 1 seconds
 execute at @s[] positioned ~ ~ ~ run scoreboard players set @e[tag=aurora_beam_projectile,sort=nearest,distance=..1] kill_timer 20
