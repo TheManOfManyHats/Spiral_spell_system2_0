@@ -1,0 +1,1 @@
+tag @s remove aj.active_beacon_core.animation.idle

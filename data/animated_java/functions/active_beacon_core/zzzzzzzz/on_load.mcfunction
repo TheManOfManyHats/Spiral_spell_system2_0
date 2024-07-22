@@ -1,0 +1,2 @@
+scoreboard players set @s aj.active_beacon_core.rig_loaded 1
+execute unless score @s aj.active_beacon_core.export_version = aj.active_beacon_core.export_version aj.i at @s run function animated_java:active_beacon_core/zzzzzzzz/mark_outdated_rig
