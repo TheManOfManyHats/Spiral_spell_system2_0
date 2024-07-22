@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:corrupted_beacon_core/zzzzzzzz/apply_variant/default/as_bone
