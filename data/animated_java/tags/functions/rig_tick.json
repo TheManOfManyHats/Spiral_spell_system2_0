@@ -14,6 +14,9 @@
 		"animated_java:steel_spike/zzzzzzzz/tick",
 		"animated_java:entangle/zzzzzzzz/tick",
 		"animated_java:living_root/zzzzzzzz/tick",
-		"animated_java:distance_scshp/zzzzzzzz/tick"
+		"animated_java:distance_scshp/zzzzzzzz/tick",
+		"animated_java:active_beacon_core/zzzzzzzz/tick",
+		"animated_java:corrupted_beacon_core/zzzzzzzz/tick",
+		"animated_java:inactive_beacon_core/zzzzzzzz/tick"
 	]
 }
