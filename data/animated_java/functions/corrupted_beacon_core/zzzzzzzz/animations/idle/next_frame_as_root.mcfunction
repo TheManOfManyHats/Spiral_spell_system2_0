@@ -1,0 +1,1 @@
+function animated_java:corrupted_beacon_core/zzzzzzzz/animations/idle/tick_animation

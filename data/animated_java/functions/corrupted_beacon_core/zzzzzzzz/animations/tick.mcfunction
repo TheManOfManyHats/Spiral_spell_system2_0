@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.corrupted_beacon_core.animation.idle] run function animated_java:corrupted_beacon_core/zzzzzzzz/animations/idle/tick
