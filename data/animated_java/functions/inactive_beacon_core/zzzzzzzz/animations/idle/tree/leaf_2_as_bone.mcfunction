@@ -1,0 +1,1 @@
+execute if entity @s[tag=aj.inactive_beacon_core.bone.bone] run data modify entity @s {} merge value {transformation:[-1.9980964431637156f,-0.087238774730672f,2.4492935982947064e-16f,0f,-0.087238774730672f,1.9980964431637156f,0f,1.5f,-2.446962413508156e-16f,-1.0683668623545447e-17f,-2f,0f,0f,0f,0f,1f],start_interpolation:0}

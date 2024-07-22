@@ -1,0 +1,1 @@
+function animated_java:inactive_beacon_core/zzzzzzzz/animations/idle/tick_animation

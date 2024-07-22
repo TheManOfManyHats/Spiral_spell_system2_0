@@ -1,0 +1,1 @@
+function animated_java:inactive_beacon_core/zzzzzzzz/animations/idle/pause_as_root
