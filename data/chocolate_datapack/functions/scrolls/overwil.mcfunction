@@ -1,7 +1,7 @@
-scoreboard players set @s overwil_cooldown 200
-execute at @s run playsound block.glass.break ambient @a ~ ~ ~ 1 0 
-execute at @s run particle flash ~ ~1 ~ 0 0 0 0 1 force
-execute at @s run particle flame ~ ~1 ~ 0 0 0 1 20 force
-execute at @s as @e[tag=offensive,distance=..3,tag=!player_id_giver,tag=!spelljammer,tag=!shadow_form,tag=!nova_spirit_form,tag=!spirit_form] unless score @s player_id = @p player_id unless score @s team_id = @p team_id run kill @s
-execute at @s as @e[tag=defensive,distance=..3,tag=!player_id_giver,tag=!spelljammer,tag=!shadow_form,tag=!nova_spirit_form,tag=!spirit_form] unless score @s player_id = @p player_id unless score @s team_id = @p team_id run kill @s
-execute at @s as @e[tag=utility,distance=..3,tag=!player_id_giver,tag=!spelljammer,tag=!shadow_form,tag=!nova_spirit_form,tag=!spirit_form] unless score @s player_id = @p player_id unless score @s team_id = @p team_id run kill @s
+tag @s add overwil_active
+execute at @s as @e[tag=chocolate_datapack_spell,distance=..3,tag=!player_id_giver,tag=!spelljammer,tag=!shadow_form,tag=!nova_spirit_form,tag=!spirit_form] unless score @s player_id = @p player_id unless score @s team_id = @p[tag=overwil_active] team_id run scoreboard players set @p[tag=overwil_active] overwil_cooldown 200
+execute at @s as @e[tag=chocolate_datapack_spell,distance=..3,tag=!player_id_giver,tag=!spelljammer,tag=!shadow_form,tag=!nova_spirit_form,tag=!spirit_form] unless score @s player_id = @p player_id unless score @s team_id = @p[tag=overwil_active] team_id run playsound block.glass.break ambient @a ~ ~ ~ 1 0 
+execute at @s as @e[tag=chocolate_datapack_spell,distance=..3,tag=!player_id_giver,tag=!spelljammer,tag=!shadow_form,tag=!nova_spirit_form,tag=!spirit_form] unless score @s player_id = @p player_id unless score @s team_id = @p[tag=overwil_active] team_id run particle flash ~ ~1 ~ 0 0 0 0 1 force
+execute at @s as @e[tag=chocolate_datapack_spell,distance=..3,tag=!player_id_giver,tag=!spelljammer,tag=!shadow_form,tag=!nova_spirit_form,tag=!spirit_form] unless score @s player_id = @p player_id unless score @s team_id = @p[tag=overwil_active] team_id run particle flame ~ ~1 ~ 0 0 0 1 20 force
+execute at @s as @e[tag=chocolate_datapack_spell,distance=..3,tag=!player_id_giver,tag=!spelljammer,tag=!shadow_form,tag=!nova_spirit_form,tag=!spirit_form] unless score @s player_id = @p player_id unless score @s team_id = @p[tag=overwil_active] team_id run scoreboard players set @s kill_timer 2
+tag @s remove overwil_active

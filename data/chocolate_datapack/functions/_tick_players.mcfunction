@@ -22,7 +22,7 @@ execute as @s[predicate=!chocolate_datapack:holding_caster_mainhand,predicate=!c
 #Executes jump detection
 execute as @s[scores={jump=1..}] run function chocolate_datapack:detectors/detect_jump
 execute as @s if score @s knowledge >= @s level_up_threshhold run function chocolate_datapack:detectors/level_up
-execute as @s[predicate=chocolate_datapack:is_sneaking,scores={overwil_cooldown=0},tag=overwil_unlocked] at @s if entity @e[type=#chocolate_datapack:spell_components,distance=..3,tag=!player_id_giver,tag=!spelljammer] run function chocolate_datapack:scrolls/overwil
+execute as @s[predicate=chocolate_datapack:is_sneaking,scores={overwil_cooldown=0},tag=overwil_unlocked] at @s if entity @e[tag=chocolate_datapack_spell,distance=..3,tag=!player_id_giver,tag=!spelljammer] run function chocolate_datapack:scrolls/overwil
 ##------------------------------------------------------##
 #9
 
