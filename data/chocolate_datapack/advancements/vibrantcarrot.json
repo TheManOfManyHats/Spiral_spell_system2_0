@@ -7,7 +7,12 @@
           "items": [
             "minecraft:golden_carrot"
           ],
-          "nbt": "CustomModelData:2"
+          "enchantments": [
+            {
+              "enchantment": "minecraft:unbreaking",
+              "levels": 1
+            }
+          ]
         }
       }
     }
