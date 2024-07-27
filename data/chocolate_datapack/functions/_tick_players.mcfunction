@@ -43,6 +43,11 @@ execute as @s[scores={spiral_exhaustion=500..1000}] run function chocolate_datap
 execute as @s[scores={spiral_exhaustion=1000}] run function chocolate_datapack:detectors/spiralitus
 execute as @s[scores={summon_unlucky=1}] run function chocolate_datapack:triggers/summon_unlucky
 execute as @s[scores={summon_luke=1}] run function chocolate_datapack:triggers/summon_luke
+#Slow Walk and To Cafe triggers
+scoreboard players enable @a slowwalk
+execute as @s[scores={slowwalk=1}] run function chocolate_datapack:triggers/slowwalk
+scoreboard players enable @a totmc
+execute as @s[scores={totmc=1}] run function chocolate_datapack:triggers/tocafe
 ##------------------------------------------------------##
 
 ##--------------------MANA RECHARGE---------------------##

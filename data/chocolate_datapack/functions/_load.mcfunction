@@ -122,6 +122,7 @@ scoreboard objectives add overwil_cooldown dummy
 scoreboard objectives add summon_player dummy
 scoreboard objectives add custom_model_number dummy
 scoreboard objectives add growth dummy
+scoreboard objectives add slowwalkcheck dummy
 ##-----------------------------------------------------------##
 
 ##------------CREATE SHULKER STORAGE BOX IN WORLD------------##
@@ -145,6 +146,8 @@ data merge block -30000000 0 1602 {Lock:"Admin_only"}
 ##------------------CURRENTLY USED TRIGGERS------------------##
 scoreboard objectives add help trigger
 scoreboard objectives add function trigger
+scoreboard objectives add slowwalk trigger
+scoreboard objectives add totmc trigger
 ##-----------------------------------------------------------##
 
 ##------------------CURENTLY UNUSED TRIGGERS-----------------##
