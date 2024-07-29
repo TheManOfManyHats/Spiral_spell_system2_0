@@ -59,6 +59,7 @@ execute as @s if score @s wil < @s max_wil run function chocolate_datapack:spell
 ##----------------------COOLDOWNS-----------------------##
 #If cooldown is greater than 1, remove 1 per tick:
 scoreboard players remove @s[scores={spell_cooldown=1..}] spell_cooldown 1
+scoreboard players remove @s[scores={spell_cooldown=1..},tag=green_ring_equipped] spell_cooldown 1
 #If player is in creative, remove cooldown instantly:
 scoreboard players set @s[gamemode=creative] spell_cooldown 0
 scoreboard players remove @s[scores={give_species_item=1..}] give_species_item 1

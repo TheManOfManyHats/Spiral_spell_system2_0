@@ -1,12 +1,14 @@
 
 #Regen without shifting
 scoreboard players add @s wil 1
+scoreboard players add @s[tag=pendant_equipped] wil 5
 #If player is in creative, fill up will instantly:
 scoreboard players operation @s[gamemode=creative] wil = @s max_wil
 
 #If wil is less than max_wil, add willpower stat to wil every tick
 #execute if score @s[scores={shift=1..,caster_held=1}] wil < @s max_wil run scoreboard players operation @s wil += @s willpower
 execute if score @s[predicate=chocolate_datapack:is_sneaking,scores={caster_held=1}] wil < @s max_wil run scoreboard players operation @s wil += @s willpower
+execute if score @s[predicate=chocolate_datapack:is_sneaking,scores={caster_held=1},tag=pendant_equipped] wil < @s max_wil run scoreboard players add @s wil 5
 #Dramatic flare:
 execute at @s[predicate=chocolate_datapack:is_sneaking,scores={caster_held=1,willpower=1..}] if score @s wil < @s max_wil run playsound block.beacon.ambient ambient @a ~ ~ ~ .1 2
 execute at @s[predicate=chocolate_datapack:is_sneaking,scores={caster_held=1,willpower=1..9}] if score @s wil < @s max_wil run particle warped_spore ~ ~.1 ~ 0 0 0 1 5 force @a

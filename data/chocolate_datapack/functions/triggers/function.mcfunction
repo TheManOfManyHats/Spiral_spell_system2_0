@@ -114,6 +114,30 @@ execute as @s[scores={function=71}] run function chocolate_datapack:spells/funct
 execute as @s[scores={function=72}] run function chocolate_datapack:triggers/create_spelljammer
 ##=======================================================================##
 
+##=================================EQUIPMENT=============================##
+execute as @s[scores={function=73}] run function chocolate_datapack:triggers/list_equipment
+execute as @s[scores={function=84}] run function chocolate_datapack:triggers/equip/black_ring
+execute as @s[scores={function=85}] run function chocolate_datapack:triggers/equip/blue_ring
+execute as @s[scores={function=86}] run function chocolate_datapack:triggers/equip/green_ring
+execute as @s[scores={function=87}] run function chocolate_datapack:triggers/equip/red_ring
+execute as @s[scores={function=88}] run function chocolate_datapack:triggers/equip/violet_ring
+execute as @s[scores={function=89}] run function chocolate_datapack:triggers/equip/white_ring
+execute as @s[scores={function=90}] run function chocolate_datapack:triggers/equip/yellow_ring
+execute as @s[scores={function=91}] run function chocolate_datapack:triggers/equip/pendant_ring
+
+
+execute as @s[scores={function=92}] run function chocolate_datapack:triggers/unequip/black_ring
+execute as @s[scores={function=93}] run function chocolate_datapack:triggers/unequip/blue_ring
+execute as @s[scores={function=94}] run function chocolate_datapack:triggers/unequip/green_ring
+execute as @s[scores={function=95}] run function chocolate_datapack:triggers/unequip/red_ring
+execute as @s[scores={function=96}] run function chocolate_datapack:triggers/unequip/violet_ring
+execute as @s[scores={function=97}] run function chocolate_datapack:triggers/unequip/white_ring
+execute as @s[scores={function=98}] run function chocolate_datapack:triggers/unequip/yellow_ring
+execute as @s[scores={function=99}] run function chocolate_datapack:triggers/unequip/pendant_ring
+
+
+##=======================================================================##
+
 ##=========================CHANGE CUSTOM MODEL DATA======================##
 execute as @s[scores={function=74}] run function chocolate_datapack:triggers/model_data_changer/init
 execute as @s[scores={function=75}] run function chocolate_datapack:triggers/model_data_changer/sub_100
@@ -126,6 +150,8 @@ execute as @s[scores={function=81}] run function chocolate_datapack:triggers/mod
 execute as @s[scores={function=82}] run function chocolate_datapack:triggers/model_data_changer/plus_10
 execute as @s[scores={function=83}] run function chocolate_datapack:triggers/model_data_changer/plus_100
 ##=======================================================================##
+
+
 
 
 ##====================================FIRE SPELLS=====================================## 101 - 130
