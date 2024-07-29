@@ -405,7 +405,7 @@ attribute @s[scores={strength=97}] generic.attack_damage base set 10.7
 attribute @s[scores={strength=98}] generic.attack_damage base set 10.8
 attribute @s[scores={strength=99}] generic.attack_damage base set 10.9
 attribute @s[scores={strength=100}] generic.attack_damage base set 11
-attribute @s[tag=blue_ring_equipped] generic.attack_damage modifier add 2c5fea70-09d4-4848-8bff-2b6fccde55b0 "blue_ring_equipped" 3 add
+attribute @s[tag=blue_ring_equipped] generic.attack_damage modifier add 2c5fea70-09d4-4848-8bff-2b6fccde55b0 "blue_ring_equipped" 4 add
 attribute @s[scores={vitality=0}] generic.max_health base set 20
 attribute @s[scores={vitality=1}] generic.max_health base set 21 
 attribute @s[scores={vitality=2}] generic.max_health base set 22
