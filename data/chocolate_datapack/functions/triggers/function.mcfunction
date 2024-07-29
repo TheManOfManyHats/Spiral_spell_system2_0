@@ -123,7 +123,7 @@ execute as @s[scores={function=87}] run function chocolate_datapack:triggers/equ
 execute as @s[scores={function=88}] run function chocolate_datapack:triggers/equip/violet_ring
 execute as @s[scores={function=89}] run function chocolate_datapack:triggers/equip/white_ring
 execute as @s[scores={function=90}] run function chocolate_datapack:triggers/equip/yellow_ring
-execute as @s[scores={function=91}] run function chocolate_datapack:triggers/equip/pendant_ring
+execute as @s[scores={function=91}] run function chocolate_datapack:triggers/equip/pendant
 
 
 execute as @s[scores={function=92}] run function chocolate_datapack:triggers/equipment_system/unequip/black_ring
@@ -133,7 +133,7 @@ execute as @s[scores={function=95}] run function chocolate_datapack:triggers/equ
 execute as @s[scores={function=96}] run function chocolate_datapack:triggers/equipment_system/unequip/violet_ring
 execute as @s[scores={function=97}] run function chocolate_datapack:triggers/equipment_system/unequip/white_ring
 execute as @s[scores={function=98}] run function chocolate_datapack:triggers/equipment_system/unequip/yellow_ring
-execute as @s[scores={function=99}] run function chocolate_datapack:triggers/equipment_system/unequip/pendant_ring
+execute as @s[scores={function=99}] run function chocolate_datapack:triggers/equipment_system/unequip/pendant
 
 
 ##=======================================================================##
