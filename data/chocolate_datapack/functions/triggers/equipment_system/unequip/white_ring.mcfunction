@@ -1,9 +1,9 @@
 scoreboard players add @s rings_equipped 0
 scoreboard players add @s pendants_equipped 0
 
-execute as @s[tag=white_ring_equipped,scores={rings_equipped=0..2}] run tag @s add 1
+execute as @s[tag=white_ring_equipped,scores={rings_equipped=1..}] run tag @s add 1
 execute as @s[tag=!white_ring_equipped] run tag @s add 2
-execute as @s[scores={rings_equipped=3}] run tag @s add 3
+execute as @s[scores={rings_equipped=0}] run tag @s add 3
 
 tag @s[tag=1] remove white_ring_equipped
 execute at @s[tag=1] run playsound item.armor.equip_leather ambient @s ~ ~ ~ 1 1
