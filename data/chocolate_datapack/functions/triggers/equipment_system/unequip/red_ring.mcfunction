@@ -1,3 +1,5 @@
+scoreboard players add @s rings_equipped 0
+scoreboard players add @s pendants_equipped 0
 tag @s remove red_ring_equipped
 execute at @s run playsound item.armor.equip_leather ambient @s ~ ~ ~ 1 1
 attribute @s generic.max_health modifier remove 0c4f3a5a-3e49-4f31-a5c2-0e542be2a12b

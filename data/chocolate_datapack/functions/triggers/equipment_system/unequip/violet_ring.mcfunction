@@ -1,3 +1,5 @@
+scoreboard players add @s rings_equipped 0
+scoreboard players add @s pendants_equipped 0
 tag @s remove violet_ring_equipped
 execute at @s run playsound item.armor.equip_leather ambient @s ~ ~ ~ 1 1
 scoreboard players remove @s max_wil 10000

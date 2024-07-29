@@ -1,3 +1,5 @@
+scoreboard players add @s rings_equipped 0
+scoreboard players add @s pendants_equipped 0
 tag @s remove blue_ring_equipped
 execute at @s run playsound item.armor.equip_leather ambient @s ~ ~ ~ 1 1
 attribute @s generic.attack_damage modifier remove 2c5fea70-09d4-4848-8bff-2b6fccde55b0

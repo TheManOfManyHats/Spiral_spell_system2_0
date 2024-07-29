@@ -1,3 +1,5 @@
+scoreboard players add @s rings_equipped 0
+scoreboard players add @s pendants_equipped 0
 tag @s remove pendant_equipped
 execute at @s run playsound item.armor.equip_leather ambient @s ~ ~ ~ 1 1
 execute as @s run function chocolate_datapack:detectors/initialize_empowerments

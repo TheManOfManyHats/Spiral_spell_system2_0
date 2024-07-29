@@ -1,3 +1,5 @@
+scoreboard players add @s rings_equipped 0
+scoreboard players add @s pendants_equipped 0
 execute as @s[tag=!pendant_equipped,scores={pendants_equipped=0}] run tag @s add 1
 execute as @s[tag=pendant_equipped] run tag @s add 2
 execute as @s[scores={pendants_equipped=1}] run tag @s add 3

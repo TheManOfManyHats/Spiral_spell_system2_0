@@ -1,3 +1,5 @@
+scoreboard players add @s rings_equipped 0
+scoreboard players add @s pendants_equipped 0
 tag @s remove yellow_ring_equipped
 execute at @s run playsound item.armor.equip_leather ambient @s ~ ~ ~ 1 1
 attribute @s generic.movement_speed modifier remove 7c8d29e4-2f28-479f-904d-53b5ec435fea
