@@ -13,3 +13,6 @@ scoreboard players add @s[tag=1] pendants_equipped 1
 
 tellraw @s[tag=2] "You already have a Pendant of this type equipped"
 tellraw @s[tag=3] "You cannot equip any more Pendants"
+tag @s remove 1
+tag @s remove 2
+tag @s remove 3
