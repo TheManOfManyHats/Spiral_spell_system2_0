@@ -39,7 +39,8 @@ execute at @s[tag=void] run particle dust 0 0 0 .5 ~ ~ ~ .2 .2 .2 0 20 force
 execute at @s[tag=void] run particle dust 0.075 0 0.447 .1 ~ ~ ~ .3 .3 .3 0 20 force
 execute at @s[tag=chaos] run particle dust 0 0 0 .5 ~ ~ ~ .2 .2 .2 0 20 force
 execute at @s[tag=chaos] run particle dust 0.459 0 0 .1 ~ ~ ~ .3 .3 .3 0 20 force
-
+execute at @s[tag=nova] run particle soul_fire_flame ~ ~ ~ .2 .2 .2 0 20 force
+execute at @s[tag=nova] run particle flame ~ ~ ~ .2 .2 .2 0 2 force
 ##------------------------------ACTIVATION LINES-------------------------------##
 #FIREBALL #1
 execute as @s[tag=fire_ball] at @s rotated as @s unless block ^ ^ ^.5 #chocolate_datapack:passthrough run function chocolate_datapack:spells/fire/fireball_explode
