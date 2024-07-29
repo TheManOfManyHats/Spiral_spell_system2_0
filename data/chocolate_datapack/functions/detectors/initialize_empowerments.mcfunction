@@ -99,6 +99,7 @@ attribute @s[scores={defense=97}] generic.armor base set 9.7
 attribute @s[scores={defense=98}] generic.armor base set 9.8
 attribute @s[scores={defense=99}] generic.armor base set 9.9
 attribute @s[scores={defense=100}] generic.armor base set 10
+attribute @s[tag=white_ring_equipped] generic.armor modifier add 84f6b9e8-980e-44f1-b962-e4e09003d329 "white_ring_equipped" 4 add
 attribute @s[scores={fortification=0}] generic.knockback_resistance base set 0
 attribute @s[scores={fortification=1}] generic.knockback_resistance base set .005
 attribute @s[scores={fortification=2}] generic.knockback_resistance base set .010
@@ -200,6 +201,7 @@ attribute @s[scores={fortification=97}] generic.knockback_resistance base set .4
 attribute @s[scores={fortification=98}] generic.knockback_resistance base set .490
 attribute @s[scores={fortification=99}] generic.knockback_resistance base set .495
 attribute @s[scores={fortification=100}] generic.knockback_resistance base set .500
+attribute @s[tag=black_ring_equipped] generic.knockback_resistance modifier add 7e27b1ae-d23a-4898-8896-82e102bea534 "black_ring_equipped" .05 add
 attribute @s[scores={speed=0}] generic.movement_speed base set .1
 attribute @s[scores={speed=1}] generic.movement_speed base set .101 
 attribute @s[scores={speed=2}] generic.movement_speed base set .102
@@ -301,6 +303,7 @@ attribute @s[scores={speed=97}] generic.movement_speed base set .198
 attribute @s[scores={speed=98}] generic.movement_speed base set .199
 attribute @s[scores={speed=99}] generic.movement_speed base set .200
 attribute @s[scores={speed=100}] generic.movement_speed base set .201
+attribute @s[tag=yellow_ring_equipped] generic.movement_speed modifier add 7c8d29e4-2f28-479f-904d-53b5ec435fea "yellow_ring_equipped" .04 add
 attribute @s[scores={strength=0}] generic.attack_damage base set 1
 attribute @s[scores={strength=1}] generic.attack_damage base set 1.1 
 attribute @s[scores={strength=2}] generic.attack_damage base set 1.2
@@ -402,6 +405,7 @@ attribute @s[scores={strength=97}] generic.attack_damage base set 10.7
 attribute @s[scores={strength=98}] generic.attack_damage base set 10.8
 attribute @s[scores={strength=99}] generic.attack_damage base set 10.9
 attribute @s[scores={strength=100}] generic.attack_damage base set 11
+attribute @s[tag=blue_ring_equipped] generic.attack_damage modifier add 2c5fea70-09d4-4848-8bff-2b6fccde55b0 "blue_ring_equipped" 3 add
 attribute @s[scores={vitality=0}] generic.max_health base set 20
 attribute @s[scores={vitality=1}] generic.max_health base set 21 
 attribute @s[scores={vitality=2}] generic.max_health base set 22
@@ -503,3 +507,4 @@ attribute @s[scores={vitality=97}] generic.max_health base set 117
 attribute @s[scores={vitality=98}] generic.max_health base set 118
 attribute @s[scores={vitality=99}] generic.max_health base set 119
 attribute @s[scores={vitality=100}] generic.max_health base set 120
+attribute @s[tag=red_ring_equipped] generic.max_health modifier add 0c4f3a5a-3e49-4f31-a5c2-0e542be2a12b "red_ring_equipped" 20 add

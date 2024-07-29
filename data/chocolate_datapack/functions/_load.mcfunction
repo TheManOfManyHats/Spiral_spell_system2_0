@@ -123,6 +123,8 @@ scoreboard objectives add summon_player dummy
 scoreboard objectives add custom_model_number dummy
 scoreboard objectives add growth dummy
 scoreboard objectives add slowwalkcheck dummy
+scoreboard objectives add rings_equipped dummy
+scoreboard objectives add pendants_equipped dummy
 ##-----------------------------------------------------------##
 
 ##------------CREATE SHULKER STORAGE BOX IN WORLD------------##
@@ -557,6 +559,17 @@ scoreboard objectives add goto_spawn trigger
 
  ##Passives
  #- overwil_unlocked
+
+ ##Equipment
+ #- black_ring_equipped - increases fortification
+ #- blue_ring_equipped - increases attack damage
+ #- green_ring_equipped - decreases spell cooldown
+ #- red_ring_equipped - increases vitality +20
+ #- violet_ring_equipped - increases willpower
+ #- yellow_ring_equipped - increases speed
+ #- white_ring_equipped - increases armor
+ #- pendant_equipped - increases wil recharge rate +5
+
 schedule function chocolate_datapack:withdrawal .5d
 #give @a stick{Consumable:1b,overwil_unlocker:1b,display:{Name:'["",{"text":"Ability Scroll (Overwil)","italic":false,"color":"gold"}]',Lore:['["",{"text":"If the caster is being affected","italic":false,"color":"white"}]','["",{"text":"by a spell that has lasting","italic":false,"color":"white"}]','["",{"text":"effects, this ability can be","italic":false,"color":"white"}]','["",{"text":"used to break the caster out","italic":false,"color":"white"}]','["",{"text":"of the offending spell.","italic":false,"color":"white"}]','[""]','["",{"text":"Overwil does not need to be bound","italic":false,"color":"white"}]','["",{"text":"in order to be used. Simply crouch after this scroll is consumed and it will execute.","italic":false,"color":"white"}]','[""]','["",{"text":"Unlock Cost:","italic":false,"color":"gold"},{"text":" ","italic":false},{"text":"10 KP","italic":false,"color":"dark_red"}]']},CustomModelData:539}
 tellraw @a "Datapack Loaded..."
