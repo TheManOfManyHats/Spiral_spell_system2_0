@@ -21,11 +21,11 @@ execute at @s[tag=1,scores={spell_power=3},tag=!goatboi] positioned ~ ~1.5 ~ run
 #HIGH POWER
 execute at @s[tag=1,scores={spell_power=5},tag=!goatboi] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","fire","fire_ball","lv3","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 #LOW POWER
-execute at @s[tag=1,scores={spell_power=1},tag=goatboi] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","nova","fire_ball","lv1","new_spell"],teleport_duration:1}
+execute at @s[tag=1,scores={spell_power=1},tag=goatboi] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","nova","fire_ball","lv1","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3},tag=goatboi] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","nova","fire_ball","lv2","new_spell"],teleport_duration:1}
+execute at @s[tag=1,scores={spell_power=3},tag=goatboi] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","nova","fire_ball","lv2","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5},tag=goatboi] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","nova","fire_ball","lv3","new_spell"],teleport_duration:1}
+execute at @s[tag=1,scores={spell_power=5},tag=goatboi] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","nova","fire_ball","lv3","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 #Put kill timer on item_display that lasts for 5 seconds
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=fire_ball,sort=nearest,limit=1,tag=new_spell] kill_timer 100
 #put player's spell ID on the spell
