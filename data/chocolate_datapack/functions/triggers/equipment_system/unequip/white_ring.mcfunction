@@ -10,7 +10,7 @@ execute at @s[tag=1] run playsound item.armor.equip_leather ambient @s ~ ~ ~ 1 1
 attribute @s[tag=1] generic.armor modifier remove 84f6b9e8-980e-44f1-b962-e4e09003d329
 execute as @s[tag=1] run function chocolate_datapack:detectors/initialize_empowerments
 tellraw @s[tag=1] {"text":"You have removed your White Ring","color":"gold"}
-give @s[tag=1] stick{White_ring:1b,Consumable:1b,CustomModelData:534,display:{Name:'["",{"text":"White Ring","italic":false,"color":"gold"}]',Lore:['["",{"text":"A ring with a White Pearl","italic":false,"color":"dark_red"}]','["",{"text":"Slotted into it.","italic":false,"color":"dark_red"}]','[""]','["",{"text":"Right click to equip!","italic":false,"color":"gray"}]','["",{"text":"+Defense","italic":false,"color":"dark_green"}]']}}
+give @s[tag=1] stick{Consumable:1b,CustomModelData:534,White_ring:1b,display:{Lore:['["",{"text":"A ring with a White Pearl","italic":false,"color":"dark_red"}]','["",{"text":"Slotted into it.","italic":false,"color":"dark_red"}]','[""]','["",{"text":"Right click to equip!","italic":false,"color":"gray"}]','["",{"text":"+Defense","italic":false,"color":"dark_green"}]'],Name:'{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"White Ring"}],"text":""}'}}
 scoreboard players remove @s[tag=1] rings_equipped 1
 
 tellraw @s[tag=2] "You do not have a Ring of this type equipped"
