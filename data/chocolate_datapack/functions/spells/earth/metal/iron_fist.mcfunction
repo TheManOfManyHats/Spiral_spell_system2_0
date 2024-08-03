@@ -25,6 +25,8 @@ execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.i
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.bone,sort=nearest,distance=..2,tag=!new_spell] add blade
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.root,sort=nearest,distance=..2,tag=!new_spell] add new_spell
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.bone,sort=nearest,distance=..2,tag=!new_spell] add new_spell
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.root,sort=nearest,distance=..2,tag=!new_spell] add chocolate_datapack_spell
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.bone,sort=nearest,distance=..2,tag=!new_spell] add chocolate_datapack_spell
 #Put kill timer on armorstand that lasts for 2 seconds
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run scoreboard players set @e[tag=new_spell] kill_timer 14
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run scoreboard players set @e[tag=new_spell] kill_timer 14
@@ -43,6 +45,8 @@ execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.i
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.bone,sort=nearest,distance=..2,tag=!new_spell] add blade
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.root,sort=nearest,distance=..2,tag=!new_spell] add new_spell
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.bone,sort=nearest,distance=..2,tag=!new_spell] add new_spell
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.root,sort=nearest,distance=..2,tag=!new_spell] add chocolate_datapack_spell
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.bone,sort=nearest,distance=..2,tag=!new_spell] add chocolate_datapack_spell
 #Put kill timer on armorstand that lasts for 2 seconds
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run scoreboard players set @e[tag=new_spell] kill_timer 34
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run scoreboard players set @e[tag=new_spell] kill_timer 34
@@ -61,6 +65,8 @@ execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.i
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.bone,sort=nearest,distance=..2,tag=!new_spell] add blade
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.root,sort=nearest,distance=..2,tag=!new_spell] add new_spell
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.bone,sort=nearest,distance=..2,tag=!new_spell] add new_spell
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.root,sort=nearest,distance=..2,tag=!new_spell] add chocolate_datapack_spell
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.iron_fist.bone,sort=nearest,distance=..2,tag=!new_spell] add chocolate_datapack_spell
 #Put kill timer on armorstand that lasts for 2 seconds
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run scoreboard players set @e[tag=new_spell] kill_timer 69
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run scoreboard players set @e[tag=new_spell] kill_timer 69

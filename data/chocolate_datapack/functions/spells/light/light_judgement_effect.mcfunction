@@ -19,7 +19,7 @@ execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,distance=.
 ##-------------------------------------------------##
 
 ##----------------DAMAGING LINES-------------------##
-execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,distance=..6] unless score @s player_id = @e[tag=light_judgement,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=light_judgement,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 6 generic
-execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,distance=..12] unless score @s player_id = @e[tag=light_judgement,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=light_judgement,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 12 generic
-execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,distance=..18] unless score @s player_id = @e[tag=light_judgement,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=light_judgement,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 18 generic
+execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,distance=..6] unless score @s player_id = @e[tag=light_judgement,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=light_judgement,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 6 magic
+execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,distance=..12] unless score @s player_id = @e[tag=light_judgement,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=light_judgement,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 12 magic
+execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,distance=..18] unless score @s player_id = @e[tag=light_judgement,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=light_judgement,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 18 magic
 ##-------------------------------------------------##

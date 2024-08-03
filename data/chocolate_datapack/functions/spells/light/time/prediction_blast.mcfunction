@@ -22,9 +22,9 @@ execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~1.5 ~ run summon item_
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~1.5 ~ run summon item_display ~ ~ ~ {Tags:["offensive","projectile","time","prediction_blast","lv3","new_spell","chocolate_datapack_spell"],teleport_duration:1}
 #Put kill timer on item_display that lasts for 5 seconds
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=prediction_blast,sort=nearest,limit=1,tag=new_spell] kill_timer 100
-execute at @s[tag=1] positioned ~ ~1.5 ~ as @e[tag=new_spell,tag=lv1] store result score @s atunement run random value 2..8
-execute at @s[tag=1] positioned ~ ~1.5 ~ as @e[tag=new_spell,tag=lv2] store result score @s atunement run random value 4..16
-execute at @s[tag=1] positioned ~ ~1.5 ~ as @e[tag=new_spell,tag=lv3] store result score @s atunement run random value 6..24
+#execute at @s[tag=1] positioned ~ ~1.5 ~ as @e[tag=new_spell,tag=lv1] store result score @s atunement run random value 2..8
+#execute at @s[tag=1] positioned ~ ~1.5 ~ as @e[tag=new_spell,tag=lv2] store result score @s atunement run random value 4..16
+#execute at @s[tag=1] positioned ~ ~1.5 ~ as @e[tag=new_spell,tag=lv3] store result score @s atunement run random value 6..24
 #put player's spell ID on the spell
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players operation @e[tag=prediction_blast,limit=1,sort=nearest,tag=new_spell] player_id = @s[tag=1] player_id
 #put player's team ID on the spell

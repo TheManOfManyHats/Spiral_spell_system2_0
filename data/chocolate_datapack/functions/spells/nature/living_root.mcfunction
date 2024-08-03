@@ -23,6 +23,8 @@ execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.living_root.root] add sp
 execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.living_root.bone] add living_root
 execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.living_root.root] add new_spell
 execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.living_root.bone] add new_spell
+execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.living_root.root] add chocolate_datapack_spell
+execute at @s[tag=1] positioned ~ ~ ~ run tag @e[tag=aj.living_root.bone] add chocolate_datapack_spell
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.living_root.root] add lv1
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.living_root.root] add lv2
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.living_root.root] add lv3
