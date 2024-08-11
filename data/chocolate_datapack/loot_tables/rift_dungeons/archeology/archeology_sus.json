@@ -1,0 +1,211 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[\\\"\\\",{\\\"text\\\":\\\"Vibrant Gear\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}]',Lore:['[\\\"\\\",{\\\"text\\\":\\\"A strange glowing gear made\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]','[\\\"\\\",{\\\"text\\\":\\\"from Vibrant Titanium.\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]']},CustomModelData:1104}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[\\\"\\\",{\\\"text\\\":\\\"Strange Chassis\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}]',Lore:['[\\\"\\\",{\\\"text\\\":\\\"This seems to be a chassis that\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]','[\\\"\\\",{\\\"text\\\":\\\"can receive several components.\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]','[\\\"\\\"]','[\\\"\\\",{\\\"text\\\":\\\"Completing the item may be\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]','[\\\"\\\",{\\\"text\\\":\\\"beneficial.\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]']},CustomModelData:1106}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wild_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wayfinder_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ward_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:vex_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tide_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spire_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snout_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:silence_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shaper_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sentry_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rib_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raiser_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:host_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:eye_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dune_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coast_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snort_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:skull_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shelter_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sheaf_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:prize_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:plenty_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mourner_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:miner_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:howl_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:heart_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:heartbreak_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:friend_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:explorer_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:danger_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:burn_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brewer_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:blade_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:arms_up_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:archer_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:angler_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:copper_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brush"
+          }
+        ]
+      }
+    ]
+  }
+  
