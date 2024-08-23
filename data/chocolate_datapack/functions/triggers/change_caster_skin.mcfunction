@@ -37,3 +37,4 @@ tellraw @s[] {"text":"Ixen-Caex","bold":true,"color":"dark_green","clickEvent":{
 tellraw @s[] {"text":"Aine Staff","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10035"}}
 tellraw @s[] {"text":"Ace Of Hearts","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10036"}}
 tellraw @s[] {"text":"Xeno Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10037"}}
+tellraw @s[] {"text":"Soul Binder","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10038"}}
