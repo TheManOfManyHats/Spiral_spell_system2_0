@@ -12,7 +12,7 @@ tellraw @s[tag=1] {"text":"You have removed your Pendant","color":"gold"}
 give @s[tag=1] stick{Pendant:1b,Consumable:1b,CustomModelData:515,display:{Name:'["",{"text":"Pendant","italic":false,"color":"gold"}]',Lore:['["",{"text":"A strange Pendant","italic":false,"color":"dark_red"}]','["",{"text":"that feels warm to the touch.","italic":false,"color":"dark_red"}]','[""]','["",{"text":"Right click to equip!","italic":false,"color":"gray"}]','["",{"text":"+Wil Regeneration","italic":false,"color":"dark_green"}]']}}
 scoreboard players remove @s[tag=1] pendants_equipped 1
 
-tellraw @s[tag=2] "You do not have a Ring of this type equipped"
+tellraw @s[tag=2] "You do not have a pendant of this type equipped"
 tellraw @s[tag=3] "You have no pendants equipped"
 tag @s remove 1
 tag @s remove 2
