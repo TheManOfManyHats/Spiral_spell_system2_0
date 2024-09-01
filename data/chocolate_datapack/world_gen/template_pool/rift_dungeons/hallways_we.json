@@ -1,0 +1,33 @@
+{
+    "name": "chocolate_datapack:rift_dungeons/hallways_we",
+    "fallback": "minecraft:empty",
+    "elements":[
+        {
+            "weight":1,
+            "element":{
+                "location": "chocolate_datapack:rift_dungeons/hallways/rift_dungeon_hallway_1_we",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight":1,
+            "element":{
+                "location": "chocolate_datapack:rift_dungeons/hallways/rift_dungeon_hallway_2_we",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight":1,
+            "element":{
+                "location": "chocolate_datapack:rift_dungeons/hallways/rift_dungeon_hallway_3_we",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}
