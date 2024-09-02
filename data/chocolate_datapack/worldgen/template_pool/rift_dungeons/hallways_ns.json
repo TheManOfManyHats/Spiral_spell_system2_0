@@ -1,4 +1,5 @@
 {
+    "name": "chocolate_datapack:rift_dungeons/hallways_ns",
     "fallback": "minecraft:empty",
     "elements":[
         {
