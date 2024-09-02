@@ -7,7 +7,7 @@
   },
   "structures": [
     {
-      "structure": "chocolate_datapack:rift_dungeon/rift_dungeon",
+      "structure": "chocolate_datapack:rift_dungeon",
       "weight": 1
     }
   ]
