@@ -1,7 +1,7 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": "minecraft:end_barrens",
-    "step": "raw_generation",
+    "step": "surface_structures",
     "spawn_overrides": {},
     "start_pool": "chocolate_datapack:rift_dungeons/hallways_ns",
     "size": 7,
