@@ -42,6 +42,7 @@ execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{Red_ring:1b}}}] run f
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{Violet_ring:1b}}}] run function chocolate_datapack:triggers/equipment_system/equip/violet_ring
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{White_ring:1b}}}] run function chocolate_datapack:triggers/equipment_system/equip/white_ring
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{Yellow_ring:1b}}}] run function chocolate_datapack:triggers/equipment_system/equip/yellow_ring
+execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{lemonaid:1b}}}] run function chocolate_datapack:lemonaid
 
 execute as @s[nbt={active_effects:[{id:"minecraft:absorption",amplifier:99b}]}] run effect clear @s absorption
 execute as @s[nbt={active_effects:[{id:"minecraft:bad_omen",amplifier:99b}]}] run effect clear @s bad_omen
