@@ -1,0 +1,4 @@
+give @s chest{BlockEntityTag:{LootTable:"chocolate_datapack:rift_dungeons/chests/quality_library"},display:{Name:'["",{"text":"library","italic":false}]'}}
+give @s chest{BlockEntityTag:{LootTable:"chocolate_datapack:rift_dungeons/chests/quality_low"},display:{Name:'["",{"text":"low quality","italic":false}]'}}
+give @s chest{BlockEntityTag:{LootTable:"chocolate_datapack:rift_dungeons/chests/quality_redstone"},display:{Name:'["",{"text":"redstone","italic":false}]'}}
+give @s chest{BlockEntityTag:{LootTable:"chocolate_datapack:rift_dungeons/chests/quality_treasure"},display:{Name:'["",{"text":"treasure","italic":false}]'}}

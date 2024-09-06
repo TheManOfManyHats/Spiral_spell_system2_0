@@ -192,6 +192,16 @@ execute as @s[scores={function=129}] run function chocolate_datapack:spells/fire
 execute as @s[scores={function=130}] run function chocolate_datapack:spells/fire/fire_grand/unlocks/unlock_discharge
 ##====================================================================================##
 
+##===================================LOOT SPAWNER=====================================##
+execute as @s[scores={function=131}] run function chocolate_datapack:triggers/spawn_loot/spawn_loot_splitter
+
+execute as @s[scores={function=132}] run function chocolate_datapack:triggers/spawn_loot/rift_dungeons/chests
+execute as @s[scores={function=133}] run function chocolate_datapack:triggers/spawn_loot/rift_dungeons/barrels
+
+execute as @s[scores={function=134}] run function chocolate_datapack:triggers/spawn_loot/ruined_shadow_cat_dungeon/chests
+execute as @s[scores={function=135}] run function chocolate_datapack:triggers/spawn_loot/ruined_shadow_cat_dungeon/barrels
+##====================================================================================##
+
 ##===================================WATER SPELLS=====================================## 201 - 230
 #Standard
 execute as @s[scores={function=201}] run function chocolate_datapack:spells/water/unlocks/unlock_water_gun
