@@ -579,8 +579,26 @@
           ]
         },
         {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1105,display:{Name:'[{\"text\":\"Vibrant Lense\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like a strange lense.\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"it seems to reflect more light than normal.\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
           "type": "minecraft:empty",
-          "weight": 998
+          "weight": 47
         }
       ]
     },
