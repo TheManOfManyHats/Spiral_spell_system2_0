@@ -118,7 +118,7 @@ execute as @s[scores={function=72}] run function chocolate_datapack:triggers/cre
 execute as @s[scores={function=73}] run function chocolate_datapack:triggers/list_equipment
 
 
-execute as @s[scores={function=84}] run function chocolate_datapack:triggers/unequip/night_vision_goggles
+execute as @s[scores={function=84}] run function chocolate_datapack:triggers/equipment_system/unequip/night_vision_goggles
 #execute as @s[scores={function=85}] run function chocolate_datapack:triggers/equip/blue_ring
 #execute as @s[scores={function=86}] run function chocolate_datapack:triggers/equip/green_ring
 #execute as @s[scores={function=87}] run function chocolate_datapack:triggers/equip/red_ring
