@@ -416,8 +416,26 @@
             ]
           },
           {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:512,display:{Name:'[{\"text\":\"Ancient Coin\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like an old coin.\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"This could probably be restored.\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            ]
+          },
+          {
             "type": "minecraft:empty",
-            "weight": 998
+            "weight": 997
           }
         ]
       },
