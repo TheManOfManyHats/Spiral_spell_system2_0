@@ -160,19 +160,6 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:stick",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 8,
-                  "max": 16
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
             "name": "minecraft:iron_nugget",
             "functions": [
               {
@@ -284,7 +271,7 @@
           },
           {
             "type": "minecraft:empty",
-            "weight": 100
+            "weight": 47
           }
         ]
       },
