@@ -116,14 +116,16 @@ execute as @s[scores={function=72}] run function chocolate_datapack:triggers/cre
 
 ##=================================EQUIPMENT=============================##
 execute as @s[scores={function=73}] run function chocolate_datapack:triggers/list_equipment
-execute as @s[scores={function=84}] run function chocolate_datapack:triggers/equip/black_ring
-execute as @s[scores={function=85}] run function chocolate_datapack:triggers/equip/blue_ring
-execute as @s[scores={function=86}] run function chocolate_datapack:triggers/equip/green_ring
-execute as @s[scores={function=87}] run function chocolate_datapack:triggers/equip/red_ring
-execute as @s[scores={function=88}] run function chocolate_datapack:triggers/equip/violet_ring
-execute as @s[scores={function=89}] run function chocolate_datapack:triggers/equip/white_ring
-execute as @s[scores={function=90}] run function chocolate_datapack:triggers/equip/yellow_ring
-execute as @s[scores={function=91}] run function chocolate_datapack:triggers/equip/pendant
+
+
+execute as @s[scores={function=84}] run function chocolate_datapack:triggers/unequip/night_vision_goggles
+#execute as @s[scores={function=85}] run function chocolate_datapack:triggers/equip/blue_ring
+#execute as @s[scores={function=86}] run function chocolate_datapack:triggers/equip/green_ring
+#execute as @s[scores={function=87}] run function chocolate_datapack:triggers/equip/red_ring
+#execute as @s[scores={function=88}] run function chocolate_datapack:triggers/equip/violet_ring
+#execute as @s[scores={function=89}] run function chocolate_datapack:triggers/equip/white_ring
+#execute as @s[scores={function=90}] run function chocolate_datapack:triggers/equip/yellow_ring
+#execute as @s[scores={function=91}] run function chocolate_datapack:triggers/equip/pendant
 
 
 execute as @s[scores={function=92}] run function chocolate_datapack:triggers/equipment_system/unequip/black_ring
