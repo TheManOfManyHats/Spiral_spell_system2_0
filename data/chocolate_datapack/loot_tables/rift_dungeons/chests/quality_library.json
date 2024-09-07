@@ -549,42 +549,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[\"\",{\"text\":\"Vibrant Gear\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"A strange glowing gear made\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"from Vibrant Titanium.\",\"italic\":false,\"color\":\"white\"}]']},CustomModelData:1104}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'[\"\",{\"text\":\"Strange Chassis\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"This seems to be a chassis that\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"can receive several components.\",\"italic\":false,\"color\":\"white\"}]','[\"\"]','[\"\",{\"text\":\"Completing the item may be\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"beneficial.\",\"italic\":false,\"color\":\"white\"}]']},CustomModelData:1106}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1105,display:{Name:'[{\"text\":\"Vibrant Lense\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like a strange lense.\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"it seems to reflect more light than normal.\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
             },
             {
