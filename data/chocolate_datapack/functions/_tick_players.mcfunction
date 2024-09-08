@@ -90,5 +90,5 @@ execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{cancer_marbl
 execute as @s[tag=spells_disabled] if entity @e[type=item_display,tag=player_id_giver,tag=!spells_disabled] run tag @s remove spells_disabled
 execute as @s[tag=!spells_disabled] if entity @e[type=item_display,tag=player_id_giver,tag=spells_disabled] run tag @s add spells_disabled
 ##------------------------------------------------------##
-execute as @s[scores={magic_level=120..}] run scoreboard players set @s spiral_exhaustion 1000
+execute as @s[scores={magic_level=160..}] run scoreboard players set @s spiral_exhaustion 1000
 #28

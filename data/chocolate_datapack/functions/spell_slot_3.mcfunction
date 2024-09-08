@@ -6,7 +6,7 @@ execute if score @s[scores={magic_level=15..}] spell3 = @s past_spell_2 run scor
 execute if score @s[scores={magic_level=15..}] spell3 = @s past_spell_3 run scoreboard players remove @s knowledge_factor 1
 execute if score @s[scores={magic_level=15..}] spell3 = @s past_spell_4 run scoreboard players remove @s knowledge_factor 1
 execute if score @s[scores={magic_level=15..}] spell3 = @s past_spell_5 run scoreboard players remove @s knowledge_factor 1
-execute as @s[scores={magic_level=100..}] run scoreboard players set @s knowledge_factor 0
+execute as @s[scores={magic_level=150..}] run scoreboard players set @s knowledge_factor 0
 scoreboard players operation @s past_spell_5 = @s past_spell_4
 scoreboard players operation @s past_spell_4 = @s past_spell_3
 scoreboard players operation @s past_spell_3 = @s past_spell_2
