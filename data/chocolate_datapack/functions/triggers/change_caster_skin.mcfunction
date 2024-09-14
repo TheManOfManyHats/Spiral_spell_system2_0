@@ -39,3 +39,5 @@ tellraw @s[] {"text":"Ace Of Hearts","bold":true,"color":"dark_green","clickEven
 tellraw @s[] {"text":"Xeno Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10037"}}
 tellraw @s[] {"text":"Soul Binder","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10038"}}
 tellraw @s[] {"text":"Memory of Deception","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10039"}}
+tellraw @s[] {"text":"Crow Cane","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10040"}}
+tellraw @s[] {"text":"Moonshine Bottle","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10041"}}
