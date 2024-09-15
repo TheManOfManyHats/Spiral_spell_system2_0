@@ -334,17 +334,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{itemsadder: {id: \"null_blade\", namespace: \"myitems\"},CustomModelData:67,dungeon_relic:1b,null_blade:1b,display:{Name:'[\"\",{\"text\":\"Null Blade \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[Relic]\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[\"\",{\"text\":\"This Sword feels... empty? In fact\",\"italic\":false}]','[\"\",{\"text\":\"as you hold it, you can feel your\",\"italic\":false}]','[\"\",{\"text\":\"own Wil being consumed just by\",\"italic\":false}]','[\"\",{\"text\":\"having it in your hands.\",\"italic\":false}]','[\"\",{\"text\":\"This effect might be able to be\",\"italic\":false}]','[\"\",{\"text\":\"extended away from the blade if\",\"italic\":false}]','[\"\",{\"text\":\"you can channel it properly.\",\"italic\":false}]','[\"\"]','[\"\",{\"text\":\"Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Antimagic Slash\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Draining Zone\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Left Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Draining Crescent Slash\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:10,id:efficiency},{lvl:10,id:unbreaking}],Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:20,Slot:mainhand,Name:1726426777337,UUID:[I;-124815,29954,16055,-59908]}],HideFlags:63}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:netherite_sword",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{itemsadder: {id: \"time_rapier\", namespace: \"myitems\"},CustomModelData:68,dungeon_relic:1b,time_rapier:1b,display:{Name:'[\"\",{\"text\":\"Time Rapier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[Relic]\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[\"\",{\"text\":\"Holding this blade seems to make\",\"italic\":false}]','[\"\",{\"text\":\"everything around you move...\",\"italic\":false}]','[\"\",{\"text\":\"slower... you might be able to\",\"italic\":false}]','[\"\",{\"text\":\"channel this to perform time\",\"italic\":false}]','[\"\",{\"text\":\"based spells.\",\"italic\":false}]','[\"\"]','[\"\",{\"text\":\"Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Frame Skip\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Maturate\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Left Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Chrono Anchor\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:10,id:efficiency},{lvl:10,id:unbreaking}],Unbreakable:1,CustomModelData:68,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:20,Slot:mainhand,Name:1726427439226,UUID:[I;-124815,34054,16055,-68108]},{AttributeName:\"generic.movement_speed\",Amount:1,Slot:mainhand,Name:1726427439226,UUID:[I;-124815,34354,16055,-68708]},{AttributeName:\"generic.movement_speed\",Amount:1,Slot:offhand,Name:1726427439226,UUID:[I;-124815,34654,16055,-69308]}],HideFlags:63}"
             }
           ]
