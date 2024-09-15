@@ -83,7 +83,7 @@ execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{big_dipper_m
 execute at @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{aquilia_marble:1b}}}] run tp @e[distance=2..5,type=!#chocolate_datapack:spell_components] ~ ~ ~
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{cancer_marble:1b}}}] run effect give @s absorption 1 4 true
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{cancer_marble:1b}}]}] run effect give @s regeneration 5 1 true
-
+execute as @s[nbt={Inventory:[{Slot:103b,id:"minecraft:carved_pumpkin",tag:{phoenix_circlet:1b}}]}] run effect give @s fire_resistance 2 0 true
 ##------------------------------------------------------##
 
 ##--------------------DISABLE SPELLS--------------------##

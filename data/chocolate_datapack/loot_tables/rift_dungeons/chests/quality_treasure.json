@@ -1,303 +1,366 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-      {
-        "rolls": 2,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:iron_ingot",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 8
-                }
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:gold_ingot",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 4
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:copper_ingot",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 16
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:netherite_ingot",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 2
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 6
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:emerald",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 10
-                }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
               }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 2,
-        "bonus_rolls": 0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond_block",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 4
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:iron_block",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 8
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 64
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:redstone_block",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 16,
-                  "max": 64
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:gold_block",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 2,
-                  "max": 4
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:lapis_block",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 8,
-                  "max": 16
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
               }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 2,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:iron_nugget",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 5,
-                  "max": 20
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 8
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:gold_nugget",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 2,
-                  "max": 8
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 32
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:redstone",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 32
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:lapis_lazuli",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 16
-                }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Vibrant Gear\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"A strange glowing gear made\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"from Vibrant Titanium.\",\"italic\":false,\"color\":\"white\"}]']},CustomModelData:1104}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
               }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stick",
-            "weight": 1,
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'[\"\",{\"text\":\"Vibrant Gear\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"A strange glowing gear made\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"from Vibrant Titanium.\",\"italic\":false,\"color\":\"white\"}]']},CustomModelData:1104}"
-              },
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 1
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:512,display:{Name:'[{\"text\":\"Ancient Coin\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like an old coin.\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"This could probably be restored.\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stick",
-            "weight": 1,
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:512,display:{Name:'[{\"text\":\"Ancient Coin\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like an old coin.\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"This could probably be restored.\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
-              },
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 1
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Strange Chassis\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"This seems to be a chassis that\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"can receive several components.\",\"italic\":false,\"color\":\"white\"}]','[\"\"]','[\"\",{\"text\":\"Completing the item may be\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"beneficial.\",\"italic\":false,\"color\":\"white\"}]']},CustomModelData:1106}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stick",
-            "weight": 1,
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'[\"\",{\"text\":\"Strange Chassis\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"This seems to be a chassis that\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"can receive several components.\",\"italic\":false,\"color\":\"white\"}]','[\"\"]','[\"\",{\"text\":\"Completing the item may be\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"beneficial.\",\"italic\":false,\"color\":\"white\"}]']},CustomModelData:1106}"
-              },
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 0,
-                  "max": 1
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 47
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 99,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 64
               }
-            ]
-          },
-          {
-            "type": "minecraft:empty",
-            "weight": 47
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:empty",
-            "weight": 99,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 16,
-                  "max": 64
-                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 995,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 10
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bundle",
-            "weight": 1
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carved_pumpkin",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4,dungeon_relic:1b,phoenix_circlet:1b,display:{Name:'[\"\",{\"text\":\"Phoenix Circlet \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[Relic]\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[\"\",{\"text\":\"This circlet seems to have some\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"kind of bird sculpted at the\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"front of it. Despite this bird\\'s\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"firey appearance, putting it on\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"seems to offer a fair amount of\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"protection from all heat sources.\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"!!!DO NOT RIGHT CLICK!!!\",\"italic\":false,\"color\":\"yellow\"}]','[\"\"]','[\"\",{\"text\":\"When worn:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Fire Resistance\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:1,id:flame}],Unbreakable:1,HideFlags:63}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6,dungeon_relic:1b,raijin:1b,display:{Name:'[\"\",{\"text\":\"Raijin \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[Relic]\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[\"\",{\"text\":\"This axe seems to spark in your\",\"italic\":false}]','[\"\",{\"text\":\"grasp! you feel static coursing\",\"italic\":false}]','[\"\",{\"text\":\"through your body. perhaps this\",\"italic\":false}]','[\"\",{\"text\":\"could be used to replicate\",\"italic\":false}]','[\"\",{\"text\":\"lightning based spiral abilities?\",\"italic\":false}]','[\"\"]','[\"\",{\"text\":\"Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Lightning Bolt\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Ball Lightning\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Left Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Magnetism\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Jump:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Nimbus\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\" \",\"italic\":false}]']},Enchantments:[{lvl:10,id:efficiency},{lvl:10,id:unbreaking}],Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:20,Slot:mainhand,UUID:[I;-124815,69029,132318,-138058],Name:1726425783855}],HideFlags:63}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:67,dungeon_relic:1b,null_blade:1b,display:{Name:'[\"\",{\"text\":\"Null Blade \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[Relic]\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[\"\",{\"text\":\"This Sword feels... empty? In fact\",\"italic\":false}]','[\"\",{\"text\":\"as you hold it, you can feel your own Wil being consumed just by\",\"italic\":false}]','[\"\",{\"text\":\"having it in your hands.\",\"italic\":false}]','[\"\",{\"text\":\"This effect might be able to be\",\"italic\":false}]','[\"\",{\"text\":\"extended away from the blade if\",\"italic\":false}]','[\"\",{\"text\":\"you can channel it properly.\",\"italic\":false}]','[\"\"]','[\"\",{\"text\":\"Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Antimagic Slash\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Draining Zone\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Left Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Draining Crescent Slash\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Jump:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Null Zone\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:10,id:efficiency},{lvl:10,id:unbreaking}],Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:20,Slot:mainhand,UUID:[I;-124815,129929,132318,-259858],Name:1726426777337}],HideFlags:63}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:68,dungeon_relic:1b,time_rapier:1b,display:{Name:'[\"\",{\"text\":\"Time Rapier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[Relic]\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[\"\",{\"text\":\"Holding this blade seems to make\",\"italic\":false}]','[\"\",{\"text\":\"everything around you move...\",\"italic\":false}]','[\"\",{\"text\":\"slower... you might be able to\",\"italic\":false}]','[\"\",{\"text\":\"channel this to perform time\",\"italic\":false}]','[\"\",{\"text\":\"based spells.\",\"italic\":false}]','[\"\"]','[\"\",{\"text\":\"Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Frame Skip\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Maturate\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Left Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Chrono Anchor\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Jump:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Time Freeze\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:10,id:efficiency},{lvl:10,id:unbreaking}],Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:20,Slot:mainhand,UUID:[I;-124815,182929,132318,-365858],Name:1726427439226},{AttributeName:\"generic.movement_speed\",Amount:1,Slot:mainhand,UUID:[I;-124815,183229,132318,-366458],Name:1726427439226},{AttributeName:\"generic.movement_speed\",Amount:1,Slot:offhand,UUID:[I;-124815,183529,132318,-367058],Name:1726427439226}],HideFlags:63}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,dungeon_relic:1b,gigaton_hammer:1b,display:{Name:'[\"\",{\"text\":\"Gigaton Hammer \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[Relic]\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[\"\",{\"text\":\"This hammer is massivley heavy,\",\"italic\":false}]','[\"\",{\"text\":\"but also somehow light in your\",\"italic\":false}]','[\"\",{\"text\":\"hands. You feel as though you \",\"italic\":false}]','[\"\",{\"text\":\"could smash anything with this\",\"italic\":false}]','[\"\",{\"text\":\"in an instant!\",\"italic\":false}]','[\"\"]','[\"\",{\"text\":\"When held:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Instamine\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:10,id:efficiency},{lvl:5,id:fortune},{lvl:10,id:smite},{lvl:10,id:unbreaking}],Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:20,Slot:mainhand,UUID:[I;-124815,21929,132318,-43858],Name:1726424811691}],HideFlags:63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
