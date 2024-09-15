@@ -72,18 +72,38 @@ execute as @s[scores={give_species_item=0}] run function chocolate_datapack:dete
 
 ##---------------Legendary weapon effects---------------##
 execute at @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{eighties_scythe:1b}}}] run particle sculk_soul ~ ~ ~ .3 .1 .3 0 1 force
+
+#draco marble
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{draco_marble:1b}}]}] run effect give @s fire_resistance 1 0 true
+
+#Orion marble
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{orion_marble:1b}}]}] run effect give @s water_breathing 1 0 true
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{orion_marble:1b}}]}] run effect give @s dolphins_grace 1 0 true
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{orion_marble:1b}}}] run effect give @s conduit_power 1 0 true
+
+#Lepus marble
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{lepus_marble:1b}}}] run effect give @s jump_boost 1 4 true
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{lepus_marble:1b}}]}] run effect give @s slow_falling 1 0 true
+
+#big dipper marble
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{big_dipper_marble:1b}}}] run effect give @s resistance 1 2 true
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{big_dipper_marble:1b}}]}] run effect give @s speed 5 2 true
+
+#aquila marble
 execute at @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{aquilia_marble:1b}}}] run tp @e[distance=2..5,type=!#chocolate_datapack:spell_components] ~ ~ ~
+
+#cancer Marble
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",tag:{cancer_marble:1b}}}] run effect give @s absorption 1 4 true
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{cancer_marble:1b}}]}] run effect give @s regeneration 5 1 true
+
+#Phoenix Circlet
 execute as @s[nbt={Inventory:[{Slot:103b,id:"minecraft:carved_pumpkin",tag:{phoenix_circlet:1b}}]}] run effect give @s fire_resistance 2 0 true
+
+#Nul Blade
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{null_blade:1b}}}] run scoreboard players remove @s wil 10
+execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:netherite_sword",tag:{null_blade:1b}}]}] run scoreboard players remove @s wil 10
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{null_blade:1b}}}] run scoreboard players set @s jammed 2
+execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:netherite_sword",tag:{null_blade:1b}}]}] run scoreboard players set @s jammed 2
 ##------------------------------------------------------##
 
 ##--------------------DISABLE SPELLS--------------------##
