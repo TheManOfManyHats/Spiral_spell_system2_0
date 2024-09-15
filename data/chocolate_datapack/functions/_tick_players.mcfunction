@@ -100,8 +100,8 @@ execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:stick",tag:{cancer_marbl
 execute as @s[nbt={Inventory:[{Slot:103b,id:"minecraft:carved_pumpkin",tag:{phoenix_circlet:1b}}]}] run effect give @s fire_resistance 2 0 true
 
 #Nul Blade
-execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{null_blade:1b}}}] run scoreboard players remove @s wil 10
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:netherite_sword",tag:{null_blade:1b}}]}] run scoreboard players remove @s wil 10
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{null_blade:1b}}}] run scoreboard players remove @s wil 100
+execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:netherite_sword",tag:{null_blade:1b}}]}] run scoreboard players remove @s wil 100
 execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{null_blade:1b}}}] run scoreboard players set @s jammed 2
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:netherite_sword",tag:{null_blade:1b}}]}] run scoreboard players set @s jammed 2
 ##------------------------------------------------------##
