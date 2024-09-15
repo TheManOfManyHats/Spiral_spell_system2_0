@@ -1980,11 +1980,16 @@ execute as @s[scores={function=20018}] run function chocolate_datapack:spells/fi
 execute as @s[scores={function=20019}] run function chocolate_datapack:spells/fire/lightning/ball_lightning
 execute as @s[scores={function=20020}] run function chocolate_datapack:spells/nature/living_root
 execute as @s[scores={function=20021}] run function chocolate_datapack:spells/nature/leech_seed
-
 execute as @s[scores={function=20022}] run function chocolate_datapack:spells/nature/wild/pounce
 execute as @s[scores={function=20023}] run function chocolate_datapack:spells/blade/antimagic/anti_magic_slash
 execute as @s[scores={function=20024}] run function chocolate_datapack:spells/blade/antimagic/draining_crescent_slash
 execute as @s[scores={function=20025}] run function chocolate_datapack:spells/blade/antimagic/draining_zone
+execute as @s[scores={function=20027}] run function chocolate_datapack:spells/fire/lightning/lightning_bolt
+execute as @s[scores={function=20028}] run function chocolate_datapack:spells/fire/lightning/ball_lightning
+execute as @s[scores={function=20029}] run function chocolate_datapack:spells/fire/lightning/lightning_stun
+execute as @s[scores={function=20030}] run function chocolate_datapack:spells/light/time/frame_skip
+execute as @s[scores={function=20031}] run function chocolate_datapack:spells/light/time/maturate
+execute as @s[scores={function=20032}] run function chocolate_datapack:spells/light/time/time_chrono_anchor
 scoreboard players set @s function 0
 
 

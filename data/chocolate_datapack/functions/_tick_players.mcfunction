@@ -102,8 +102,8 @@ execute as @s[nbt={Inventory:[{Slot:103b,id:"minecraft:carved_pumpkin",tag:{phoe
 #Nul Blade
 execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{null_blade:1b}}}] run scoreboard players remove @s wil 100
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:netherite_sword",tag:{null_blade:1b}}]}] run scoreboard players remove @s wil 100
-execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{null_blade:1b}}}] run scoreboard players set @s jammed 2
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:netherite_sword",tag:{null_blade:1b}}]}] run scoreboard players set @s jammed 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",tag:{null_blade:1b}}}] at @s run scoreboard players set @a[distance=..16] jammed 2
+execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:netherite_sword",tag:{null_blade:1b}}]}] at @s run scoreboard players set @a[distance=..16] jammed 2
 ##------------------------------------------------------##
 
 ##--------------------DISABLE SPELLS--------------------##
