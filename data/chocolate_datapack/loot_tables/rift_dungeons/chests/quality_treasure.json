@@ -211,6 +211,24 @@
           "weight": 1,
           "functions": [
             {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{vibrant_key:1b,display:{Name:'[\"\",{\"text\":\"Vibrant Key\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"A strange key... it tingles in\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"your hands... What does it open?\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{lvl:10,id:unbreaking}],Unbreakable:1,CustomModelData:520,HideFlags:63}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "functions": [
+            {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'[\"\",{\"text\":\"Vibrant Gear\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"A strange glowing gear made\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"from Vibrant Titanium.\",\"italic\":false,\"color\":\"white\"}]']},CustomModelData:1104}"
             },
@@ -261,7 +279,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 47
+          "weight": 20
         }
       ]
     },
@@ -294,7 +312,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 4995,
+          "weight": 995,
           "functions": [
             {
               "function": "minecraft:set_count",
