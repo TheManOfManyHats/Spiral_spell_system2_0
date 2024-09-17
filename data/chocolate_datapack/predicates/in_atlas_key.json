@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:item_display",
+      "location": {
+        "dimension": "chocolate_datapack_dimensions:atlas_key_realm"
+      }
+    }
+  }  

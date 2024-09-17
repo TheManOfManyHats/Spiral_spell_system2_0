@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:item_display",
+      "equipment": {
+        "mainhand": {
+          "nbt": "{atlas_key:1b}"
+        }
+      }
+    }
+  }
+  

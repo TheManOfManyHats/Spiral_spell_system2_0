@@ -125,6 +125,14 @@ scoreboard objectives add growth dummy
 scoreboard objectives add slowwalkcheck dummy
 scoreboard objectives add rings_equipped dummy
 scoreboard objectives add pendants_equipped dummy
+scoreboard objectives add overworld_pos_x dummy
+scoreboard objectives add overworld_pos_y dummy
+scoreboard objectives add overworld_pos_z dummy
+scoreboard objectives add atlas_key_pos_x dummy
+scoreboard objectives add atlas_key_pos_y dummy
+scoreboard objectives add atlas_key_pos_z dummy
+scoreboard objectives add chunk_x dummy
+scoreboard objectives add chunk_z dummy
 ##-----------------------------------------------------------##
 
 ##------------CREATE SHULKER STORAGE BOX IN WORLD------------##
