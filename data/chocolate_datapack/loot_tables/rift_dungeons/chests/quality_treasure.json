@@ -312,7 +312,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 995,
+          "weight": 10000,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -320,17 +320,6 @@
                 "min": 1,
                 "max": 10
               }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:carved_pumpkin",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4,dungeon_relic:1b,phoenix_circlet:1b,display:{Name:'[\"\",{\"text\":\"Phoenix Circlet \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[Relic]\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[\"\",{\"text\":\"This circlet seems to have some\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"kind of bird sculpted at the\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"front of it. Despite this bird\\'s\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"firey appearance, putting it on\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"seems to offer a fair amount of\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"protection from all heat sources.\",\"italic\":false,\"color\":\"dark_purple\"}]','[\"\",{\"text\":\"!!!DO NOT RIGHT CLICK!!!\",\"italic\":false,\"color\":\"yellow\"}]','[\"\"]','[\"\",{\"text\":\"When worn:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Fire Resistance\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:1,id:flame}],Unbreakable:1,HideFlags:63}"
             }
           ]
         },
