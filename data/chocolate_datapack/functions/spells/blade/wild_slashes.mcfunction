@@ -16,14 +16,15 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 #LOW POWER
 #Summon armor stand that is the actual attack
 execute as @s[tag=1,scores={spell_power=1}] at @s positioned ~ ~ ~ run function animated_java:fx_wild_slashes/summon
-
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add wild_slashes_root1
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add offensive
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add offensive
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add lv1
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add lv1
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add wild_slashes
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add wild_slashes
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add self
-execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add blade
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add self
+execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add blade
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add new_spell
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add new_spell
 execute at @s[tag=1,scores={spell_power=1}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add spiral_spell
@@ -41,12 +42,14 @@ execute at @s[tag=1,scores={spell_power=1}] run effect give @s slowness 2 10 tru
 #Summon armor stand that is the actual attack
 execute as @s[tag=1,scores={spell_power=3}] at @s positioned ~ ~ ~ run function animated_java:fx_wild_slashes/summon
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add wild_slashes_root2
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add lv2
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add offensive
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add offensive
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add lv2
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add lv2
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add wild_slashes
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add wild_slashes
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add self
-execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add blade
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add self
+execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add blade
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add new_spell
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add new_spell
 execute at @s[tag=1,scores={spell_power=3}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add spiral_spell
@@ -63,12 +66,14 @@ execute at @s[tag=1,scores={spell_power=3}] run effect give @s slowness 4 10 tru
 #Summon armor stand that is the actual attack
 execute as @s[tag=1,scores={spell_power=5}] at @s positioned ~ ~ ~ run function animated_java:fx_wild_slashes/summon
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add wild_slashes_root3
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add lv3
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add lv3
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add offensive
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add offensive
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add wild_slashes
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add wild_slashes
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add self
-execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add blade
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add self
+execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add blade
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add new_spell
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.bone,limit=1,sort=nearest,distance=..1,tag=!new_spell] add new_spell
 execute at @s[tag=1,scores={spell_power=5}] positioned ~ ~ ~ run tag @e[tag=aj.fx_wild_slashes.root,limit=1,sort=nearest,distance=..1,tag=!new_spell] add spiral_spell
