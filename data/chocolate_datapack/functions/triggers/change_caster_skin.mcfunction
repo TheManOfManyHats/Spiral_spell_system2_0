@@ -41,3 +41,6 @@ tellraw @s[] {"text":"Soul Binder","bold":true,"color":"dark_green","clickEvent"
 tellraw @s[] {"text":"Memory of Deception","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10039"}}
 tellraw @s[] {"text":"Crow Cane","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10040"}}
 tellraw @s[] {"text":"Moonshine Bottle","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10041"}}
+tellraw @s[name="StinkyRatToes"] {"text":"Dark Revolver","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10042"}}
+tellraw @s[name="Lonely_Icarus"] {"text":"Wing Caster","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10043"}}
+tellraw @s[name="zaxBC"] {"text":"Zax Cannon","bold":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 10044"}}
