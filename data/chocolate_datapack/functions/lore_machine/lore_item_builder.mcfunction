@@ -16,7 +16,7 @@ data modify entity @s[tag=piercing_5] Item.tag.Enchantments append value {id:"mi
 data modify entity @s[tag=flame_5] Item.tag.Enchantments append value {id:"minecraft:flame",lvl:5}
 data modify entity @s[tag=power_10] Item.tag.Enchantments append value {id:"minecraft:power",lvl:10}
 data modify entity @s[tag=multishot] Item.tag.Enchantments append value {id:"minecraft:multishot",lvl:1}
-data modify entity @s[tag=instant_reload] Item.tag.Enchantments append value {id:"minecraft:quick_charge",lvl:10}
+data modify entity @s[tag=instant_reload] Item.tag.Enchantments append value {id:"minecraft:quick_charge",lvl:6}
 data modify entity @s[tag=fire_aspect] Item.tag.Enchantments append value {id:"minecraft:fire_aspect",lvl:5}
 data modify entity @s[tag=eficiency_10] Item.tag.Enchantments append value {id:"minecraft:efficiency",lvl:10}
 data modify entity @s Item.tag.HideFlags set value 61
