@@ -1,4 +1,4 @@
-execute at @s run tellraw @a "Confirmation has been approved. Building Lore Item!"
+execute at @s run tellraw @a[distance=..20] "Confirmation has been approved. Building Lore Item!"
 data merge entity @s[tag=damage_30] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:30,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
 data merge entity @s[tag=damage_25] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:25,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
 data merge entity @s[tag=damage_20] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:20,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
@@ -26,4 +26,4 @@ data modify entity @s Item.tag.Unbreakable set value 1
 execute at @s positioned ~ ~.5 ~ run particle flash ~ ~ ~ 0 0 0 0 1 force
 execute at @s positioned ~ ~.5 ~ run particle flame ~ ~ ~ 0 0 0 .1 20 force
 execute at @s positioned ~ ~.5 ~ run playsound block.anvil.use ambient @a ~ ~ ~ 1 0
-execute at @s run tellraw @a "Lore Item Created!"
+execute at @s run tellraw @a[distance=..20] "Lore Item Created!"
