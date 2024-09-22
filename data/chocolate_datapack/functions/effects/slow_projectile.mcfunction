@@ -7,7 +7,8 @@ execute at @s[tag=fire] run particle flame ~ ~ ~ 1 1 1 0 100 force
 execute at @s[tag=lightning] run particle electric_spark ~ ~ ~ .5 .5 .5 0 100 force
 execute at @s[tag=void] run particle dust 0 0 0 1 ~ ~ ~ 1 1 1 0 50 force
 execute at @s[tag=void] run particle dust 0.063 0.02 0.314 1 ~ ~ ~ 1 1 1 0 50 force
-
+execute at @s[tag=nova] run particle soul_fire_flame ~ ~ ~ .2 .2 .2 0 20 force
+execute at @s[tag=nova] run particle flame ~ ~ ~ .2 .2 .2 0 2 force
 ##------------------------------ACTIVATION LINES-------------------------------##
 #Incinerate #5
 execute at @s[tag=incinerate] run function chocolate_datapack:spells/fire/incinerate_effects
