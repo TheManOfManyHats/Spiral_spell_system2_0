@@ -38,7 +38,8 @@ execute at @s[tag=void] run particle dust 0 0 0 .5 ~ ~ ~ .2 .2 .2 0 20 force
 execute at @s[tag=void] run particle dust 0.075 0 0.447 .1 ~ ~ ~ .3 .3 .3 0 20 force
 execute at @s[tag=chaos] run particle dust 0 0 0 .5 ~ ~ ~ .2 .2 .2 0 20 force
 execute at @s[tag=chaos] run particle dust 0.459 0 0 .1 ~ ~ ~ .3 .3 .3 0 20 force
-
+execute at @s[tag=nova] run particle soul_fire_flame ~ ~ ~ .2 .2 .2 0 20 force
+execute at @s[tag=nova] run particle flame ~ ~ ~ .2 .2 .2 0 2 force
 ##------------------------------ACTIVATION LINES-------------------------------##
 #TEAM UP #244
 execute as @s[tag=team_up] at @s if entity @e[distance=..2,type=!#chocolate_datapack:non_activating] unless score @e[type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] player_id = @s player_id unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] team_id = @s team_id run function chocolate_datapack:spells/functions/team_up_effect
