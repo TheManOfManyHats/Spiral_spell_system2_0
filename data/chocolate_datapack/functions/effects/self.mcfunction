@@ -7,7 +7,8 @@ execute at @s[tag=fire] run particle flame ~ ~1 ~ .2 .2 .2 .5 1 force
 execute at @s[tag=lightning] run particle electric_spark ~ ~1 ~ .2 .2 .2 .5 1 force
 execute at @s[tag=magma] run particle lava ~ ~1 ~ .2 .2 .2 .5 1 force
 execute at @s[tag=shifter] run particle spore_blossom_air ~ ~1 ~ .2 .2 .2 .5 1 force
-
+execute at @s[tag=nova] run particle soul_fire_flame ~ ~ ~ .2 .2 .2 0 20 force
+execute at @s[tag=nova] run particle flame ~ ~ ~ .2 .2 .2 0 2 force
 ##------------------------------ACTIVATION LINES-------------------------------##
 #FIRE_AURA #4
 execute at @s[tag=fire_aura] run function chocolate_datapack:spells/fire/fire_aura_effect
