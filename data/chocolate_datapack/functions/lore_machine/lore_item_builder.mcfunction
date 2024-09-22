@@ -1,15 +1,16 @@
 execute at @s run tellraw @a[distance=..20] "Confirmation has been approved. Building Lore Item!"
-data merge entity @s[tag=damage_30] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:30,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
-data merge entity @s[tag=damage_25] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:25,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
-data merge entity @s[tag=damage_20] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:20,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
-data merge entity @s[tag=damage_15] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:15,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
-data merge entity @s[tag=damage_10] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:10,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
-data merge entity @s[tag=movement_1] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.1,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
-data merge entity @s[tag=armor_4] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
-data merge entity @s[tag=armor_10] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:10,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
-data merge entity @s[tag=knockback_resist] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:1,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
-data merge entity @s[tag=knockback_immune] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:5,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
-data merge entity @s[tag=instant_swing] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:10,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
+
+data modify entity @s[tag=damage_30] Item.tag.AttributeModifiers append value {AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:30,Operation:0,UUIDMost:95613,UUIDLeast:111857}
+data modify entity @s[tag=damage_25] Item.tag.AttributeModifiers append value {AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:25,Operation:0,UUIDMost:95613,UUIDLeast:111857}
+data modify entity @s[tag=damage_20] Item.tag.AttributeModifiers append value {AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:20,Operation:0,UUIDMost:95613,UUIDLeast:111857}
+data modify entity @s[tag=damage_15] Item.tag.AttributeModifiers append value {AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:15,Operation:0,UUIDMost:95613,UUIDLeast:111857}
+data modify entity @s[tag=damage_10] Item.tag.AttributeModifiers append value {AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Slot:"mainhand",Amount:10,Operation:0,UUIDMost:95613,UUIDLeast:111857}
+data modify entity @s[tag=movement_1] Item.tag.AttributeModifiers append value {AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Slot:"mainhand",Amount:.1,Operation:0,UUIDMost:95613,UUIDLeast:111857}
+data modify entity @s[tag=armor_4] Item.tag.AttributeModifiers append value {AttributeName:"generic.armor",Name:"generic.armor",Slot:"mainhand",Amount:4,Operation:0,UUIDMost:95613,UUIDLeast:111857}
+data modify entity @s[tag=armor_10] Item.tag.AttributeModifiers append value {AttributeName:"generic.armor",Name:"generic.armor",Slot:"mainhand",Amount:10,Operation:0,UUIDMost:95613,UUIDLeast:111857}
+data modify entity @s[tag=knockback_resist] Item.tag.AttributeModifiers append value {AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Slot:"mainhand",Amount:1,Operation:0,UUIDMost:95613,UUIDLeast:111857}
+data modify entity @s[tag=knockback_immune] Item.tag.AttributeModifiers append value {AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Slot:"mainhand",Amount:5,Operation:0,UUIDMost:95613,UUIDLeast:111857}
+data modify entity @s[tag=instant_swing] Item.tag.AttributeModifiers append value {AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Slot:"mainhand",Amount:10,Operation:0,UUIDMost:95613,UUIDLeast:111857}
 data merge entity @s[tag=lore_tool] {Item:{tag:{itemsadder: {id: "lore_tool", namespace: "myitems"}}}}
 data modify entity @s[tag=sweeping_edge] Item.tag.Enchantments append value {id:"minecraft:sweeping_edge",lvl:5}
 data modify entity @s[tag=piercing_5] Item.tag.Enchantments append value {id:"minecraft:piercing",lvl:5}
