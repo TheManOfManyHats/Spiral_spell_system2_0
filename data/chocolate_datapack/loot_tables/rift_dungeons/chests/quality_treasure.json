@@ -325,17 +325,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_axe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{itemsadder: {id: \"raijin\", namespace: \"myitems\"},CustomModelData:6,dungeon_relic:1b,raijin:1b,display:{Name:'[\"\",{\"text\":\"Raijin \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[Relic]\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[\"\",{\"text\":\"This axe seems to spark in your\",\"italic\":false}]','[\"\",{\"text\":\"grasp! you feel static coursing\",\"italic\":false}]','[\"\",{\"text\":\"through your body. perhaps this\",\"italic\":false}]','[\"\",{\"text\":\"could be used to replicate\",\"italic\":false}]','[\"\",{\"text\":\"lightning based spiral abilities?\",\"italic\":false}]','[\"\"]','[\"\",{\"text\":\"Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Lightning Bolt\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Right Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Ball Lightning\",\"italic\":false,\"color\":\"dark_green\"}]','[\"\",{\"text\":\"Shift Left Click:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Magnetism\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:10,id:efficiency},{lvl:10,id:unbreaking}],Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:20,Slot:mainhand,Name:1726425783855,UUID:[I;-124815,28054,16055,-56108]}],HideFlags:63}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:netherite_pickaxe",
           "weight": 1,
           "functions": [
