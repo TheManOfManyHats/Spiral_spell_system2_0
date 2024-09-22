@@ -21,8 +21,8 @@ data modify entity @s[tag=fire_aspect] Item.tag.Enchantments append value {id:"m
 data modify entity @s[tag=eficiency_10] Item.tag.Enchantments append value {id:"minecraft:efficiency",lvl:10}
 data modify entity @s Item.tag.HideFlags set value 61
 data modify entity @s Item.tag.Unbreakable set value 1
-execute at @s positioned ~4 ~ ~ run data modify entity @s Item.tag.display.Name set from entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.title
-execute at @s positioned ~4 ~ ~ run data modify entity @s Item.tag.display.Lore set from entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.pages
+#execute at @s positioned ~4 ~ ~ run data modify entity @s Item.tag.display.Name set from entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.title
+#execute at @s positioned ~4 ~ ~ run data modify entity @s Item.tag.display.Lore set from entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.pages
 execute at @s positioned ~ ~.5 ~ run particle flash ~ ~ ~ 0 0 0 0 1 force
 execute at @s positioned ~ ~.5 ~ run particle flame ~ ~ ~ 0 0 0 .1 20 force
 execute at @s positioned ~ ~.5 ~ run playsound block.anvil.use ambient @a ~ ~ ~ 1 0
