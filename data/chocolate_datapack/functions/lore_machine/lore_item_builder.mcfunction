@@ -1,3 +1,4 @@
+execute at @s run tellraw @a "Confirmation has been approved. Building Lore Item!"
 data merge entity @s[tag=damage_30] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:30,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
 data merge entity @s[tag=damage_25] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:25,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
 data merge entity @s[tag=damage_20] {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:20,UUID:[I;1,1,1,2],Slot:"mainhand"}]}}}
@@ -33,5 +34,10 @@ data modify entity @s[tag=instant_reload] Item.tag.Enchantments append value {id
 data modify entity @s[tag=fire_aspect] Item.tag.Enchantments append value {id:"minecraft:fire_aspect",lvl:5}
 data modify entity @s[tag=eficiency_10] Item.tag.Enchantments append value {id:"minecraft:efficiency",lvl:10}
 
-execute at @s positioned ~4 ~ ~ store result entity @s Item.tag.display.Name long 1 run data get entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.title
-execute at @s positioned ~4 ~ ~ store result entity @s Item.tag.display.Lore long 1 run data get entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.pages
+execute at @s positioned ~4 ~ ~ run data modify entity @s Item.tag.display.Name set from entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.title
+execute at @s positioned ~4 ~ ~ run data modify entity @s Item.tag.display.Lore set from entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.pages
+
+#execute at @s positioned ~4 ~ ~ store result entity @s Item.tag.display.Name long 1 run data get entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.title
+#execute at @s positioned ~4 ~ ~ store result entity @s Item.tag.display.Lore long 1 run data get entity @e[type=item_frame,limit=1,sort=nearest] Item.tag.pages
+
+execute at @s run tellraw @a "Lore Item Created!"
