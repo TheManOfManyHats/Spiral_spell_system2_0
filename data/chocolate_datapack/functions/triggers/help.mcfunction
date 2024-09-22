@@ -4,8 +4,9 @@ tellraw @s {"text":"[Get Spiral Tome]","bold":true,"underlined":true,"color":"da
 tellraw @s {"text":"[Change Caster Skin]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 52"},"hoverEvent":{"action":"show_text","contents":"Click to change your caster's skin."}}
 tellraw @s {"text":"[View Party Members]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 53"},"hoverEvent":{"action":"show_text","contents":"Click to view all the members online that are a part of your party"}}
 tellraw @s {"text":"[Leave Party]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 54"},"hoverEvent":{"action":"show_text","contents":"Click to leave any parties you have joined"}}
-tellraw @s {"text":"[Unstuck]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 55"},"hoverEvent":{"action":"show_text","contents":"Click to be unstuck and warped safely to a global location set by the server admin"}}
+tellraw @s {"text":"[List Stats]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 85"},"hoverEvent":{"action":"show_text","contents":"Click to list your current stats."}}
 tellraw @s {"text":"[Equipment]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 73"},"hoverEvent":{"action":"show_text","contents":"Click to list your current equipped relics."}}
+tellraw @s {"text":"[Unstuck]","bold":true,"underlined":true,"color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger function set 55"},"hoverEvent":{"action":"show_text","contents":"Click to be unstuck and warped safely to a global location set by the server admin"}}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
 tellraw @s {"text":"|","bold":false,"underlined":false,"color":"white"}
