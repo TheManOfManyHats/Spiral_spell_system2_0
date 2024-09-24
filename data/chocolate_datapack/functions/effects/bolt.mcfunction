@@ -86,7 +86,7 @@ execute as @s[tag=quantum_lock] at @s if entity @e[distance=..2,type=!#chocolate
 execute as @s[tag=reality_slip] at @s if entity @e[distance=..2,type=!#chocolate_datapack:non_activating] unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] player_id = @s player_id unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] team_id = @s team_id run function chocolate_datapack:spells/space/void/reality_slip_effect
 
 #REVATILIZE #9
-execute as @s[tag=revitalize] at @s if entity @e[distance=..2,type=!#chocolate_datapack:non_activating] unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] player_id = @s player_id unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] team_id = @s team_id run function chocolate_datapack:spells/water/healing/revitalize_effect
+execute as @s[tag=revitalize] at @s if entity @e[distance=..2,type=!#chocolate_datapack:non_activating] if score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] team_id = @s team_id run function chocolate_datapack:spells/water/healing/revitalize_effect
 
 #ENTANGLE #9
 execute as @s[tag=entangle] at @s if entity @e[distance=..2,type=!#chocolate_datapack:non_activating] unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] player_id = @s player_id unless score @e[distance=..2,type=!#chocolate_datapack:non_activating,limit=1,sort=nearest] team_id = @s team_id run function chocolate_datapack:spells/nature/entangle_effect

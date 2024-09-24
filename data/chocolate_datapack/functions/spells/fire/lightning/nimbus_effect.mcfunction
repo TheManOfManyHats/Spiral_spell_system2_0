@@ -1,7 +1,7 @@
 ##----------------DAMAGING LINES-------------------##
-execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,distance=..6] unless score @s player_id = @e[tag=nimbus,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=nimbus,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 6 lightning_bolt
-execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,distance=..12] unless score @s player_id = @e[tag=nimbus,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=nimbus,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 12 lightning_bolt
-execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,distance=..18] unless score @s player_id = @e[tag=nimbus,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=nimbus,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 18 lightning_bolt
+execute at @s[tag=lv1] as @e[type=!#chocolate_datapack:non_activating,distance=..6] unless score @s player_id = @e[tag=nimbus,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=nimbus,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 12 lightning_bolt
+execute at @s[tag=lv2] as @e[type=!#chocolate_datapack:non_activating,distance=..12] unless score @s player_id = @e[tag=nimbus,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=nimbus,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 24 lightning_bolt
+execute at @s[tag=lv3] as @e[type=!#chocolate_datapack:non_activating,distance=..18] unless score @s player_id = @e[tag=nimbus,limit=1,sort=nearest] player_id unless score @s team_id = @e[tag=nimbus,sort=nearest,limit=1,distance=..1] team_id at @s run damage @s 36 lightning_bolt
 
 ##-------------------------------------------------##
 
