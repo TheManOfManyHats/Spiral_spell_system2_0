@@ -113,16 +113,16 @@ execute as @s[tag=!spells_disabled] if entity @e[type=item_display,tag=player_id
 execute as @s[scores={magic_level=160..}] run scoreboard players set @s spiral_exhaustion 1000
 
 ##--------------------ANTI OP ARMORS--------------------##
-execute as @s[nbt={Inventory:[{Slot:103b,tag:{MYTHIC_TYPE:{}}}]}] run scoreboard players add @s wore_illegal_armor 1
-execute as @s[nbt={Inventory:[{Slot:103b,tag:{MYTHIC_TYPE:{}}}]}] run item replace entity @s armor.head with leather_helmet{display:{color:13061821,Name:'["",{"text":"Never gonna give you up","italic":false}]',Lore:['["",{"text":"Never gonna let you down","italic":false}]']},Enchantments:[{lvl:1,id:binding_curse}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0,Operation:2,UUID:[I;-124822,24154,232637,-48308],Name:1727065650056}]}
+execute as @s[nbt={Inventory:[{Slot:103b,tag:{MYTHIC_TYPE:""}}]}] run scoreboard players add @s wore_illegal_armor 1
+execute as @s[nbt={Inventory:[{Slot:103b,tag:{MYTHIC_TYPE:""}}]}] run item replace entity @s armor.head with leather_helmet{display:{color:13061821,Name:'["",{"text":"Never gonna give you up","italic":false}]',Lore:['["",{"text":"Never gonna let you down","italic":false}]']},Enchantments:[{lvl:1,id:binding_curse}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0,Operation:2,UUID:[I;-124822,24154,232637,-48308],Name:1727065650056}]}
 
-execute as @s[nbt={Inventory:[{Slot:102b,tag:{MYTHIC_TYPE:{}}}]}] run scoreboard players add @s wore_illegal_armor 1
-execute as @s[nbt={Inventory:[{Slot:102b,tag:{MYTHIC_TYPE:{}}}]}] run item replace entity @s armor.head with leather_chestplate{display:{color:13061821,Name:'["",{"text":"Never gonna run around","italic":false}]',Lore:['["",{"text":"And desert you.","italic":false}]']},Enchantments:[{lvl:1,id:binding_curse}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0,Operation:2,UUID:[I;-124822,24154,232637,-48308],Name:1727065650056}]}
+execute as @s[nbt={Inventory:[{Slot:102b,tag:{MYTHIC_TYPE:""}}]}] run scoreboard players add @s wore_illegal_armor 1
+execute as @s[nbt={Inventory:[{Slot:102b,tag:{MYTHIC_TYPE:""}}]}] run item replace entity @s armor.chest with leather_chestplate{display:{color:13061821,Name:'["",{"text":"Never gonna run around","italic":false}]',Lore:['["",{"text":"And desert you.","italic":false}]']},Enchantments:[{lvl:1,id:binding_curse}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0,Operation:2,UUID:[I;-124822,24154,232637,-48308],Name:1727065650056}]}
 
-execute as @s[nbt={Inventory:[{Slot:102b,tag:{MYTHIC_TYPE:{}}}]}] run scoreboard players add @s wore_illegal_armor 1
-execute as @s[nbt={Inventory:[{Slot:102b,tag:{MYTHIC_TYPE:{}}}]}] run item replace entity @s armor.head with leather_leggings{display:{color:13061821,Name:'["",{"text":"Never gonna make you cry","italic":false}]',Lore:['["",{"text":"Never gonna say goodbye","italic":false}]']},Enchantments:[{lvl:1,id:binding_curse}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0,Operation:2,UUID:[I;-124822,24154,232637,-48308],Name:1727065650056}]}
+execute as @s[nbt={Inventory:[{Slot:102b,tag:{MYTHIC_TYPE:""}}]}] run scoreboard players add @s wore_illegal_armor 1
+execute as @s[nbt={Inventory:[{Slot:102b,tag:{MYTHIC_TYPE:""}}]}] run item replace entity @s armor.legs with leather_leggings{display:{color:13061821,Name:'["",{"text":"Never gonna make you cry","italic":false}]',Lore:['["",{"text":"Never gonna say goodbye","italic":false}]']},Enchantments:[{lvl:1,id:binding_curse}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0,Operation:2,UUID:[I;-124822,24154,232637,-48308],Name:1727065650056}]}
 
-execute as @s[nbt={Inventory:[{Slot:100b,tag:{MYTHIC_TYPE:{}}}]}] run scoreboard players add @s wore_illegal_armor 1
-execute as @s[nbt={Inventory:[{Slot:100b,tag:{MYTHIC_TYPE:{}}}]}] run item replace entity @s armor.head with leather_boots{display:{color:13061821,Name:'["",{"text":"Never gonna tell a lie","italic":false}]',Lore:['["",{"text":"and hurt you!","italic":false}]']},Enchantments:[{lvl:1,id:binding_curse}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0,Operation:2,UUID:[I;-124822,24154,232637,-48308],Name:1727065650056}]}
+execute as @s[nbt={Inventory:[{Slot:100b,tag:{MYTHIC_TYPE:""}}]}] run scoreboard players add @s wore_illegal_armor 1
+execute as @s[nbt={Inventory:[{Slot:100b,tag:{MYTHIC_TYPE:""}}]}] run item replace entity @s armor.feet with leather_boots{display:{color:13061821,Name:'["",{"text":"Never gonna tell a lie","italic":false}]',Lore:['["",{"text":"and hurt you!","italic":false}]']},Enchantments:[{lvl:1,id:binding_curse}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0,Operation:2,UUID:[I;-124822,24154,232637,-48308],Name:1727065650056}]}
 ##------------------------------------------------------##
 #28
