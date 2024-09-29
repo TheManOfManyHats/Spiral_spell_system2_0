@@ -49,3 +49,4 @@ execute as @e[tag=new_door,tag=atlas_key_door] store result entity @s Pos[1] int
 execute as @e[tag=new_door,tag=atlas_key_door] store result entity @s Pos[2] int 1 run scoreboard players get @s overworld_pos_z
 
 execute as @e[tag=new_door,tag=atlas_key_door] at @s run fill ~-5 ~ ~-5 ~5 ~5 ~5 air replace
+execute as @e[tag=new_door,tag=atlas_key_door] run tag @s remove new_door
