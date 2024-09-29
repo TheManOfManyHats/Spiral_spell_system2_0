@@ -1992,7 +1992,6 @@ execute as @s[scores={function=20031}] run function chocolate_datapack:spells/li
 execute as @s[scores={function=20032}] run function chocolate_datapack:spells/light/time/time_chrono_anchor
 
 execute as @s[scores={function=20033}] run function chocolate_datapack:atlas_key/right_click
-execute as @s[scores={function=20033}] run say hi
 execute as @s[scores={function=20034}] run function chocolate_datapack:atlas_key/shift_left_click
 execute as @s[scores={function=20035}] run function chocolate_datapack:atlas_key/shift_right_click
 
