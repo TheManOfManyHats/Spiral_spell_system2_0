@@ -1,1 +1,0 @@
-execute at @s unless entity @e[tag=atlas_door,distance=..64] run summon item_display ~ ~ ~
