@@ -30,5 +30,5 @@ kill @s[type=item,nbt={Item:{tag:{switchable:1b}}}]
 execute as @s[type=armor_stand,tag=New_Seed] run function chocolate_datapack:crops/new_crop
 execute as @s[type=item_display,tag=custom_crop] run function chocolate_datapack:crops/crops_grow
 
-#atlas door particles
-execute as @e[tag=atlas_key_door] at @s as @a[nbt={Inventory:[{tag:{atlas_key:1b}}]}] run particle glow ~ ~1 ~ 0 0 0 0 1 force
+#atlas door
+execute as @e[tag=atlas_key_door] run function chocolate_datapack:atlas_key/atlas_key_ai
