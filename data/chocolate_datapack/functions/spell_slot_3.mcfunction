@@ -173,7 +173,7 @@ execute as @s[scores={spell3=125,spell_cooldown=0,jammed=0},tag=track_prey_unloc
 execute as @s[scores={spell3=126,spell_cooldown=0,jammed=0},tag=wild_evasion_unlocked] run function chocolate_datapack:spells/nature/wild/wild_evasion
 execute as @s[scores={spell3=127,spell_cooldown=0,jammed=0},tag=wild_slashes_unlocked] run function chocolate_datapack:spells/nature/wild/wild_slashes
 execute as @s[scores={spell3=128,spell_cooldown=0,jammed=0},tag=wyld_wil_unlocked] run function chocolate_datapack:spells/nature/wild/wyld_wil
-execute as @s[scores={spell3=129,spell_cooldown=0,jammed=0},tag=wild_aspect] run function chocolate_datapack:spells/nature/wild/wild_aspect
+execute as @s[scores={spell3=129,spell_cooldown=0,jammed=0},tag=wild_aspect_unlocked] run function chocolate_datapack:spells/nature/wild/wild_aspect
 execute as @s[scores={spell3=130,spell_cooldown=0,jammed=0},tag=yggdrasil_unlocked  ] run function chocolate_datapack:spells/nature/nature_grand/yggdrasil
 execute as @s[scores={spell3=131,spell_cooldown=0,jammed=0},tag=gift_of_gaia_unlocked] run function chocolate_datapack:spells/nature/nature_grand/gift_of_gaia
 execute as @s[scores={spell3=132,spell_cooldown=0,jammed=0},tag=immortality_unlocked] run function chocolate_datapack:spells/nature/nature_grand/immortality

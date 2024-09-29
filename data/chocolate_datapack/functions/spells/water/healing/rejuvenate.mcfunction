@@ -15,26 +15,34 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s blindness
 execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s weakness
 execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s slowness
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s wither
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s poison
 execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s darkness
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s hunger
 execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s nausea
-execute at @s[tag=1,scores={spell_power=1}] run kill @e[tag=pestilence,distance=..3]
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run tellraw @s "Weakness, Slowness, Darkness and Nausea negated"
+
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s player_id = @p player_id run effect clear @s weakness
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s player_id = @p player_id run effect clear @s slowness
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s player_id = @p player_id run effect clear @s darkness
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s player_id = @p player_id run effect clear @s nausea
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s player_id = @p player_id run tellraw @s "Weakness, Slowness, Darkness and Nausea negated"
 
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s blindness
 execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s weakness
 execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s slowness
-execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s wither
 execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s poison
 execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s darkness
 execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s hunger
 execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s nausea
-execute at @s[tag=1,scores={spell_power=3}] run kill @e[tag=pestilence,distance=..6]
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run tellraw @s "Weakness, Slowness, Darkness, Nausea, Poison, and Hunger negated"
+
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s player_id = @p player_id run effect clear @s weakness
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s player_id = @p player_id run effect clear @s slowness
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s player_id = @p player_id run effect clear @s poison
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s player_id = @p player_id run effect clear @s darkness
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s player_id = @p player_id run effect clear @s hunger
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s player_id = @p player_id run effect clear @s nausea
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s player_id = @p player_id run tellraw @s "Weakness, Slowness, Darkness, Nausea, Poison, and Hunger negated"
 
 #HIGH POWER
 execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s blindness
@@ -46,6 +54,18 @@ execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team
 execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s hunger
 execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s nausea
 execute at @s[tag=1,scores={spell_power=5}] run kill @e[tag=pestilence,distance=..9]
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run tellraw @s "Weakness, Slowness, Darkness, Nausea, Poison, Hunger, Wither, Blindess and Pestilence negated"
+
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s player_id = @p player_id run effect clear @s blindness
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s player_id = @p player_id run effect clear @s weakness
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s player_id = @p player_id run effect clear @s slowness
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s player_id = @p player_id run effect clear @s wither
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s player_id = @p player_id run effect clear @s poison
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s player_id = @p player_id run effect clear @s darkness
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s player_id = @p player_id run effect clear @s hunger
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s player_id = @p player_id run effect clear @s nausea
+execute at @s[tag=1,scores={spell_power=5}] run kill @e[tag=pestilence,distance=..9]
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s player_id = @p player_id run tellraw @s "Weakness, Slowness, Darkness, Nausea, Poison, Hunger, Wither, Blindess and Pestilence negated"
 
 #Put kill timer on marker that lasts for 1 seconds
 execute at @s[tag=1] positioned ~ ~1.5 ~ run scoreboard players set @e[tag=SPELL_NAME,sort=nearest,limit=1,tag=new_spell] kill_timer 20
