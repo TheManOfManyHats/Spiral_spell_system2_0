@@ -1,1 +1,1 @@
-execute at @s run summon item_display ~ ~ ~ {Tags:["atlas_key_door"]}
+execute at @s align xyz positioned ~.5 ~ ~.5 run summon item_display ~ ~ ~ {Tags:["atlas_key_door"]}
