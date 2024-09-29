@@ -216,7 +216,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{lvl:4,id:protection}]}"
+              "tag": "{StoredEnchantments:[{lvl:5,id:protection}]}"
             },
             {
               "function": "minecraft:set_count",
