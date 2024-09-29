@@ -15,36 +15,36 @@ execute at @s[tag=!1] run particle smoke ~ ~1 ~ .3 .5 .3 0 10 force @s
 ##--------------EXECUTE SPELL IF WIL IS HIGH ENOUGH----------------##
 #LOW POWER
 #Summon armor stand that is the actual attack
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=1},limit=1,sort=nearest] team_id run effect clear @s blindness
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=1},limit=1,sort=nearest] team_id run effect clear @s weakness
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=1},limit=1,sort=nearest] team_id run effect clear @s slowness
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=1},limit=1,sort=nearest] team_id run effect clear @s wither
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=1},limit=1,sort=nearest] team_id run effect clear @s poison
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=1},limit=1,sort=nearest] team_id run effect clear @s darkness
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=1},limit=1,sort=nearest] team_id run effect clear @s hunger
-execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=1},limit=1,sort=nearest] team_id run effect clear @s nausea
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s blindness
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s weakness
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s slowness
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s wither
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s poison
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s darkness
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s hunger
+execute at @s[tag=1,scores={spell_power=1}] as @e[distance=..3] if score @s team_id = @p team_id run effect clear @s nausea
 execute at @s[tag=1,scores={spell_power=1}] run kill @e[tag=pestilence,distance=..3]
 
 #MED POWER
-execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=3},limit=1,sort=nearest] team_id run effect clear @s blindness
-execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=3},limit=1,sort=nearest] team_id run effect clear @s weakness
-execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=3},limit=1,sort=nearest] team_id run effect clear @s slowness
-execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=3},limit=1,sort=nearest] team_id run effect clear @s wither
-execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=3},limit=1,sort=nearest] team_id run effect clear @s poison
-execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=3},limit=1,sort=nearest] team_id run effect clear @s darkness
-execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=3},limit=1,sort=nearest] team_id run effect clear @s hunger
-execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=3},limit=1,sort=nearest] team_id run effect clear @s nausea
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s blindness
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s weakness
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s slowness
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s wither
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s poison
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s darkness
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s hunger
+execute at @s[tag=1,scores={spell_power=3}] as @e[distance=..6] if score @s team_id = @p team_id run effect clear @s nausea
 execute at @s[tag=1,scores={spell_power=3}] run kill @e[tag=pestilence,distance=..6]
 
 #HIGH POWER
-execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=5},limit=1,sort=nearest] team_id run effect clear @s blindness
-execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=5},limit=1,sort=nearest] team_id run effect clear @s weakness
-execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=5},limit=1,sort=nearest] team_id run effect clear @s slowness
-execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=5},limit=1,sort=nearest] team_id run effect clear @s wither
-execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=5},limit=1,sort=nearest] team_id run effect clear @s poison
-execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=5},limit=1,sort=nearest] team_id run effect clear @s darkness
-execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=5},limit=1,sort=nearest] team_id run effect clear @s hunger
-execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @a[distance=..1,tag=1,scores={spell_power=5},limit=1,sort=nearest] team_id run effect clear @s nausea
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s blindness
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s weakness
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s slowness
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s wither
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s poison
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s darkness
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s hunger
+execute at @s[tag=1,scores={spell_power=5}] as @e[distance=..9] if score @s team_id = @p team_id run effect clear @s nausea
 execute at @s[tag=1,scores={spell_power=5}] run kill @e[tag=pestilence,distance=..9]
 
 #Put kill timer on marker that lasts for 1 seconds
