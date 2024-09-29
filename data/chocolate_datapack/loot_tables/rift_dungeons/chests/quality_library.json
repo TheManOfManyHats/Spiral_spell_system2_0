@@ -571,7 +571,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 99,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -584,8 +584,83 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bundle",
-          "weight": 1
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:10034,itemsadder: {id:ancient_tablet1,namespace:myitems},display:{Name:'[{\"text\":\"Ancient Tablet Shard\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like a piece of a\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"tablet. Can you find them all?\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"(1/8)\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:10035,itemsadder: {id:ancient_tablet2,namespace:myitems},display:{Name:'[{\"text\":\"Ancient Tablet Shard\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like a piece of a\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"tablet. Can you find them all?\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"(2/8)\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:10036,itemsadder: {id:ancient_tablet3,namespace:myitems},display:{Name:'[{\"text\":\"Ancient Tablet Shard\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like a piece of a\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"tablet. Can you find them all?\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"(3/8)\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:10037,itemsadder: {id:ancient_tablet4,namespace:myitems},display:{Name:'[{\"text\":\"Ancient Tablet Shard\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like a piece of a\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"tablet. Can you find them all?\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"(4/8)\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:10038,itemsadder: {id:ancient_tablet5,namespace:myitems},display:{Name:'[{\"text\":\"Ancient Tablet Shard\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like a piece of a\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"tablet. Can you find them all?\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"(5/8)\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:10039,itemsadder: {id:ancient_tablet6,namespace:myitems},display:{Name:'[{\"text\":\"Ancient Tablet Shard\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like a piece of a\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"tablet. Can you find them all?\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"(6/8)\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:10040,itemsadder: {id:ancient_tablet7,namespace:myitems},display:{Name:'[{\"text\":\"Ancient Tablet Shard\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like a piece of a\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"tablet. Can you find them all?\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"(7/8)\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+						}
+					]
+        },
+        {
+          "type": "minecraft:item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:10041,itemsadder: {id:ancient_tablet8,namespace:myitems},display:{Name:'[{\"text\":\"Ancient Tablet Shard\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[{\"text\":\"This looks like a piece of a\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"tablet. Can you find them all?\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"\",\"italic\":false,\"color\":\"light_purple\"}]','[{\"text\":\"(8/8)\",\"italic\":false,\"color\":\"light_purple\"}]']}}"
+						}
+					]
         }
       ]
     }
