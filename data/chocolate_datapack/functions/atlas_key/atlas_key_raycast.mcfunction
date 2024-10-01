@@ -18,9 +18,9 @@ execute at @s[tag=door_closed] positioned ^ ^ ^.1 as @e[tag=atlas_key_door,dista
 execute at @s[tag=door_closed] positioned ^ ^ ^.1 if entity @e[tag=atlas_key_door,distance=..1] run tag @s add 2
 kill @s[tag=2]
 
-execute at @s[tag=door_open] positioned ^ ^ ^.1 as @e[tag=atlas_key_door,distance=..1] run tag @s remove door_open
-execute at @s[tag=door_open] positioned ^ ^ ^.1 as @e[tag=atlas_key_door,distance=..1] run say "close is door"
-execute at @s[tag=door_open] positioned ^ ^ ^.1 if entity @e[tag=atlas_key_door,distance=..1] run tag @s add 2
+execute at @s[tag=door_opened] positioned ^ ^ ^.1 as @e[tag=atlas_key_door,distance=..1] run tag @s remove door_open
+execute at @s[tag=door_opened] positioned ^ ^ ^.1 as @e[tag=atlas_key_door,distance=..1] run say "close is door"
+execute at @s[tag=door_opened] positioned ^ ^ ^.1 if entity @e[tag=atlas_key_door,distance=..1] run tag @s add 2
 kill @s[tag=2]
 
 
