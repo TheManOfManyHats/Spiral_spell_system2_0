@@ -31,4 +31,5 @@ execute as @s[type=armor_stand,tag=New_Seed] run function chocolate_datapack:cro
 execute as @s[type=item_display,tag=custom_crop] run function chocolate_datapack:crops/crops_grow
 
 #atlas door
-execute as @e[tag=atlas_key_door] run function chocolate_datapack:atlas_key/atlas_key_ai
+execute as @s[tag=atlas_key_door] run function chocolate_datapack:atlas_key/atlas_key_ai
+execute as @s[tag=door_killer] run function chocolate_datapack:atlas_key/delete_door/remote_door_killer
