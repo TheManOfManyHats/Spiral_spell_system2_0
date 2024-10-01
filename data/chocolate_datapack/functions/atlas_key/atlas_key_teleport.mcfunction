@@ -9,7 +9,7 @@ execute at @s if entity @e[tag=atlas_key_door,tag=to_shadow_realm,distance=..1,l
 $execute as @s[tag=1] in chocolate_datapack_dimensions:atlas_key_realm run tp @s $(x) $(y) $(z)
 $execute as @s[tag=2] in chocolate_datapack_dimensions:lightfall run tp @s $(x) $(y) $(z)
 $execute as @s[tag=3] in minecraft:overworld run tp @s $(x) $(y) $(z)
-$execute as @s[tag=4] in minecraft:shadow_realm run tp @s $(x) $(y) $(z)
+$execute as @s[tag=4] in chocolate_datapack_dimensions:shadow_realm run tp @s $(x) $(y) $(z)
 
 tag @s remove 1
 tag @s remove 2
