@@ -6,8 +6,8 @@ execute at @s[tag=!1] run tp @s ^ ^ ^.1
 
 
 
-execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 if entity @e[tag=atlas_key_door,distance=..1,tag=!door_open] run tag @s add door_closed
-execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 if entity @e[tag=atlas_key_door,distance=..1,tag=door_open] run tag @s add door_opened
+execute at @s positioned ^ ^ ^.1 if entity @e[tag=atlas_key_door,distance=..1,tag=!door_open] run tag @s add door_closed
+execute at @s positioned ^ ^ ^.1 if entity @e[tag=atlas_key_door,distance=..1,tag=door_open] run tag @s add door_opened
 
 #execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 if entity @e[tag=atlas_key_door,dy=4,dx=1,dz=1] run kill @s
 
