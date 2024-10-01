@@ -11,4 +11,4 @@ execute store result storage chocolate_datapack:atlas_key_teleport x int 1 run s
 execute store result storage chocolate_datapack:atlas_key_teleport y int 1 run scoreboard players get @s atlas_key_pos_y
 execute store result storage chocolate_datapack:atlas_key_teleport z int 1 run scoreboard players get @s atlas_key_pos_z
 
-execute as @s[tag=door_open] at @s as @e[distance=..1] run function chocolate_datapack:atlas_key/atlas_key_teleport with storage chocolate_datapack:atlas_key_teleport
+execute as @s[tag=door_open] at @s as @e[distance=..1,tag=!atlas_key_door] run function chocolate_datapack:atlas_key/atlas_key_teleport with storage chocolate_datapack:atlas_key_teleport
