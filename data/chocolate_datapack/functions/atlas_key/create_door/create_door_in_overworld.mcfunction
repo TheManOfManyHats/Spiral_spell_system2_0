@@ -21,7 +21,7 @@ execute as @e[tag=new_door,tag=atlas_key_door] run scoreboard players set @s sco
 execute as @e[tag=new_door,tag=atlas_key_door] run scoreboard players operation @s chunk_x /= @s scoreboard_operation_holder1
 execute as @e[tag=new_door,tag=atlas_key_door] run scoreboard players operation @s chunk_z /= @s scoreboard_operation_holder1
 
-execute as @e[tag=new_door,tag=atlas_key_door,predicate=chocolate_datapack:in_overworld] run tag @s add in_overworld
+execute as @e[tag=new_door,tag=atlas_key_door,predicate=chocolate_datapack:in_overworld] run tag @s add to_atlas
 execute as @e[tag=new_door,tag=atlas_key_door,predicate=chocolate_datapack:in_overworld] run tag @s add step_2
 execute as @e[tag=new_door,tag=atlas_key_door] run tag @s remove new_door
 
@@ -49,4 +49,6 @@ execute in chocolate_datapack_dimensions:atlas_key_realm as @e[tag=new_door,tag=
 execute in chocolate_datapack_dimensions:atlas_key_realm as @e[tag=new_door,tag=atlas_key_door] store result entity @s Pos[2] double 1 run scoreboard players get @s overworld_pos_z
 
 execute in chocolate_datapack_dimensions:atlas_key_realm as @e[tag=new_door,tag=atlas_key_door] at @s run fill ~-5 ~ ~-5 ~5 ~5 ~5 air replace
+execute in chocolate_datapack_dimensions:atlas_key_realm as @e[tag=new_door,tag=atlas_key_door] run tag @s add to_overworld
 execute in chocolate_datapack_dimensions:atlas_key_realm as @e[tag=new_door,tag=atlas_key_door] run tag @s remove new_door
+tag @e[tag=step_2] remove step_2

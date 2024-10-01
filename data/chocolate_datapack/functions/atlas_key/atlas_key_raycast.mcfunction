@@ -32,10 +32,9 @@ kill @s[tag=2]
 execute at @s[tag=1,predicate=!chocolate_datapack:in_atlas_key] if entity @e[tag=atlas_key_door,distance=..64] as @a if score @s player_id = @e[tag=atlas_key_raycast,limit=1,sort=nearest] player_id run tellraw @s "There is another door too close by."
 execute at @s[tag=1,predicate=chocolate_datapack:in_atlas_key] if entity @e[tag=atlas_key_door,distance=..64] as @a if score @s player_id = @e[tag=atlas_key_raycast,limit=1,sort=nearest] player_id run tellraw @s "An Atlas Door cannot be created inside the Atlas Key realm"
 
-execute as @s[tag=1,predicate=!chocolate_datapack:in_atlas_key] at @s unless entity @e[tag=atlas_key_door,distance=..64] run function chocolate_datapack:atlas_key/create_door/create_door
-#execute as @s[tag=1,predicate=chocolate_datapack:in_atlas_key] run function chocolate_datapack:atlas_key/create_door/in_atlas_key
-#execute as @s[tag=1,predicate=chocolate_datapack:in_shadow_realm] run function chocolate_datapack:atlas_key/create_door/in_shadow_realm
-#execute as @s[tag=1,predicate=chocolate_datapack:in_lightfall] run function chocolate_datapack:atlas_key/create_door/in_lightfall
+execute as @s[tag=1,predicate=chocolate_datapack:in_overworld] at @s unless entity @e[tag=atlas_key_door,distance=..64] run function chocolate_datapack:atlas_key/create_door/create_door_in_overworld
+execute as @s[tag=1,predicate=chocolate_datapack:in_shadow_realm] at @s unless entity @e[tag=atlas_key_door,distance=..64] run function chocolate_datapack:atlas_key/create_door/create_door_in_shadow_realm
+execute as @s[tag=1,predicate=chocolate_datapack:in_lightfall] at @s unless entity @e[tag=atlas_key_door,distance=..64] run function chocolate_datapack:atlas_key/create_door/create_door_in_lightfall
 
 
 
