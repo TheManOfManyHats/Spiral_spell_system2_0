@@ -6,21 +6,21 @@ execute at @s[tag=!1] run tp @s ^ ^ ^.1
 
 
 
-execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 if entity @e[tag=atlas_key_door,distance=..1,tag=!door_open] run tag @s add door_closed
-execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 if entity @e[tag=atlas_key_door,distance=..1,tag=door_open] run tag @s add door_opened
+execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 if entity @e[tag=atlas_key_door,distance=..1,tag=!door_open] run tag @s add door_closed
+execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 if entity @e[tag=atlas_key_door,distance=..1,tag=door_open] run tag @s add door_opened
 
-execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 if entity @e[tag=atlas_key_door,dy=2,dx=1,dz=1] at @s run playsound minecraft:block.amethyst_block.resonate ambient @a ~ ~ ~ 1 2
-execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 if entity @e[tag=atlas_key_door,dy=2,dx=1,dz=1] at @s run particle minecraft:glow ~ ~ ~ 0 0 0 .01 10 force
-#execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 if entity @e[tag=atlas_key_door,dy=2,dx=1,dz=1] run kill @s
+execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 if entity @e[tag=atlas_key_door,dy=4,dx=1,dz=1] at @s run playsound minecraft:block.amethyst_block.resonate ambient @a ~ ~ ~ 1 2
+execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 if entity @e[tag=atlas_key_door,dy=4,dx=1,dz=1] at @s run particle minecraft:glow ~ ~ ~ 0 0 0 .01 10 force
+execute at @s positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 if entity @e[tag=atlas_key_door,dy=4,dx=1,dz=1] run kill @s
 
-execute at @s[tag=door_closed] positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 as @e[tag=atlas_key_door,dy=2,dx=1,dz=1] run tag @s add door_open
-execute at @s[tag=door_closed] positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 as @e[tag=atlas_key_door,dy=2,dx=1,dz=1] run say "open is door"
-execute at @s[tag=door_closed] positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 if entity @e[tag=atlas_key_door,dy=2,dx=1,dz=1] run tag @s add 2
+execute at @s[tag=door_closed] positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 as @e[tag=atlas_key_door,dy=4,dx=1,dz=1] run tag @s add door_open
+execute at @s[tag=door_closed] positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 as @e[tag=atlas_key_door,dy=4,dx=1,dz=1] run say "open is door"
+execute at @s[tag=door_closed] positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 if entity @e[tag=atlas_key_door,dy=2,dx=1,dz=1] run tag @s add 2
 kill @s[tag=2]
 
-execute at @s[tag=door_opened] positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 as @e[tag=atlas_key_door,dy=2,dx=1,dz=1] run tag @s remove door_open
-execute at @s[tag=door_opened] positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 as @e[tag=atlas_key_door,dy=2,dx=1,dz=1] run say "close is door"
-execute at @s[tag=door_opened] positioned ^ ^ ^.1 positioned ~-.5 ~-1 ~-.5 if entity @e[tag=atlas_key_door,dy=2,dx=1,dz=1] run tag @s add 2
+execute at @s[tag=door_opened] positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 as @e[tag=atlas_key_door,dy=4,dx=1,dz=1] run tag @s remove door_open
+execute at @s[tag=door_opened] positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 as @e[tag=atlas_key_door,dy=4,dx=1,dz=1] run say "close is door"
+execute at @s[tag=door_opened] positioned ^ ^ ^.1 positioned ~-.5 ~-2 ~-.5 if entity @e[tag=atlas_key_door,dy=4,dx=1,dz=1] run tag @s add 2
 kill @s[tag=2]
 
 
