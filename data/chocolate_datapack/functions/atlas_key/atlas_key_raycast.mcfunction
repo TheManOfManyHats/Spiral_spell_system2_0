@@ -22,10 +22,10 @@ execute as @s[tag=right_click] as @s run kill @s[tag=2]
 #====================================#
 
 #============Create Door=============#
-execute as @s[tag=right_click] at @s unless block ~ ~ ~ #chocolate_datapack:passthrough run tag @s add 1
-execute as @s[tag=right_click] at @s[tag=1] run playsound minecraft:block.amethyst_block.resonate ambient @a ~ ~ ~ 1 2
-execute as @s[tag=right_click] at @s[tag=1] run particle minecraft:glow ~ ~ ~ 0 0 0 .01 10 force
-execute as @s[tag=right_click] at @s[tag=!1] run tp @s ^ ^ ^.1
+execute as @s[] at @s unless block ~ ~ ~ #chocolate_datapack:passthrough run tag @s add 1
+execute as @s[] at @s[tag=1] run playsound minecraft:block.amethyst_block.resonate ambient @a ~ ~ ~ 1 2
+execute as @s[] at @s[tag=1] run particle minecraft:glow ~ ~ ~ 0 0 0 .01 10 force
+execute as @s[] at @s[tag=!1] run tp @s ^ ^ ^.1
 
 execute as @s[tag=right_click] at @s[tag=1,predicate=!chocolate_datapack:in_atlas_key] if entity @e[tag=atlas_key_door,distance=..64] as @a if score @s player_id = @e[tag=atlas_key_raycast,limit=1,sort=nearest] player_id run tellraw @s "There is another door too close by."
 execute as @s[tag=right_click] at @s[tag=1,predicate=chocolate_datapack:in_atlas_key] if entity @e[tag=atlas_key_door,distance=..64] as @a if score @s player_id = @e[tag=atlas_key_raycast,limit=1,sort=nearest] player_id run tellraw @s "An Atlas Door cannot be created inside the Atlas Key realm"
