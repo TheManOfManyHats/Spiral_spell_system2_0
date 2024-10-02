@@ -1,8 +1,7 @@
-say delete door
-execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_overworld, limit=1,sort=nearest] run tag @s add 1
-execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_atlas, limit=1,sort=nearest] run tag @s add 2
-execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_shadow_realm, limit=1,sort=nearest] run tag @s add 3
-execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_lightfall, limit=1,sort=nearest] run tag @s add 4
+execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_overworld,sort=nearest] run tag @s add 1
+execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_atlas,sort=nearest] run tag @s add 2
+execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_shadow_realm,sort=nearest] run tag @s add 3
+execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_lightfall,sort=nearest] run tag @s add 4
 
 execute at @s[tag=1] in minecraft:overworld positioned 0 100 0 run summon item_display ~ ~ ~ {Tags:["door_killer"]}
 execute at @s[tag=2] in chocolate_datapack_dimensions:atlas_key_realm positioned 0 100 0 run summon item_display ~ ~ ~ {Tags:["door_killer"]}
