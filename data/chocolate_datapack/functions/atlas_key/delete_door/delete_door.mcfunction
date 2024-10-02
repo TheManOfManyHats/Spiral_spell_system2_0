@@ -1,3 +1,4 @@
+say delete door
 execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_overworld, limit=1,sort=nearest] run tag @s add 1
 execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_atlas, limit=1,sort=nearest] run tag @s add 2
 execute at @s if entity @e[distance=..1.5,tag=atlas_key_door,tag=to_shadow_realm, limit=1,sort=nearest] run tag @s add 3
