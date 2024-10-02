@@ -17,9 +17,5 @@ execute in chocolate_datapack_dimensions:atlas_key_realm as @e[tag=door_killer] 
 execute in chocolate_datapack_dimensions:atlas_key_realm as @e[tag=door_killer] store result entity @s Pos[1] double 1 run data get storage chocolate_datapack:delete_door y
 execute in chocolate_datapack_dimensions:atlas_key_realm as @e[tag=door_killer] store result entity @s Pos[2] double 1 run data get storage chocolate_datapack:delete_door z
 
-execute as @e[tag=door_killer] run data modify entity @s Pos[0] set from storage chocolate_datapack:delete_door x
-execute as @e[tag=door_killer] run data modify entity @s Pos[1] set from storage chocolate_datapack:delete_door y
-execute as @e[tag=door_killer] run data modify entity @s Pos[2] set from storage chocolate_datapack:delete_door z
-
 execute at @s as @e[tag=atlas_key_door,distance=..1.5,limit=1,sort=nearest] run kill @s
 execute at @e[tag=door_killer] as @e[tag=atlas_key_door,distance=..1,limit=1,sort=nearest] run kill @s
