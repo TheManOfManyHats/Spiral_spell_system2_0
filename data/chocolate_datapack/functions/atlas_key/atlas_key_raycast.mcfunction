@@ -40,6 +40,7 @@ execute as @s[tag=right_click] as @s run kill @s[tag=1]
 ##=======================SHIFT LEFT CLICK======================##
 #=============Delete Door============#
 execute as @s[tag=shift_left_click] at @s positioned ^ ^ ^.1 if entity @e[tag=atlas_key_door,distance=..1.5,sort=nearest,limit=1] run function chocolate_datapack:atlas_key/delete_door/delete_door
+execute as @s[tag=shift_left_click] run say hi
 #====================================#
 ##=============================================================##
 
