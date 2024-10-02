@@ -92,8 +92,8 @@ execute as @s[scores={function=64}] as @e[tag=player_id_giver,tag=!1,scores={ite
 execute as @s[scores={function=64}] as @e[tag=player_id_giver,tag=1,scores={items_adder_support=0}] run scoreboard players set @s items_adder_support 1
 execute as @s[scores={function=64}] as @e[tag=player_id_giver,tag=!1,scores={items_adder_support=1}] run tag @s add 2
 execute as @s[scores={function=64}] as @e[tag=player_id_giver,tag=2,scores={items_adder_support=1}] run scoreboard players set @s items_adder_support 0
-execute as @e[tag=1] run tellraw @a "Items Adder Support Has Been Activated. Throw out your caster to update!"
-execute as @e[tag=2] run tellraw @a "Items Adder Support Has Been Disabled. Throw out your caster to update!"
+execute as @e[tag=player_id_giver,tag=1] run tellraw @a "Items Adder Support Has Been Activated. Throw out your caster to update!"
+execute as @e[tag=player_id_giver,tag=2] run tellraw @a "Items Adder Support Has Been Disabled. Throw out your caster to update!"
 execute as @s[scores={function=64}] as @e[tag=player_id_giver,tag=1] run tag @s remove 1
 execute as @s[scores={function=64}] as @e[tag=player_id_giver,tag=2] run tag @s remove 2
 
