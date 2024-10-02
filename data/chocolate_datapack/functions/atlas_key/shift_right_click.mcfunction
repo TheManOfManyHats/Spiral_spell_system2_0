@@ -1,1 +1,1 @@
-trigger function set 55
+execute as @s run function chocolate_datapack:triggers/unstuck
