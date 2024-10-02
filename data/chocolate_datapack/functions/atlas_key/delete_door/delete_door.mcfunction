@@ -12,6 +12,11 @@ execute at @s as @e[tag=atlas_key_door,distance=..1.5,limit=1,sort=nearest] stor
 execute at @s as @e[tag=atlas_key_door,distance=..1.5,limit=1,sort=nearest] store result storage chocolate_datapack:delete_door y int 1 run scoreboard players get @s atlas_key_pos_y
 execute at @s as @e[tag=atlas_key_door,distance=..1.5,limit=1,sort=nearest] store result storage chocolate_datapack:delete_door z int 1 run scoreboard players get @s atlas_key_pos_z
 
+execute at @s as @e[tag=atlas_key_door,distance=..1.5,limit=1,sort=nearest] store result storage chocolate_datapack:delete_door x int 1 run scoreboard players get @s atlas_key_pos_x
+execute at @s as @e[tag=atlas_key_door,distance=..1.5,limit=1,sort=nearest] store result storage chocolate_datapack:delete_door y int 1 run scoreboard players get @s atlas_key_pos_y
+execute at @s as @e[tag=atlas_key_door,distance=..1.5,limit=1,sort=nearest] store result storage chocolate_datapack:delete_door z int 1 run scoreboard players get @s atlas_key_pos_z
+
+
 
 execute as @e[tag=door_killer] at @s store result entity @s Pos[0] double 1 run data get storage chocolate_datapack:delete_door x
 execute as @e[tag=door_killer] at @s store result entity @s Pos[1] double 1 run data get storage chocolate_datapack:delete_door y
