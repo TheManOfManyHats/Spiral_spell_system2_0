@@ -329,8 +329,11 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{itemsadder: {id: \"gigaton_hammer\", namespace: \"myitems\"},CustomModelData:1,dungeon_relic:1b,gigaton_hammer:1b,display:{Name:'[\"\",{\"text\":\"Gigaton Hammer \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[Relic]\",\"italic\":false,\"color\":\"dark_green\"}]',Lore:['[\"\",{\"text\":\"This hammer is massivley heavy,\",\"italic\":false}]','[\"\",{\"text\":\"but also somehow light in your\",\"italic\":false}]','[\"\",{\"text\":\"hands. You feel as though you \",\"italic\":false}]','[\"\",{\"text\":\"could smash anything with this\",\"italic\":false}]','[\"\",{\"text\":\"in an instant!\",\"italic\":false}]','[\"\"]','[\"\",{\"text\":\"When held:\",\"italic\":false,\"color\":\"gray\"}]','[\"\",{\"text\":\"+Instamine\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:10,id:efficiency},{lvl:5,id:fortune},{lvl:10,id:smite},{lvl:10,id:unbreaking}],Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:20,Slot:mainhand,UUID:[I;-124815,21929,132318,-43858],Name:1726424811691}],HideFlags:63}"
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
             }
           ]
         }
